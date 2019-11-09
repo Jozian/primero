@@ -1,0 +1,47 @@
+---
+pt:
+  care_assessment:
+    name: "Avaliação de cuidados"
+    description: "Avaliação de cuidados"
+    form_group_name: "Avaliação"
+    fields:
+      intervention_personal_type_needed:
+        display_name: "Intervenção pessoal necessária?"
+      intervention_personal_notes:
+        display_name: "Notas de Intervenção Pessoal"
+      intervention_family_type_needed:
+        display_name: "Intervenção familiar necessária?"
+      intervention_family_notes:
+        display_name: "Notas de Intervenção Familiar"
+      intervention_medical_type_needed:
+        display_name: "Intervenção Médica Necessária?"
+      intervention_medical_notes:
+        display_name: "Notas de Intervenção Médica"
+      intervention_community_type_needed:
+        display_name: "Intervenção comunitária necessária?"
+      intervention_community_notes:
+        display_name: "Notas de Intervenção Comunitária"
+      intervention_needed_unhcr:
+        display_name: "Intervenção UNHCR necessária?"
+      intervention_unhcr_notes:
+        display_name: Notas de Intervenção UNHCR
+      intervention_needed_ngo:
+        display_name: "Intervenção de ONG necessária?"
+      intervention_ngo_notes:
+        display_name: Notas de Intervenção de ONG
+      intervention_economical_type_needed:
+        display_name: "Intervenção econômica necessária?"
+      intervention_economical_notes:
+        display_name: "Notas de Intervenção Econômica"
+      intervention_education_type_needed:
+        display_name: "Intervenção educativa necessária?"
+      intervention_education_notes:
+        display_name: "Notas de Intervenção Educativa"
+      intervention_health_type_needed:
+        display_name: "Intervenção de saúde necessária?"
+      intervention_health_notes:
+        display_name: Notas de Intervenção de saúde
+      intervention_other_type_needed:
+        display_name: "Outra Intervenção necessária?"
+      intervention_other_notes:
+        display_name: "Notas de outra Intervenção"

@@ -1,0 +1,40 @@
+---
+pt:
+  child_wishes:
+    name: "Desejos da Criança"
+    description: "Desejos da Criança"
+    form_group_name: "Rastreamento"
+    fields:
+      wishes_child_family_tracing:
+        display_name: "A criança quer o rastreamento familiar?"
+      wishes_reason_no_tracing:
+        display_name: "Motivo pelo qual a criança quer ou não quer rastreamento?"
+      wishes_reunification:
+        display_name: "A criança quer a reunião familiar?"
+        option_strings_text:
+          yes_as_soon_as_possible: "Sim, o mais breve possível"
+          yes_but_later: "Sim, mas depois"
+          not_sure: "Não tem certeza "
+          'no': 'Não '
+      wishes_reason_no_reunification:
+        display_name: "Motivo pelo qual a criança quer ou não quer a reunião familiar"
+      wishes_contacted:
+        display_name: "A criança ouviu/esteve em contato com algum parente?"
+      wishes_contacted_details:
+        display_name: "Por favor dê detalhes"
+      child_preferences_section:
+        display_name: "Preferências da Criança"
+      wishes_care_arrangement_desired:
+        display_name: "A criança deseja continuar na atual disposição de cuidado?"
+      wishes_reason_no_care_arrangement:
+        display_name: Motivo pelo qual a criança quer ou não quer continuar na atual disposição de cuidado
+      wishes_care_arrangement_type_desired:
+        display_name: Tipo de disposição de cuidado que a criança deseja ter
+      wishes_care_arrangement_type_other:
+        display_name: "Se o tipo de disposição de cuidado que a criança deseja ter é Outro, especificar"
+      wishes_location_plan_live:
+        display_name: "Onde a criança deseja/planeja viver?"
+      wishes_address_plan_live:
+        display_name: "Rua onde a criança deseja/planeja viver?"
+      wishes_landmarks_plan_live:
+        display_name: "Ponto de referência onde a criança deseja/planeja viver?"

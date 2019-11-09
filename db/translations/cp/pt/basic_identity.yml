@@ -1,0 +1,116 @@
+---
+pt:
+  basic_identity:
+    name: Identidade Básica
+    description: Informação de identidade básica sobre uma criança separada ou desacompanhada.
+    form_group_name: Identificação / Registro
+    fields:
+      case_id:
+        display_name: Identificação Longa
+      short_id:
+        display_name: Identificação Curta
+      case_id_display:
+        display_name: Identificação do caso
+      cpims_id:
+        display_name: Número de identificação de registro do caso
+        help_text: Número de identificação de registro do caso em formulários de papel
+      marked_for_mobile:
+        display_name: "Marcado para móvel?"
+        tick_box_label: 'Sim'
+      child_status:
+        display_name: Status do caso
+      case_status_reopened:
+        display_name: "Caso reaberto?"
+        tick_box_label: 'Sim'
+      name:
+        display_name: Nome Completo
+      name_first:
+        display_name: Primeiro nome
+      name_middle:
+        display_name: Nome do meio
+      name_last:
+        display_name: Sobrenome
+      name_nickname:
+        display_name: Apelido
+      name_other:
+        display_name: Outro nome
+      name_given_post_separation:
+        display_name: "Nome (s) dado à criança após a separação"
+      registration_date:
+        display_name: Data de Registro ou Entrevista
+      assessment_due_date:
+        display_name: "Data Limite para Avaliação"
+      sex:
+        display_name: Sexo
+      age:
+        display_name: Idade
+      date_of_birth:
+        display_name: Data de Nascimento
+      estimated:
+        display_name: "A idade é estimada?"
+        tick_box_label: 'Sim'
+      physical_characteristics:
+        display_name: Características Físicas Distintivas
+      clothes_belongings_found_with_child:
+        display_name: "Listar e descrever roupas e pertences encontrados na criança, ou com a criança"
+      ration_card_no:
+        display_name: "Número do Cartão de Racionamento"
+      icrc_ref_no:
+        display_name: ICRC Ref No.
+      rc_id_no:
+        display_name: RC ID No.
+      biometrics_id:
+        display_name: Biometria
+        help_text: "Para o número da Identificação Biométrica, se utilizada."
+      unhcr_id_no:
+        display_name: Identificação do Caso proGres
+        help_text: UNHCR Número do Certificado do Requerente de Asilo
+      unhcr_individual_no:
+        display_name: Identificação Individual proGres
+        help_text: Esta Identificação é mostrada na folha de acompanhamento
+      un_no:
+        display_name: Número UN
+      national_id_no:
+        display_name: "Número de Identificação Nacional"
+      other_id_type:
+        display_name: "Outro Tipo de Documento de Identificação"
+      other_id_no:
+        display_name: "Número de Outro Documento de Identificação"
+      other_agency_id:
+        display_name: "Outra Identificação de Agência"
+      other_agency_name:
+        display_name: "Outro Nome de Agência"
+      documents_carried:
+        display_name: Lista de documentos transportados pela criança
+      nationality:
+        display_name: "Nacionalidade"
+      religion:
+        display_name: "Religião"
+      ethnicity:
+        display_name: "Afiliação étnica da criança"
+      language:
+        display_name: "Idioma"
+      special_communication:
+        display_name: "Necessidades especiais de comunicação"
+      significant_words_spoken:
+        display_name: "Palavras e sentenças significantes ditas pela criança"
+      specific_behaviour_shown:
+        display_name: "Comportamentos específicos mostrados pela criança"
+      population_group:
+        display_name: "Grupo populacional"
+      population_group_other:
+        display_name: "Se outro, por favor especificar"
+      maritial_status:
+        display_name: Estado Civil Atual
+      occupation:
+        display_name: "Ocupação"
+      address_current:
+        display_name: Endereço Atual
+      landmark_current:
+        display_name: "Ponto de referência"
+      location_current:
+        display_name: Localização Atual
+      address_is_permanent:
+        display_name: "Este endereço é permanente?"
+      telephone_current:
+        display_name: Telefone Atual

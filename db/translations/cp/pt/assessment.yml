@@ -1,0 +1,14 @@
+---
+pt:
+  assessment:
+    name: "Avaliação"
+    description: "Formulário de avaliação"
+    form_group_name: "Avaliação"
+    fields:
+      assessment_requested_by:
+        display_name: Avaliação solicitada por
+      assessment_requested_on:
+        display_name: Avaliação solicitada em
+        help_text: Este campo é usado para o status do fluxo de trabalho
+      case_plan_due_date:
+        display_name: Data limite para o plano de caso

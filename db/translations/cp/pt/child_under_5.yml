@@ -1,0 +1,39 @@
+---
+pt:
+  child_under_5:
+    name: "Criança menor de 5 anos"
+    description: Criança menor de 5 anos
+    form_group_name: "Avaliação"
+    fields:
+      date_child_found:
+        display_name: "Data que a criança foi encontrada"
+      location_child_found:
+        display_name: "Local onde a criança foi encontrada"
+      address_child_found:
+        display_name: "Encontrada em Aldeia/Área/Endereço Físico"
+      found_child_details:
+        display_name: "Por favor descreva em detalhes como a criança foi encontrada ou levada ao centro de família/crianças"
+      location_found_child_people_was_with:
+        display_name: "Onde estão as pessoas que faziam parte do grupo que foi deslocado ao mesmo tempo"
+      address_found_child_people_was_with:
+        display_name: "Aldeia/Área/Endereço Físico"
+      child_finder:
+        display_name: "Nome da pessoa que entregou a criança ao centro de família/crianças"
+      relationship_child_finder:
+        display_name: "Qual a relação dessa pessoa com a criança?"
+      location_child_finder:
+        display_name: "Localização da pessoa que encontrou a criança"
+      address_child_finder:
+        display_name: "Endereço da pessoa que encontrou a criança"
+      child_finder_notes:
+        display_name: "Se o endereço da pessoa é desconhecido, como nós poderíamos encontrá-la e/ou fornecer nome(s) e endereço(s) de quem talvez a conheça?"
+      child_belongings:
+        display_name: "Existem roupas e pertences com as quais a criança foi encontrada?"
+      child_belongings_details:
+        display_name: "Por favor liste e descreva (incluindo medalhas, pulseiras, prendedor de cabelo, etc.)"
+      child_stories_songs_words:
+        display_name: "Por favor escreva quaisquer histórias, músicas, palavras, repetidas com mais frequência pela criança"
+      child_accent_details:
+        display_name: "Se a criança fala com sotaque e se a separação foi recente (poucos meses), de qual região você acha que a criança veio?"
+      child_specific_behavior:
+        display_name: "Por favor escreva qualquer comportamento específico da criança que talvez ajude os pais a identifica-la mais tarde, tais como jogos de criança, principais interesses ou coisas específicas que ela goste de fazer"

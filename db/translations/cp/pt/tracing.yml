@@ -1,0 +1,49 @@
+---
+pt:
+  tracing:
+    name: "Rastreamento"
+    description: "Rastreamento"
+    form_group_name: "Rastreamento"
+    fields:
+      matched_tracing_request_id:
+        display_name: ID de Solicitação de Rastreamento Correspondente
+      separation_separator:
+        display_name: "Histórico de Separação"
+      tracing_status:
+        display_name: "Status de Rastreamento"
+      date_of_separation:
+        display_name: "Data de Separação"
+      separation_cause:
+        display_name: "Principal causa de separação"
+      separation_cause_other:
+        display_name: "Se outro, por favor especificar"
+      separation_other_applicable_causes:
+        display_name: 'Se aplicável, quais foram as outras causas de separação?'
+      separation_details:
+        display_name: "Descreva as circunstâncias da separação"
+      separation_additional_movements:
+        display_name: Descreva detalhes sobre a jornada entre o local de separação e localização atual
+      separation_witnessed_violence:
+        display_name: "A criança enfrentou ou testemunhou algum tipo de violência, ameaça ou dano durante sua jornada?"
+      separation_witnessed_violence_comments:
+        display_name: Detalhes sobre o que a criança enfrentou/ testemunhou
+      address_separation:
+        display_name: "Local de Separação"
+      location_separation:
+        display_name: "Localização da Separação"
+      additional_tracing_info:
+        display_name: "Informação adicional que poderia ajudar no rastreamento"
+      evacuation_status:
+        display_name: "A criança foi evacuada?"
+      evacuation_agent:
+        display_name: "Se sim, através de qual organização?"
+      evacuation_from:
+        display_name: Evacuada De
+      evacuation_date:
+        display_name: "Data de Evacuação"
+      evacuation_to:
+        display_name: Evacuada Para
+      care_arrangements_arrival_date:
+        display_name: "Data de Chegada"
+      tracing_actions_section:
+        display_name: "Ações de Rastreamento"

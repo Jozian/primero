@@ -1,0 +1,65 @@
+---
+pt:
+  care_arrangements:
+    name: Disposições de Cuidado
+    description: "Disposições de Cuidado"
+    form_group_name: "Serviços / Acompanhamento"
+    fields:
+      child_caregiver_status:
+        display_name: "Este é um mesmo cuidador que foi inscrito previamente para a criança?"
+      child_caregiver_reason_change:
+        display_name: "Se este é um novo cuidador, dê o motivo para a mudança"
+        option_strings_text:
+          abuse_exploitation: "Abuso & Exploração"
+          death_of_caregiver: Morte do Cuidador
+          Education: "Educação"
+          ill_health_of_caregiver: "Problemas de saúde do cuidador"
+          other: Outro
+          poverty: "Pobreza"
+          relationship_breakdown: "Fim do Relacionamento"
+      care_arrangements_type:
+        display_name: "Quais são as atuais disposições de cuidado da criança?"
+        option_strings_text:
+          stays_with_related_caregiver: Ficar com cuidador relacionado
+          stays_with_unrelated_caregiver: Ficar com cuidador não relacionado
+          residential_care_center: Centro de Cuidado Residencial
+          child_headed_household: "Criança Direcionada por Agregado Familiar"
+          lives_with_peers_other_children: "Vive com outras crianças"
+          independent_living: "Vida Independente"
+          other: Outro (Por favor especificar)
+      care_arrangements_type_notes:
+        display_name: Notas sobre disposições de cuidado
+      care_agency_name:
+        display_name: Nome da Agência que Providecia Disposições de Cuidado
+      name_caregiver:
+        display_name: "Nome do Cuidador Atual"
+      relationship_caregiver:
+        display_name: "Ralação do Cuidador com a Criança"
+      caregiver_id_type_and_no:
+        display_name: "Identificação do Cuidador - Tipo e Número"
+      caregiver_age:
+        display_name: "Idade do Cuidador"
+      address_caregiver:
+        display_name: "Endereço onde a criança está vivendo atualmente?"
+      location_caregiver:
+        display_name: "Localização do Cuidador"
+      telephone_caregiver:
+        display_name: "Telefone do Cuidador"
+      care_arrangement_started_date:
+        display_name: "Quando esta disposição de cuidado começou?"
+      caregiver_location_status:
+        display_name: "A localização atual do cuidador é temporária?"
+      address_caregiver_future:
+        display_name: "Se sim, qual é o futuro endereço?"
+      location_caregiver_future:
+        display_name: "Qual é a futura localização?"
+      telephone_caregiver_future:
+        display_name: "Qual é o futuro telefone?"
+      caregiver_willing_to_continue:
+        display_name: "O cuidador deseja continuar cuidando da criança?"
+      caregiver_willing_to_continue_for_how_long:
+        display_name: "Se sim, por quanto tempo?"
+      caregiver_know_family:
+        display_name: "O cuidador conhece a família da criança?"
+      other_information_from_caregiver:
+        display_name: "Outra informação do cuidador sobre a criança e sua família"
