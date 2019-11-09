@@ -1,0 +1,9 @@
+---
+pt:
+  tracing_request_tracing_request:
+    name: "Solicitação de Rastreamento"
+    description: "Solicitação de Rastreamento"
+    form_group_name: "Solicitação de Rastreamento"
+    fields:
+      tracing_request_subform_section:
+        display_name: "Solicitação de Rastreamento"

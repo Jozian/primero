@@ -1,0 +1,9 @@
+---
+pt:
+  verification:
+    name: "Verificação"
+    description: "Verificação"
+    form_group_name: "Rastreamento"
+    fields:
+      verification_subform_section:
+        display_name: "Verificação"

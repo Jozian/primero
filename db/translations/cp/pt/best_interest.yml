@@ -1,0 +1,38 @@
+---
+pt:
+  best_interest:
+    name: "Melhor Interesse"
+    description: Melhor Interesse
+    form_group_name: "Avaliação"
+    fields:
+      best_interest_report_submitted:
+        display_name: "O relatório foi submetido para o órgão que decide o melhor interesse da criança?"
+        option_strings_text:
+          submitted: "Submetido"
+          pending: Pendente
+          'no': 'Não'
+      best_interest_date_submitted:
+        display_name: "Data de submissão"
+      best_interest_recommendation:
+        display_name: "Recomendação"
+        option_strings_text:
+          local_integration: Integração local
+          maintain_change_current_arrangements: Manter/ Mudar disposições atuais
+          medical: "Médico"
+          repatriation: "Repatriamento"
+          resettlement_to_3rd_country: "Reassentamento para o 3° país"
+          reunification: "Reunião"
+      best_interest_recommendation_date:
+        display_name: "Data de Recomendação"
+      best_interest_proposed_support:
+        display_name: "Apoio Proposto"
+      best_interest_agency_responsible:
+        display_name: "Agência Responsável"
+      best_interest_proposed_support_accepted:
+        display_name: "A criança aceita o apoio proposto?"
+      best_interest_why_support_refused:
+        display_name: "Se recusou, por quê?"
+      best_interest_date_implementation:
+        display_name: "Data de Implementação"
+      best_interest_implementing_agency:
+        display_name: "Agência de Implementação"

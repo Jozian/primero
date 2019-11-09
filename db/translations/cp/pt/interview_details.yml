@@ -1,0 +1,39 @@
+---
+pt:
+  interview_details:
+    name: Detalhes da Entrevista
+    description: "Detalhes da Entrevista"
+    form_group_name: Identificação / Registro
+    fields:
+      arrival_date:
+        display_name: "Data de Chegada"
+      interviewer_name:
+        display_name: "Nome do Entrevistador"
+      interviewer_postion:
+        display_name: "Posição do Entrevistador"
+      interviewer_agency:
+        display_name: "Agência Entrevistadora"
+        option_strings_text:
+          agency_1: Agência 1
+          agency_2: Agência 2
+          agency_3: Agência 3
+          agency_4: Agência 4
+      address_interview:
+        display_name: "Endereço da Entrevista"
+      landmark_interview:
+        display_name: "Ponto de Referência da Entrevista"
+      location_interview:
+        display_name: "Local da Entrevista"
+      source_interview:
+        display_name: Informação Obtida De
+        option_strings_text:
+          child: "Criança"
+          caregiver: "Cuidador"
+          gbv_survivor: Sobrevivente de GBV
+          other: "Outro, por favor especificar"
+      source_interview_other:
+        display_name: "Se informação obtida de Outro, por favor especificar."
+      other_org_interview_status:
+        display_name: "A criança foi entrevistada por outra organização?"
+      other_org_reference_no:
+        display_name: Número de Referência dado à criança por outra organização.

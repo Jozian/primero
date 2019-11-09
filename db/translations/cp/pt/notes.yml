@@ -1,0 +1,9 @@
+---
+pt:
+  notes:
+    name: Notas
+    description: "Notas"
+    form_group_name: "Notas"
+    fields:
+      notes_section:
+        display_name: Notas
