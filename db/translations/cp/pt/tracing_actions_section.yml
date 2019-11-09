@@ -1,0 +1,30 @@
+---
+pt:
+  tracing_actions_section:
+    name: Ação de Rastreamento Encadeado
+    description: Subformulário de Ação para Rastreamento
+    fields:
+      date_tracing:
+        display_name: Data de Rastreamento
+      tracing_type:
+        display_name: Tipo de ação tomada
+        option_strings_text:
+          case_by_case_tracing: Caso a caso de rastreamento
+          individual_tracing: Rastreamento Individual
+          mass_tracing: Rastreamento em Massa
+          photo_tracing: Rastreamento por foto
+          referral_to_ngo: Indicação para ONG
+          referral_to_icrc: Indicação para CICV
+      address_tracing:
+        display_name: Endereço/Vila onde a ação de rastreamento aconteceu
+      location_tracing:
+        display_name: Local de Rastreamento
+      tracing_action_description:
+        display_name: Ação tomada e notas
+      tracing_outcome:
+        display_name: Resultado de ação de rastreamento
+        option_strings_text:
+          pending: Pendente
+          successful: Bem sucedido
+          unsuccessful: Sem sucesso
+          'yes': 'Sim'

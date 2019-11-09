@@ -1,0 +1,10 @@
+---
+pt:
+  tracing_request_photos_and_audio:
+    name: "Fotos e Áudio"
+    form_group_name: "Fotos e Áudio"
+    fields:
+      current_photo_key:
+        display_name: "Chave de Foto Atual"
+      recorded_audio:
+        display_name: Áudio Gravado

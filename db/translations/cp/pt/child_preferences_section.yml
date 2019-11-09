@@ -1,0 +1,24 @@
+---
+pt:
+  child_preferences_section:
+    name: "Preferências da Criança Embutidas"
+    description: "Subformulário das Preferências da Criança"
+    fields:
+      wishes_name:
+        display_name: Pessoa (s) que a criança deseja localizar
+      wishes_preference_relocated:
+        display_name: Preferência da criança ser realocada com essa pessoa
+        option_strings_text:
+          first_choice: Primeira escolha
+          second_choice: Segunda escolha
+          third_choice: Terceira escolha
+      wishes_relationship:
+        display_name: "Qual a relação dessa pessoa com a criança?"
+      wishes_address:
+        display_name: Último Endereço Conhecido
+      wishes_landmark:
+        display_name: "Ponto de Referência"
+      wishes_location:
+        display_name: Última Localização Conhecida
+      wishes_telephone:
+        display_name: Telefone

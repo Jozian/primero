@@ -1,0 +1,32 @@
+---
+pt:
+  protection_concern_detail_subform_section:
+    name: "Subformulário Embutido de Preocupações de Proteção"
+    description: "Subformulário Embutido de Preocupações de Proteção"
+    fields:
+      protection_concern_type:
+        display_name: "Tipo de Preocupação de Proteção"
+      date_concern_identified:
+        display_name: "Período em que foi identificado?"
+        option_strings_text:
+          follow_up_after_reunification: Acompanhamento Após Reunião
+          follow_up_in_care: "Acompanhamento em Cuidados"
+          registration: "Registro"
+          reunification: Reunião
+          verification: "Verificação"
+      concern_details:
+        display_name: Detalhes da Preocupação
+      concern_intervention_needed:
+        display_name: "Intervenção necessária?"
+      date_concern_intervention_needed_by:
+        display_name: "Intervenção necessária por"
+      concern_action_taken_already:
+        display_name: "Ação foi tomada?"
+        tick_box_label: 'Sim'
+      concern_action_taken_details:
+        display_name: "Detalhes da Ação Tomada"
+      concern_action_taken_date:
+        display_name: "Data em que a ação foi tomada"
+      concern_is_resolved:
+        display_name: "Preocupação de proteção resolvida?"
+        tick_box_label: 'Sim'

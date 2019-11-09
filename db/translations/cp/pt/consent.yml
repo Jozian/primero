@@ -1,0 +1,53 @@
+---
+pt:
+  consent:
+    name: Confidencialidade de Dados
+    description: Confidencialidade de Dados
+    form_group_name: Confidencialidade de Dados
+    fields:
+      interview_subject:
+        display_name: "Consentimento Obtido De"
+        option_strings_text:
+          individual: "Individual"
+          caregiver: "Cuidador"
+          other: Outro (por favor especificar)
+      consent_source_other:
+        display_name: "Se outro, por favor especificar"
+      consent_for_services:
+        display_name: A pessoa dando consentimento dá permissão (para a criança) para participar no processo de gerenciamento do caso.
+        help_text: Isso inclui consentimento para compartilhamento de informação com outras organizações prestando serviços.
+        tick_box_label: 'Sim'
+      consent_reporting:
+        display_name: "A pessoa dando consentimento dá permissão para o responsável pelo caso coletar e armazenar informações pessoais sobre o caso (tais como nome, foto, detalhes da família)"
+      consent_for_tracing:
+        display_name: A pessoa dando consentimento dá permissão para o responsável pelo caso compartilhar informação sobre o caso com outros prestadores de serviços conforme detalhes descritos abaixo.
+        help_text: "Se este campo é \"Não\", o registro do caso da criança não aparecerá em correspondência com Pedidos de Rastreamento do Solicitante."
+      disclosure_other_orgs:
+        display_name: "O indivíduo fornecendo consentimento concorda compartilhar informação coletada com outras organizações para provisão de serviços?"
+        help_text: "Isso inclui compartilhamento de informações com outras organizações prestando serviços, isso não inclui compartilhamento de informações com UNHCR."
+        tick_box_label: 'Sim'
+      unhcr_export_opt_out:
+        display_name: "A criança declarou que ela não quer compartilhar detalhes pessoais com o UNHCR?"
+        help_text: "Se a criança não quer compartilhar informação com o UNHCR, selecione \"Sim\" para essa pergunta (os detalhes pessoais da criança não serão incluídos na exportação da UNHCR se esta for definida como \"Sim\")."
+      consent_share_separator:
+        display_name: Detalhes do consentimento para compartilhar informação
+      consent_info_sharing:
+        display_name: Consentimento foi dado para compartilhar a informação coletada com
+        option_strings_text:
+          family: Família
+          authorities: Autoridades
+          unhcr: UNHCR
+          other_organizations: Outras Organizações
+          others: "Outros, favor especificar"
+      consent_info_sharing_others:
+        display_name: "Se a informação pode ser compartilhada com outros, favor especificar quais"
+      disclosure_deny_details:
+        display_name: Qual informação deveria ser mantida em sigilo de uma pessoa em particular ou indivíduo
+      withholding_info_reason:
+        display_name: Motivo para reter informação
+        option_strings_text:
+          fear: Medo de danos contra si própria ou para outros
+          communicate_information: "Quer comunicar a informação ela mesma"
+          others: "Outro motivo, por favor especificar"
+      withholding_info_other_reason:
+        display_name: "Se houver outro motivo para reter informação, por favor especificar"

@@ -1,0 +1,15 @@
+---
+pt:
+  family_details:
+    name: Dados da Família
+    description: Dados da Família
+    form_group_name: Família / Dados do companheiro
+    fields:
+      family_size:
+        display_name: Tamanho da Família
+      family_notes:
+        display_name: Notas sobre a Família
+      childs_intended_address:
+        display_name: "Qual o endereço proposto para a criança?"
+      family_details_section:
+        display_name: Dados da Família

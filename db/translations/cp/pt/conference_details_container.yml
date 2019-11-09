@@ -1,0 +1,9 @@
+---
+pt:
+  conference_details_container:
+    name: Detalhes da Conferência do Caso
+    description: Detalhes da Conferência do Caso
+    form_group_name: Detalhes da Conferência do Caso
+    fields:
+      conference_details_subform:
+        display_name: Detalhes da Conferência do Caso

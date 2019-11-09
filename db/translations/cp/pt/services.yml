@@ -1,0 +1,9 @@
+---
+pt:
+  services:
+    name: "Serviços"
+    description: "Formulário de Serviços"
+    form_group_name: "Serviços / Acompanhamento"
+    fields:
+      services_section:
+        display_name: "Serviços"
