@@ -1,0 +1,9 @@
+---
+pt:
+  other_documents:
+    name: Outros Documentos
+    description: Outros Documentos
+    form_group_name: Documentos
+    fields:
+      upload_other_document:
+        display_name: Outro Documento

@@ -1,0 +1,49 @@
+---
+pt:
+  services_section:
+    name: "Serviços Embutidos"
+    description: Subformulário de Serviços
+    fields:
+      service_response_type:
+        display_name: Tipo de Resposta
+      service_reason:
+        display_name: Motivo da consulta
+        help_text: "Descreva o problema, a duração e a frequência do problema, o histórico, serviços relevantes já prestados / intervenções feitas, e qualquer outro detalhe relevante para o provedor de serviço."
+      service_type:
+        display_name: Tipo de serviço requisitado
+      service_outcome:
+        display_name: Resultado esperado do serviço requisitado
+        help_text: Descreva o que você e a pessoa indicada esperam conseguir pela indicação.
+      service_response_day_time:
+        display_name: Criado em
+      service_response_timeframe:
+        display_name: Prazo da Aplicação
+        help_text: Coloque o Prazo da Aplicação para serviço; o prazo é usado no painel para indicar se os serviços estão atrasados.
+        option_strings_text:
+          1_hour: Uma hora
+          3_hours: Três horas
+          1_day: Um dia
+          3_days: Três dias
+      service_referral:
+        display_name: "Você indicou o cliente para este pedido?"
+      service_appointment_date:
+        display_name: Data em que o serviço começou
+      service_appointment_time:
+        display_name: Hora da Consulta
+      service_implementing_agency:
+        display_name: Agência de Execução
+      service_provider:
+        display_name: Provedor do Serviço
+      service_implementing_agency_individual:
+        display_name: Nome do provedor do serviço
+      service_status_referred:
+        display_name: "Indicado?"
+        tick_box_label: 'Sim'
+      service_location:
+        display_name: Local do serviço
+      service_referral_notes:
+        display_name: Notas
+      service_implemented:
+        display_name: Serviço implementado
+      service_implemented_day_time:
+        display_name: Serviço implementado em

@@ -1,0 +1,15 @@
+---
+pt:
+  referral_transfer:
+    name: "Encaminhamentos e Transferências"
+    description: Lista de Transferências e Encaminhamentos
+    form_group_name: "Encaminhamentos e Transferências"
+    fields:
+      transfer_status:
+        display_name: Status de Transferência
+        option_strings_text:
+          in_progress: "Em Progresso"
+          accepted: "Aceito"
+          rejected: "Rejeitado"
+      transitions:
+        display_name: Transferências e Encaminhamentos

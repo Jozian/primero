@@ -1,0 +1,66 @@
+---
+pt:
+  activities:
+    name: "Atividades"
+    description: Atividades
+    form_group_name: Serviços / Acompanhamento
+    fields:
+      activities_child_in_school_or_training:
+        display_name: "A criança está em escola ou treinamento?"
+      activities_school_name:
+        display_name: Nome da escola
+      activities_reason_not_in_school:
+        display_name: "Se não, por que não?"
+        option_strings_text:
+          child_labour: Trabalho infantil
+          early_marriage: "Casamento precoce"
+          financial_constraints: Restrições financeiras
+          ignorance: "Ignorância"
+          lack_of_infrastructure: Falta de infraestrutura
+          lack_of_access: Falta de acesso
+          lack_of_interest: Falta de interesse
+          children: "Crianças"
+          pregnancy_child: "Gravidez/Criança"
+          sent_abroad_for_job: "Enviado ao exterior para trabalho"
+          Other: Outro
+      activities_education_type:
+        display_name: "Se sim, que tipo de educação?"
+        option_strings_text:
+          accelerated_learning: Aprendizagem acelerada
+          early_childhood: "Primeira infância "
+          non_formal_education: Educação informal
+          primary: Primária
+          secondary: Secundária
+          vocational: Vocacional
+          vocational_training: Treinamento vocacional
+      activities_level_achieved:
+        display_name: "Se relevante, que nível eles alcançaram?"
+        option_strings_text:
+          carpentry: Carpintaria
+          gs1: GS1
+          gs2: GS2
+          gs3: GS3
+          level_1: Nível 1
+          level_2: Nível 2
+          level_3: Nível 3
+          level_4: Nível 4
+          ss1: SS1
+          ss2: SS2
+          ss3: SS3
+          tailoring: "Alfaiataria"
+          woodwork: "Marcenaria "
+          hairdressing: Cabeleireiro
+      activities_training_start_date:
+        display_name: Data inicial de treinamento
+      activities_training_duration:
+        display_name: Duração de treinamento
+      activities_notes:
+        display_name: Outros detalhes sobre escola ou treinamento
+      activities_other:
+        display_name: "Em que outras atividades a criança está envolvida?"
+        option_strings_text:
+          community_activities: "Atividades comunitárias"
+          livelihood_activities: "Atividades de subsistência"
+          recreational_activities: Atividades recreativas
+      activities_other_notes:
+        display_name: "Outros detalhes sobre atividades adicionais"

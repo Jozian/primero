@@ -1,0 +1,43 @@
+---
+pt:
+  transitions:
+    name: "Subformulário Embutido de Transições"
+    description: "Subformulário de Transições"
+    fields:
+      type:
+        display_name: Tipo
+      to_user_local:
+        display_name: Usuário Local
+      to_user_remote:
+        display_name: Usuário Remoto
+      to_user_local_status:
+        display_name: Status
+        option_strings_text:
+          in_progress: "Em Progresso"
+          pending: "Pendente"
+          accepted: "Aceito"
+          rejected: "Rejeitado"
+          done: "Concluído "
+      rejected_reason:
+        display_name: Motivo rejeitado (se aplicável)
+      to_user_agency:
+        display_name: "Agência de Usuário Remoto"
+      notes:
+        display_name: "Notas"
+      transitioned_by:
+        display_name: "Transferido ou Encaminhado Por"
+      service:
+        display_name: "Serviço"
+      is_remote:
+        display_name: "O encaminhamento ou transferência é para um sistema remoto?"
+        tick_box_label: 'Sim'
+      type_of_export:
+        display_name: "Que tipo de exportação você deseja?"
+      consent_overridden:
+        display_name: "Sem Consentimento para Compartilhar Configuração Substituída"
+        tick_box_label: 'Sim'
+      consent_individual_transfer:
+        display_name: "O responsável pelo caso teve o consentimento da criança para fazer essa transferência?"
+        tick_box_label: 'Sim'
+      created_at:
+        display_name: "Data de encaminhamento ou transferência"

@@ -1,0 +1,28 @@
+---
+pt:
+  approval_subforms:
+    name: "Subformulário de aprovação"
+    description: "Subformulário de aprovação"
+    fields:
+      approval_requested_for:
+        display_name: Aprovação solicitada para
+        option_strings_text:
+          bia: Bia
+          case_plan: Plano de caso
+          closure: Encerramento
+      approval_response_for:
+        display_name: Aprovação para
+        option_strings_text:
+          bia: Bia
+          case_plan: Plano de caso
+          closure: "Encerramento"
+      approval_for_type:
+        display_name: Tipo de plano de caso
+      approval_date:
+        display_name: Data
+      approval_manager_comments:
+        display_name: Comentários do gerente
+      approval_status:
+        display_name: Status de aprovação
+      approved_by:
+        display_name: Aprovado por

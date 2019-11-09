@@ -1,0 +1,11 @@
+---
+pt:
+  protection_concern_details:
+    name: Detalhes da Preocupação de Proteção
+    description: "Detalhes da Preocupação de Proteção"
+    form_group_name: "Avaliação"
+    fields:
+      protection_concerns:
+        display_name: "Preocupações de Proteção"
+      protection_concern_detail_subform_section:
+        display_name: "Detalhes da Preocupação de Proteção"
