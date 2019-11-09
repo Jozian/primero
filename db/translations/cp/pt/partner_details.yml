@@ -1,0 +1,31 @@
+---
+pt:
+  partner_details:
+    name: "Detalhes do Parceiro/Cônjuge"
+    description: "Detalhes do Parceiro/Cônjuge"
+    form_group_name: "Detalhes da Família/ Parceiro"
+    fields:
+      maritial_status:
+        display_name: "Estado Civil Atual"
+      partner_details:
+        display_name: "Detalhes do Parceiro/ Cônjuge"
+      relationship_length:
+        display_name: "Tempo de Casamento/ Relacionamento"
+      number_of_children:
+        display_name: Número de Filhos
+      marital_status_during_separation:
+        display_name: "Estado Civil Durante a Separação"
+      partner_details_during_separation:
+        display_name: "Detalhes do Parceiro/Cônjuge Durante a Separação"
+      relationship_length_during_separation:
+        display_name: "Tempo de Casamento/ Relacionamento Durante a Separação"
+      number_of_children_during_separation:
+        display_name: "Número de Filhos Durante a Separação"
+      marital_status_pre_separation:
+        display_name: "Estado Civil Antes da Separação"
+      partner_details_pre_separation:
+        display_name: "Detalhes do Parceiro/ Cônjuge Antes da Separação"
+      relationship_length_pre_separation:
+        display_name: "Duração do Casamento/ Relacionamento Antes da Separação"
+      number_of_children_pre_separation:
+        display_name: "Número de Filhos Antes da Separação"

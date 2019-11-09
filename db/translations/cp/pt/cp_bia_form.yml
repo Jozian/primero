@@ -1,0 +1,29 @@
+---
+pt:
+  cp_bia_form:
+    name: Formulário BIA
+    description: Formulário BIA
+    form_group_name: Formulário BIA
+    fields:
+      bia_approved:
+        display_name: "Aprovado pelo Gerente"
+        tick_box_label: 'Sim'
+      bia_approved_date:
+        display_name: Data
+      bia_approved_comments:
+        display_name: "Comentários do Gerente"
+      approval_status_bia:
+        display_name: "Status de Aprovação"
+      case_id_display:
+        display_name: ID do Caso Primero
+      bia_header:
+        display_name: "FORMULÁRIO DE AVALIAÇÃO (para conclusão de todos os casos de Proteção à Criança, incluindo UASC)"
+      case_priority:
+        display_name: "Prioridade"
+        option_strings_text:
+          2_days: "2 dias"
+          1_week: 1 semana
+          30_days: "30 dias"
+          non_urgent: Não Urgente (insira data)
+      case_priority_date:
+        display_name: "Data de Reavaliação"

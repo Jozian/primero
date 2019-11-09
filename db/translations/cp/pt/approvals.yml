@@ -1,0 +1,9 @@
+---
+pt:
+  approvals:
+    name: "Aprovações"
+    description: "Aprovações"
+    form_group_name: "Aprovações"
+    fields:
+      approval_subforms:
+        display_name: "Aprovações"

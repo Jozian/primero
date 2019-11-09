@@ -1,0 +1,45 @@
+---
+pt:
+  reunification_details_section:
+    name: "Reunião Embutida"
+    description: Subformulário de Reunião
+    fields:
+      name_reunified_adult:
+        display_name: Nome de adulto criança foi reunificado com
+      relationship_reunified_adult:
+        display_name: Relação do adulto com a criança
+      address_reunified_adult:
+        display_name: Endereço
+      location_reunified_adult:
+        display_name: Local que o adulto foi reunificado com a criança
+      address_reunification:
+        display_name: Endereço onde a reunião está acontecendo
+      location_reunification:
+        display_name: Local onde a reunificação está acontecendo
+      reunification_type:
+        display_name: "Qual o tipo de reunião?"
+        option_strings_text:
+          case_by_case: Caso a caso
+          informal_spontaneous: Informal/Espontânea
+          mass_tracing: Rastreamento em Massa
+          mediation: Mediação
+          other: Outro (favor especificar)
+          photo_tracing: Rastreamento por foto
+          spontaneous: Espontâneo
+      date_reunification:
+        display_name: Data da reunião
+      child_reunited_with_verified_adult:
+        display_name: "A criança foi reunificada com o adulto verificado?"
+      not_reunited_with_verified_adult_reason:
+        display_name: "Se não, qual foi a razão da mudança?"
+        option_strings_text:
+          change_of_mind: Mudança de opinião
+          death: Morte
+          death_of_adult: Morte do Adulto
+          failed_verification: Verificação falha
+          n_a: Não aplicável
+          other: Outro (favor especificar)
+      reunification_follow_up_needed:
+        display_name: "Existe uma necessidade de acompanhamento?"
+      closure_recommendation:
+        display_name: "Se não, você recomenda que o caso seja encerrado?"

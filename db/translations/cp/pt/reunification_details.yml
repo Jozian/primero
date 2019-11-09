@@ -1,0 +1,9 @@
+---
+pt:
+  reunification_details:
+    name: "Detalhes da Reunião"
+    description: "Detalhes da Reunião"
+    form_group_name: "Rastreamento"
+    fields:
+      reunification_details_section:
+        display_name: "Detalhes da Reunião"

@@ -1,0 +1,78 @@
+---
+pt:
+  tracing_request_inquirer:
+    name: "Inquiridor"
+    description: "Inquiridor"
+    form_group_name: "Inquiridor"
+    fields:
+      tracing_request_id:
+        display_name: ID Longo
+      short_id:
+        display_name: "ID do Inquiridor"
+      inquiry_date:
+        display_name: "Data de Inquérito"
+      inquiry_status:
+        display_name: "Status do Inquérito"
+      inquirer_details_section:
+        display_name: "Detalhes do Inquiridor"
+      relation_name:
+        display_name: "Nome do Inquiridor"
+      relation_nickname:
+        display_name: "Apelido do Inquiridor"
+      relation_age:
+        display_name: "Idade"
+      relation_date_of_birth:
+        display_name: "Data de Nascimento"
+      relation_language:
+        display_name: Idioma
+      relation_religion:
+        display_name: "Religião"
+      relation_ethnicity:
+        display_name: "Etnia"
+      relation_sub_ethnicity1:
+        display_name: Sub Etnia 1
+      relation_sub_ethnicity2:
+        display_name: Sub Etnia 2
+      relation_nationality:
+        display_name: "Nacionalidade"
+      relation_comments:
+        display_name: "Detalhes adicionais/ comentários"
+      contact_information_section:
+        display_name: Informação de Contato
+      relation_address_current:
+        display_name: "Endereço Atual"
+      relation_location_current:
+        display_name: "Localização Atual"
+      relation_address_is_permanent:
+        display_name: "Esta é uma localização permanente?"
+      relation_telephone:
+        display_name: Telefone
+      separation_history_section:
+        display_name: "Histórico de Separação"
+      date_of_separation:
+        display_name: "Data de Separação"
+      separation_cause:
+        display_name: "O que foi a principal causa de separação?"
+      separation_cause_other:
+        display_name: "Se outro, por favor especificar"
+      separation_evacuation:
+        display_name: "A separação ocorreu relacionada à evacuação?"
+      separation_details:
+        display_name: Circunstâncias de Separação (por favor forneça detalhes)
+      address_separation:
+        display_name: Endereço da Separação (Local)
+      location_separation:
+        display_name: "Localização da Separação"
+      address_last:
+        display_name: "Último Endereço"
+      landmark_last:
+        display_name: "Último Ponto de Referência"
+      location_last:
+        display_name: "Última Localização"
+      telephone_last:
+        display_name: "Último Telefone"
+      additional_tracing_info:
+        display_name: "Informação adicional que poderia ajudar no rastreamento?"
+      disclosure_other_orgs:
+        display_name: "O inquiridor concorda em compartilhar informações coletadas com outras organizações?"
+        tick_box_label: 'Sim'

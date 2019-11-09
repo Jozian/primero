@@ -1,0 +1,9 @@
+---
+pt:
+  followup:
+    name: Acompanhamento
+    description: Acompanhamento
+    form_group_name: Serviços / Acompanhamento
+    fields:
+      followup_subform_section:
+        display_name: Acompanhamento

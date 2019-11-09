@@ -1,0 +1,42 @@
+---
+pt:
+  cp_case_plan:
+    name: Plano de Caso
+    description: Plano de Caso
+    form_group_name: Plano de Caso
+    fields:
+      case_plan_approval_type:
+        display_name: "Tipo de Aprovação"
+      case_plan_approved:
+        display_name: "Aprovado pelo Gerente"
+        tick_box_label: 'Sim'
+      case_plan_approved_date:
+        display_name: Data
+      case_plan_approved_comments:
+        display_name: "Comentários do Gerente"
+      approval_status_case_plan:
+        display_name: "Status de Aprovação"
+      case_plan_section_header:
+        display_name: Plano de Caso
+      date_case_plan:
+        display_name: "Data do Plano de Caso Iniciado"
+        help_text: "Este campo é usado para o status do Fluxo de Trabalho"
+      case_plan_goal:
+        display_name: Objetivo Geral
+        help_text: "Defina um objetivo INTELIGENTE (específico, mensurável, realizável/acordado, realista/relevante, e tempo limite)."
+      protection_concerns:
+        display_name: "Preocupações de Proteção"
+      case_plan_disagreement:
+        display_name: "Detalhes de quem discorda com partes do plano e por quê"
+      case_plan_child:
+        display_name: "A criança estava envolvida no desenvolvimento do plano de caso?"
+      case_plan_child_involvement:
+        display_name: "Se não, como a criança foi envolvida no desenvolvimento do plano de caso?"
+      case_plan_caregiver:
+        display_name: "O cuidador estava envolvido no desenvolvimento do plano de caso?"
+      case_plan_caregiver_involvement:
+        display_name: "Se não, como o cuidador foi envolvido no desenvolvimento do plano de caso?"
+      case_plan_header:
+        display_name: "Plano de Intervenção e Serviços a serem Fornecidos"
+      cp_case_plan_subform_case_plan_interventions:
+        display_name: "Detalhes dos Planos de Intervenção e Serviços"

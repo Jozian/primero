@@ -1,0 +1,11 @@
+---
+pt:
+  photos_and_audio:
+    name: Fotos e Áudio
+    description: Todas Fotos e Arquivos de Áudio Associados com Registro de Criança
+    form_group_name: Fotos e Áudio
+    fields:
+      current_photo_key:
+        display_name: Foto Atual Chave
+      recorded_audio:
+        display_name: Áudio Gravado

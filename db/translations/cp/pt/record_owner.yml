@@ -1,0 +1,41 @@
+---
+pt:
+  record_owner:
+    name: "Informação de Registro"
+    description: "Informação de Registro"
+    form_group_name: "Informação de Registro"
+    fields:
+      current_owner_separator:
+        display_name: "Proprietário Atual"
+      owned_by_text:
+        display_name: Campo/ Caso/ Assistente Social
+      owned_by:
+        display_name: Código do Responsável pelo Caso
+      reassigned_tranferred_on:
+        display_name: Reatribuído/ Transferido Em
+      owned_by_agency:
+        display_name: "Agência"
+      telephone_agency:
+        display_name: "Telefone da Agência"
+      assigned_user_names:
+        display_name: "Outros Usuários Atribuídos"
+      database_operator_user_name:
+        display_name: "Operador de Banco de Dados"
+      address_registration:
+        display_name: "Endereço de Registro"
+      location_registration:
+        display_name: "Endereço de Localização"
+      record_history_separator:
+        display_name: Histórico de Registro
+      created_by:
+        display_name: "Registro criado por"
+      created_by_agency:
+        display_name: "Criado por Agência"
+      previously_owned_by:
+        display_name: "Proprietário Anterior"
+      previous_agency:
+        display_name: "Agência Anterior"
+      module_id:
+        display_name: "Módulo"
+      reopened_logs:
+        display_name: "Caso Reaberto"

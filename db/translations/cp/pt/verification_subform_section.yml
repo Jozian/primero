@@ -1,0 +1,57 @@
+---
+pt:
+  verification_subform_section:
+    name: "Subformulário Embutido de Verificação"
+    description: "Subformulário Embutido de Verificação"
+    fields:
+      verification_name_inquirer:
+        display_name: "Nome do Inquiridor"
+      verification_inquirer_relationship:
+        display_name: "Relacionamento"
+      verification_inquirer_sex:
+        display_name: Sexo
+      verification_inquirer_age:
+        display_name: Idade
+      verification_inquirer_address_current:
+        display_name: "Endereço"
+      verification_inquirer_location:
+        display_name: "Localização Atual"
+      verification_phone_inquirer:
+        display_name: "Telefone"
+      verification_inquirer_wants_to_care_for_child:
+        display_name: "Você quer que a criança venha e viva com você?"
+      verification_inquirer_able_to_care_for_child:
+        display_name: "Você é capaz de cuidar dela/ delas?"
+      verification_alternate_caregiver_exists:
+        display_name: "Se não, existe outro membro da família que poderia ficar com a criança?"
+      verification_alternate_caregiver_name:
+        display_name: "Nome de Cuidador alternativo"
+      verification_alternate_caregiver_relationship:
+        display_name: Relacionamento do Cuidador Alternativo
+      verification_address_alternate_caregiver:
+        display_name: Endereço dessa pessoa (Cuidador Alternativo)
+      verification_location_alternate_caregiver:
+        display_name: "Endereço Físico/Aldeia/Área do Cuidador Alternativo"
+      verification_comments:
+        display_name: "Comentários"
+      verification_acceptance_date:
+        display_name: "Data de aceitação para cuidar da criança"
+      verification_inquirer_known_to_child:
+        display_name: "A criança conhece o adulto solicitante da verificação?"
+      verification_inquirer_child_wishes_reunification_with:
+        display_name: "A criança deseja ser reagrupada com essa pessoa?"
+      verification_inquirer_information_match:
+        display_name: "As informações dadas pela criança e pelo adulto correspondem?"
+      verification_inquierer_recommendation:
+        display_name: "Você recomenda reagrupamento e, se não, que outra ação?"
+        option_strings_text:
+          'yes': 'Sim'
+          'no': 'Não'
+          further_tracing: "Rastreamento Adicional"
+          long_term_alternative_care: "Cuidado Alternativo a Longo Prazo"
+          reunification: "Reunião  "
+          reunification_enhanced_support: "Reunião com Suporte Aprimorado"
+      verification_inquierer_recommendation_comments:
+        display_name: "Comentários Adicionais"
+      verification_date:
+        display_name: "Data de Verificação"

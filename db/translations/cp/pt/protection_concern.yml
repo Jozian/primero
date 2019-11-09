@@ -1,0 +1,34 @@
+---
+pt:
+  protection_concern:
+    name: "Preocupações de Proteção"
+    description: "Preocupações de Proteção"
+    form_group_name: "Identificação / Registro"
+    fields:
+      protection_status:
+        display_name: "Status de Proteção"
+      urgent_protection_concern:
+        display_name: "Preocupação de Proteção Urgente?"
+      risk_level:
+        display_name: "Nível de Risco"
+      risk_level_summary:
+        display_name: "Resumo de Motivos"
+      system_generated_followup:
+        display_name: "Gerar lembretes de acompanhamento?"
+      displacement_status:
+        display_name: "Status de Deslocamento"
+      unhcr_protection_code:
+        display_name: Código de Proteção UNHCR
+        help_text: Este campo está obsoleto na v1.2 e substituído por unchr_needs_code
+      protection_concerns:
+        display_name: "Preocupações de Proteção"
+      protection_concerns_other:
+        display_name: "Se Outros, por favor especificar"
+      immediate_concern:
+        display_name: "Preocupação Imediata "
+      concern_summary:
+        display_name: "Resumo de motivos e ações imediatas tomadas/ encaminhamento realizado"
+      unhcr_needs_codes:
+        display_name: Códigos de Necessidades UNHCR
+      disability_type:
+        display_name: "Tipo de Deficiência"

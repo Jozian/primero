@@ -1,0 +1,10 @@
+---
+pt:
+  reopened_logs:
+    name: "Caso Reaberto"
+    description: "Subformulário de Caso Reaberto"
+    fields:
+      reopened_date:
+        display_name: "Data de Reabertura"
+      reopened_user:
+        display_name: "Reaberto por"
