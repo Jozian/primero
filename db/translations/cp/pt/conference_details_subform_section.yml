@@ -1,0 +1,62 @@
+---
+pt:
+  conference_details_subform_section:
+    name: "Detalhes da Conferência"
+    description: "Detalhes da Conferência "
+    fields:
+      conference_date:
+        display_name: "Data de reunião"
+      conference_type:
+        display_name: "Tipo de reunião"
+        option_strings_text:
+          case_plan_review: Revisão do Plano de Caso
+          case_conference: Conferência do Caso
+          other: Outro
+      conference_type_other:
+        display_name: "Se outro, por favor especificar"
+      conference_reason:
+        display_name: Motivo para Conferência do Caso
+        option_strings_text:
+          removal_child_from_caregiver: "Remoção de uma criança de seu cuidador principal/habitual"
+          placement_child_alternative_care: "Colocação de uma criança dentro de cuidado alternativo"
+          complex_child_protection_situation: "Situação de proteção infantil complexa que requer intervenção"
+          family_reunification: "Reunião familiar"
+          transferred: A criança foi ou será realocada - Transferência de caso
+          other: "Outro "
+      conference_reason_other:
+        display_name: "Se outro, por favor especificar"
+      conference_participants:
+        display_name: "Participantes "
+        help_text: "Liste cada participante na conferência. Incluindo o nome, seu papel ou relação com a criança, sua Organização, e um número de telefone para contato ou email"
+      conference_current_situation:
+        display_name: "Breve resumo da situação atual"
+        help_text: "Destaque todos os principais problemas de proteção, a atual disposição de cuidado da criança, e uma visão geral dos motivos para a conferência do caso"
+      conference_outcome_recommendations:
+        display_name: "Resultado e recomendações do painel"
+        help_text: Resuma brevemente as justificativas para as decisões feitas e recomendações abaixo
+      conference_case_status:
+        display_name: Status do Caso
+        help_text: "Se o caso for encerrado, por favor preencha o Formulário de Encerramento"
+      conference_case_status_other:
+        display_name: "Se outro, por favor especificar"
+      conference_case_transfer_reason:
+        display_name: "Se o caso for transferido, por favor forneça o motivo"
+        guiding_questions: |-
+          Outra agência está em melhor posição para gerenciar o caso devido aos serviços especializados requeridos pela criança. 
+          Criança/família em mudança para um novo local; o caso será transferido para a Agência de Proteção à Criança trabalhando naquele local. 
+          Existem razões organizacionais para a transferência do caso desta criança; o caso será encerrado e transferido para outra agência.
+          A criança está sendo realocada devido à preocupações de proteção em sua família/comunidade.
+          A criança completou 18 anos e o caso está sendo transferido para uma autoridade de proteção que fornece serviços para pessoas de 18 anos ou mais, já que a criança  tem uma deficiência física ou mental e requer proteção contínua.
+          Outro 
+        option_strings_text:
+          specialized_service: "Serviços especializados requeridos"
+          new_location: "Em mudança para novo local "
+          organisational_reasons: "Motivos Organizacionais "
+          protection_concerns: "Realocação devido à preocupações de proteção"
+          child_turned_18: "Criança completou 18 anos e requer proteção contínua"
+          other: Outro
+      conference_case_transfer_reason_other:
+        display_name: "Se outro, por favor especificar "
+      conference_followup_actions:
+        display_name: "Ações de acompanhamento/referências/serviços requeridos e as pessoas responsáveis"
+        guiding_questions: "Garanta que a criança/cuidador estejam informados sobre o resultado da conferência do caso, bem como de todas recomendações e ações requeridas. Ações planejadas a serem atualizadas dentro dos planos de caso individuais por Responsáveis pelo Caso/Assistente Social/Funcionários da Agência"

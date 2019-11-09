@@ -1,0 +1,67 @@
+---
+pt:
+  closure_form:
+    name: "Encerramento"
+    description: "Encerramento"
+    form_group_name: "Encerramento"
+    fields:
+      closure_approved:
+        display_name: "Aprovado pelo Gerente"
+        tick_box_label: 'Sim'
+      closure_approved_date:
+        display_name: Data
+      closure_approved_comments:
+        display_name: "Comentários do Gerente"
+      approval_status_closure:
+        display_name: "Status de Aprovação"
+      child_status:
+        display_name: Status do Caso
+      closure_reason:
+        display_name: "Qual o motivo para encerramento do arquivo da criança?"
+      closure_reason_other:
+        display_name: "Se outro, por favor especificar"
+      date_closure:
+        display_name: "Data de Encerramento"
+      name_caregiver_closing:
+        display_name: Nome do cuidador principal
+      relationship_caregiver_closing:
+        display_name: "Relação com a criança"
+      address_caregiver_closing:
+        display_name: "Endereço/localização Atual"
+      location_caregiver_closing:
+        display_name: "Localização do Cuidador"
+      closure_process:
+        display_name: Descreva o processo de encerramento do caso
+        help_text: "Forneça detalhes de reuniões realizadas para discutir o encerramento do caso, tais como reunião entre o responsável pelo caso e a criança,  entre o responsável pelo caso e cuidador (es) da criança, entre o responsável pelo caso e o supervisor."
+      closure_child:
+        display_name: "O encerramento do caso foi discutido e acordado com a criança?"
+      closure_child_specify:
+        display_name: "Se não, por favor especificar"
+      closure_caregiver:
+        display_name: "O encerramento do caso foi discutido e acordado com o cuidador(es)?"
+      closure_caregiver_specify:
+        display_name: "Se não, por favor especificar"
+      closure_feedback_child:
+        display_name: "O feedback no processo de gerenciamento do caso foi coletado da criança usando-se o 'formulário de feedback da criança'?"
+      closure_feedback_child_specify:
+        display_name: "Se não, por favor especificar"
+      closure_feedback_caregiver:
+        display_name: "O feedback no processo de gerenciamento do caso foi coletado do cuidador usando-se o 'formulário de feedback do cuidador'?"
+      closure_feedback_caregiver_specify:
+        display_name: "Se não, por favor especificar"
+      closure_planned:
+        display_name: "Foi planejada uma reunião de rastreamento final em 3 meses com a criança e/ou cuidador(es) para garantir que a situação permanece estável?"
+      closure_planned_specify:
+        display_name: "Se não, por favor especificar"
+      closure_docs:
+        display_name: "O arquivo do caso da criança está completo e atualizado com inclusão de todos documentos relevantes?"
+      closure_docs_specify:
+        display_name: "Se não, por favor especificar"
+      closure_storage:
+        display_name: "Como o arquivo do caso será armazenado?"
+      closure_storage_date:
+        display_name: "Até que data o arquivo do caso da criança será armazenado?"
+      closure_contact:
+        display_name: "A criança foi informada sobre quem contatar se ela tiver dúvidas, preocupações ou para acessar apoio, se necessário?"
+      closure_contact_specify:
+        display_name: "Se não, por favor especificar"

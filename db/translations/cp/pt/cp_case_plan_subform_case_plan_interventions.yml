@@ -1,0 +1,24 @@
+---
+pt:
+  cp_case_plan_subform_case_plan_interventions:
+    name: Lista de Intervenções e Serviços
+    description: Lista de Intervenções e Serviços
+    fields:
+      intervention_service_to_be_provided:
+        display_name: Nome da intervenção / serviço a ser prestado
+      case_plan_provider_and_contact_details:
+        display_name: Pessoa / agência providenciando o serviço ou implementando a intervenção / serviços e dados de contato
+      intervention_service_goal:
+        display_name: Objetivo da intervenção /  serviço
+      case_plan_timeframe:
+        display_name: Prazo estimado ( data limite)
+      case_plan_monitoring_schedule:
+        display_name: Acompanhamento / agenda de monitoração
+        option_strings_text:
+          one_time: Uma vez
+          daily: Diário
+          weekly: Semanal
+          monthly: Mensal
+          other: Outro
+      intervention_service_success:
+        display_name: "Implementado com sucesso?"

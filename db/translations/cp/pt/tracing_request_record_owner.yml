@@ -1,0 +1,29 @@
+---
+pt:
+  tracing_request_record_owner:
+    name: Registro de Proprietário
+    description: Registro de Proprietário
+    form_group_name: Registro de Proprietário
+    fields:
+      current_owner_section:
+        display_name: Proprietário Atual
+      caseworker_name:
+        display_name: Campo/ Caso/ Assistente Social
+      owned_by:
+        display_name: Código de Responsável pelo Caso
+      owned_by_agency:
+        display_name: Agência
+      assigned_user_names:
+        display_name: Outros Usuários Atribuídos
+      record_history_section:
+        display_name: Histórico de registro
+      created_by:
+        display_name: Registro criado por
+      created_organization:
+        display_name: Criado por agência
+      previously_owned_by:
+        display_name: Proprietário Anterior
+      previous_agency:
+        display_name: Agência Anterior
+      module_id:
+        display_name: Módulo

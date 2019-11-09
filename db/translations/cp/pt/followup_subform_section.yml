@@ -1,0 +1,58 @@
+---
+pt:
+  followup_subform_section:
+    name: "Subformulário Embutido de Acompanhamento"
+    description: "Subformulário Embutido de Acompanhamento"
+    fields:
+      followup_type:
+        display_name: Tipo de acompanhamento
+      followup_service_type:
+        display_name: Tipo de serviço
+      followup_assessment_type:
+        display_name: Tipo de avaliação
+        option_strings_text:
+          personal_intervention_assessment: Avaliação de Intervenção Pessoal
+          medical_intervention_assessment: Avaliação de Intervenção Médica
+          family_intervention_assessment: Avaliação de Intervenção Familiar
+          community_intervention_assessment: Avaliação de Intervenção da Comunidade
+          unhcr_intervention_assessment: Avaliação de Intervenção da UNHCR
+          ngo_intervention_assessment: Avaliação de Intervenção da NGO
+          economic_intervention_assessment: Avaliação de Intervenção Econômica
+          education_intervention_assessment: Avaliação de Intervenção Educacional
+          health_intervention_assessment: Avaliação de Intervenção da Saúde
+          other_intervention_assessment: Outra Avaliação de Intervenção
+      protection_concern_type:
+        display_name: 'Tipo de Preocupação de Proteção'
+      followup_needed_by_date:
+        display_name: Acompanhamento necessário por
+      followup_date:
+        display_name: Data de acompanhamento
+      child_was_seen:
+        display_name: "A criança/adulto foi vista durante a visita?"
+      reason_child_not_seen:
+        display_name: "Se não, por quê?"
+        option_strings_text:
+          abducted: Raptado
+          at_school: Na Escola
+          child_in_detention: Criança em Detenção
+          moved_onto_street: Foi deslocado para rua/Mercado
+          moved_to_live_with_another_caregiver: Mudou-se para viver com outro cuidador
+          visiting_friends_relatives: Visitando Amigos/Parentes
+          working: Trabalhando/No trabalho
+          other: "Outro, por favor especificar"
+      reason_child_not_seen_other_details:
+        display_name: "Se outro, por favor especificar"
+      action_taken_already:
+        display_name: "Se foi acompanhado seu processo, alguma ação/serviço específico, no caso foi tomada?"
+      action_taken_details:
+        display_name: Detalhes sobre ação tomada
+      action_taken_date:
+        display_name: "Data em que ação foi tomada?"
+      need_follow_up_visit:
+        display_name: "Existe a necessidade de futuras visitas para acompanhamento?"
+      when_follow_up_visit_should_happen:
+        display_name: "Se sim, quando você recomenda que a próxima visita seja feita?"
+      recommend_case_closed:
+        display_name: "Se não, você recomenda que o caso seja encerrado?"
+      followup_comments:
+        display_name: Comentários

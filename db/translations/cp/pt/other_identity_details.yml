@@ -1,0 +1,33 @@
+---
+pt:
+  other_identity_details:
+    name: "Outros Detalhes de Identidade"
+    description: "Outros Detalhes de Identidade"
+    form_group_name: "Identificação / Registro"
+    fields:
+      nationality:
+        display_name: "Nacionalidade"
+      place_of_birth:
+        display_name: "Local de Nascimento"
+      country_of_birth:
+        display_name: "País de Nascimento"
+      country_of_origin:
+        display_name: "País de Origem"
+      address_last:
+        display_name: "Último Endereço"
+      landmark_last:
+        display_name: "Último Ponto de Referência"
+      location_last:
+        display_name: "Última Localização"
+      telephone_last:
+        display_name: "Último Telefone"
+      ethnicity:
+        display_name: Etnia/ Clã/ Tribo
+      sub_ethnicity_1:
+        display_name: Sub Etnia 1
+      sub_ethnicity_2:
+        display_name: Sub Etnia 2
+      language:
+        display_name: Idioma
+      religion:
+        display_name: "Religião"

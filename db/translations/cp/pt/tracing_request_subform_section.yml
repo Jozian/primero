@@ -1,0 +1,58 @@
+---
+pt:
+  tracing_request_subform_section:
+    name: "Subformulário Embutido de Solicitação de Rastreamento"
+    description: Subformulário Embutido de Solicitação de Rastreamento
+    fields:
+      matched_case_id:
+        display_name: "ID de Caso Correspondente"
+      tracing_request_status:
+        display_name: "Status de Rastreamento"
+      individual_details_section:
+        display_name: "Detalhes Individuais"
+      name:
+        display_name: Nome
+      relation:
+        display_name: "De que forma o inquiridor está relacionado com a criança?"
+      relation_child_lived_with_pre_separation:
+        display_name: "A criança vivia com o inquiridor antes da separação?"
+      name_nickname:
+        display_name: Apelido
+      name_other:
+        display_name: Outro Nome
+      sex:
+        display_name: "Sexo"
+      age:
+        display_name: "Idade"
+      date_of_birth:
+        display_name: "Data de Nascimento"
+      physical_characteristics:
+        display_name: "Características Físicas Distintivas"
+      inquirer_special_message:
+        display_name: Mensagem Especial para a pessoa sendo procurada
+      same_separation_details:
+        display_name: "Mesmos detalhes de separação contidos no Formulário do Inquiridor?"
+      separation_details_section:
+        display_name: Detalhes da Separação (se diferente do formulário do Inquiridor)
+      date_of_separation:
+        display_name: "Data de Separação"
+      separation_cause:
+        display_name: "Qual foi a principal causa de separação?"
+      separation_evacuation:
+        display_name: "A separação ocorreu em relação à evacuação?"
+      separation_details:
+        display_name: Circunstâncias de Separação (por favor forneça detalhes)
+      address_separation:
+        display_name: Endereço da Separação (Local)
+      location_separation:
+        display_name: "Localização da Separação"
+      address_last:
+        display_name: "Último Endereço"
+      landmark_last:
+        display_name: "Último Ponto de Referência"
+      location_last:
+        display_name: "Última Localização"
+      telephone_last:
+        display_name: "Último Telefone"
+      additional_tracing_info:
+        display_name: "Informação adicional que poderia ajudar no rastreamento?"

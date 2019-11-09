@@ -1,0 +1,58 @@
+---
+pt:
+  incident_details_subform_section:
+    name: "Subformulário Embutido de Detalhes do Incidente"
+    description: "Subformulário Embutido de Detalhes do Incidente"
+    fields:
+      cp_incident_identification_violence:
+        display_name: "Identificação do Incidente"
+      cp_incident_violence_header:
+        display_name: "Incidente"
+      cp_incident_date:
+        display_name: "Data do Incidente"
+      cp_incident_location_type:
+        display_name: "Área do Incidente"
+      cp_incident_location_type_other:
+        display_name: "Se 'Outro', por favor especificar"
+      cp_incident_location:
+        display_name: "Local do Incidente"
+      cp_incident_timeofday:
+        display_name: "Hora do Incidente"
+      cp_incident_timeofday_actual:
+        display_name: "Por favor especifique a hora exata do Incidente"
+      cp_incident_violence_type:
+        display_name: "Tipo de Violência"
+      cp_incident_previous_incidents:
+        display_name: "O caso foi abusado anteriormente?"
+      cp_incident_previous_incidents_description:
+        display_name: "Se sim, por favor descreva resumidamente"
+      cp_incident_abuser_header:
+        display_name: Informação do Autor
+      cp_incident_abuser_name:
+        display_name: "Nome"
+      cp_incident_perpetrator_nationality:
+        display_name: "Nacionalidade"
+      perpetrator_sex:
+        display_name: Sexo
+      cp_incident_perpetrator_date_of_birth:
+        display_name: "Data de Nascimento"
+      cp_incident_perpetrator_age:
+        display_name: Idade
+      cp_incident_perpetrator_national_id_no:
+        display_name: "Número de ID Nacional"
+      cp_incident_perpetrator_other_id_type:
+        display_name: Tipo de Outro Documento de ID
+      cp_incident_perpetrator_other_id_no:
+        display_name: Número de Outro Documento de ID
+      cp_incident_perpetrator_marital_status:
+        display_name: "Status Social"
+      cp_incident_perpetrator_mobile_phone:
+        display_name: "Telefone Móvel"
+      cp_incident_perpetrator_phone:
+        display_name: Tefefone Fixo
+      cp_incident_perpetrator_address:
+        display_name: "Endereço"
+      cp_incident_perpetrator_occupation:
+        display_name: "Ocupação"
+      cp_incident_perpetrator_relationship:
+        display_name: "Relação com a vítima "
