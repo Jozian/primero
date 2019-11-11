@@ -58,16 +58,6 @@ pt:
       n_a: N/A
       in_progress: Em progresso
       met: Cumprido
-  lookup-care-arrangement-type:
-    name: "Opções de Arquivamento"
-    lookup_values:
-      stay_in_current_care_arrangements: Permanecer nas atuais disposições de cuidado
-      with_husband_wife_partner: Com marido/esposa/parceiro
-      foster_care: Orfanato
-      small_group_home: Pequeno grupo em casa
-      independent_living: Acordo de habitação independente
-      doesnt_know: Não sabe
-      other: Outro
   lookup-case-status:
     name: Status do caso
     lookup_values:
@@ -81,19 +71,6 @@ pt:
       0_5_year_old: 0-5 anos de idade
       6_12_year_old: "6-12 anos de idade "
       13_17_year_old: 13-17 anos de idade
-  lookup-closure-reason:
-    name: Razão de Encerramento
-    lookup_values:
-      goal_of_case_plan_met: "Em sua maioria, as metas do plano foram cumpridas"
-      child_is_safe: Criança está fora de perigo
-      childs_care_and_wellbeing_is_supported: Cuidado da criança e seu bem estar estão garantidos e não existem preocupações adicionais
-      child_has_turned_18: Criança completou 18 anos ( garantir que um plano de transição esteja em prática e o caso saiba onde e como obter apoio)
-      no_longer_wants_support: Criança/Cuidador (es) não querem mais apoio e não há motivos para ir contra sua vontade.
-      relocation_of_child: Relocação da criança para uma área onde não existe agência onde o caso possa ser transferido
-      child_departed: Criança partiu para uma solução durável onde não existe agência onde o caso possa ser transferido
-      child_no_longer_contactable: Criança não mais comunicável (esperar pelo menos 3 meses antes de fechar o caso)
-      death_of_child: Morte da criança
-      other: Outro
   lookup-conference-case-status:
     name: Conferência do Status do Caso
     lookup_values:
@@ -527,20 +504,6 @@ pt:
       other: Outro
       no_relation: Sem Relação
       unknown: Desconhecido
-  lookup-population-group:
-    name: Grupo de População
-    lookup_values:
-      resident: Residente
-      idp: Deslocado Internamente
-      refugee: Refugiado
-      stateless_person: Sem pátria
-      returnee: Repatriado
-      national: Nacional
-      foreign_national: Cidadão Estrangeiro
-      asylum_seeker: Requerente de Asilo
-      migrant: Migrante
-      host_community: Comunidade de acolhimento
-      other: Outro
   lookup-protection-concerns:
     name: Preocupações de Proteção
     lookup_values:
