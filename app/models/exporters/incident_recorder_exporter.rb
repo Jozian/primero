@@ -335,16 +335,24 @@ module Exporters
           end,
           'service.wants_legal_action' => ->(model) do
             legal_counseling = model.try(:legal_assistance_services_subform_section)
-            if legal_counseling.present?
-              legal_actions = legal_counseling.
-                  map{|l| l.try(:pursue_legal_action)}
-              if legal_actions.include? true
-                I18n.t("exports.incident_recorder_xls.yes")
-              elsif legal_actions.include? false
-                I18n.t("exports.incident_recorder_xls.no")
-              elsif legal_actions.include? nil
-                I18n.t("exports.incident_recorder_xls.service_referral.undecided")
-              end
+            if not legal_counseling.present?
+              return ""
+            end
+
+            legal_actions = legal_counseling.
+                map{|l| l.try(:pursue_legal_action)}
+            if legal_actions.include? "true"
+              I18n.t("exports.incident_recorder_xls.yes")
+            elsif legal_actions.include? "false"
+              I18n.t("exports.incident_recorder_xls.no")
+            elsif legal_actions.include? "undecided"
+              I18n.t("exports.incident_recorder_xls.service_referral.undecided")
+            elsif legal_actions.include? nil
+              # No option selected
+              return ""
+            else
+              # Should not reach this point
+              return ""
             end
           end,
           'service.legal_referral' => ->(model) do
