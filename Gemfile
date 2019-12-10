@@ -4,9 +4,9 @@ ruby '2.4.3'
 gem 'rapidftr_addon', :git => 'https://github.com/rapidftr/rapidftr-addon.git', :branch => 'master'
 gem 'rapidftr_addon_cpims', :git => 'https://github.com/rapidftr/rapidftr-addon-cpims.git', :branch => 'master'
 
-gem 'couchrest_model', '2.0.4'
+gem 'couchrest_model', '~> 2.0'
 
-gem 'mime-types',     '1.16'
+gem 'mime-types',     '~> 1.16'
 gem 'mini_magick',    '~> 4.9.4'
 gem 'pdf-reader',     '2.0.0'
 gem 'prawn',          '~> 2.2.2'
