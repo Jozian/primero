@@ -1,11 +1,4 @@
 gbv_follow_up_subform_fields = [
-  Field.new({"name" => "service_type_provided",
-             "show_on_minify_form" => true,
-             "mobile_visible" => true,
-             "type" => "select_box",
-             "display_name_en" => "Type of service provided by me/my organization",
-             "option_strings_source" => "lookup lookup-service-type"
-            }),
   Field.new({"name" => "followup_date",
              "show_on_minify_form" => true,
              "mobile_visible" => true,
@@ -16,7 +9,8 @@ gbv_follow_up_subform_fields = [
              "show_on_minify_form" => true,
              "mobile_visible" => true,
              "type" => "select_box",
-             "display_name_en" => "Type of referral service",
+             "display_name_en" => "Type of need addressed",
+             "multi_select" => true,
              "option_strings_source" => "lookup lookup-service-type"
             }),
   Field.new({"name" => "action_taken_already",

@@ -350,26 +350,6 @@ services_fields = [
              "display_name_en" => "Did you refer the client to a safe house/safe shelter?",
              "option_strings_source" => "lookup lookup-service-referred",
             }),
-  Field.new({"name" => "service_safehouse_appointment_date",
-             "mobile_visible" => false,
-             "type" => "date_field",
-             "display_name_en" => "Appointment Date"
-            }),
-  Field.new({"name" => "service_safehouse_appointment_time",
-             "mobile_visible" => false,
-             "type" => "text_field",
-             "display_name_en" => "Appointment Time"
-            }),
-  Field.new({"name" => "service_safehouse_provider",
-             "mobile_visible" => false,
-             "type" => "text_field",
-             "display_name_en" => "Service Provider"
-            }),
-  Field.new({"name" => "service_safehouse_location",
-             "mobile_visible" => false,
-             "type" => "text_field",
-             "display_name_en" => "Service Location"
-            }),
   Field.new({"name" => "service_safehouse_referral_notes",
              "mobile_visible" => false,
              "type" => "text_field",

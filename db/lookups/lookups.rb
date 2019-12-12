@@ -494,7 +494,8 @@ create_or_update_lookup(
     {id: "water_sanitation_service", display_text: "Water/Sanitation Service"}.with_indifferent_access,
     {id: "registration_service", display_text: "Registration Service"}.with_indifferent_access,
     {id: "food_service", display_text: "Food Service"}.with_indifferent_access,
-    {id: "other_service", display_text: "Other Service"}.with_indifferent_access
+    {id: "other_service", display_text: "Other Service"}.with_indifferent_access,
+    {id: "personal_goal", display_text: "Personal Goal"}.with_indifferent_access
   ]
 )
 
@@ -594,6 +595,16 @@ create_or_update_lookup(
         {id: "true", display_text: "Yes"}.with_indifferent_access,
         {id: "false", display_text: "No"}.with_indifferent_access,
         {id: "unknown", display_text: "Unknown"}.with_indifferent_access
+    ]
+)
+
+create_or_update_lookup(
+    :id => "consent-release-personal-info",
+    :name_en => "No, Not Applicable, Personal Goal",
+    :lookup_values_en => [
+        {id: "true", display_text: "No"}.with_indifferent_access,
+        {id: "false", display_text: "Not Applicable"}.with_indifferent_access,
+        {id: "unknown", display_text: "Personal Goal"}.with_indifferent_access
     ]
 )
 

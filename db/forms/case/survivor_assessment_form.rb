@@ -16,9 +16,9 @@ survivor_assessment_fields = [
   Field.new({"name" => "assessment_survivor_background",
              "show_on_minify_form" => true,
              "mobile_visible" => true,
-             "type" => "textarea",
+             "type" => "separator",
              "display_name_en" => "Survivor Context (or Background Information)",
-             "guiding_questions" => "Provide basic contextual information on the survivor, including her family situation, current living situation, occupation or role, and any other relevant information.",
+             "help_text_en" => "Provide basic contextual information on the survivor, including her family situation, current living situation, occupation or role, and any other relevant information."
             }),
   Field.new({"name" => "assessment_family_situation",
              "show_on_minify_form" => true,
