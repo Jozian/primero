@@ -736,3 +736,9 @@ en:
       'true': 'Yes'
       'false': 'No'
       unknown: Unknown
+  lookup-no-not-applicable-personal-goal:
+    name: No, Not Applicable, Personal Goal
+    lookup_values:
+      'no': 'No'
+      'not-applicable': Not Applicable
+      'personal-goal': Personal Goal

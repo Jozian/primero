@@ -599,12 +599,12 @@ create_or_update_lookup(
 )
 
 create_or_update_lookup(
-    :id => "consent-release-personal-info",
+    :id => "lookup-no-not-applicable-personal-goal",
     :name_en => "No, Not Applicable, Personal Goal",
     :lookup_values_en => [
-        {id: "true", display_text: "No"}.with_indifferent_access,
-        {id: "false", display_text: "Not Applicable"}.with_indifferent_access,
-        {id: "unknown", display_text: "Personal Goal"}.with_indifferent_access
+        {id: "no", display_text: "No"}.with_indifferent_access,
+        {id: "not-applicable", display_text: "Not Applicable"}.with_indifferent_access,
+        {id: "personal-goal", display_text: "Personal Goal"}.with_indifferent_access
     ]
 )
 
