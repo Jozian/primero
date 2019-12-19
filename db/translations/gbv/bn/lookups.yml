@@ -729,3 +729,9 @@ bn:
       'true': 'হ্যাঁ '
       'false': 'না'
       unknown: " জানা নেই "
+  lookup-no-not-applicable-personal-goal:
+    name: No, Not Applicable, Personal Goal
+    lookup_values:
+      'no': 'No'
+      'not-applicable': Not Applicable
+      'personal-goal': Personal Goal
