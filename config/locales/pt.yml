@@ -100,9 +100,9 @@ pt:
   navigation:
     home: "HOME"
     cases: "CASOS"
-    tracing_request: "SOLICITAÇÕES DE RASTREAMENTO"
+    tracing_request: "SOLICITAÇÃO DE RASTREAMENTO"
     incidents: "INCIDENTES"
-    potential_match: "CORRESPONDÊNCIAS "
+    potential_match: "CORRESPONDÊNCIA POTENCIAL"
     duplicates: "DUPLICADOS"
     children: "CRIANÇAS"
     forms: "FORMULÁRIOS"
