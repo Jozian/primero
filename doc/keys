@@ -1,0 +1,7 @@
+The command to create a new key file is
+
+'ssh-keygen -t rsa -b 4096 -C "primero@deploy.jozian.com" -f ~/.ssh/jozian/cpims-br/id_rsa'
+
+the command to format on one line is
+
+'awk 'NF {sub(/\r/, ""); printf "%s\\n",$0;}'  <file name>'
