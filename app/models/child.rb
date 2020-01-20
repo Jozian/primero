@@ -114,6 +114,20 @@ class Child < CouchRest::Model::Base
               }"
   end
 
+  design :by_ciaca_process_id do
+    view :by_ciaca_process_id,
+         :map => "function(doc) {
+                    if (doc.cp_processes_subform_process_information.length > 0) {
+                      for(var process_index in doc.cp_processes_subform_process_information) {
+                        emit(
+                          doc.cp_processes_subform_process_information[process_index].ciaca_process_id,
+                          doc.case_id_display
+                        );
+                      }
+                    }
+                  }"
+  end
+
   def self.quicksearch_fields
     # The fields family_count_no and dss_id are hacked in only because of Bangladesh
     # The fields camp_id, tent_number and nfi_distribution_id are hacked in only because of Iraq
@@ -125,6 +139,18 @@ class Child < CouchRest::Model::Base
       'other_agency_id', 'survivor_code_no', 'national_id_no', 'other_id_no', 'biometrics_id',
       'family_count_no', 'dss_id', 'camp_id', 'tent_number', 'nfi_distribution_id', 'family_number',
       'oscar_number', 'mosvy_number', 'oscar_short_id', 'cpims_id'
+    ]
+  end
+
+  def self.quicksearch_fields_plus_process_id
+    # The fields family_count_no and dss_id are hacked in only because of Bangladesh
+    # The fields camp_id, tent_number and nfi_distribution_id are hacked in only because of Iraq
+    [
+      'unique_identifier', 'short_id', 'case_id_display', 'name', 'name_nickname', 'name_other',
+      'ration_card_no', 'icrc_ref_no', 'rc_id_no', 'unhcr_id_no', 'unhcr_individual_no','un_no',
+      'other_agency_id', 'survivor_code_no', 'national_id_no', 'other_id_no', 'biometrics_id',
+      'family_count_no', 'dss_id', 'camp_id', 'tent_number', 'nfi_distribution_id',
+      'cp_processes_subform_process_information'
     ]
   end
 

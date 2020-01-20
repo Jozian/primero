@@ -13,6 +13,9 @@ module Searchable
       end
 
       quicksearch_fields.each {|f| text f}
+      text :cp_processes_subform_process_information do
+        cp_processes_subform_process_information.map { |process| process.ciaca_process_id }
+      end
       searchable_string_fields.each {|f| string f, as: "#{f}_sci".to_sym}
       searchable_multi_fields.each {|f| string f, multiple: true} if search_multi_fields?
 
@@ -121,7 +124,7 @@ module Searchable
             #the following change that behavior to match on
             #any of the search terms instead all of them.
             minimum_match(1)
-            fields(*self.quicksearch_fields)
+            fields(*self.quicksearch_fields_plus_process_id)
           end
         end
 
