@@ -16,6 +16,9 @@ node.force_default[:primero][:couchdb][:config][:couch_httpd_auth][:require_vali
 #   node[:primero][:couchdb][:username] => node[:primero][:couchdb][:password],
 # }
 
+# python pip is not being installed by get-pip.py. Installing debian package
+# instead.
+package 'python-pip'
 package 'curl'
 package 'couchdb'
 
