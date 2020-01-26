@@ -411,7 +411,7 @@ class Field
   #Else use the default locale's options
   def display_option_strings(current_locale)
     locale_options = self.option_strings_text(current_locale)
-    return locale_options if locale_options.any?{|op| op['display_text'].present?}
+    return locale_options if locale_options.present?{|op| op['display_text'].present?}
     return self.option_strings_text(base_language)
   end
 

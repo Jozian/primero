@@ -4,8 +4,10 @@ class FieldOption
 
   def self.create_field_options field_name, options
     field_options = []
-    options.each do |option|
-      field_options << FieldOption.new(field_name, option)
+    if options.respond_to?(:each)
+      options.each do |option|
+        field_options << FieldOption.new(field_name, option)
+      end
     end
     return field_options
   end
