@@ -621,6 +621,7 @@ fr:
       registration_service: Enregistrement des réfugiés
       food_service: Service d'alimentation
       other_service: Autres services
+      personal_goal: Personal goal
   lookup-time-of-day:
     name: Moment de la journée
     lookup_values:
@@ -729,4 +730,10 @@ fr:
       'true': 'Oui'
       'false': 'Non'
       unknown: Inconnu
+  lookup-no-not-applicable-personal-goal:
+    name: No, Not Applicable, Personal Goal
+    lookup_values:
+      'no': 'No'
+      'not-applicable': Not Applicable
+      'personal-goal': Personal Goal
 

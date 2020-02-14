@@ -621,6 +621,7 @@ ar:
       registration_service: خدمة التسجيل
       food_service: خدمة الأغذية
       other_service: خدمة أخرى
+      personal_goal: Personal goal
   lookup-time-of-day:
     name: الوقت من اليوم
     lookup_values:
@@ -729,4 +730,10 @@ ar:
       'true': 'نعم'
       'false': 'لا'
       unknown: غير معروف
+  lookup-no-not-applicable-personal-goal:
+    name: No, Not Applicable, Personal Goal
+    lookup_values:
+      'no': 'No'
+      'not-applicable': Not Applicable
+      'personal-goal': Personal Goal
 

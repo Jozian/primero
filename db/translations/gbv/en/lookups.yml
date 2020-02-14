@@ -628,6 +628,7 @@ en:
       registration_service: Registration Service
       food_service: Food Service
       other_service: Other Service
+       personal_goal: Personal goal
   lookup-time-of-day:
     name: Time Of Day
     lookup_values:
@@ -736,4 +737,10 @@ en:
       'true': 'Yes'
       'false': 'No'
       unknown: Unknown
+  lookup-no-not-applicable-personal-goal:
+    name: No, Not Applicable, Personal Goal
+    lookup_values:
+      'no': 'No'
+      'not-applicable': Not Applicable
+      'personal-goal': Personal Goal
 
