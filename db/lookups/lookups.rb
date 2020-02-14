@@ -495,7 +495,6 @@ create_or_update_lookup(
     {id: "registration_service", display_text: "Registration Service"}.with_indifferent_access,
     {id: "food_service", display_text: "Food Service"}.with_indifferent_access,
     {id: "other_service", display_text: "Other Service"}.with_indifferent_access,
-    {id: "personal_goal", display_text: "Personal Goal"}.with_indifferent_access
   ]
 )
 
