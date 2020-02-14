@@ -598,15 +598,7 @@ create_or_update_lookup(
     ]
 )
 
-create_or_update_lookup(
-    :id => "lookup-no-not-applicable-personal-goal",
-    :name_en => "No, Not Applicable, Personal Goal",
-    :lookup_values_en => [
-        {id: "no", display_text: "No"}.with_indifferent_access,
-        {id: "not-applicable", display_text: "Not Applicable"}.with_indifferent_access,
-        {id: "personal-goal", display_text: "Personal Goal"}.with_indifferent_access
-    ]
-)
+
 
 create_or_update_lookup(
     :id => "lookup-yes-no-undecided",
