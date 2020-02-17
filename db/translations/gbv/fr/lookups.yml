@@ -731,9 +731,9 @@ fr:
       'false': 'Non'
       unknown: Inconnu
   lookup-no-not-applicable-personal-goal:
-    name: No, Not Applicable, Personal Goal
+    name: Non, sans objet, objectif personnel
     lookup_values:
-      'no': 'No'
-      'not-applicable': Not Applicable
-      'personal-goal': Personal Goal
+      'no': 'Non'
+      'not-applicable': Sans objet
+      'personal-goal': Objectif personnel
 

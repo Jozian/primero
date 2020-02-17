@@ -731,9 +731,9 @@ ar:
       'false': 'لا'
       unknown: غير معروف
   lookup-no-not-applicable-personal-goal:
-    name: No, Not Applicable, Personal Goal
+    name: لا ، لا ينطبق ، الهدف 
     lookup_values:
-      'no': 'No'
-      'not-applicable': Not Applicable
-      'personal-goal': Personal Goal
+      'no': 'لا'
+      'not-applicable': لايمكن تطبيقه
+      'personal-goal': هدف شخصي
 

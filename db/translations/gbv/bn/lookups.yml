@@ -731,9 +731,9 @@ bn:
       'false': 'না'
       unknown: " জানা নেই "
   lookup-no-not-applicable-personal-goal:
-    name: No, Not Applicable, Personal Goal
+    name: না, প্রযোজ্য নয়, ব্যক্তিগত লক্ষ্য
     lookup_values:
-      'no': 'No'
-      'not-applicable': Not Applicable
-      'personal-goal': Personal Goal
+      'no': 'না'
+      'not-applicable': প্রযোজ্য নয়
+      'personal-goal': ব্যক্তিগত লক্ষ্য
  
