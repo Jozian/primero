@@ -101,7 +101,10 @@ module Ownable
 
   def update_associated_user_groups
     self.associated_user_groups = (self.assigned_user_names || []).map do |user_name|
-      User.find_by_user_name(user_name).user_group_ids
+      user = User.find_by_user_name(user_name)
+      if ! user.nil?
+        user.user_group_ids
+      end
     end.flatten.compact
   end
 
