@@ -1,3 +1,6 @@
+Creating a deploy key
+---------------------
+
 The command to create a new key file is
 
 'ssh-keygen -t rsa -b 4096 -C "primero@deploy.jozian.com" -f ~/.ssh/jozian/cpims-br/id_rsa'
@@ -5,3 +8,32 @@ The command to create a new key file is
 the command to format on one line is
 
 'awk 'NF {sub(/\r/, ""); printf "%s\\n",$0;}'  <file name>'
+
+this then gets added to the cookbook deploy json like this:
+
+   '}
+    },
+    "deploy_key": "-----BEGIN RSA PRIVATE KEY-----\nMIIJKAIBAAKCAgEAxgctAwUWo60jJYaj0NRKz6j5qVmFjRlujBzRna9UTpoT2wNc\ntdCNH5Qd28/vGaP5Ikc6dNpTronnp9QJnQ06NPzdCKsSDARsP0Qgx7SRQWHxUBfx\nV+CY4ZXsMsakwNRrlp4/JEaHNSCABIzoMchbwVJwgqUy550eEqU1e8ya6bqNLXc/\nR3Pqxxll7UGlVMziRVkbfZccN6B6QunBAUQ+bk4HzSXnXcVLeIZZUJt66Jf/d3XX\n5RElUq1Ykow1WaUuZUJR196tc/m/D7NOO68YBbbRHX7qkd/A5pZ8YIFcStqUOqLo\ncQa67a+DXs5ahiKUBkjeBzLprqNlQpZNFLnZ82HIbrtxTE+Zy+0qWalLJ6BHxAUh\ndejHeIVI2I=\n-----END RSA PRIVATE KEY-----\n",
+    "ssl": {
+      "crt": ""
+    }'
+
+The public part of the key needs to then be added to the deploy keys on the repo on github
+
+On a production deployment
+--------------------------
+
+Go to the deployment machine (ssh there from the chef deployment server). Then run these commands
+
+`sudo -s;
+
+chmod 600 /srv/primero/.ssh/known_hosts
+
+su - primero
+
+ssh git@github.com`
+
+
+This will add a new key to /srv/primero/.ssh/known_hosts
+
+Copy the added key (the last one) and add it to the cookbook/files/default/ssh/known_hosts file on the repository being deployed. Commit and push to the repo being deployed on Jozian Github
