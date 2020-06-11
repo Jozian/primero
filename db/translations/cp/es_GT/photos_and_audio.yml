@@ -1,0 +1,10 @@
+---
+es_GT:
+  photos_and_audio:
+    name: Fotografías y audios
+    description: "Todos los archivos fotográficos y audios asociados con el registro del niño, niña o adolescente"
+    fields:
+      current_photo_key:
+        display_name: Fotografía reciente
+      recorded_audio:
+        display_name: Audio grabado

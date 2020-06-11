@@ -1,0 +1,24 @@
+---
+es_GT:
+  cp_case_plan_subform_case_plan_interventions:
+    name: Lista de Intervenciones y Servicios
+    description: Lista de Intervenciones y Servicios
+    fields:
+      intervention_service_to_be_provided:
+        display_name: Nombre de la intervención/ servicio que será proporcionado
+      case_plan_provider_and_contact_details:
+        display_name: Persona/ institución proporcionando el servicio o implementando la intervención/ detalle del contacto y servicios
+      intervention_service_goal:
+        display_name: Meta de la intervención/ servicio
+      case_plan_timeframe:
+        display_name: Tiempo esperado (fecha de finalización)
+      case_plan_monitoring_schedule:
+        display_name: Seguimiento / cronograma de monitoreo
+        option_strings_text:
+          one_time: Una vez
+          daily: Diario
+          weekly: Semanal
+          monthly: Mensual
+          other: Otros
+      intervention_service_success:
+        display_name: "Se implementó exitosamente?"

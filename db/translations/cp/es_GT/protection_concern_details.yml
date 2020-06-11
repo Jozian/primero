@@ -1,0 +1,10 @@
+---
+es_GT:
+  protection_concern_details:
+    name: Características de la medida de protección
+    description: Característica de la medida de protección
+    fields:
+      protection_concerns:
+        display_name: Medida de protección
+      protection_concern_detail_subform_section:
+        display_name: Características de la medida de protección

@@ -1,0 +1,45 @@
+---
+es_GT:
+  services_section:
+    name: Servicios de reunificación o fortalecimiento familiar
+    description: Subformulario de servicios
+    fields:
+      service_response_type:
+        display_name: Tipo de respuesta o servicio dado
+      service_type:
+        display_name: Tipo de servicio
+      service_response_day_time:
+        display_name: Creado en
+      service_response_timeframe:
+        display_name: Tiempo de implementación
+        help_text: Ingrese el tiempo de implementación; El tiempo de implementación es utilizado en el tablero para indicar si los servicios están fuera de tiempo.
+        option_strings_text:
+          1_hour: Una hora
+          3_hours: Tres horas
+          1_day: Un dia
+          3_days: Tres días
+      service_referral:
+        display_name: "¿Refirió usted a la persona por este servicio?"
+      service_appointment_date:
+        display_name: Fecha de la cita
+      service_appointment_time:
+        display_name: Hora de la cita
+      service_implementing_agency:
+        display_name: Institución implementadora
+      service_provider:
+        display_name: Proveedor de servicios
+      service_delivery_location:
+        display_name: Lugar donde los servicios son prestados
+      service_implementing_agency_individual:
+        display_name: Nombre del prestador del servicio
+      service_status_referred:
+        display_name: "¿Referido?"
+        tick_box_label: 'Si'
+      service_location:
+        display_name: Lugar del servicio
+      service_referral_notes:
+        display_name: Apuntes o información adicional
+      service_implemented:
+        display_name: Servicio prestado
+      service_implemented_day_time:
+        display_name: Servicio prestado en

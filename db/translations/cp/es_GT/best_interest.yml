@@ -1,0 +1,37 @@
+---
+es_GT:
+  best_interest:
+    name: Interés Superior del Niño
+    description: Interés Superior del Niño
+    fields:
+      best_interest_report_submitted:
+        display_name: "Fue el reporte entregado a la instancia que decide sobre el Interés Superior del Niño?"
+        option_strings_text:
+          submitted: Entregado
+          pending: Pendiente
+          'no': 'No'
+      best_interest_date_submitted:
+        display_name: Fecha de entrega
+      best_interest_recommendation:
+        display_name: Recomendación
+        option_strings_text:
+          local_integration: Integración Local
+          maintain_change_current_arrangements: Mantener o cambiar los acuerdos alcanzados
+          medical: Registro médico
+          repatriation: Repatriación
+          resettlement_to_3rd_country: Restablecimiento en un 3er país
+          reunification: Reunificación
+      best_interest_recommendation_date:
+        display_name: Fecha de Recomendación
+      best_interest_proposed_support:
+        display_name: Propuesta de Apoyo
+      best_interest_agency_responsible:
+        display_name: Agencia Responsable
+      best_interest_proposed_support_accepted:
+        display_name: "El niño, niña o adolescente acepta la propuesta de apoyo planteada ?"
+      best_interest_why_support_refused:
+        display_name: "Si no la acepta, por qué?"
+      best_interest_date_implementation:
+        display_name: Fecha de la implementación
+      best_interest_implementing_agency:
+        display_name: Agencia que la implementará

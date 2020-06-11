@@ -1,0 +1,8 @@
+---
+es_GT:
+  reunification_details:
+    name: Descripción del proceso de reunificación
+    description: Descripción del proceso de reunificación
+    fields:
+      reunification_details_section:
+        display_name: Descripción del proceso de reunificación
