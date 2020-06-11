@@ -1,0 +1,8 @@
+---
+es_GT:
+  incident_details_container:
+    name: Características o detalles de la situación de violencia
+    description: "Información en detalle de la situación de violencia ocurrida al niño, niña o adolescente"
+    fields:
+      incident_details:
+        display_name: Características o detalles de la situación de violencia

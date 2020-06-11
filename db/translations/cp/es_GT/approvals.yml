@@ -1,0 +1,8 @@
+---
+es_GT:
+  approvals:
+    name: Aprobaciones
+    description: Aprobaciones
+    fields:
+      approval_subforms:
+        display_name: Aprobación

@@ -1,0 +1,45 @@
+---
+es_GT:
+  reunification_details_section:
+    name: Reunificación Familiar
+    description: Subformulario de reunificación
+    fields:
+      name_reunified_adult:
+        display_name: "Nombre del adulto con quien fue reunificado el niño, niña o adolescente"
+      relationship_reunified_adult:
+        display_name: "Relación del adulto con el niño, niña o adolescente"
+      address_reunified_adult:
+        display_name: Dirección
+      location_reunified_adult:
+        display_name: "Municipio/Departamento donde vive el adulto con quien el niño, niña o adolescente fue reunificado"
+      address_reunification:
+        display_name: Dirección donde se llevo a cabo la reunificación
+      location_reunification:
+        display_name: Municipio/Departamento donde se llevó a cabo la reunificación
+      reunification_type:
+        display_name: "¿Qué tipo de reunificación se realizó?"
+        option_strings_text:
+          case_by_case: Caso por caso
+          informal_spontaneous: Informal y espontánea
+          mass_tracing: "Búsqueda por medios de publicidad (ej. medios de comunicación, redes sociales)"
+          mediation: Mediación
+          other: Otras (por favor especifique)
+          photo_tracing: Búsqueda por medio de fotografía
+          spontaneous: De forma espontánea
+      date_reunification:
+        display_name: Fecha de la reunificación
+      child_reunited_with_verified_adult:
+        display_name: "¿Fue el niño, niña o adolescente reunificado con un adulto debidamente identificado y/o registrado?"
+      not_reunited_with_verified_adult_reason:
+        display_name: "Si no fue así, ¿cual fue la razón por el cambio?"
+        option_strings_text:
+          change_of_mind: Cambio de opinión
+          death: Muerte
+          death_of_adult: Muerte del adulto
+          failed_verification: Identificación de dificultades en el cuidado durante el seguimiento
+          n_a: No aplica al caso
+          other: Otros (por favor especifique)
+      reunification_follow_up_needed:
+        display_name: "¿Se necesita un seguimiento del caso?"
+      closure_recommendation:
+        display_name: "Si no es así, usted recomienda que el caso sea cerrado?"

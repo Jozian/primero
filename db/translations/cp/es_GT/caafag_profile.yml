@@ -1,0 +1,106 @@
+---
+es_GT:
+  caafag_profile:
+    name: Perfil de niños asociados con fuerzas armadas o grupos armados (CAAFAG)
+    description: Perfil de niños asociados con fuerzas armadas o grupos armados (CAAFAG)
+    fields:
+      un_ddr_no:
+        display_name: "Número de Desarme, desmovilización y reintegración (UN DDR)"
+      cafaag_name_armed_group:
+        display_name: "Con qué fuerza armada o grupo armado fue el niño, niña o adolescente asociado?"
+        option_strings_text:
+          government_force: Fuerzas Armadas del País
+          ltte: Liberation Tigers of Tamil Eelam (LTTE)
+          ml24: MI24
+          non_government_forces: Fuerzas armadas no gubernamentales
+          none: Ninguno
+          other_paramilitary_group: Otros grupos paramilitares
+          sf: SF
+          sla: Symbionese Liberation Army (SLA)
+          spla: Sudan People's Liberation Army (SPLA)
+          tmvp: Tamil Makkal Viduthalai Pulikal (TMVP)
+          unknown: Desconocido
+      cafaag_enrollment_reason_not_forced:
+        display_name: "Si el niño, niña o adolescente no fue forzado, cual fue la principal razón por la que se vió involucrado en la fuerza armada o grupo armado? (tipo de reclutamiento)"
+        option_strings_text:
+          voluntary_enrollment: Enrolamiento voluntario
+          family_problems_abuse: Problemas familiares/abuso
+          financial_reasons: Razones económicas
+          lack_of_access_to_essential_services: Falta de acceso de servicios básicos
+          poverty: Pobreza
+          wanted_to_fight_for_their_beliefs: Deseaba defender sus principios
+          wanted_to_follow_friends: Deseaba seguir a sus amigos
+          other: Otras razones
+      cafaag_enrollment_reason_not_forced_text:
+        display_name: "Alguna otra razón por la que se enroló?"
+      cafaag_name_militaryunit:
+        display_name: Nombre del Destacamento Militar
+      cafaag_name_commander:
+        display_name: "Nombre del Comandante "
+      address_cafaag_militaryunit:
+        display_name: Área del Destacamento Militar
+      location_cafaag_militaryunit:
+        display_name: Ubicación del Destacamento Militar
+      cafaag_child_role:
+        display_name: "Cuál era la función principal del niño, niña o adolescente?"
+        option_strings_text:
+          combat: Combate
+          combat_support: Apoyo de Combate
+          combattant: Combatientes
+          commander_ranked_position: Rango del comandante
+          girlfriend: Novia
+          girlfriend_wife_forced_sexual_activity: Novia/esposa/ forzada a tener actividad sexual
+          non_combat: No combatiente
+          non_combat_cook_guide_porter_etc: "No combatiente (cocinera, guia, compañera, etc.)"
+          other: Otras
+      cafaag_child_owned_weapon:
+        display_name: "El niño, niña o adolescente poseía o tenia un arma"
+      cafaag_weapon_type:
+        display_name: Qué tipo de arma
+      cafaag_date_child_join:
+        display_name: "Cuándo  formó parte el niño, niña o adolescente de la Fuerza Armada o Grupo Armado?"
+      address_cafaag_registration:
+        display_name: Lugar de registro - Dirección
+      address_cafaag_mobilization:
+        display_name: "Área  de movilización. "
+      location_cafaag_mobilization:
+        display_name: Localidad de la movilización
+      cafaag_date_child_leave:
+        display_name: "Cuándo salió el niño, niña o adolescente salió de la fuerza o grupo armado?"
+      cafaag_how_did_child_leave_armed_group:
+        display_name: "Cómo hizo el niño, niña o adolescente para salir de la fuerza armada o grupo armado?"
+        option_strings_text:
+          captured: Fue capturado
+          deceased: Fallecido
+          dissolution_of_the_group: Disolución del grupo
+          escape_runaway: Escapó o se dió a la fuga
+          formal_ddr_program: "Programa formal de Desarme, desmovilización y reintegración (DDR)"
+          locally_negotiated_demobilization: Desmobilización local negociada
+          normal: Normal
+          other: "Otras, (por favor especifique)"
+          released_handover_to_family: Liberado y entregado a la familia
+          released_handover_to_government: Liberado y entregado al gobierno
+          released_handover_to_organization: Liberado y entregado a una Organización
+          runaway: Se escapó
+          surrendered: Se rindió
+          unicef_ddr: "Programa de Desarme, desmovilización y reintegración (UNICEF DDR)"
+      cafaag_how_child_left_other:
+        display_name: "Si algún otro, por favor especifique"
+      address_cafaag_demobilization:
+        display_name: Dirección de la desmovilización
+      location_cafaag_demobilization:
+        display_name: Lugar de la desmovilización
+      cafaag_demobilization_papers_served:
+        display_name: "Se le ha entregado al niño, niña o adolescente documentos/papeles de desmovilización?"
+      cafaag_reason_for_release_from_military:
+        display_name: Razón de la liberación de las fuerzas armadas
+        option_strings_text:
+          captured: Capturado
+          deceased: Fallecido
+          dissolution_of_the_group: Disolución del grupo
+          formal_ddr_program: "Programa formal de Desarme, desmovilización y reintegración (DDR)"
+          released_handover_to_government: Liberado y entregado al gobierno
+          released_handover_to_organization: Liberado y entregado a una Organización
+          released_handover_to_family: Liberado y entregado a su familia
+          runaway: Se escapó
+          surrendered: Se rindió

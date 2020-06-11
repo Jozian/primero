@@ -1,0 +1,8 @@
+---
+es_GT:
+  tracing_request_tracing_request:
+    name: Seguimiento o búsqueda solicitada
+    description: Seguimiento o búsqueda solicitada
+    fields:
+      tracing_request_subform_section:
+        display_name: Seguimiento o búsqueda solicitada

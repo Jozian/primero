@@ -1,0 +1,14 @@
+---
+es_GT:
+  notes_section:
+    name: Subformulario de observaciones
+    description: Subformulario de observaciones
+    fields:
+      notes_date:
+        display_name: Fecha
+      note_subject:
+        display_name: Área o Temática
+      field_notes_subform_fields:
+        display_name: Observaciones
+      note_created_by:
+        display_name: Supervisor (a)
