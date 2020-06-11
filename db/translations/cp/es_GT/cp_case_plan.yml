@@ -1,0 +1,28 @@
+---
+es_GT:
+  cp_case_plan:
+    name: Plan del caso
+    description: Plan del caso
+    fields:
+      case_plan_approval_type:
+        display_name: Tipo de Aprobación
+      case_plan_approved:
+        display_name: Aprobado por el Supervisor
+        tick_box_label: 'Si'
+      case_plan_approved_date:
+        display_name: Fecha
+      case_plan_approved_comments:
+        display_name: Comentarios del Supervisor
+      approval_status_case_plan:
+        display_name: Estado de la Aprobación
+      case_plan_section_header:
+        display_name: Plan del caso
+      date_case_plan:
+        display_name: "Fecha de inicio del Plan del Caso del niño, niña o adolescente"
+        help_text: Este campo es utilizado para el seguimiento del estado del caso
+      protection_concerns:
+        display_name: "Acciones prioritarias en el proceso de protección de la niña, niño o adolescente"
+      case_plan_header:
+        display_name: Intervenciones que deban incluirse en el Plan o en la prestación de servicios
+      cp_case_plan_subform_case_plan_interventions:
+        display_name: Detalles de las intervenciones y servicios

@@ -1,0 +1,65 @@
+---
+es_GT:
+  activities:
+    name: Actividades
+    description: Actividades
+    fields:
+      activities_child_in_school_or_training:
+        display_name: "El niño, niña o adolescente estudia actualmente?"
+      activities_school_name:
+        display_name: Nombre del Establecimiento Educativo
+      activities_reason_not_in_school:
+        display_name: "Si no, porque No?"
+        option_strings_text:
+          child_labour: Trabajo Infantil
+          early_marriage: Embarazo Temprano
+          financial_constraints: Limitaciones Económicas
+          ignorance: Lo Desconoce
+          lack_of_infrastructure: Falta de Infraestructura
+          lack_of_access: Falta de Acceso
+          lack_of_interest: Falta de Interés
+          children: Niños
+          pregnancy_child: Embarazo Temprano
+          sent_abroad_for_job: Salió fuera de su comunidad a trabajar
+          Other: Otros
+      activities_education_type:
+        display_name: "Si eso es así, qué tipo de educación?"
+        option_strings_text:
+          accelerated_learning: Procesos de Educación Acelerada
+          early_childhood: Primera Infancia
+          non_formal_education: Educación No-Formal
+          primary: Primaria
+          secondary: Secundaria
+          vocational: Capacitación
+          vocational_training: Capacitación Técnica
+      activities_level_achieved:
+        display_name: "Si es relevante, que nivel de escolaridad ha alcanzado?"
+        option_strings_text:
+          carpentry: Carpintería
+          gs1: 1ro Primaria
+          gs2: 2do Primaria
+          gs3: 3ro Primaria
+          level_1: 4to Primaria
+          level_2: 5to Primaria
+          level_3: 6to Primaria
+          level_4: 1ro Básico
+          ss1: 2do Básico
+          ss2: 3ro Básico
+          ss3: 4to Diversificado
+          tailoring: Sastrería
+          woodwork: Carpintería
+          hairdressing: Peluquería
+      activities_training_start_date:
+        display_name: Fecha de Inicio del Entrenamiento
+      activities_training_duration:
+        display_name: Duración del Entrenamiento
+      activities_notes:
+        display_name: Otros detalles acerca de su educación o entrenamiento
+      activities_other:
+        display_name: "En qué otras actividades participa el niño, niña o adolescente"
+        option_strings_text:
+          community_activities: Actividades Comunitarias
+          livelihood_activities: Actividades de subsistencia
+          recreational_activities: Actividades Recreacionales
+      activities_other_notes:
+        display_name: Otros detalles sobre actividades adicionales
