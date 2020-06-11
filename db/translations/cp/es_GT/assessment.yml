@@ -1,0 +1,13 @@
+---
+es_GT:
+  assessment:
+    name: Evaluación
+    description: Formulario de Evaluación
+    fields:
+      assessment_requested_by:
+        display_name: Evaluación solicitada por
+      assessment_requested_on:
+        display_name: "Cuándo fue solicitada la evaluación?"
+        help_text: Este campo es utilizado para el seguimiento del caso.
+      case_plan_due_date:
+        display_name: Fecha de vencimiento del plan del caso

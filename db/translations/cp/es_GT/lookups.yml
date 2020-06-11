@@ -1,0 +1,790 @@
+---
+es_GT:
+  lookup-age-group-type:
+    name: Grupo etáreo al que pertenece
+    lookup_values:
+      adult: Adulto
+      minor: Persona menor de edad
+      unknown: Desconocido
+  lookup-agency-office:
+    name: "Institución, Sede u Agencia que atendió"
+    lookup_values:
+      agency_office_1: "Otras instituciones, sedes o agencias que atendieron"
+      agency_office_2: Institución 2
+      agency_office_3: Institución 3
+      agency_office_4: Institución 4
+      agency_office_5: Institución 5
+  lookup-approval-status:
+    name: Situación de aprobación
+    lookup_values:
+      requested: Solicitada
+      pending: Pendiente
+      approved: Aprobada
+      rejected: Rechazada
+  lookup-approval-type:
+    name: Tipo de aprobación
+    lookup_values:
+      case_plan: Plan del caso
+      action_plan: Plan de Acción
+      service_provision: Provisión de Servicios
+  lookup-armed-force-group-name:
+    name: Nombre del grupo delincuencial o pandilla al que pertenece
+    lookup_values:
+      armed_force_or_group_1: Ejercito o destacamento 1
+      armed_force_or_group_2: Ejercito o destacamento 2
+      armed_force_or_group_3: Ejercito o destacamento 3
+      other_please_specify: "Otros, por favor especifique"
+  lookup-armed-force-group-type:
+    name: Tipo de pandilla o grupo al que pertenece
+    lookup_values:
+      national_army: Ejercito Nacional
+      security_forces: Fuerzas de seguridad
+      international_forces: Fuerzas Internacionales
+      police_forces: Fuerzas Policiales
+      para-military_forces: Fuerzas para-militares
+      unknown: Desconocido
+      other: Otros
+  lookup-assessment-duration:
+    name: Duración de la evaluación
+    lookup_values:
+      less_than_15_minutes: Menos de 15 minutos
+      16_30_minutes: 16 -30 minutos
+      31_minutes_1_hour: 31 minutos a 1 hora
+      1_2_hours: 1-2 horas
+      more_than_2_hours: Más de 2 horas
+  lookup-assessment-progress:
+    name: Progreso de la evaluación
+    lookup_values:
+      n_a: No sabe o no contesta
+      in_progress: En desarrollo
+      met: Yo me reuní
+  lookup-case-status:
+    name: Estado del caso
+    lookup_values:
+      open: Abierto
+      closed: Cerrado
+      transferred: Trasferido o derivado
+      duplicate: Duplicado
+  lookup-child-minor-age-group:
+    name: "Niño, niña o adolescente/ grupo de personas menores de edad"
+    lookup_values:
+      0_5_year_old: 0-5 años
+      6_12_year_old: 6-12 años
+      13_17_year_old: 13-17 años
+  lookup-conference-case-status:
+    name: "Situación o estado del caso según junta técnica "
+    lookup_values:
+      open: El caso permanecerá abierto
+      closed: El caso será cerrado
+      transferred: El caso será trasferido o derivado
+      other: Otros
+  lookup-country:
+    name: País
+    lookup_values:
+      afghanistan: Afganistán
+      albania: Albania
+      algeria: Argelia
+      andorra: Andorra
+      angola: Angola
+      antigua_and_barbuda: Antigua y Barbuda
+      argentina: Argentina
+      armenia: Armenia
+      australia: Australia
+      austria: Austria
+      azerbaijan: Azerbaiyán
+      bahamas: Bahamas
+      bahrain: Bahrein
+      bangladesh: Bangladesh
+      barbados: Barbados
+      belarus: Belarús
+      belgium: Bélgica
+      belize: Belice
+      benin: Benín
+      bhutan: Bután
+      bolivia: Bolivia
+      bosnia_and_herzegovina: Bosnia y Herzegovina
+      botswana: Botswana
+      brazil: Brasil
+      brunei: Brunei
+      bulgaria: Bulgaria
+      burkina_faso: Burkina Faso
+      burundi: Burundi
+      cabo_verde: Cabo Verde
+      cambodia: Camboya
+      cameroon: Camerún
+      canada: Canadá
+      central_african_republic: República Centro Africana
+      chad: Chad
+      chile: Chile
+      china: China
+      colombia: Colombia
+      comoros: Comoras
+      congo: República del Congo
+      drc: República Democrática del Congo
+      costa_rica: Costa Rica
+      cote_divoire: Costa de Marfil
+      croatia: Croacia
+      cuba: Cuba
+      cyprus: Chipre
+      czech_republic: República Checa
+      denmark: Dinamarca
+      djibouti: Djibouti
+      dominica: Dominica
+      dominican_republic: República Dominicana
+      ecuador: Ecuador
+      egypt: Egipto
+      el_salvador: El Salvador
+      equatorial_guinea: Guinea Ecuatorial
+      eritrea: Eritrea
+      estonia: Estonia
+      ethiopia: Etiopia
+      fiji: Fiji
+      finland: Finlandia
+      france: Francia
+      gabon: Gabón
+      gambia: Gambia
+      georgia: Georgia
+      germany: Alemania
+      ghana: Ghana
+      greece: Grecia
+      grenada: Granada
+      guatemala: Guatemala
+      guinea: Guinea
+      guinea_bissau: Guinea Bissau
+      guyana: Guyana
+      haiti: Haití
+      honduras: Honduras
+      hungary: Hungria
+      iceland: Islandia
+      india: India
+      indonesia: Indonesia
+      iran: Irán
+      iraq: Iraq
+      ireland: Irlanda
+      israel: Israel
+      italy: Italia
+      jamaica: Jamaica
+      japan: Japón
+      jordan: Jordán
+      kazakhstan: Kazajistán
+      kenya: Kenia
+      kiribati: Kiribati
+      kosovo: Kosovo
+      kuwait: Kuwait
+      kyrgyzstan: Kirguistán
+      laos: Laos
+      latvia: Letonia
+      lebanon: Líbano
+      lesotho: Lesoto
+      liberia: Liberia
+      libya: Libia
+      liechtenstein: Liechtenstein
+      lithuania: Lituania
+      luxembourg: Luxemburgo
+      macedonia: Macedonia
+      madagascar: Madagascar
+      malawi: Malawi
+      malaysia: Malasia
+      maldives: Maldivas
+      mali: Malí
+      malta: Malta
+      marshall_islands: Islas Marshall
+      mauritania: Mauritania
+      mauritius: Mauricio
+      mexico: México
+      micronesia: Micronesia
+      moldova: Moldova
+      monaco: Mónaco
+      mongolia: Mongolia
+      montenegro: Montenegro
+      morocco: Marruecos
+      mozambique: Mozambique
+      myanmar: Myanmar
+      namibia: Namibia
+      nauru: Nauru
+      nepal: Nepal
+      netherlands: Paises Bajos
+      new_zealand: Nueva Zelandia
+      nicaragua: Nicaragua
+      niger: Niger
+      nigeria: Nigeria
+      north_korea: Corea del Norte
+      norway: Noruega
+      oman: Oman
+      pakistan: Pakistán
+      palau: Palau
+      palestine: Palestina
+      panama: Panamá
+      papua_new_guinea: Papua Nueva Guinea
+      paraguay: Paraguay
+      peru: Perú
+      philippines: Filipinas
+      poland: Polonia
+      portugal: Portugal
+      qatar: Qatar
+      romania: Rumania
+      russia: Rusia
+      rwanda: Ruanda
+      st_kitts_and_nevis: St. Kitts and Nevis
+      st_lucia: Santa Lucía
+      st_vincent_and_the_grenadines: San Vicente y las Granadinas
+      samoa: Samoa
+      san_marino: San Marino
+      sao_tome_and_principe: Sao Tome and Principe
+      saudi_arabia: Arabia Saudita
+      senegal: Senegal
+      serbia: Serbia
+      seychelles: Seychelles
+      sierra_leone: Sierra Leona
+      singapore: Singapur
+      slovakia: Eslovaquia
+      slovenia: Eslovenia
+      solomon_islands: Islas Salomón
+      somalia: Somalia
+      south_africa: Sudáfrica
+      south_korea: Corea del Sur
+      south_sudan: Sudán del Sur
+      spain: España
+      sri_lanka: Sir Lanka
+      sudan: Sudán
+      suriname: Surinam
+      swaziland: Suazilandia
+      sweden: Suecia
+      switzerland: Suiza
+      syria: Siria
+      taiwan: Taiwán
+      tajikistan: Tajikistan
+      tanzania: Tanzania
+      thailand: Tailandia
+      timor_leste: Timor Oriental
+      togo: Togo
+      tonga: Tonga
+      trinidad_and_tobago: Trinidad y Tobago
+      tunisia: Túnez
+      turkey: Turquía
+      turkmenistan: Turkmenistán
+      tuvalu: Tuvalu
+      uganda: Uganda
+      ukraine: Ucrania
+      united_arab_emirates: Emiratos Árabes Unidos
+      uk: Reino Unido (Gran Bretaña)
+      usa: USA (Estados Unidos de Norte América)
+      uruguay: Uruguay
+      uzbekistan: Uzbekistán
+      vanuatu: Vanuatu
+      vatican: Ciudad del Vaticano (Santa Sede)
+      venezuela: Venezuela
+      vietnam: Vietnam
+      yemen: Yemen
+      zambia: Zambia
+      zimbabwe: Zimbabwe
+  lookup-cp-violence-type:
+    name: "Protección del niño, niña o adolescente\nTipo de Violencia"
+    lookup_values:
+      rape: Violación
+      sexual_assault: Violencia Sexual
+      physical_assault: Violencia Psicológica o Emocional
+      forced_marriage: Matrimonio Forzado
+      denial_of_resources_opportunities_or_services: "Denegación de recursos, oportunidades o servicios"
+      psychological_emotional_abuse: Violencia psicológica o emocional
+      non-gbv: No Violencia por razones de género
+  lookup-disability-type:
+    name: Tipo de discapacidad
+    lookup_values:
+      mental_disability: Discapacidad Cognitiva
+      physical_disability: Discapacidad Física
+      both: Ambas
+  lookup-disability-type-with-mental-physical:
+    name: Discapacidad física y cognitiva combinadas
+    lookup_values:
+      'no': 'No'
+      mental_disability: Discapacidad Cognitiva
+      physical_disability: Discapacidad psicosocial
+      mental_physical_disability: Discapacidad Cognitiva y  Física
+  lookup-disability-type-with-no:
+    name: Tipo de Discapacidad
+    lookup_values:
+      'no': 'No'
+      mental_disability: Discapacidad Cognitiva
+      physical_disability: Discapacidad Física
+      both: Ambas
+  lookup-discovery-method:
+    name: Método de Investigación
+    lookup_values:
+      family_or_friend: Familia o amigos
+      referral: Referido por otra Organización
+      neighbor: Vecino o miembro de la comunidad
+      community_discussion: Abordaje Comunitario
+      pamphlet: Folleto o trifolear que vio o recibió
+      other: Otros
+  lookup-displacement-status:
+    name: Situación del desplazado
+    lookup_values:
+      resident: Residente
+      idp: Desplazado Interno (IDP)
+      refugee: Refugiado
+      stateless_person: Persona apátrida
+      returnee: Retornado
+      foreign_national: Extranjero
+      asylum_seeker: Solicitante de asilo
+  lookup-ethnicity:
+    name: Etnia
+    lookup_values:
+      ethnicity1: Etnia 1
+      ethnicity2: Etnia 2
+      ethnicity3: Etnia 3
+      ethnicity4: Etnia 4
+      ethnicity5: Etnia5
+      ethnicity6: Etnia6
+      ethnicity7: Etnia7
+      ethnicity8: Etnia8
+      ethnicity9: Etnia9
+      ethnicity10: Etnia10
+  lookup-family-relationship:
+    name: Relación familiar
+    lookup_values:
+      mother: Madre
+      father: Padre
+      aunt: Tía
+      uncle: Tio
+      grandmother: Abuela
+      grandfather: Abuelo
+      brother: Hermano
+      sister: Hermana
+      husband: Esposo
+      wife: Esposa
+      partner: Pareja
+      other_family: Otra familia
+      other_nonfamily: Otro responsable fuera del entorno familiar
+  lookup-followup-type:
+    name: Tipo de seguimiento
+    lookup_values:
+      after_reunification: Seguimiento después de la reintegración
+      in_care: Seguimiento en la alternativa de cuidado temporal
+      for_service: Seguimiento en los servicios
+      for_assesment: Seguimiento de la evaluación
+  lookup-form-group-cp-case:
+    name: Formulario de Casos para Protección de Niñez
+    lookup_values:
+      record_information: Información del Registro
+      approvals: Aprobaciones
+      case_conference_details: "Resultados, conclusiones o detalles de la junta técnica sobre el caso"
+      identification_registration: Identificación / Registro
+      data_confidentiality: Información Confidencial
+      assessment: Evaluación
+      family_partner_details: Detalles de la Familia / pareja
+      case_plan: Plan del caso
+      services_follow_up: Servicios y Seguimiento
+      closure: Cerrado
+      tracing: Búsqueda
+      bia_form: "Formulario para la Evaluación del Interés Superior del Niño, Niña o Adolescente (BIA)"
+      photos_audio: Fotografías y audios
+      other_documents: Otros Documentos
+      referrals_transfers: Referencias y Trasferencias
+      notes: Apuntes
+  lookup-form-group-cp-incident:
+    name: Denuncias o incidentes de Grupos o Asociaciones formadas legalmente
+    lookup_values:
+      record_owner: "Encargado del caso "
+      perpetrator_details: "Detalles del agresor "
+      cp_incident: CP Situación de Violencia
+      cp_individual_details: CP Carácteristicas o Información personal
+  lookup-form-group-cp-tracing-request:
+    name: "Formulario de Grupos - Solicitud de Búsqueda para la Protección de la Niñez "
+    lookup_values:
+      record_owner: "Encargado del caso "
+      inquirer: Solicitante
+      tracing_request: Solicitud de búsqueda
+      photos_audio: Fotografías y audio
+      other_reportable_fields: Otros campos reportables
+  lookup-form-group-gbv-case:
+    name: Formulario de Grupos de Casos de Violencia basada en Género
+    lookup_values:
+      record_information: Información histórica
+      consent_for_services: Consentimiento para los servicios
+      documents: Documentos
+      consent_for_referrals: Consentimiento requerido
+      safety_plan: Plan de seguridad
+      action_plan: Plan de acción
+      survivor_assessment: Evaluación de supervivencia
+      case_closure: Caso cerrado
+      client_feedback: "Retroalimentación de la información del niño, niña o adolescente y su familia"
+      identification_registration: Identificación / registro
+      referrals_transfers: Derivación y trasferencia
+      other_reportable_fields: Otra información relevante
+  lookup-form-group-gbv-incident:
+    name: Formulario de Situación de violencia basada en género
+    lookup_values:
+      gbv_individual_details: Violencia basada en Género Información individual
+      incident: Situación de Violencia
+      type_of_violence: Tipo de violencia
+      record_owner: Encargado del caso
+      alleged_perpetrator: Presunto agresor
+      service_referral: Deivación de servicios
+      other_reportable_fields: Otra información de relevancia
+  lookup-further-action_needed:
+    name: Acciones futuras a realizar
+    lookup_values:
+      no_further_action_needed: No hay necesidad de acciones futuras - seguimiento-
+      ongoing_monitoring: Supervisión en proceso
+      urgent_intervention: Intervención urgente
+  lookup-gbv-approval-types:
+    name: Tipo de consentimiento para usuarios de violencia basada en género
+    lookup_values:
+      case_plan: Plan del caso
+      closure: Cerrado
+  lookup-gbv-reported-elsewhere:
+    name: "Si, no o desconozco"
+    lookup_values:
+      'no': 'No'
+      gbvims-org: Si-GBVIMS Instituciones
+      non-gbvims-org: Si-No GBVIMS Instituciones
+  lookup-gbv-sexual-violence-type:
+    name: Violencia Basada en Género (GBV) Tipo de Violencia Sexual
+    lookup_values:
+      rape: Violación
+      sexual_assault: Abuso sexual
+      physical_assault: Abuso Físico
+      forced_marriage: Matrimonio forzado
+      denial_of_resources_opportunities_or_services: "Denegación de recursos, oportunidades o servicios"
+      psychological_emotional_abuse: Abuso psicológico / emocional
+      non-gbv: No Violencia por razones de género
+  lookup-gender:
+    name: Género
+    lookup_values:
+      male: Masculino
+      female: Femenino
+  lookup-incident-identification:
+    name: Identificación de la situación de violencia
+    lookup_values:
+      disclosure_complaint_by_the_abused_person_or_family_member: Denuncia presentada por la persona afectada o un miembro de su familia
+      discovered_by_service_provider: Denunciado o descubierto por un profesional de servicios
+      report_by_the_institution_providing_the_service_discovery: Denunciado  (reportado) por una Institución proveedora de servicios
+      other: Otros
+  lookup-incident-location:
+    name: Lugar de la situación de violencia
+    lookup_values:
+      home: Casa
+      street: Calle
+      school: Escuela
+      work_place: Lugar de trabajo
+      other: Otros
+  lookup-incident-status:
+    name: Estado de la situación de violencia
+    lookup_values:
+      open: Abierta
+      closed: Cerrada
+      duplicate: Duplicada
+  lookup-inquiry-status:
+    name: Bajo investigación
+    lookup_values:
+      open: Abierto
+      closed: Cerrado
+  lookup-language:
+    name: Idioma
+    lookup_values:
+      language1: Idioma1
+      language2: Idioma2
+      language3: Idioma 3
+      language4: Idioma 4
+      language5: Idioma 5
+      language6: Idioma 6
+      language7: Idioma 7
+      language8: Idioma 8
+      language9: Idioma 9
+      language10: Idioma 10
+  lookup-location-type:
+    name: Dirección
+    lookup_values:
+      country: País
+      region: Región
+      province: Municipio
+      district: Departamento
+      governorate: Comunidad
+      chiefdom: Líder o Líderesa comunitario
+      state: Departamento
+      city: Ciudad
+      county: País
+      camp: Campamento
+      site: Dirección
+      village: Zona
+      zone: Zona
+      sub_district: Sub distrito
+      locality: Localidad
+      prefecture: Prefectura
+      sub-prefecture: Sub-prefactura
+      commune: Comuna
+      payam: Payam
+      other: Otros
+  lookup-marital-status:
+    name: Estado civil
+    lookup_values:
+      single: Soltero
+      married_cohabitating: Casado/unido
+      divorced_separated: Divorciado/separado
+      widowed: Viuda
+  lookup-marital-status-unknown:
+    name: Estado civil
+    lookup_values:
+      single: Soltero
+      married_cohabitating: Casado/unido
+      divorced_separated: Divorciado/separado
+      widowed: Viuda
+      unknown_not_applicable: Se desconoce/no aplica
+  lookup-marital-status-with-spouse:
+    name: Estado civil
+    lookup_values:
+      single: Soltero
+      married_cohabitating: Casado/unido
+      divorced_separated: Divorciado/separado
+      widowed: Viuda
+      with_spouse: Con pareja/esposo
+  lookup-nationality:
+    name: Nacionalidad
+    lookup_values:
+      nationality1: Nacionalidad1
+      nationality2: Nacionalidad2
+      nationality3: Nacionalidad3
+      nationality4: Nacionalidad4
+      nationality5: Nacionalidad5
+      nationality6: Nacionalidad6
+      nationality7: Nacionalidad7
+      nationality8: Nacionalidad8
+      nationality9: Nacionalidad9
+      nationality10: Nacionalidad10
+  lookup-perpetrator-relationship:
+    name: Relación con el agresor
+    lookup_values:
+      intimate_partner_former_partner: Pareja actual / pareja anterior
+      primary_caregiver: Cuidador primario
+      family_other_than_spouse_or_caregiver: Otro familiar que no sea su pareja o cuidador primario
+      supervisor_employer: Supervisor / empleador
+      schoolmate: Compañero de clases
+      teacher_school_official: Maestro / Otro personal autorizado de la escuela
+      service_provider: Proveedor de servicios
+      cotenant_housemate: Compañero de alquiler de casa
+      family_friend_neighbor: Amigo de la familia/vecino
+      other_refugee_idp_returnee: Otro refugiado/Desplazado internamente (IDP)/retornado
+      other_resident_community_member: Otro miembro de la comunidad
+      other: Otros
+      no_relation: Ninguna relación
+      unknown: Desconocido
+  lookup-protection-concerns:
+    name: "Factores de Riesgo para la Protección del niño, niña o adolescente"
+    lookup_values:
+      sexually_exploited: Explotación sexual
+      gbv_survivor: Sobreviviente de violencia de género
+      trafficked_smuggled: Tráfico /contrabando
+      statelessness: Apátrida
+      arrested_detained: Arrestado/detenido
+      migrant: Migrante
+      disabled: Con alguna discapacidad
+      serious_health_issue: Condición de enfermedad seria
+      refugee: Refugiado
+      caafag: Niños asociados con fuerzas armadas o grupos armados (CAAFAG)
+      street_child: "Niño, niña o adolescente en situación de calle"
+      child_mother: Niña o adolescente madre
+      physically_or_mentally_abused: Con violencia física o emocional
+      living_with_vulnerable_person: Viviendo con alguna persona vulnerable o con otros niños
+      worst_forms_of_child_labor: Peores formas de trabajo infantil
+      child_headed_household: Niño como cabeza de su familia
+      mentally_distressed: Estresado o angustiado
+      other: Otros
+  lookup-protection-status:
+    name: Situación de protección
+    lookup_values:
+      unaccompanied: No acompañado
+      separated: Separado
+  lookup-religion:
+    name: Religión
+    lookup_values:
+      religion1: Religión1
+      religion2: Religión2
+      religion3: Religión3
+      religion4: Religión4
+      religion5: Religión5
+      religion6: Religión6
+      religion7: Religión7
+      religion8: Religión8
+      religion9: Religión9
+      religion10: Religión10
+  lookup-risk-level:
+    name: Nivel de riesgo
+    lookup_values:
+      high: Alto
+      medium: Medio
+      low: Bajo
+  lookup-separation-cause:
+    name: Causa de la separación
+    lookup_values:
+      conflict: Conflicto
+      death: Muerte
+      family_abuse_violence_exploitation: Abuso/violencia/explotación en el ámbito familiar
+      lack_of_access_to_services_support: Falta de acceso a servicios/acompañamiento
+      caafag: Niños asociados con fuerzas armadas o grupos armados (CAAFAG)
+      sickness_of_family_member: Enfermedad de un miembro de la familia
+      entrusted_into_the_care_of_an_individual: "Recurso familiar para el cuidado del niño, niña o adolescente"
+      arrest_and_detention: Arresto y detención
+      abandonment: Abandono
+      repatriation: Repatriación
+      population_movement: Movimientos migratorios
+      migration: Migración
+      poverty: Pobreza
+      natural_disaster: Desastres naturales
+      divorce_remarriage: Divorcio/nuevo matrimonio
+      other_please_specify: Otros (por favor especifique)
+  lookup-service-implemented:
+    name: Servicios Implementados
+    lookup_values:
+      not_implemented: No implementado
+      implemented: Implementado
+  lookup-service-referred:
+    name: Servicios referidos o derivados
+    lookup_values:
+      referred: Referido
+      service_provided_by_your_agency: Servicio proporcionado por su institución
+      services_already_received_from_another_agency: Servicio ya realizado por otra institución
+      service_not_applicable: Servicio no aplica al caso
+      referral_declined_by_survivor: Referencia rechazada por sobreviviente/víctima
+      service_unavailable: Servicio no disponible
+  lookup-service-referred-gbv:
+    name: Servicio referido por violencia basada en género
+    lookup_values:
+      referred: Referido
+      no_referral_service_provided_by_your_agency: "No referido, servicio dado por su institución"
+      no_referral_services_already_received_from_another_agency: "No referido, servicio ya fue dado por otra institución"
+      no_referral_service_not_applicable: No referido. Servicio no aplica al caso
+      no_referral_declined_by_survivor: "No referido, servicio rechazado por sobreviviente/víctima"
+      no_referral_service_unavailable: "No referido, servicio no disponible"
+  lookup-service-response-type:
+    name: Tipo de atención prestada
+    lookup_values:
+      care_plan: Plan de cuidado
+      action_plan: Plan de acción
+      service_provision: Provisión de servicios
+  lookup-service-type:
+    name: Tipo de servicio
+    lookup_values:
+      safehouse_service: Protección domiciliar
+      health_medical_service: Servicios de salud o médicos
+      psychosocial_service: Servicios psicológicos
+      police_other_service: Policia/otros servicios
+      legal_assistance_service: Servicio de asistencia legal
+      livelihoods_service: Servicios para falicitar medios de subsistencia
+      child_protection_service: Protección especial para niñez y adolescencia
+      family_mediation_service: Servicios de consejería familiar
+      family_seunification_service: Servicios de reunificación familiar
+      education_service: Servicios de educación
+      nfi_clothes_shoes_service: Servicio de cuidado e higiene personal/ropa/zapatos
+      water_sanitation_service: Servicio de saneamiento/agua
+      registration_service: Servicio de registro
+      food_service: Servicio de alimentación
+      other_service: Otros servicios
+  lookup-time-of-day:
+    name: Tiempo del dia
+    lookup_values:
+      morning: Mañana
+      noon: Medio día
+      evening: Tarde
+      night: Noche
+  lookup-tracing-status:
+    name: Estado de seguimiento
+    lookup_values:
+      open: Abierto
+      tracing_in_progress: Seguimiento en proceso
+      verified: Verificado
+      reunified: Reunificado
+      closed: Cerrado
+  lookup-transition-type:
+    name: Tipo de transición
+    lookup_values:
+      referral: Referido
+      reassign: Reasignado
+      transfer: Transferido
+      transfer_request: Requerimiento de trasferencia
+  lookup-unaccompanied-separated-status:
+    name: Niño niña o adolescente  no acompañado o separado
+    lookup_values:
+      'no': 'No'
+      unaccompanied_minor: "Niño, niña o adolescente no acompañado"
+      separated_child: "Niño, niña o adolescente separado"
+      other_vulnerable_child: "Niño, niña o adolescente sin padres o en condición de orfandad"
+  lookup-unhcr-needs-codes:
+    name: Códigos necesarios de ACNUR
+    lookup_values:
+      cr-cp: CR-CP
+      cr-cs: CR-CS
+      cr-cc: CR-CC
+      cr-tp: CR-TP
+      cr-lw: CR-LM
+      cr-lo: CR-LO
+      cr-ne: CR-NE
+      cr-se: CR-SE
+      cr-af: CR-AF
+      cr-cl: CR-CL
+      sc-ch: SC-CH
+      sc-ic: SC-IC
+      sc-fc: SC-FC
+      ds-bd: DS-BD
+      ds-df: DS-DF
+      ds-pm: DS-PM
+      ds-ps: DS-PS
+      ds-mm: DS-MM
+      ds-ms: DS-MS
+      ds-sd: DS-SD
+      sm-mi: SM-MI
+      sm-mn: SM-MN
+      sm-ci: SM-CI
+      sm-cc: SM-CC
+      sm-ot: SM-OT
+      fu-tr: FU-TR
+      fu-fr: FU-FR
+      lp-nd: LP-ND
+      tr-pi: TR-PI
+      tr-ho: TR-HD
+      tr-wv: TR-WV
+      sv-va: SV-VA
+      lp-an: LP-AN
+      lp-md: LP-MD
+      lp-ms: LP-MS
+      lp-rr: LP-RR
+  lookup-verification-status:
+    name: Estado de verificación
+    lookup_values:
+      verified: Verificado
+      unverified: No verificado
+      pending_verification: Pendiente de verificación
+      falsely_attributed: Falsa atribución
+      rejected: Rechazado
+  lookup-workflow:
+    name: Ruta y seguimiento de trabajo
+    lookup_values:
+      new: Caso nuevo
+      closed: Caso cerrado
+      reopened: Caso re-abierto
+      service_provision: Prestación de servicios
+      services_implemented: Todos los servicios de respuesta implementados
+      case_plan: Plan del caso
+  lookup-yes-no:
+    name: Si o No
+    lookup_values:
+      'true': 'Si'
+      'false': 'No'
+  lookup-yes-no-not-applicable:
+    name: Si es aplicable o no
+    lookup_values:
+      'true': 'Si'
+      'false': 'No'
+      not_applicable: No aplica
+  lookup-yes-no-undecided:
+    name: "Si, No, o sin detectar"
+    lookup_values:
+      'true': 'Si'
+      'false': 'No'
+      undecided: Sin detectar
+  lookup-yes-no-unknown:
+    name: "Si, No o se desconoce"
+    lookup_values:
+      'true': 'Si'
+      'false': 'No'
+      unknown: Se desconoce

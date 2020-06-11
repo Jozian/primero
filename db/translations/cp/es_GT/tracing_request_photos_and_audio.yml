@@ -1,0 +1,9 @@
+---
+es_GT:
+  tracing_request_photos_and_audio:
+    name: Fotografías y audios
+    fields:
+      current_photo_key:
+        display_name: Fotografía actual
+      recorded_audio:
+        display_name: Audio grabado

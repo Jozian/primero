@@ -1,0 +1,58 @@
+---
+es_GT:
+  tracing_request_subform_section:
+    name: Subformulario de seguimiento o búsqueda solicitada
+    description: Subformulario de seguimiento o búsqueda solicitada
+    fields:
+      matched_case_id:
+        display_name: Identificación de la vinculación del caso
+      tracing_request_status:
+        display_name: Estado de seguimiento o búsqueda
+      individual_details_section:
+        display_name: Información del solicitante
+      name:
+        display_name: Nombre
+      relation:
+        display_name: "¿Cuál es la relación del solicitante con el niño, niña o adolescente?"
+      relation_child_lived_with_pre_separation:
+        display_name: "¿Vivió el solicitante con el niño, niña o adolescente antes de la separación?"
+      name_nickname:
+        display_name: Apodo o sobre nombre
+      name_other:
+        display_name: Otro nombre conocido
+      sex:
+        display_name: Sexo
+      age:
+        display_name: Edad
+      date_of_birth:
+        display_name: Fecha de nacimiento
+      physical_characteristics:
+        display_name: Característics físicas distintivas
+      inquirer_special_message:
+        display_name: Algún mensaje especial para la persona que esta siendo buscada
+      same_separation_details:
+        display_name: "¿Se está requiriendo la misma información sobre la separación como el solicitane inicialmente lo requirió?"
+      separation_details_section:
+        display_name: Información de la separación (si no coincide con las realizadas por el solicitante)
+      date_of_separation:
+        display_name: Fecha de separación
+      separation_cause:
+        display_name: "Cuál fue la principal causa de la separación?"
+      separation_evacuation:
+        display_name: "¿La separación del niño, niña o adolescente ocurrió durante la evacuación?"
+      separation_details:
+        display_name: Circunstancias de la separación (por favor describa en detalle)
+      address_separation:
+        display_name: Dirección de la separación (lugar)
+      location_separation:
+        display_name: Departamento/Municipio de la separación
+      address_last:
+        display_name: Última dirección
+      landmark_last:
+        display_name: Último Punto de Referencia de Domicilio
+      location_last:
+        display_name: Último Departamento/Municipio
+      telephone_last:
+        display_name: Último número telefónico
+      additional_tracing_info:
+        display_name: "¿Alguna información adicional que pudiera ayudar en el seguimiento o búsqueda?"

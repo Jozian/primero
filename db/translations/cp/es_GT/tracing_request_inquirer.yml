@@ -1,0 +1,77 @@
+---
+es_GT:
+  tracing_request_inquirer:
+    name: Solicitante
+    description: Solicitante
+    fields:
+      tracing_request_id:
+        display_name: Número del expediente
+      short_id:
+        display_name: Identificación del solicitante
+      inquiry_date:
+        display_name: Fecha de la solicitud
+      inquiry_status:
+        display_name: Estado de la solicitud
+      inquirer_details_section:
+        display_name: Información del solicitante
+      relation_name:
+        display_name: Nombre del solicitante
+      relation_nickname:
+        display_name: Apodo o sobrenombre del solicitante
+      relation_age:
+        display_name: Edad
+      relation_date_of_birth:
+        display_name: Fecha de nacimiento
+      relation_language:
+        display_name: Idioma
+      relation_religion:
+        display_name: Religión
+      relation_ethnicity:
+        display_name: Etnia
+      relation_sub_ethnicity1:
+        display_name: Ladino
+      relation_sub_ethnicity2:
+        display_name: Maya/Xinca/Garífuna
+      relation_nationality:
+        display_name: Nacionalidad
+      relation_comments:
+        display_name: Información adicional o comentarios
+      contact_information_section:
+        display_name: Información del Contacto
+      relation_address_current:
+        display_name: Dirección actual
+      relation_location_current:
+        display_name: Departamento/Municipio actual
+      relation_address_is_permanent:
+        display_name: "¿Es esta una ubicación permanente?"
+      relation_telephone:
+        display_name: Teléfono
+      separation_history_section:
+        display_name: Historial de la separación
+      date_of_separation:
+        display_name: Fecha de la separación
+      separation_cause:
+        display_name: "¿Cual fue la principal razón de la separación?"
+      separation_cause_other:
+        display_name: "Si hay otras, por favor explique"
+      separation_evacuation:
+        display_name: "La separación se produjo durante una evacuación?"
+      separation_details:
+        display_name: Circunstancias de la separación (describa en detalle por favor)
+      address_separation:
+        display_name: Dirección de la separación (lugar)
+      location_separation:
+        display_name: Departamento/Municipio de la separación
+      address_last:
+        display_name: Última dirección
+      landmark_last:
+        display_name: Último Punto de Referencia de Domicilio
+      location_last:
+        display_name: Último Departamento/Municipio
+      telephone_last:
+        display_name: Último número telefónico
+      additional_tracing_info:
+        display_name: "¿Alguna información adicional que pudiera ayudar en el seguimiento o búsqueda?"
+      disclosure_other_orgs:
+        display_name: "¿El solicitante esta de acuerdo en compartir la información recolectada con otras organizaciones?"
+        tick_box_label: 'Si'

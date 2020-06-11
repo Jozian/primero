@@ -1,0 +1,48 @@
+---
+es_GT:
+  tracing:
+    name: Seguimiento o búsqueda
+    description: Seguimiento o búsqueda
+    fields:
+      matched_tracing_request_id:
+        display_name: "ID de la vinculación en el proceso de seguimiento o búsqueda solicitada "
+      separation_separator:
+        display_name: Historia de la separación
+      tracing_status:
+        display_name: "Situación del seguimiento -en el Plan de Caso- "
+      date_of_separation:
+        display_name: Fecha de la separación
+      separation_cause:
+        display_name: "Cuál fue la principal causa de la separación?"
+      separation_cause_other:
+        display_name: "Si existen otras causas, por favor especifique"
+      separation_other_applicable_causes:
+        display_name: 'Si lo considera importante, cuáles serían otras causas de la separación?'
+      separation_details:
+        display_name: Circunstancias de la separación (por favor sea lo más detallado posible)
+      separation_additional_movements:
+        display_name: "Describa los diferentes lugares  donde estuvo el niño, niña o adolescente desde la separación hasta donde se encuentra actualmente"
+      separation_witnessed_violence:
+        display_name: "¿El niño, niña o adolescente afrontó o fue testigo de algún tipo de violencia, daño o amenaza durante su recorrido?"
+      separation_witnessed_violence_comments:
+        display_name: "Describa lo que tuvo que presenciar o afrontar el niño, niña o adolescente"
+      address_separation:
+        display_name: Dirección de la separación  (lugar específico)
+      location_separation:
+        display_name: Departamento/Municipio de la separación
+      additional_tracing_info:
+        display_name: Información adicional que pudiera ayudar en el seguimiento o búsqueda
+      evacuation_status:
+        display_name: "Ha sido evacuado o rescatado el niño, niña o adolescente - derivado de un desastre natural o situación de violencia?"
+      evacuation_agent:
+        display_name: "Si es así, a través de qué Organización o Institución?"
+      evacuation_from:
+        display_name: Evacuado de
+      evacuation_date:
+        display_name: Fecha de la evacuación o rescate
+      evacuation_to:
+        display_name: Evacuado hacia
+      care_arrangements_arrival_date:
+        display_name: Fecha de llegada
+      tracing_actions_section:
+        display_name: Acciones de seguimiento o búsqueda
