@@ -1,0 +1,8 @@
+---
+es_GT:
+  verification:
+    name: Verificación
+    description: Verificación
+    fields:
+      verification_subform_section:
+        display_name: Verificación

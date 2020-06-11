@@ -1,0 +1,46 @@
+---
+es_GT:
+  care_assessment:
+    name: Evaluación del Cuidado
+    description: Evaluación del Cuidado
+    fields:
+      intervention_personal_type_needed:
+        display_name: "El niño, niña o adolescente necesita atención personal?"
+      intervention_personal_notes:
+        display_name: "Anotaciones sobre la atención personal?"
+      intervention_family_type_needed:
+        display_name: "El niño, niña o adolescente necesita atención familiar?"
+      intervention_family_notes:
+        display_name: "Anotaciones sobre la atención familiar?"
+      intervention_medical_type_needed:
+        display_name: "El niño, niña o adolescente necesita atención médica?"
+      intervention_medical_notes:
+        display_name: Anotaciones sobre la atención médica
+      intervention_community_type_needed:
+        display_name: "El niño, niña o adolescente necesita atención en el ámbito comunitario?"
+      intervention_community_notes:
+        display_name: Anotaciones sobre la atención comunitaria
+      intervention_needed_unhcr:
+        display_name: "El niño, niña o adolescente necesita atención de ACNUR?"
+      intervention_unhcr_notes:
+        display_name: Anotaciones sobre la atención de ACNUR
+      intervention_needed_ngo:
+        display_name: "El niño, niña o adolescente necesita atención de ONGs?"
+      intervention_ngo_notes:
+        display_name: Anotaciones de la atención de ONGs
+      intervention_economical_type_needed:
+        display_name: "El niño, niña o adolescente necesita apoyo económico?"
+      intervention_economical_notes:
+        display_name: Anotaciones sobre el apoyo económico
+      intervention_education_type_needed:
+        display_name: "El niño, niña o adolescente necesita atención educativa?"
+      intervention_education_notes:
+        display_name: Anotaciones de la atención educativa
+      intervention_health_type_needed:
+        display_name: "El niño, niña o adolescente necesita atención en Salud?"
+      intervention_health_notes:
+        display_name: Anotaciones de la atenicón en Salud
+      intervention_other_type_needed:
+        display_name: "Otro tipo de atenciones necesitadas?"
+      intervention_other_notes:
+        display_name: Anotaciones de otras atenciones requeridas

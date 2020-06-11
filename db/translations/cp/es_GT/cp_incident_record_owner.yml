@@ -1,0 +1,24 @@
+---
+es_GT:
+  cp_incident_record_owner:
+    name: CP Profesional encargado de la información
+    description: Profesional encargado de la información
+    fields:
+      current_owner_section:
+        display_name: Profesional Encargado actual
+      owned_by:
+        display_name: Número de Colegiado del Trabajador Social
+      assigned_user_names:
+        display_name: Otros usuarios asignados
+      record_history_section:
+        display_name: Historial del caso
+      created_by:
+        display_name: Profesional que aperturó el caso
+      created_organization:
+        display_name: Realizado por la Institución
+      previously_owned_by:
+        display_name: Profesional a cargo del caso anteriormente
+      previous_agency:
+        display_name: Institución anterior
+      module_id:
+        display_name: Módulo

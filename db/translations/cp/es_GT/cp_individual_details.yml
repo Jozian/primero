@@ -1,0 +1,32 @@
+---
+es_GT:
+  cp_individual_details:
+    name: Protección de la Niñez - Datos Individuales
+    description: Protección de la Niñez - Datos Individuales
+    fields:
+      age:
+        display_name: Edad
+      cp_sex:
+        display_name: Sexo
+      cp_nationality:
+        display_name: Nacionalidad
+      national_id_no:
+        display_name: Número de identificación del país -Guatemala CUI o DPI-
+      other_id_type:
+        display_name: Otros documentos de identificación
+      other_id_no:
+        display_name: Número o registros de otros documentos de identificación
+      maritial_status:
+        display_name: "Estrato socioeconómico "
+      educational_status:
+        display_name: Nivel educativo
+        option_strings_text:
+          illiterate: Analfabeta
+          basic: Primaria
+          secondary: Secundaria -básicos y diversificado-
+          bachelor: Licenciatura
+          post_graduate_studies: Estudios de post-grado o Maestría a nivel universitario
+      occupation:
+        display_name: Ocupación
+      cp_disability_type:
+        display_name: Alguna discapacidad y de qué tipo

@@ -1,0 +1,64 @@
+---
+es_GT:
+  care_arrangements:
+    name: Medidas de Cuidado
+    description: Medidas de Cuidado
+    fields:
+      child_caregiver_status:
+        display_name: "Es la misma persona, que estuvo al cuidado del niño, niña o adolescente previamente?"
+      child_caregiver_reason_change:
+        display_name: "Si esta persona es nueva a su cuidado, diga el motivo del cambio"
+        option_strings_text:
+          abuse_exploitation: Abuso y explotación
+          death_of_caregiver: Muerte de la persona encargada
+          Education: Educación
+          ill_health_of_caregiver: Mala salud del cuidador
+          other: Otras
+          poverty: Pobreza
+          relationship_breakdown: "Rompimiento de relación "
+      care_arrangements_type:
+        display_name: "Cuáles son las medidas de cuidado actuales del niño, niña o adolescente?"
+        option_strings_text:
+          stays_with_related_caregiver: Esta bajo el cuidado de un familiar o pariente
+          stays_with_unrelated_caregiver: "Esta bajo el cuidado de una persona ajena a la familia del niño, niña o adolescente"
+          residential_care_center: En un Centro de Cuidado Residencial
+          child_headed_household: "El niño, niña o adolescente es la cabeza del hogar"
+          lives_with_peers_other_children: "Vive con otros niños, niñas o adolescentes"
+          independent_living: Vida independiente
+          other: Otras (por favor especifique)
+      care_arrangements_type_notes:
+        display_name: Anotaciones sobre las medidas de cuidado
+      care_agency_name:
+        display_name: Nombre de la institución proveedora de las medidas de cuidado
+      name_caregiver:
+        display_name: Nombre de la persona que tiene a su cargo el cuidado actualmente
+      relationship_caregiver:
+        display_name: "Relación del cuidador con el niño, niña o adolescente"
+      caregiver_id_type_and_no:
+        display_name: Identificación del cuidador- Nombre y número de registro
+      caregiver_age:
+        display_name: Edad del cuidador
+      address_caregiver:
+        display_name: "Dirección donde vive el niño, niña o adolescente actualmente?"
+      location_caregiver:
+        display_name: Municipio-Departamento donde se ubica el cuidador
+      telephone_caregiver:
+        display_name: Teléfono del cuidador
+      care_arrangement_started_date:
+        display_name: "Cuándo iniciaron las medidas de cuidado?"
+      caregiver_location_status:
+        display_name: El lugar de residencia del cuidador es temporal
+      address_caregiver_future:
+        display_name: "si es cierto, cuál será su futura dirección?"
+      location_caregiver_future:
+        display_name: Cuál sera su futura ubicación
+      telephone_caregiver_future:
+        display_name: "Cuál será su futuro número telefónico?"
+      caregiver_willing_to_continue:
+        display_name: "El cuidador actual desea continuar haciendose cargo del niño, niña o adolescente?"
+      caregiver_willing_to_continue_for_how_long:
+        display_name: "Si es así, por cuanto tiempo?"
+      caregiver_know_family:
+        display_name: "El cuidador conoce a la familia del niño, niña o adolescente?"
+      other_information_from_caregiver:
+        display_name: "Alguna otra información relevante del cuidador con relación a la familia del niño, niña o adolescente?"

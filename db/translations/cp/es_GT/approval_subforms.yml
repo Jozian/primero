@@ -1,0 +1,28 @@
+---
+es_GT:
+  approval_subforms:
+    name: "Subformulario de aprobación "
+    description: Subformulario de Aprobación
+    fields:
+      approval_requested_for:
+        display_name: Aprobación solicitada por
+        option_strings_text:
+          bia: Evaluación de Interés Superior (BIA)
+          case_plan: Plan del Caso
+          closure: Cierre
+      approval_response_for:
+        display_name: Aprobada por
+        option_strings_text:
+          bia: Evaluación de Interés Superior (BIA)
+          case_plan: Plan del Caso
+          closure: Cierre
+      approval_for_type:
+        display_name: Tipo de Plan del Caso
+      approval_date:
+        display_name: Fecha
+      approval_manager_comments:
+        display_name: Comentarios del Supervisor
+      approval_status:
+        display_name: Estado de la Aprobación
+      approved_by:
+        display_name: Aprobado por

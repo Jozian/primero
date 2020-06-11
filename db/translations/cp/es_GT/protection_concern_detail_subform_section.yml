@@ -1,0 +1,32 @@
+---
+es_GT:
+  protection_concern_detail_subform_section:
+    name: Subformulario de Medidas de Protección
+    description: Subformulario de Medidas de Protección
+    fields:
+      protection_concern_type:
+        display_name: Tipo de medida de protección
+      date_concern_identified:
+        display_name: "¿Período en que fue identificada?"
+        option_strings_text:
+          follow_up_after_reunification: Seguimiento después de la reunificación
+          follow_up_in_care: Seguimiento de las medidas de protección otorgadas
+          registration: Registro
+          reunification: Reunificación
+          verification: Verificación
+      concern_details:
+        display_name: Detalles de la medida de protección
+      concern_intervention_needed:
+        display_name: "¿Qué tipo de abordaje necesita?"
+      date_concern_intervention_needed_by:
+        display_name: Abordaje realizado por
+      concern_action_taken_already:
+        display_name: "¿Qué acciones se han tomado?"
+        tick_box_label: 'Si'
+      concern_action_taken_details:
+        display_name: Describa los detalles de las acciones realizadas
+      concern_action_taken_date:
+        display_name: Fecha en que las acciones fueron realizadas
+      concern_is_resolved:
+        display_name: "¿Fueron resueltas las medidas o necesidades de protección?"
+        tick_box_label: 'Si'

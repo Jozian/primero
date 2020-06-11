@@ -1,0 +1,58 @@
+---
+es_GT:
+  incident_details_subform_section:
+    name: Subformulario de Detalles de la situación de violencia
+    description: Subformulario de Detalles de la situación de violencia
+    fields:
+      cp_incident_identification_violence:
+        display_name: Etapa del proceso de la situación de violencia
+      cp_incident_violence_header:
+        display_name: Situación de Violencia
+      cp_incident_date:
+        display_name: Fecha de la situación de violencia
+      cp_incident_location_type:
+        display_name: Lugar de la situación de violencia
+      cp_incident_location_type_other:
+        display_name: "Si existen otros, por favor especifique"
+      cp_incident_location:
+        display_name: Departamento/Municipio de la situación de violencia
+      cp_incident_timeofday:
+        display_name: "¿En qué momento del día se dió la situación de violencia?"
+      cp_incident_timeofday_actual:
+        display_name: Por favor especifique la hora de la situación de violencia
+      cp_incident_violence_type:
+        display_name: "¿Qué tipo de violencia presenta el niño, niña o adolescente?"
+      cp_incident_previous_incidents:
+        display_name: "Existe algún antecedente de violencia contra el niño, niña o adolescente?"
+      cp_incident_previous_incidents_description:
+        display_name: "Si si, haga un breve resúmen"
+      cp_incident_abuser_header:
+        display_name: Información del agresor
+      cp_incident_abuser_name:
+        display_name: Nombre
+      cp_incident_perpetrator_nationality:
+        display_name: Nacionalidad
+      perpetrator_sex:
+        display_name: Sexo
+      cp_incident_perpetrator_date_of_birth:
+        display_name: Fecha de nacimiento
+      cp_incident_perpetrator_age:
+        display_name: Edad
+      cp_incident_perpetrator_national_id_no:
+        display_name: "Número de DPI "
+      cp_incident_perpetrator_other_id_type:
+        display_name: Si existe otro documento especifique
+      cp_incident_perpetrator_other_id_no:
+        display_name: Otro tipo de documento de identificación / pasaporte
+      cp_incident_perpetrator_marital_status:
+        display_name: Estrato socioeconómico
+      cp_incident_perpetrator_mobile_phone:
+        display_name: Teléfono celular
+      cp_incident_perpetrator_phone:
+        display_name: Teléfono fijo
+      cp_incident_perpetrator_address:
+        display_name: Dirección exacta
+      cp_incident_perpetrator_occupation:
+        display_name: "Ocupación "
+      cp_incident_perpetrator_relationship:
+        display_name: Relación con la víctima

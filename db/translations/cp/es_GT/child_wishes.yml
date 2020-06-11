@@ -1,0 +1,46 @@
+---
+es_GT:
+  child_wishes:
+    name: "Solicitud del niño, niña o adolescente"
+    description: "Solicitudes del niño, niña o adolescente"
+    fields:
+      wishes_child_family_tracing:
+        display_name: "Solicita el niño, niña o adolescente buscar a los miembros de su familia?"
+      wishes_reason_no_tracing:
+        display_name: "Si el niño, niña y adolescente no solicita buscar a los miembros de su familia explique por qué?"
+      wishes_reunification:
+        display_name: "El niño, niña o adolescente solicita reunificarse con su familia?"
+        option_strings_text:
+          yes_as_soon_as_possible: "Si, lo más pronto posible"
+          yes_but_later: "Si, pero después"
+          not_sure: No esta seguro
+          'no': 'No'
+      wishes_reason_no_reunification:
+        display_name: "Si la respuesta fue \"no\", \"no está seguro, o \"sí pero después\", explique por qué"
+      wishes_contacted:
+        display_name: "El niño, niña o adolescente se ha comunicado o estado en contacto con algún familiar o cuidador principal?"
+      wishes_contacted_details:
+        display_name: Por favor proporcione detalles
+      child_preferences_section:
+        display_name: "Preferencias del niño, niña o adolescente (en cuanto a la elección de cuidado permanente o temporal). "
+      wishes_care_arrangement_desired:
+        display_name: "Desea el niño, niña o adolescente continuar con las actuales medidas de cuidado?"
+      wishes_reason_no_care_arrangement:
+        display_name: "Si el niño, niña o adolescente NO lo desea continuar con las actuales medidas de cuidado, explique por qué"
+      wishes_care_arrangement_type_desired:
+        display_name: "Escriba qué tipos de medidas de cuidado solicita el niño, niña o adolescente"
+        option_strings_text:
+          independent_living: Vida independiente
+          alternative_interim_care: Cuidado Temporal (en acogimiento familiar o residencial)
+          with_husband_wife_partner: Con su esposa/esposo/conviviente/compañero/compañera
+          other_family: Otra familia
+          dont_know: No sabe
+          other: Otros
+      wishes_care_arrangement_type_other:
+        display_name: "Especifique si el niño, niña o adolescente solicita otro tipo de medidas de cuidado"
+      wishes_location_plan_live:
+        display_name: "Dónde el niño, niña o adolescente solicita/planea vivr?"
+      wishes_address_plan_live:
+        display_name: "Dirección donde el niño, niña o adolescente desea/planea vivir?"
+      wishes_landmarks_plan_live:
+        display_name: "Descripción del lugar donde el niño, niña o adolescente solicita/ planea vivir."

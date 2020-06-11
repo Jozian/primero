@@ -1,0 +1,8 @@
+---
+es_GT:
+  conference_details_container:
+    name: Detalles de la Reunión con Relación al Caso
+    description: Detalles de la Reunión con Relación al Caso
+    fields:
+      conference_details_subform:
+        display_name: Detalles de la Reunión con Relación al Caso

@@ -1,0 +1,22 @@
+---
+es_GT:
+  protection_concern:
+    name: Medidas de Protección
+    description: Medidas de Protección
+    fields:
+      protection_status:
+        display_name: Situación actual de las medidas de protección
+      urgent_protection_concern:
+        display_name: "¿Necesita alguna medida de protección urgente?"
+      risk_level:
+        display_name: Nivel de riesgo
+      displacement_status:
+        display_name: Situación de desplazamiento
+      protection_concerns:
+        display_name: Medidas de Protección
+      protection_concerns_other:
+        display_name: "Si existe alguna otra medida de protección, por favor especifique"
+      unhcr_needs_codes:
+        display_name: Códigos de ACNUR
+      disability_type:
+        display_name: Tipo de discapacidad

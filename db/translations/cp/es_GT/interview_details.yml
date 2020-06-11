@@ -1,0 +1,38 @@
+---
+es_GT:
+  interview_details:
+    name: Detalles de la Entrevista
+    description: Detalles de la Entrevista
+    fields:
+      arrival_date:
+        display_name: Fecha de Ingreso
+      interviewer_name:
+        display_name: Nombre del o la Persona que Entrevista
+      interviewer_postion:
+        display_name: Puesto del o la Persona que Entrevista
+      interviewer_agency:
+        display_name: Nombre del Centro o Servicio que Entrevista
+        option_strings_text:
+          agency_1: Institución 1
+          agency_2: Institución 2
+          agency_3: Institución 3
+          agency_4: Institución 4
+      address_interview:
+        display_name: Dirección del Centro o Servicio que realiza la Entrevista
+      landmark_interview:
+        display_name: Ubicación del Centro o Servicio que realiza la Entrevista
+      location_interview:
+        display_name: Departamento o Municipio donde se encuentra el Centro o Servicio que realiza la Entrevista
+      source_interview:
+        display_name: Información obtendida de
+        option_strings_text:
+          child: "Niño, Niña o Adolescente"
+          caregiver: Cuidador Principal o Responsable
+          gbv_survivor: "Es sobreviviente de violencia por género?"
+          other: "Otro, por favor especificar"
+      source_interview_other:
+        display_name: Si esta información es obtenida de otra persona por favor especifique
+      other_org_interview_status:
+        display_name: "Fue el niño, niña o adolescente entrevistado previamente por otra organización?"
+      other_org_reference_no:
+        display_name: "Número de Referencia del Caso "

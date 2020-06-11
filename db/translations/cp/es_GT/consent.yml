@@ -1,0 +1,42 @@
+---
+es_GT:
+  consent:
+    name: Datos Confidenciales
+    description: Datos Confidenciales
+    fields:
+      interview_subject:
+        display_name: El Consentimiento se obtuvo de
+        option_strings_text:
+          individual: "Propio / niño, niña o adolescente."
+          caregiver: Cuidador o cuidadora
+          other: Otros (por favor especifique)
+      consent_source_other:
+        display_name: "Si seleccionó otros, por favor especifique"
+      consent_for_services:
+        display_name: "Se ha obtenido el consentimiento para que el niño, niña o adolescente reciba atención de su caso y servicios  "
+        help_text: Esto incluye el consentimiento para compartir información con otras organizaciones que proveen servicios
+        tick_box_label: 'Si'
+      consent_reporting:
+        display_name: Consentimiento ha sido dado para compartir información para propósito de reporte.
+      consent_for_tracing:
+        display_name: "Ha sido obtenido el consentimiento para revelar información de seguimiento del caso. "
+        help_text: "Si la respuesta es NO, el record del caso no será mostrado en reuniones de búsqueda de información o seguimiento."
+      disclosure_other_orgs:
+        display_name: "La persona que dio el consentimiento esta de acuerdo en compartir la información obtenida con otras organizaciones para la provisión de servicios?"
+        help_text: "Esto incluye compartir información con otras organizaciones proveedoras de servicios, esto no inclye compartir información con ACNUR. "
+        tick_box_label: 'Si'
+      unhcr_export_opt_out:
+        display_name: "Ha establecido el niño, niña o adolescente que no quiere compartir información personal en detalle  con ACNUR?"
+        help_text: "Si el niño, niña o adolescente no quiere compartir  información con ACNUR, selecione \"SI\" a esta pregunta (información personal en detalle no sera incluido en el reporte de traslado/desplazamiento/ migración a ACNUR si esto es marcado con\"SI\")"
+      consent_share_separator:
+        display_name: Consentimiento para compartir detalles de la información
+      disclosure_deny_details:
+        display_name: "¿Qué información que brinda el niño, niña o adolescente debería ser retenida?"
+      withholding_info_reason:
+        display_name: Razón por la cual la información debería ser retenida
+        option_strings_text:
+          fear: Temor a que se haga daño así mismo o a otros
+          communicate_information: Desearían ellas o ellos mismos comunicar la información
+          others: "Otras razones, por favor especifique"
+      withholding_info_other_reason:
+        display_name: "Si por alguna razón será retenida la información, por favor especifique"
