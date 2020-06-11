@@ -1,0 +1,30 @@
+---
+es_GT:
+  tracing_actions_section:
+    name: Seguimiento de las Acciones
+    description: Subformulario de Seguimiento de las Acciones
+    fields:
+      date_tracing:
+        display_name: Fecha de Seguimiento o búsqueda
+      tracing_type:
+        display_name: Tipo de acción realizada
+        option_strings_text:
+          case_by_case_tracing: Seguimiento de caso a caso
+          individual_tracing: Seguimiento individual
+          mass_tracing: "Búsqueda por medios de publicidad (ej. medios de comunicación, redes sociales)"
+          photo_tracing: Fotografía de seguimiento
+          referral_to_ngo: Derivado a Organismo No Gubernamental
+          referral_to_icrc: Derivado al Comité Internacional de la Cruz Roja
+      address_tracing:
+        display_name: Dirección/municipio donde se llevó a cabo las acciones de seguimiento o búsqueda
+      location_tracing:
+        display_name: Departamento/Municipio del seguimiento o búsqueda
+      tracing_action_description:
+        display_name: Acciones significativas realizadas
+      tracing_outcome:
+        display_name: Resultados de las acciones de seguimiento o búsqueda
+        option_strings_text:
+          pending: Pendiente
+          successful: Exitosa
+          unsuccessful: No Exitosa
+          'yes': 'Si'

@@ -1,0 +1,8 @@
+---
+es_GT:
+  followup:
+    name: Seguimiento
+    description: Seguimiento
+    fields:
+      followup_subform_section:
+        display_name: Seguimiento

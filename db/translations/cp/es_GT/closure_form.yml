@@ -1,0 +1,38 @@
+---
+es_GT:
+  closure_form:
+    name: Cierre
+    description: Cierre
+    fields:
+      closure_approved:
+        display_name: Aprobado  por el supervisor
+        tick_box_label: 'Si'
+      closure_approved_date:
+        display_name: Fecha
+      closure_approved_comments:
+        display_name: Comentarios del supervisor
+      approval_status_closure:
+        display_name: Situación actual  de la aprobación de cierre
+      child_status:
+        display_name: Estado del caso
+      closure_reason:
+        display_name: "Cuál es la razón por la cual se está cerrando el expedietne del niño, niña o adolescente?"
+        option_strings_text:
+          death_of_child: "Muerte del niño, niña o adolescente"
+          formal_closing: "Cierre por finalización de la atención. "
+          not_seen_during_verification: No ha sido ubicado durante la visita o seguimiento
+          repatriated: Repatriado
+          transferred: Transferido a otra institución
+          other: Otros
+      closure_reason_other:
+        display_name: 'Si otras,  favor especificar'
+      date_closure:
+        display_name: Fecha de cierre
+      name_caregiver_closing:
+        display_name: Nombre del cuidador
+      relationship_caregiver_closing:
+        display_name: Relación con el cuidador
+      address_caregiver_closing:
+        display_name: Dirección del cuidador
+      location_caregiver_closing:
+        display_name: Ubicación del cuidador (municipio o departamento)

@@ -1,0 +1,24 @@
+---
+es_GT:
+  child_preferences_section:
+    name: "Personas o Lugares de preferencia para permanercer del niño, niña o adolescente"
+    description: "Formulario de Preferencias del niño, niña o adolescente"
+    fields:
+      wishes_name:
+        display_name: "Persona (as) con las que el niño, niña o adolescente desea ser ubicado"
+      wishes_preference_relocated:
+        display_name: "Razón por la cual el niño, niña o adolescente debiera ser reubicado con esta persona"
+        option_strings_text:
+          first_choice: Primera opción
+          second_choice: Segunda opción
+          third_choice: Tercera opción
+      wishes_relationship:
+        display_name: "Cuál es la relación de esta persona con el niño, niña o adolescente?"
+      wishes_address:
+        display_name: Última dirección conocida
+      wishes_landmark:
+        display_name: Referencia
+      wishes_location:
+        display_name: Última ubicación conocida
+      wishes_telephone:
+        display_name: Teléfono

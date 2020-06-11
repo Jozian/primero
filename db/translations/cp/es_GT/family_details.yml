@@ -1,0 +1,14 @@
+---
+es_GT:
+  family_details:
+    name: Características Familiares
+    description: Características Familiares
+    fields:
+      family_size:
+        display_name: Tamaño de la familia - número de miembros
+      family_notes:
+        display_name: Información sobre la familia
+      childs_intended_address:
+        display_name: "Cuál es la dirección prevista para el niño, niña o adolescente?"
+      family_details_section:
+        display_name: Información adicional detallada de la familia

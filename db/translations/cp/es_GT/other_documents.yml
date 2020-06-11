@@ -1,0 +1,8 @@
+---
+es_GT:
+  other_documents:
+    name: Otros Documentos
+    description: Otros Documentos
+    fields:
+      upload_other_document:
+        display_name: Otros Documentos

@@ -1,0 +1,64 @@
+---
+es_GT:
+  family_details_section:
+    name: "Características de la Familia o Persona que aloja al niño, niña o adolescente"
+    description: "Características de la familia "
+    fields:
+      relation_name:
+        display_name: Nombre y Apellidos
+      relation:
+        display_name: "Cómo esta ellos relacionados con el niño, niña o adolescente?"
+      relation_is_caregiver:
+        display_name: "Es ésta persona la encargada de su cuidado?"
+      relation_child_lived_with_pre_separation:
+        display_name: "Vivió el niño, niña o adolescente con esta persona antes de su separación?"
+      relation_child_is_in_contact:
+        display_name: "Esta el niño, niña o adolescente en contacto con esta persona?"
+      relation_child_is_separated_from:
+        display_name: "Esta el niño, niña o adolescente separado de esta persona?"
+      relation_identifiers:
+        display_name: Enumere todas las instituciones
+      relation_nickname:
+        display_name: Apodo o sobrenombre
+      relation_is_alive:
+        display_name: "Se encuentra vivo este miembro de la familia?"
+        option_strings_text:
+          unknown: Se desconoce
+          alive: Vivo
+          dead: Muerto
+      relation_death_details:
+        display_name: "Si esta muerto, por favor especifique más detalles"
+      relation_age:
+        display_name: Edad
+      relation_date_of_birth:
+        display_name: Fecha de nacimiento
+      relation_language:
+        display_name: Idioma
+      relation_religion:
+        display_name: Religión
+      relation_ethnicity:
+        display_name: Origen Etnico
+      relation_sub_ethnicity1:
+        display_name: Origen étnico 1
+      relation_sub_ethnicity2:
+        display_name: Origen étnico 2
+      relation_nationality:
+        display_name: Nacionalidad
+      relation_comments:
+        display_name: Comentarios adicionales
+      relation_occupation:
+        display_name: Ocupación
+      relation_address_current:
+        display_name: Dirección actual
+      relation_address_is_permanent:
+        display_name: "Es esta una dirección permanente?"
+      relation_location_current:
+        display_name: Ubicación actual -departamento/municipio
+      relation_address_last:
+        display_name: Última dirección conocida
+      relation_location_last:
+        display_name: Última ubicación conocida - departamento/municipalidad
+      relation_telephone:
+        display_name: Número telefónico
+      relation_other_family:
+        display_name: "Otras personas de confianza o conocidas para el niño, niña o adolescente?"
