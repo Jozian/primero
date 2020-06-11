@@ -1,0 +1,24 @@
+---
+es_GT:
+  cp_offender_details:
+    name: "Datos del agresor o violentador "
+    description: Datos del agresor o violentador
+    fields:
+      cp_incident_perpetrator_nationality:
+        display_name: Nacionalidad
+      perpetrator_sex:
+        display_name: Sexo
+      cp_incident_perpetrator_age:
+        display_name: Edad
+      cp_incident_perpetrator_national_id_no:
+        display_name: Número de identificación -DPI- o CUI
+      cp_incident_perpetrator_other_id_type:
+        display_name: Otro tipo de documento de identificación / pasaporte
+      cp_incident_perpetrator_other_id_no:
+        display_name: Número o registro de cualquier otra identificación -si la tuviera-
+      cp_incident_perpetrator_marital_status:
+        display_name: Estatus Social
+      cp_incident_perpetrator_occupation:
+        display_name: Ocupación
+      cp_incident_perpetrator_relationship:
+        display_name: Relación con la víctima

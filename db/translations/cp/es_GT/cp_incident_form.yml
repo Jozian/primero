@@ -1,0 +1,30 @@
+---
+es_GT:
+  cp_incident_form:
+    name: "Información de la situación de violencia ocurrida al niño, niña o adolescente"
+    description: "Información de la situación de violencia ocurrida al niño, niña o adolescente"
+    fields:
+      cp_short_id:
+        display_name: Número del caso o expediente
+      status:
+        display_name: Fase del proceso en que se encuentra el caso de violencia
+      cp_incident_identification_violence:
+        display_name: Identificación del caso o situación de violencia
+      cp_incident_date:
+        display_name: Fecha en que se dió la situación de violencia
+      cp_incident_location_type:
+        display_name: Lugar del donde sucedió la situación de violencia -lo más específico posible-
+      cp_incident_location_type_other:
+        display_name: "Si existen otros tipos de violencia, por favor especifique. "
+      cp_incident_location:
+        display_name: Lugar donde sucedió la situación de violencia Departamento/Municipio
+      cp_incident_timeofday:
+        display_name: "Hora y día  en que sucedió "
+      cp_incident_timeofday_actual:
+        display_name: "Por favor, especifique la hora exacta en que sucedió la situación de violencia"
+      cp_incident_violence_type:
+        display_name: Tipo de violencia
+      cp_incident_previous_incidents:
+        display_name: "¿Existe un antecedente de violencia contra el niño, niña o adolescente?"
+      cp_incident_previous_incidents_description:
+        display_name: "Si existe, por favor descríbala. "

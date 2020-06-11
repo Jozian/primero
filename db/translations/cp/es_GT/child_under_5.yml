@@ -1,0 +1,38 @@
+---
+es_GT:
+  child_under_5:
+    name: Niños o niñas menores de 5 años
+    description: Niños o niñas menores de 5 años
+    fields:
+      date_child_found:
+        display_name: Fecha en la que el niño o niña fue encontrado
+      location_child_found:
+        display_name: Lugar donde el niño o niña fue encontrado (Municipio o Departamento)
+      address_child_found:
+        display_name: "Nombre de la Aldea, Comunidad o dirección exacta donde fue encontrado"
+      found_child_details:
+        display_name: Por favor describa con detalle cómo el niño o niña fue encontrado o llevado al Centro de Cuidado
+      location_found_child_people_was_with:
+        display_name: "Dónde esta el grupo de personas que fueron desplazados o movilizados en esa ocación?"
+      address_found_child_people_was_with:
+        display_name: "Aldea, Comunidad o dirección"
+      child_finder:
+        display_name: "Nombre de la persona que entregó al niño o niña al Centro de Cuidado?"
+      relationship_child_finder:
+        display_name: "Tiene alguna relación esta persona con el niño o niña?"
+      location_child_finder:
+        display_name: Ubicación de la persona que encontró al niño o niña
+      address_child_finder:
+        display_name: Dirección de la persona que encontró al niño o niña
+      child_finder_notes:
+        display_name: "Si la dirección exacta de la persona no es conocida, cómo se le pudiera encontrar o saber su nombre (es), dirección (es) ó alguien que pudiera conocerle?"
+      child_belongings:
+        display_name: "Existen algunas de las vestimentas o pertenencias con las que el niño o niña fue encontrado?"
+      child_belongings_details:
+        display_name: "Por favor enlistelas y describalas (medallas, brazaletes, colas para el pelo, etc)"
+      child_stories_songs_words:
+        display_name: "Por favor escriba cualquier historia, canciones, palabras que más frecuentemente repetía el niño o niña"
+      child_accent_details:
+        display_name: "Si el niño o niña habla con algún acento y la separación de la familia ha sido por poco tiempo (pocos meses),  de qué lugar cree proviene el niño o niña?"
+      child_specific_behavior:
+        display_name: "Escriba alguna actitud específica del niño o niña que pudiera ayudar a sus padres para identificarle más adelante, tales cómo juegos o algunas cosas que le interesaban específicamente"
