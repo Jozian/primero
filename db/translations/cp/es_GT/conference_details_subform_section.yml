@@ -1,0 +1,57 @@
+---
+es_GT:
+  conference_details_subform_section:
+    name: Junta Técnica / Análisis del Caso
+    description: Junta Técnica /Análisis del Caso
+    fields:
+      conference_date:
+        display_name: Fecha de la Junta Técnica / Análisis del Caso
+      conference_type:
+        display_name: Tipo de Junta Técnica
+        option_strings_text:
+          case_plan_review: Revisión del Plan de Caso
+          case_conference: Reunión sobre el Caso
+          other: Otros
+      conference_type_other:
+        display_name: "Si Otros, por favor especificar"
+      conference_reason:
+        display_name: Razón de la Junta Técnica / Análisis de Caso
+        option_strings_text:
+          removal_child_from_caregiver: "Remoción del niño, niña o adolescente de su cuidador primario"
+          placement_child_alternative_care: "Colocación del niño, niña o adolescente en cuidado alternativo"
+          complex_child_protection_situation: "Estado situacional complejo del niño, niña o adolescente que requiere atención inmediata"
+          family_reunification: Reunificación Familiar
+          transferred: "El niño, niña o adolescente ha sido o será re-ubicado- trasferencia de caso"
+          other: Otros
+      conference_reason_other:
+        display_name: "Si otros, por favor especificar"
+      conference_participants:
+        display_name: Participantes
+        help_text: "Liste cada uno de los participantes en la reunión, incluidos sus nombres, su rol o su relación con el niño, niña o adolescente, su Organización, y un contacto telefónico o correo electrónico."
+      conference_current_situation:
+        display_name: Breve resumen de la situación actual
+        help_text: "Resalte todas aquellas situaciones de protección, de las medidas de protección o cuidado del niño, niña o adolescente y un repaso de las razones de junta técnica o análisis del caso. "
+      conference_outcome_recommendations:
+        display_name: Resultados y recomendación del equipo multidisciplinario.
+        help_text: "Breve resumen que justifique las decisiones hechas y la recomendaciones dada por el equipo multidisciplinario. "
+      conference_case_status:
+        display_name: Estado o etapa del proceso del caso
+        help_text: "Si el caso será cerrado, por favor complete el formulario de cierre."
+      conference_case_status_other:
+        display_name: "Si otros, por favor especifique."
+      conference_case_transfer_reason:
+        display_name: "Si el caso será derivado o transferido, por favor explique la razón"
+        guiding_questions: |-
+          Otra Institución  se encuentra en mejor posición de atender el caso y brindar servicios especializados para el niño, niña o adolescente y su familia;  El niño, niña o adolescente y su familia se trasladan a una nueva localidad; el caso será referido a la Institución de Protección que trabaja en esa región o localidad.  Existen razones organizativas para referir el caso, el caso será cerrado y referido a otra Institución.  El niño, niña o adolescente esta siendo reubicado debido a preocupaciones en su familia o comunidad.   El niño, niña o adolescente ha cumplido los 18 años y el caso ha sido referido a una autoridad de protección que brinde servicios para mayores de edad derivado que el niño, niña o adolescente tiene discapacidades físicas o cognitivas y necesita que se continue con la protección especializada. Otras. 
+        option_strings_text:
+          specialized_service: Requiere de servicios especializados
+          new_location: Se cambiará a una nueva ubicación
+          organisational_reasons: Razones organizativas para referir el caso
+          protection_concerns: "El niño, niña o adolescente está siendo reubicado para su protección"
+          child_turned_18: "Adolescentes que ya tienen 18 años que requieran seguimiento o posean discapacidades. "
+          other: Otros
+      conference_case_transfer_reason_other:
+        display_name: "Si otros, por favor especifique"
+      conference_followup_actions:
+        display_name: "Acciones de seguimiento, derivación, servicios requeridos y las personas responsables"
+        guiding_questions: "Asegurarse que el niño, niña o adolescente y su cuidador estén informados de los resultados de la Junta Técnica o Análisis del caso del equipo-multidisciplinario- así como de las acciones y recomendaciores requeridas. Planear acciones para actualizar el plan de caso indiviual por la Trabajadora Social o Personal Institucional. "

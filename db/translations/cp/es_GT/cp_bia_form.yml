@@ -1,0 +1,30 @@
+---
+es_GT:
+  cp_bia_form:
+    name: Formulario de Evaluación de Interés Superior (BIA)
+    description: Formulario de Evaluación de Interés Superior (BIA)
+    fields:
+      bia_approved:
+        display_name: Aprobado por el Supervisor
+        tick_box_label: 'Si'
+      bia_approved_date:
+        display_name: Fecha
+      bia_approved_comments:
+        display_name: Comentarios del Supervisor
+      approval_status_bia:
+        display_name: Estado de la Aprobación
+      case_id_display:
+        display_name: Número de identificación del caso Primero
+      bia_header:
+        display_name: "Formulario de evaluación (Para ser completados para todos los casos de protección de la niñez incluyendo Niños, niñas y adolescentes (NNA) no acompañados o separados-UASC)"
+      case_priority:
+        display_name: Prioridad
+        option_strings_text:
+          2_days: 2 días
+          1_week: 1 semana
+          30_days: 30 días
+          non_urgent: No urgente (ingrese la fecha)
+      case_priority_date:
+        display_name: Fecha de re-evaluación
+      cpims_id:
+        display_name: Código del Sistema Primero

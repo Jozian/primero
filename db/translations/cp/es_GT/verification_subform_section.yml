@@ -1,0 +1,57 @@
+---
+es_GT:
+  verification_subform_section:
+    name: Subformulario de verificación
+    description: Subformulario de verificación
+    fields:
+      verification_name_inquirer:
+        display_name: Nombre del solicitante
+      verification_inquirer_relationship:
+        display_name: Relación
+      verification_inquirer_sex:
+        display_name: Sexo
+      verification_inquirer_age:
+        display_name: Edad
+      verification_inquirer_address_current:
+        display_name: Dirección
+      verification_inquirer_location:
+        display_name: Departamento/Municipio - actual - donde radica
+      verification_phone_inquirer:
+        display_name: Teléfono
+      verification_inquirer_wants_to_care_for_child:
+        display_name: "Desea que el niño, niña o adolescente viva con usted?"
+      verification_inquirer_able_to_care_for_child:
+        display_name: "¿Usted esta en la posibilidad de cuidar del o de los niños, niñas o adolescentes?"
+      verification_alternate_caregiver_exists:
+        display_name: "Si no, ¿existe otro miembro de la familia que pudiera hacerse cargo?"
+      verification_alternate_caregiver_name:
+        display_name: "Indique el nombre de los familiares o acogedores que pudieran hacerse cargo del niño, niña o adolescente de manera temporal"
+      verification_alternate_caregiver_relationship:
+        display_name: "¿Cuál es la relación con el cuidador temporal?"
+      verification_address_alternate_caregiver:
+        display_name: Dirección de la persona (cuidador temporal)
+      verification_location_alternate_caregiver:
+        display_name: "Dirección, exacta del cuidador temporal del niño, niña o adolescente"
+      verification_comments:
+        display_name: Comentarios
+      verification_acceptance_date:
+        display_name: "Fecha de la aceptación de cuidado del niño, niña o adolescente"
+      verification_inquirer_known_to_child:
+        display_name: "¿Está el niño, niña o adolescente enterado de la solicitud de verificación?"
+      verification_inquirer_child_wishes_reunification_with:
+        display_name: "¿El niño, niña o adolescente desea estar al cuidado de esta persona?"
+      verification_inquirer_information_match:
+        display_name: "¿Concuerdan la información dada por el niño, niña y adolecente y el adulto?"
+      verification_inquierer_recommendation:
+        display_name: "¿Se recomienda la reunificación del niño, niña o adolescente y sino qué otra acción se puede ejecutar?"
+        option_strings_text:
+          'yes': 'Si'
+          'no': 'No'
+          further_tracing: Indique las acciones previstas de seguimiento
+          long_term_alternative_care: Cuidado alternativo prolongado
+          reunification: Reunificación
+          reunification_enhanced_support: Reunificación con seguimiento periódico
+      verification_inquierer_recommendation_comments:
+        display_name: Comentarios adicionales
+      verification_date:
+        display_name: Fecha de verificación

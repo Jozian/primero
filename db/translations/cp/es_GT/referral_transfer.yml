@@ -1,0 +1,14 @@
+---
+es_GT:
+  referral_transfer:
+    name: Derivación y Traslado
+    description: Lista de derivados y trasladados
+    fields:
+      transfer_status:
+        display_name: Estado de traslado
+        option_strings_text:
+          in_progress: En progreso
+          accepted: Aceptado
+          rejected: Rechazado
+      transitions:
+        display_name: Derivación y Traslado

@@ -1,0 +1,93 @@
+---
+es_GT:
+  basic_identity:
+    name: Datos Personales
+    description: "Datos personales de un niño, niña o adolescente separado o no acompañado"
+    fields:
+      case_id_display:
+        display_name: Código del Caso
+      cpims_id:
+        display_name: Código del Sistema Primero
+        help_text: ID del Sistema Anterior de Gestión de Caos (u otro sistema)
+      marked_for_mobile:
+        display_name: "Para uso de celular?"
+        tick_box_label: 'Si'
+      child_status:
+        display_name: Estado del Caso
+      case_status_reopened:
+        display_name: "Caso Re-abierto?"
+        tick_box_label: 'Si'
+      name:
+        display_name: Nombre Completo
+      name_first:
+        display_name: Primer Nombre
+      name_middle:
+        display_name: Segundo Nombre
+      name_last:
+        display_name: Apellidos
+      name_nickname:
+        display_name: Sobrenombre
+      name_other:
+        display_name: Otros Nombres
+      name_given_post_separation:
+        display_name: "Nombre(s) dado al niño, niña o adolescente después de la separación o abandono?"
+      registration_date:
+        display_name: Fecha de Ingreso o Primer Entrevista
+      assessment_due_date:
+        display_name: Fecha de Vencimiento de la Evaluación/Diagnóstico
+      sex:
+        display_name: Sexo
+      age:
+        display_name: Edad
+      date_of_birth:
+        display_name: Fecha de Nacimiento
+      estimated:
+        display_name: "Es la edad aproximada?"
+        tick_box_label: 'Si'
+      physical_characteristics:
+        display_name: Características Personales
+      ration_card_no:
+        display_name: Número de carnét -si aplica-
+      icrc_ref_no:
+        display_name: Número de referencia ICRC
+      rc_id_no:
+        display_name: Número de identificación de RC
+      biometrics_id:
+        display_name: Biométricos
+        help_text: "Para el uso de identificación biométrica, si es utilizada"
+      unhcr_id_no:
+        display_name: Número de caso proGres
+        help_text: Número de certificado de solicitud de asilo de ACNUR
+      unhcr_individual_no:
+        display_name: Identificación personal proGres
+        help_text: Esta es la identificación mostrada en la hoja de seguimiento.
+      un_no:
+        display_name: Número de registro de Naciones Unidas
+      national_id_no:
+        display_name: Código Único de Identificación-CUI
+      other_id_type:
+        display_name: "Si existe otro documento de identificación, describalo."
+      other_id_no:
+        display_name: Número del documento descrito
+      other_agency_id:
+        display_name: Identificación de otra Agencia
+      other_agency_name:
+        display_name: "Nombre de la Agencia "
+      documents_carried:
+        display_name: "Lista de documentos y/o pertenencias que el niño, niña o adolescente trae consigo"
+      nationality:
+        display_name: Nacionalidad
+      maritial_status:
+        display_name: Estado Civil
+      occupation:
+        display_name: Ocupación
+      address_current:
+        display_name: Dirección Actual
+      landmark_current:
+        display_name: Punto de Referencia
+      location_current:
+        display_name: Ubicación Actual
+      address_is_permanent:
+        display_name: "Es esta dirección permanente?"
+      telephone_current:
+        display_name: Número de Teléfono Actual

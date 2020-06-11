@@ -1,0 +1,43 @@
+---
+es_GT:
+  transitions:
+    name: Subformulario de Transiciones
+    description: Formulario de transiciones
+    fields:
+      type:
+        display_name: Tipo o clase
+      to_user_local:
+        display_name: Usuario local
+      to_user_remote:
+        display_name: Usuario remoto
+      to_user_local_status:
+        display_name: Situación
+        option_strings_text:
+          in_progress: En desarrollo
+          pending: Pendiente
+          accepted: Aceptada
+          rejected: Rechazada
+          done: Finalizada
+      rejected_reason:
+        display_name: Razón del rechazo (si aplica)
+      to_user_agency:
+        display_name: Institución del usuario remoto
+      notes:
+        display_name: Apuntes o notas
+      transitioned_by:
+        display_name: Derivado o referido por
+      service:
+        display_name: Servicio
+      is_remote:
+        display_name: "Es la referencia o derivación a un sistema remoto?"
+        tick_box_label: 'Si'
+      type_of_export:
+        display_name: "¿Qué tipo de reporte desea?"
+      consent_overridden:
+        display_name: Sin consentimiento para compartir los ajustes
+        tick_box_label: 'Si'
+      consent_individual_transfer:
+        display_name: "El profesional que lleva el caso tiene el consentimiento del niño, niña o adolescente para realizar esta derivación?"
+        tick_box_label: 'Si'
+      created_at:
+        display_name: Fecha de la referencia o derivación

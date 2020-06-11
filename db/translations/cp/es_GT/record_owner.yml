@@ -1,0 +1,32 @@
+---
+es_GT:
+  record_owner:
+    name: Información del Caso
+    description: Información del Caso
+    fields:
+      current_owner_separator:
+        display_name: Profesional que está a cargo del caso
+      owned_by_text:
+        display_name: Trabajador Social a cargo del caso
+      owned_by:
+        display_name: Número de Colegiado del Trabajador Social
+      reassigned_tranferred_on:
+        display_name: Reasignado / transferido a
+      owned_by_agency:
+        display_name: Institución
+      assigned_user_names:
+        display_name: Otros usuarios asignados
+      record_history_separator:
+        display_name: Historial del caso
+      created_by:
+        display_name: Profesional que aperturó el caso
+      created_by_agency:
+        display_name: Institución que aperturó el caso
+      previously_owned_by:
+        display_name: Profesional a cargo del caso anteriormente
+      previous_agency:
+        display_name: Institución que atendió el caso anteriormente
+      module_id:
+        display_name: Módulo
+      reopened_logs:
+        display_name: Caso reabierto

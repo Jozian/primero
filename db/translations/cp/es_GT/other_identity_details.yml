@@ -1,0 +1,32 @@
+---
+es_GT:
+  other_identity_details:
+    name: Otros Datos Personales
+    description: Otros Datos Personales
+    fields:
+      nationality:
+        display_name: Nacionalidad
+      place_of_birth:
+        display_name: Lugar de Nacimiento
+      country_of_birth:
+        display_name: País de Nacimiento
+      country_of_origin:
+        display_name: País de Origen
+      address_last:
+        display_name: Última Dirección
+      landmark_last:
+        display_name: Último Punto de Referencia de Domicilio
+      location_last:
+        display_name: Última Ubicación (Departamento/Municipio)
+      telephone_last:
+        display_name: Último Número Telefónico Utilizado
+      ethnicity:
+        display_name: Grupo Etnico / Auto Identificación
+      sub_ethnicity_1:
+        display_name: Ladino
+      sub_ethnicity_2:
+        display_name: Maya/Xinca/Garífuna
+      language:
+        display_name: Idioma
+      religion:
+        display_name: Religión

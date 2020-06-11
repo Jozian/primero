@@ -1,0 +1,8 @@
+---
+es_GT:
+  notes:
+    name: Observaciones
+    description: Observaciones
+    fields:
+      notes_section:
+        display_name: Observaciones

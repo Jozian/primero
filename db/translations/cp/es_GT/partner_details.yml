@@ -1,0 +1,30 @@
+---
+es_GT:
+  partner_details:
+    name: Datos del esposo (a) / conviviente
+    description: Datos del esposo (a) / conviviente
+    fields:
+      maritial_status:
+        display_name: Estado Civil
+      partner_details:
+        display_name: Datos del esposo (a) / conviviente
+      relationship_length:
+        display_name: Duración del matrimonio o relación de pareja
+      number_of_children:
+        display_name: Número de hijos (as)
+      marital_status_during_separation:
+        display_name: "¿Cuál era su estado civil durante la separación?"
+      partner_details_during_separation:
+        display_name: Información del esposo (a) / conviviente durante la separación
+      relationship_length_during_separation:
+        display_name: Duración que tenía el matrimonio o la vida en común al momento de la separación
+      number_of_children_during_separation:
+        display_name: Número de hijos (as) que tenían al momento de la separación
+      marital_status_pre_separation:
+        display_name: Estado civil previo a la separación
+      partner_details_pre_separation:
+        display_name: Información del esposo (a) o conviviente antes de la separación
+      relationship_length_pre_separation:
+        display_name: Duración del matrimonio o relación antes de la separación
+      number_of_children_pre_separation:
+        display_name: Número de hijos (as) antes de la separación

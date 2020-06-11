@@ -1,0 +1,56 @@
+---
+es_GT:
+  followup_subform_section:
+    name: Informe evolutivo de seguimiento
+    description: Sub Formulario de Seguimiento
+    fields:
+      followup_type:
+        display_name: Tipo de seguimiento
+      followup_service_type:
+        display_name: Tipo de servicio
+      followup_assessment_type:
+        display_name: Tipo de evaluación
+        option_strings_text:
+          personal_intervention_assessment: "Informe de la evolución personal del niño, niña o adolescente"
+          medical_intervention_assessment: Evolución del seguimiento médico
+          family_intervention_assessment: Evolución en el seguimiento familiar
+          community_intervention_assessment: "Evolución en el abordaje comunitario "
+          unhcr_intervention_assessment: Evaluación de la intervención de ACNUR
+          ngo_intervention_assessment: Evaluación de la intervención de la ONG
+          economic_intervention_assessment: Evaluación del apoyo económico
+          education_intervention_assessment: Evolución en el seguimiento educativo
+          health_intervention_assessment: Evolución en el seguimiento en salud física y mental
+          other_intervention_assessment: Otros Tipos de Evaluación
+      followup_needed_by_date:
+        display_name: El seguimiento es necesario por
+      followup_date:
+        display_name: Fecha de seguimiento
+      child_was_seen:
+        display_name: "Fue el niño, niña, adolescente o algún miembro de la familia visto durante la visita?"
+      reason_child_not_seen:
+        display_name: "Si no, por qué?"
+        option_strings_text:
+          abducted: Estaba desaparecido (a)
+          at_school: En la escuela
+          child_in_detention: Se encontraba institucionalizado o en un centro de privación de libertad
+          moved_onto_street: Desplazándose en la calle/mercado
+          moved_to_live_with_another_caregiver: Fue integrado con otra persona para su cuidado
+          visiting_friends_relatives: Visitando amigos/parientes
+          working: Trabajando o en el trabajo
+          other: "Otras, por favor especifique"
+      reason_child_not_seen_other_details:
+        display_name: "Si otras, por favor especifique"
+      action_taken_already:
+        display_name: "Qué acciones se han tomado al respecto?"
+      action_taken_details:
+        display_name: Detalle las acciones tomadas al respecto
+      action_taken_date:
+        display_name: "Fecha de la acción tomada?"
+      need_follow_up_visit:
+        display_name: "Se hacen necesarias visitas futuras de seguimiento?"
+      when_follow_up_visit_should_happen:
+        display_name: "Si es cierto, cuando recomienda la próxima visita?"
+      recommend_case_closed:
+        display_name: "Si no, usted recomienda que el caso sea cerrado?"
+      followup_comments:
+        display_name: Comentarios adicionales
