@@ -69,4 +69,10 @@ if ENV['NO_RESEED'] != 'true'
     clazz = file.end_with?('lookups.yml') ? Lookup : FormSection
     Importers::YamlI18nImporter.import(file, clazz)
   end
+  puts "Loading CP Form Translations"
+  Dir[File.dirname(__FILE__) + '/translations/cp/es_GT/*.yml'].each do |file|
+    puts file
+    clazz = file.end_with?('lookups.yml') ? Lookup : FormSection
+    Importers::YamlI18nImporter.import(file, clazz)
+  end
 end
