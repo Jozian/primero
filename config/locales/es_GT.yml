@@ -133,7 +133,6 @@ es_GT:
     disable_photo_wall: "Desactivar pared de fotos"
     create_incident: "Crear incidente"
     create_case: "Crear caso"
-    guiding_questions: "Preguntas de referencia"
     filter_label: "Filtro:"
     filter: "Aplicar filtro"
     filter_clear: "Eliminar filtros"
@@ -209,7 +208,7 @@ es_GT:
       approvals:
         pending: "Aprobaciones Pendientes"
         approved: "Aprobado"
-        rejected: "Rechazado"
+        rejected: "Incompleto"
     clear_filter: "Borrar"
     apply_filter: "Aplicar"
     save_filter: "Guardar"
@@ -451,6 +450,7 @@ es_GT:
     selectable_date_options:
       date_of_first_report: "Fecha de la Entrevista"
       incident_date_derived: "Fecha del incidente"
+    violations_tab: "Violaciones"
     filter_by:
       flag: "Marcado:"
       flag_label: "Marcado?"
@@ -469,7 +469,6 @@ es_GT:
       incident_location: "Lugar del incidente:"
       incident_date: "Fecha del incidente"
       unaccompanied_separated_status: "Estado de protección:"
-      armed_force_group_name: "Grupo o Fuerza Armada"
       armed_force_group_type: "Tipo de Grupo o Fuerza Armada"
       record_state: "Estado del registro:"
       interview_date: "Fecha de la Entrevista"
@@ -521,18 +520,13 @@ es_GT:
     change_log: "Cambiar el log"
     actions:
       change_log: "Cambiar el log"
+      delete_document: "¿Eliminar documento?"
     history_of: "Historial de %{short_id}"
     violation:
       violation: "Violación"
-      pending: 'Pendiente de verificación'
       killing: "Asesinato"
       maiming: "Mutilación"
-      recruitment: "Reclutamiento"
-      sexual_violence: "Violencia sexual"
       abduction: "Secuestro"
-      attack_on_schools: "Ataque a escuelas"
-      attack_on_hospitals: "Ataque a hospitales"
-      denial_humanitarian_access: "Negación de acceso humanitario"
       other_violation: "Otro tipo de violación"
   tracing_request:
     label: "Identificación de quien consulta"
@@ -954,6 +948,7 @@ es_GT:
       referral: "Referencia"
       sync_mobile: "Sincronizar con dispositivo móvil"
       request_approval: "Solicitud para Aprobación"
+      request_approval_closure: "Solicitar aprobación de cierre"
       approve_bia: "Approvar Formulario BIA"
       approve_case_plan: "Aprobar plan de caso"
       approve_closure: "Aprobar Formulario de Cierre"
@@ -962,6 +957,8 @@ es_GT:
       dashboard: "Tablero"
       view_approvals: "Ver Aprobaciones"
       view_assessment: "Ver Evaluación"
+      form: "Formularios"
+      lookup: "Búsquedas"
       dash_service_provisions: "Ver Provisión de Servicios"
       dash_referrals_by_socal_worker: "Ver Referidos por Trabajador Social"
       dash_cases_by_social_worker: "Ver Casos por Trabajador Social"
@@ -1117,11 +1114,14 @@ es_GT:
       select_file_button_text: "Seleccionar expediente"
       no_file_selected: "No hay archivos seleccionados."
       photo_file_restrictions_message: "Los fotos deben ser de menos de 10mb. Los archivos de audio deben ser de menos de 10mb. Mientras más chicos, mejor."
-      add_document_label: "Agregar documento"
       add_photo_label: "Agregar fotografía"
       add_new_document_button_text: "Agregar otro documento"
       add_new_photo_button_text: "Agregar otra foto"
       document_description: "Descripción del documento"
+      document:
+        add_document_label: "Agregar documento"
+        comment_label: "Comentarios"
+        add_button_text: "Agregar otro documento"
     document:
       comments: "Comentarios"
   replication:
@@ -1232,6 +1232,16 @@ es_GT:
     messages:
       delete_success: "El informe se eliminó correctamente."
     edit: "Editar"
+    report_filters:
+      filters: "Filtros"
+      filter: "Filtro"
+      clear: "Borrar"
+      date_prompt: "Seleccionar Fecha"
+      from: "Desde"
+      to: "Hasta"
+      registration_date: "Fecha de registro"
+      date_of_incident: "Fecha del incidente"
+      incident_location: "Localidad"
   encrypt:
     password_title: "Crear contrase­ña"
     password_label: "Ingrese una contraseña para codificar su archivo."
@@ -1318,7 +1328,7 @@ es_GT:
     no_action_risk: 'No Acción'
     medium_risk: 'Prioridad Media'
     pending: 'Pendiente'
-    rejected: 'Rechazado'
+    rejected: 'Incompleto'
     near_deadline: 'Próximo a la Fecha de Vencimiento'
     due: 'Atrasado'
     immediate_response: 'Respuesta Inmediata'
@@ -1370,6 +1380,7 @@ es_GT:
     current_owner: "Dueño actual"
     last_updated: "Ultima actualización"
     case_stats: "Casos"
+    national_admin_stats: "Casos"
     tr_stats: "Solicitudes de localización"
     cases_by_social_worker: "Casos por trabajador social"
     approvals: "Aprobaciones"
@@ -1692,7 +1703,7 @@ es_GT:
     success_batch: "%{success_count} Referencia(s) realizadas correctamente"
     to_user_local_status_label: "Estado"
     user_local_status_pending: "Pendiente"
-    user_local_status_rejected: "Rechazado"
+    user_local_status_rejected: "Incompleto"
     user_local_status_inprogress: "En progreso"
     user_local_status_done: "Realizado"
     agency_label: "Agencia"
@@ -1718,10 +1729,10 @@ es_GT:
     success_batch: "%{success_count} la/s transferencia(s) se realizo/aron correctamente"
     to_user_local_status_label: "Estado"
     user_local_status_pending: "Pendiente"
-    user_local_status_rejected: "Rechazado"
+    user_local_status_rejected: "Incompleto"
     user_local_status_inprogress: "En progreso"
     search:
-      rejected: "Rechazado"
+      rejected: "Incompleto"
       in_progress: "En progreso"
     agency_label: "Agencia"
     location_label: "Localidad"
@@ -1743,12 +1754,15 @@ es_GT:
     success_batch: "%{success_count} Registro(s) desmarcados correctamente como móvil"
   approvals:
     approve_case_plan_label: "Aprobar plan de caso"
+    approve_closure: "¿Solicitar aprobación para el formulario de cierre?"
+    approve_closure_label: "Aprobar formulario de cierre"
     case_plan: "Plan del Caso"
+    closure: "Cierre"
     comments_label: "Comentarios"
     status:
       pending: "Pendiente"
       approved: "Aprobado"
-      rejected: "Rechazado"
+      rejected: "Incompleto"
   notes:
     notes_label: "Notas"
     no_records_selected: "No hay registros seleccionados."
@@ -1782,6 +1796,10 @@ es_GT:
     hide_name:
       protect: "Ocultar nombre"
       view: " Ver nombre"
+    request_approval:
+      closure: "Solicitar aprobación de cierre"
+    approve_form:
+      closure: "Formulario de cierre"
     mark_for_mobile:
       'true': "Marcar para móvil"
   error_message:
