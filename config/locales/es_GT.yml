@@ -1120,10 +1120,16 @@ es_GT:
       document_description: "Descripción del documento"
       document:
         add_document_label: "Agregar documento"
+        current_document_label: "¿Es este el documento actual?"
+        document_name_label: "Nombre del Documento"
+        document_date_label: "Fecha del Documento"
         comment_label: "Comentarios"
         add_button_text: "Agregar otro documento"
     document:
       comments: "Comentarios"
+      date: "Fecha del Documento"
+      name: "Nombre del Documento"
+      current: "¿Es este el documento actual?"
   replication:
     label: Copia
     index: Administrar copias
@@ -1333,6 +1339,8 @@ es_GT:
     due: 'Atrasado'
     immediate_response: 'Respuesta Inmediata'
     closed: 'Cerrado'
+    new_incident: 'Nuevos incidentes'
+    all_services_implemented: 'Todos los servicios implementados'
     approved: 'Aprobado'
     assessment: 'Evaluación'
     case_plan: 'Plan del Caso'
@@ -1765,6 +1773,7 @@ es_GT:
       rejected: "Incompleto"
   notes:
     notes_label: "Notas"
+    subject_label: "Título"
     no_records_selected: "No hay registros seleccionados."
   per_page_translation: "_MENU_ por página"
   total: Total
@@ -1805,7 +1814,9 @@ es_GT:
   error_message:
     fields_notice: 'Se produjeron problemas con los siguientes campos:'
   saved_searches:
+    no_save_searches: "No tienes búsquedas guardadas."
     name: "Nombre"
+    save_search: "Guardar búsqueda"
   will_paginate:
     previous_label: "&#8592; Previo"
     next_label: "Próximo &#8594;"
