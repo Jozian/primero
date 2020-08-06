@@ -14,7 +14,7 @@ module Searchable
 
       quicksearch_fields.each {|f| text f}
       text :cp_processes_subform_process_information do
-        cp_processes_subform_process_information.map { |process| process.ciaca_process_id }
+        (cp_processes_subform_process_information || []).map { |process| process.ciaca_process_id }
       end
       searchable_string_fields.each {|f| string f, as: "#{f}_sci".to_sym}
       searchable_multi_fields.each {|f| string f, multiple: true} if search_multi_fields?
