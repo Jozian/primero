@@ -395,7 +395,7 @@ es_GT:
     sex: "Sexo"
     registration_date: "Fecha de registro"
     status: "Estado"
-    social_worker: "Trabajador social"
+    social_worker: "Profesional a Cargo"
     survivor_code: "Código de sobreviviente"
     case_opening_date: "Fecha de apertura de caso"
     photo: "Fotografía"
