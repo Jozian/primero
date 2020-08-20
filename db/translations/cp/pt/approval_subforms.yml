@@ -1,8 +1,8 @@
 ---
 pt:
   approval_subforms:
-    name: "Subformulário de aprovação"
-    description: "Subformulário de aprovação"
+    name: "Subformulário de aprovação "
+    description: "Subformulário de aprovação "
     fields:
       approval_requested_for:
         display_name: Aprovação solicitada para
@@ -15,7 +15,7 @@ pt:
         option_strings_text:
           bia: Bia
           case_plan: Plano de caso
-          closure: "Encerramento"
+          closure: "Encerramento "
       approval_for_type:
         display_name: Tipo de plano de caso
       approval_date:

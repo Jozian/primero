@@ -1,43 +1,43 @@
 ---
 pt:
   services_section:
-    name: "Serviços Embutidos"
+    name: "Serviços Embutidos "
     description: Subformulário de Serviços
     fields:
       service_response_type:
         display_name: Tipo de Resposta
       service_reason:
-        display_name: Motivo da consulta
+        display_name: Motivo para encaminhamento
         help_text: "Descreva o problema, a duração e a frequência do problema, o histórico, serviços relevantes já prestados / intervenções feitas, e qualquer outro detalhe relevante para o provedor de serviço."
       service_type:
-        display_name: Tipo de serviço requisitado
+        display_name: Tipo de serviço solicitado
       service_outcome:
-        display_name: Resultado esperado do serviço requisitado
-        help_text: Descreva o que você e a pessoa indicada esperam conseguir pela indicação.
+        display_name: Resultado esperado do serviço solicitado
+        help_text: Descreva o que você e a pessoa sendo ecaminhada esperam conseguir por meio do encaminhamento.
       service_response_day_time:
         display_name: Criado em
       service_response_timeframe:
-        display_name: Prazo da Aplicação
-        help_text: Coloque o Prazo da Aplicação para serviço; o prazo é usado no painel para indicar se os serviços estão atrasados.
+        display_name: "Prazo de Implementação "
+        help_text: Insira o Prazo de Implementação para o serviço; o prazo é usado no painel para indicar se os serviços estão atrasados.
         option_strings_text:
           1_hour: Uma hora
           3_hours: Três horas
           1_day: Um dia
           3_days: Três dias
       service_referral:
-        display_name: "Você indicou o cliente para este pedido?"
+        display_name: "Você encaminhou o cliente para este pedido?"
       service_appointment_date:
         display_name: Data em que o serviço começou
       service_appointment_time:
         display_name: Hora da Consulta
       service_implementing_agency:
-        display_name: Agência de Execução
+        display_name: "Agência de Implementação "
       service_provider:
-        display_name: Provedor do Serviço
+        display_name: Prestador de Serviço
       service_implementing_agency_individual:
-        display_name: Nome do provedor do serviço
+        display_name: Nome do prestador de serviço
       service_status_referred:
-        display_name: "Indicado?"
+        display_name: "Encaminhado?"
         tick_box_label: 'Sim'
       service_location:
         display_name: Local do serviço
