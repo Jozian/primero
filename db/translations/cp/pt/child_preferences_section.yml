@@ -1,8 +1,8 @@
 ---
 pt:
   child_preferences_section:
-    name: "Preferências da Criança Embutidas"
-    description: "Subformulário das Preferências da Criança"
+    name: "Preferências da Criança Embutidas "
+    description: "Subformulário das Preferências da Criança "
     fields:
       wishes_name:
         display_name: Pessoa (s) que a criança deseja localizar
@@ -17,7 +17,7 @@ pt:
       wishes_address:
         display_name: Último Endereço Conhecido
       wishes_landmark:
-        display_name: "Ponto de Referência"
+        display_name: "Ponto de Referência "
       wishes_location:
         display_name: Última Localização Conhecida
       wishes_telephone:
