@@ -6,13 +6,13 @@ pt:
     form_group_name: Confidencialidade de Dados
     fields:
       interview_subject:
-        display_name: "Consentimento Obtido De"
+        display_name: "Consentimento Obtido De "
         option_strings_text:
-          individual: "Individual"
-          caregiver: "Cuidador"
+          individual: "Individual "
+          caregiver: "Cuidador "
           other: Outro (por favor especificar)
       consent_source_other:
-        display_name: "Se outro, por favor especificar"
+        display_name: "Se outro, por favor especificar "
       consent_for_services:
         display_name: A pessoa dando consentimento dá permissão (para a criança) para participar no processo de gerenciamento do caso.
         help_text: Isso inclui consentimento para compartilhamento de informação com outras organizações prestando serviços.
@@ -47,7 +47,7 @@ pt:
         display_name: Motivo para reter informação
         option_strings_text:
           fear: Medo de danos contra si própria ou para outros
-          communicate_information: "Quer comunicar a informação ela mesma"
+          communicate_information: "Quer comunicar a informação ela mesma "
           others: "Outro motivo, por favor especificar"
       withholding_info_other_reason:
         display_name: "Se houver outro motivo para reter informação, por favor especificar"

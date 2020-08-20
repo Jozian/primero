@@ -1,9 +1,9 @@
 ---
 pt:
   assessment:
-    name: "Avaliação"
-    description: "Formulário de avaliação"
-    form_group_name: "Avaliação"
+    name: "Avaliação "
+    description: "Formulário de avaliação "
+    form_group_name: "Avaliação "
     fields:
       assessment_requested_by:
         display_name: Avaliação solicitada por

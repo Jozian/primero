@@ -1,8 +1,8 @@
 ---
 pt:
   notes_section:
-    name: "Subformulário de Notas Embutido"
-    description: "Subformulário de Notas Embutido"
+    name: "Subformulário de Notas Embutido "
+    description: "Subformulário de Notas Embutido "
     fields:
       notes_date:
         display_name: Data
@@ -11,4 +11,4 @@ pt:
       field_notes_subform_fields:
         display_name: Notas
       note_created_by:
-        display_name: "Gerente"
+        display_name: "Gerente "
