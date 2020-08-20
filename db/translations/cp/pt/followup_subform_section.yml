@@ -1,8 +1,8 @@
 ---
 pt:
   followup_subform_section:
-    name: "Subformulário Embutido de Acompanhamento"
-    description: "Subformulário Embutido de Acompanhamento"
+    name: "Subformulário Embutido de Acompanhamento "
+    description: "Subformulário Embutido de Acompanhamento "
     fields:
       followup_type:
         display_name: Tipo de acompanhamento
