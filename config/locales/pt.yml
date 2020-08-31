@@ -19,7 +19,7 @@ pt:
     users: "Gerenciar Usuários"
     manage_system_users: "Gerenciar Usuários de Sincronização de Servidor"
     records_need_attention: "Registros precisam de atenção"
-    label: "Casa"
+    label: "Página Inicial"
   clear: "Limpar"
   messages:
     delete_item: |
@@ -407,7 +407,7 @@ pt:
     sex: "Sexo"
     registration_date: "Data de registro"
     status: "Status"
-    social_worker: "Assistente Social"
+    social_worker: "Responsavel Atual"
     survivor_code: "Código do sobrevivente"
     case_opening_date: "Data de abertura do caso"
     photo: "Foto"
