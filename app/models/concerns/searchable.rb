@@ -13,8 +13,11 @@ module Searchable
       end
 
       quicksearch_fields.each {|f| text f}
-      text :cp_processes_subform_process_information do
-        (cp_processes_subform_process_information || []).map { |process| process.ciaca_process_id }
+      text :cp_criminal_subform_processo_criminal_form do
+        (cp_criminal_subform_processo_criminal_form || []).map { |process| process.process_number_criminal }
+      end
+      text :cp_social_protection_subform_social_protection_process_sub do
+        (cp_social_protection_subform_social_protection_process_sub || []).map { |process| process.process_number_sp }
       end
       searchable_string_fields.each {|f| string f, as: "#{f}_sci".to_sym}
       searchable_multi_fields.each {|f| string f, multiple: true} if search_multi_fields?

@@ -149,8 +149,10 @@ class Child < CouchRest::Model::Base
       'unique_identifier', 'short_id', 'case_id_display', 'name', 'name_nickname', 'name_other',
       'ration_card_no', 'icrc_ref_no', 'rc_id_no', 'unhcr_id_no', 'unhcr_individual_no','un_no',
       'other_agency_id', 'survivor_code_no', 'national_id_no', 'other_id_no', 'biometrics_id',
-      'family_count_no', 'dss_id', 'camp_id', 'tent_number', 'nfi_distribution_id',
-      'cp_processes_subform_process_information'
+      'family_count_no', 'dss_id', 'camp_id', 'tent_number', 'nfi_distribution_id', 'family_number',
+      'oscar_number', 'mosvy_number', 'oscar_short_id', 'cpims_id',
+      'cp_criminal_subform_processo_criminal_form',
+      'cp_social_protection_subform_social_protection_process_sub'
     ]
   end
 
