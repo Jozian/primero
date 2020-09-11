@@ -175,7 +175,7 @@ pt:
     add_note: "Adicionar Notas"
   placeholders:
     subforms: "Clique no botão Editar para adicionar %{form} "
-    editing_subforms: "Clique no botão ADICIONAR para acrescentar detalhes sobre o %{form}"
+    editing_subforms: "Clique no botão ADICIONAR para acrescentar detalhes"
   cases:
     label: "Casos"
     register_new_case: "Novo caso"
