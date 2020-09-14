@@ -488,6 +488,7 @@ pt:
       single: Solteiro
       married_cohabitating: Casado/Coabitação
       divorced_separated: Divorciado/Separado
+      widowed: Widowed
       unknown_not_applicable: Desconhecido/Não Aplicável
   lookup-marital-status-with-spouse:
     name: Estado Civil
