@@ -35,11 +35,11 @@ pt:
       name_other:
         display_name: Outro nome
       name_given_post_separation:
-        display_name: "Nome (s) dado à criança após a separação "
+        display_name: "Nome (s) dado à criança após a separação"
       registration_date:
         display_name: Data de Registro ou Entrevista
       assessment_due_date:
-        display_name: "Data Limite para Avaliação "
+        display_name: "Data Limite para Avaliação"
       sex:
         display_name: Sexo
       age:
@@ -52,9 +52,9 @@ pt:
       physical_characteristics:
         display_name: Características Físicas Distintivas
       clothes_belongings_found_with_child:
-        display_name: "Listar e descrever roupas e pertences encontrados na criança, ou com a criança "
+        display_name: "Listar e descrever roupas e pertences encontrados na criança, ou com a criança"
       ration_card_no:
-        display_name: "Número do Cartão de Racionamento "
+        display_name: "Número do Cartão de Racionamento"
       icrc_ref_no:
         display_name: ICRC Ref No.
       rc_id_no:
@@ -71,43 +71,43 @@ pt:
       un_no:
         display_name: Número UN
       national_id_no:
-        display_name: "Número de Identificação Nacional "
+        display_name: "Número de Identificação Nacional"
       other_id_type:
-        display_name: "Outro Tipo de Documento de Identificação "
+        display_name: "Outro Tipo de Documento de Identificação"
       other_id_no:
-        display_name: "Número de Outro Documento de Identificação "
+        display_name: "Número de Outro Documento de Identificação"
       other_agency_id:
-        display_name: "Outra Identificação de Agência "
+        display_name: "Outra Identificação de Agência"
       other_agency_name:
-        display_name: "Outro Nome de Agência "
+        display_name: "Outro Nome de Agência"
       documents_carried:
         display_name: Lista de documentos transportados pela criança
       nationality:
-        display_name: "Nacionalidade "
+        display_name: "Nacionalidade"
       religion:
-        display_name: "Religião "
+        display_name: "Religião"
       ethnicity:
-        display_name: Grupo étnico da criança
+        display_name: "Afiliação étnica da criança"
       language:
-        display_name: "Idioma "
+        display_name: "Idioma"
       special_communication:
-        display_name: "Necessidades especiais de comunicação "
+        display_name: "Necessidades especiais de comunicação"
       significant_words_spoken:
-        display_name: "Palavras e sentenças significantes ditas pela criança "
+        display_name: "Palavras e sentenças significantes ditas pela criança"
       specific_behaviour_shown:
-        display_name: "Comportamentos específicos mostrados pela criança "
+        display_name: "Comportamentos específicos mostrados pela criança"
       population_group:
-        display_name: "Grupo populacional "
+        display_name: "Grupo populacional"
       population_group_other:
-        display_name: "Se outro, por favor especificar "
+        display_name: "Se outro, por favor especificar"
       maritial_status:
         display_name: Estado Civil Atual
       occupation:
-        display_name: "Ocupação "
+        display_name: "Ocupação"
       address_current:
         display_name: Endereço Atual
       landmark_current:
-        display_name: "Ponto de referência "
+        display_name: "Ponto de referência"
       location_current:
         display_name: Localização Atual
       address_is_permanent:
