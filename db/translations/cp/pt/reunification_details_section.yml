@@ -1,7 +1,7 @@
 ---
 pt:
   reunification_details_section:
-    name: "Reunião Embutida "
+    name: "Reunião Embutida"
     description: Subformulário de Reunião
     fields:
       name_reunified_adult:
