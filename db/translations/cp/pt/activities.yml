@@ -1,7 +1,7 @@
 ---
 pt:
   activities:
-    name: "Atividades "
+    name: "Atividades"
     description: Atividades
     form_group_name: Serviços / Acompanhamento
     fields:
@@ -13,15 +13,15 @@ pt:
         display_name: "Se não, por que não?"
         option_strings_text:
           child_labour: Trabalho infantil
-          early_marriage: "Casamento precoce "
+          early_marriage: "Casamento precoce"
           financial_constraints: Restrições financeiras
-          ignorance: Ignorance
+          ignorance: "Ignorância"
           lack_of_infrastructure: Falta de infraestrutura
           lack_of_access: Falta de acesso
           lack_of_interest: Falta de interesse
-          children: "Crianças "
-          pregnancy_child: "Gravidez/Criança "
-          sent_abroad_for_job: "Enviado ao exterior para trabalho "
+          children: "Crianças"
+          pregnancy_child: "Gravidez/Criança"
+          sent_abroad_for_job: "Enviado ao exterior para trabalho"
           Other: Outro
       activities_education_type:
         display_name: "Se sim, que tipo de educação?"
@@ -47,7 +47,7 @@ pt:
           ss1: SS1
           ss2: SS2
           ss3: SS3
-          tailoring: "Alfaiataria "
+          tailoring: "Alfaiataria"
           woodwork: "Marcenaria "
           hairdressing: Cabeleireiro
       activities_training_start_date:
@@ -59,8 +59,8 @@ pt:
       activities_other:
         display_name: "Em que outras atividades a criança está envolvida?"
         option_strings_text:
-          community_activities: "Atividades comunitárias "
-          livelihood_activities: "Atividades de subsistência "
+          community_activities: "Atividades comunitárias"
+          livelihood_activities: "Atividades de subsistência"
           recreational_activities: Atividades recreativas
       activities_other_notes:
-        display_name: "Outros detalhes sobre atividades adicionais "
+        display_name: "Outros detalhes sobre atividades adicionais"

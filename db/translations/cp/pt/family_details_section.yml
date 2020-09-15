@@ -1,7 +1,7 @@
 ---
 pt:
   family_details_section:
-    name: "Detalhes Embutidos da Família "
+    name: "Detalhes Embutidos da Família"
     description: Subformulário de Dados da Família
     fields:
       relation_name:
@@ -33,7 +33,7 @@ pt:
       relation_date_of_birth:
         display_name: Data de nascimento
       relation_language:
-        display_name: "Idioma "
+        display_name: "Idioma"
       relation_religion:
         display_name: Religião
       relation_ethnicity:

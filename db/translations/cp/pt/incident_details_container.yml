@@ -2,7 +2,7 @@
 pt:
   incident_details_container:
     name: Dados do Incidente
-    description: "Dados informativos sobre criança do incidente "
+    description: "Dados informativos sobre criança do incidente"
     form_group_name: Identificação / Registro
     fields:
       incident_details:
