@@ -321,25 +321,23 @@ pt:
     name: Status de Deslocamento
     lookup_values:
       resident: Residente
-      idp: Pessoa internalmente Deslocada
+      idp: Pessoa Internalmente Deslocada
       refugee: Refugiado
-      stateless_person: Sem Pátria
+      stateless_person: Apátrida
       returnee: Repatriado
-      foreign_national: Cidadão Estrangeiro
-      asylum_seeker: Requerente de Asilo
+      foreign_national: Residência Temporária
+      asylum_seeker: Solicitante de Refúgio
   lookup-ethnicity:
     name: Etnia
     lookup_values:
-      ethnicity1: Etnia1
-      ethnicity2: Etnia2
-      ethnicity3: Etnia3
-      ethnicity4: Etnia4
-      ethnicity5: Etnia5
-      ethnicity6: Etnia6
-      ethnicity7: Etnia7
-      ethnicity8: Etnia8
-      ethnicity9: Etnia9
-      ethnicity10: Etnia10
+      ethnicity1: Arekuna
+      ethnicity2: Enepa
+      ethnicity3: Ingariko
+      ethnicity4: Karina
+      ethnicity5: Panaré
+      ethnicity6: Patamona
+      ethnicity7: Taurepang
+      ethnicity8: Warao
   lookup-family-relationship:
     name: "Relação da Família"
     lookup_values:
@@ -364,39 +362,39 @@ pt:
       for_service: Acompanhamento em Serviço
       for_assesment: Acompanhamento para Avaliação
   lookup-form-group-cp-case:
-    name: Form Groups   Cp Case
+    name:  Grupo de Formulários Casos PC
     lookup_values:
-      record_information: Record Information
-      approvals: Approvals
-      case_conference_details: Case Conference Details
-      identification_registration: Identification / Registration
-      data_confidentiality: Data Confidentiality
-      assessment: Assessment
-      family_partner_details: Family / Partner Details
-      case_plan: Case Plan
-      services_follow_up: Services / Follow Up
-      closure: Closure
-      tracing: Tracing
-      bia_form: BIA Form
-      photos_audio: Photos and Audio
-      other_documents: Other Documents
-      referrals_transfers: Referrals and Transfers
-      notes: Notes
+      record_information: Informação do Registro
+      approvals: Aprovações
+      case_conference_details: Detalhes da Conferência de Caso
+      identification_registration: Identificação / Registro
+      data_confidentiality: Confidencialidade de Dados
+      assessment: Avaliação
+      family_partner_details: Detalhes de Família / Parceiro
+      case_plan: Plano de Caso
+      services_follow_up: Serviços / Acompanhamento
+      closure: Encerramento
+      tracing: Rastreamento
+      bia_form: Formulário BIA
+      photos_audio: Fotos e Áudio
+      other_documents: Outros Documentos
+      referrals_transfers: Referências e Transferências
+      notes: Notas
   lookup-form-group-cp-incident:
-    name: Form Groups   Cp Incident
+    name: Grupo de Formulários Incidente PC
     lookup_values:
-      record_owner: Record Owner
-      perpetrator_details: Perpetrator Details
-      cp_incident: CP Incident
-      cp_individual_details: CP Individual Details
+      record_owner: Proprietário do Registro
+      perpetrator_details: Detalhes do Perpetrador
+      cp_incident: Incidente PC
+      cp_individual_details: PC Detalhes Individuais
   lookup-form-group-cp-tracing-request:
-    name: Form Groups   Cp Tracing Request
+    name: Grupo de Formulários Pedido de Rastreamento PC
     lookup_values:
-      record_owner: Record Owner
-      inquirer: Inquirer
-      tracing_request: Tracing Request
-      photos_audio: Photos and Audio
-      other_reportable_fields: Other Reportable Fields
+      record_owner: Proprietário do Registro
+      inquirer: Solicitante
+      tracing_request: Pedido de Rastreamento
+      photos_audio: Fotos e Áudio
+      other_reportable_fields: Outros Campos Reportáveis
   lookup-form-group-gbv-case:
     name: Form Groups   Gbv Case
     lookup_values:
@@ -483,16 +481,14 @@ pt:
   lookup-language:
     name: Idioma
     lookup_values:
-      language1: Idioma1
-      language2: Idioma2
-      language3: Idioma3
-      language4: Idioma4
-      language5: Idioma5
-      language6: Idioma6
-      language7: Idioma7
-      language8: Idioma8
-      language9: Idioma9
-      language10: Idioma10
+      language1: Português
+      language2: Espanhol
+      language3: Francês
+      language4: Inglês
+      language5: Holandês
+      language6: Creole
+      language7: Taurepan
+      language8: Warao
   lookup-location-type:
     name: Tipo de Local
     lookup_values:
@@ -529,7 +525,7 @@ pt:
       single: Solteiro
       married_cohabitating: Casado/Coabitação
       divorced_separated: Divorciado/Separado
-      widowed: Widowed
+      widowed: Viúvo
       unknown_not_applicable: Desconhecido/Não Aplicável
   lookup-marital-status-with-spouse:
     name: Estado Civil
@@ -572,24 +568,24 @@ pt:
   lookup-protection-concerns:
     name: Preocupações de Proteção
     lookup_values:
-      sexually_exploited: Sexually Exploited
-      gbv_survivor: GBV survivor
-      trafficked_smuggled: Trafficked/smuggled
-      statelessness: Statelessness
-      arrested_detained: Arrested/Detained
-      migrant: Migrant
-      disabled: Disabled
-      serious_health_issue: Serious health issue
-      refugee: Refugee
-      caafag: CAAFAG
-      street_child: Street child
-      child_mother: Child Mother
-      physically_or_mentally_abused: Physically or Mentally Abused
-      living_with_vulnerable_person: Living with vulnerable person
-      worst_forms_of_child_labor: Worst Forms of Child Labor
-      child_headed_household: Child Headed Household
-      mentally_distressed: Mentally Distressed
-      other: Other
+      sexually_exploited: Exploração Sexual
+      gbv_survivor: Vítima de Violência de Gênero
+      trafficked_smuggled: Vítima de Tráfico de Pessoas
+      statelessness: Apátrida
+      arrested_detained: Pessoa Presa / Detida
+      migrant: Migrante
+      disabled: Pessoa com deficiência
+      serious_health_issue: Sério Problema de Saúde
+      refugee: Refugiado
+      caafag: Criança Envolvida com Grupos Armados (CAAFAG)
+      street_child: Criança em Situação de Rua
+      child_mother: Mãe Adolescente
+      physically_or_mentally_abused: Vítima de Abuso Físico ou Mental
+      living_with_vulnerable_person: Vivendo com Pessoal Vulnerável
+      worst_forms_of_child_labor: Piores Formas de Trabalho Infantil
+      child_headed_household: Casa Chefiada por Criança
+      mentally_distressed: Trauma Psicológico
+      other: Outros
   lookup-protection-status:
     name: Status de Proteção
     lookup_values:
@@ -663,23 +659,23 @@ pt:
       action_plan: Plano de Ação
       service_provision: Provisão de Serviço
   lookup-service-type:
-    name: Service Type
+    name: Tipo de Serviço
     lookup_values:
-      safehouse_service: Safehouse Service
-      health_medical_service: Health/Medical Service
-      psychosocial_service: Psychosocial Service
-      police_other_service: Police/Other Service
-      legal_assistance_service: Legal Assistance Service
-      livelihoods_service: Livelihoods Service
-      child_protection_service: Child Protection Service
-      family_mediation_service: Family Mediation Service
-      family_seunification_service: Family Reunification Service
-      education_service: Education Service
-      nfi_clothes_shoes_service: NFI/Clothes/Shoes Service
-      water_sanitation_service: Water/Sanitation Service
-      registration_service: Registration Service
-      food_service: Food Service
-      other_service: Other Service
+      safehouse_service: Abrigamento
+      health_medical_service: Saúde / Atendimento Médico
+      psychosocial_service: Atendimento Psicossocial
+      police_other_service: Polícia / Outros
+      legal_assistance_service: Assistência Legal
+      livelihoods_service: Apoio à Subsistência
+      child_protection_service: Proteção à Criança
+      family_mediation_service: Mediação Familiar
+      family_seunification_service: Reunificação Familiar
+      education_service: Educação
+      nfi_clothes_shoes_service: Roupas, Sapatos e Produtos não Alimentícios
+      water_sanitation_service: Água/Saneamento
+      registration_service: Serviços de Registro
+      food_service: Alimentação / Comida
+      other_service: Outros
   lookup-time-of-day:
     name: Hora do Dia
     lookup_values:
