@@ -338,6 +338,8 @@ pt:
       ethnicity6: Patamona
       ethnicity7: Taurepang
       ethnicity8: Warao
+      ethnicity9: Etnia9
+      ethnicity10: Etnia10
   lookup-family-relationship:
     name: "Relação da Família"
     lookup_values:
@@ -489,6 +491,8 @@ pt:
       language6: Creole
       language7: Taurepan
       language8: Warao
+      language9: Idioma9
+      language10: Idioma10
   lookup-location-type:
     name: Tipo de Local
     lookup_values:
