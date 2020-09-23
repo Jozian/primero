@@ -11,4 +11,4 @@ pt:
         display_name: Avaliação solicitada em
         help_text: Este campo é usado para o status do fluxo de trabalho
       case_plan_due_date:
-        display_name: Data limite para o plano de caso
+        display_name: Data limite do Plano de Caso
