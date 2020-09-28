@@ -19,7 +19,7 @@ pt:
       case_plan_section_header:
         display_name: Plano de Caso
       date_case_plan:
-        display_name: "Data do Plano de Caso Iniciado"
+        display_name: "Data de Início do Plano de Caso"
         help_text: "Este campo é usado para o status do Fluxo de Trabalho"
       case_plan_goal:
         display_name: Objetivo Geral
