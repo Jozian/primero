@@ -1,8 +1,8 @@
 ---
 pt:
   followup_subform_section:
-    name: "Subformulário Embutido de Acompanhamento"
-    description: "Subformulário Embutido de Acompanhamento"
+    name: "Subformulário de Acompanhamento Embutido"
+    description: "Subformulário de Acompanhamento Embutido"
     fields:
       followup_type:
         display_name: Tipo de acompanhamento
@@ -24,7 +24,7 @@ pt:
       protection_concern_type:
         display_name: 'Tipo de Preocupação de Proteção'
       followup_needed_by_date:
-        display_name: Acompanhamento necessário por
+        display_name: Acompanhamento necessário até
       followup_date:
         display_name: Data de acompanhamento
       child_was_seen:

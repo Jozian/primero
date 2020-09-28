@@ -321,7 +321,7 @@ pt:
     name: Status de Deslocamento
     lookup_values:
       resident: Residente
-      idp: Pessoa Internalmente Deslocada
+      idp: Pessoa Internamente Deslocada
       refugee: Refugiado
       stateless_person: Apátrida
       returnee: Repatriado
@@ -665,20 +665,20 @@ pt:
   lookup-service-type:
     name: Tipo de Serviço
     lookup_values:
-      safehouse_service: Abrigamento
-      health_medical_service: Saúde / Atendimento Médico
+      safehouse_service: Abrigo
+      health_medical_service: Saúde/ Atendimento Médico
       psychosocial_service: Atendimento Psicossocial
-      police_other_service: Polícia / Outros
+      police_other_service: Polícia/ Outros
       legal_assistance_service: Assistência Legal
       livelihoods_service: Apoio à Subsistência
       child_protection_service: Proteção à Criança
       family_mediation_service: Mediação Familiar
-      family_seunification_service: Reunificação Familiar
+      family_seunification_service: Reunião Familiar
       education_service: Educação
       nfi_clothes_shoes_service: Roupas, Sapatos e Produtos não Alimentícios
       water_sanitation_service: Água/Saneamento
       registration_service: Serviços de Registro
-      food_service: Alimentação / Comida
+      food_service: Alimentação/ Comida
       other_service: Outros
   lookup-time-of-day:
     name: Hora do Dia
@@ -693,7 +693,7 @@ pt:
       open: Aberto
       tracing_in_progress: Rastreamento em curso
       verified: Verificado
-      reunified: Reunificado
+      reunified: Reunido
       closed: Encerrado
   lookup-transition-type:
     name: "Tipo de Transição "
