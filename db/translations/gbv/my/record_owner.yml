@@ -1,0 +1,41 @@
+---
+my:
+  record_owner:
+    name: သတင်းအချက်အလက်မှတ်တမ်း
+    description: သတင်းအချက်အလက်မှတ်တမ်း
+    form_group_name: သတင်းအချက်အလက်မှတ်တမ်း
+    fields:
+      current_owner_separator:
+        display_name: လက်ရှိပိုင်ရှင်
+      owned_by_text:
+        display_name: ကွင်းဆင်းလုပ်သား/ ဖြစ်ရပ်စီမံခန့်ခွဲသူ/လူမှုဝန်ထမ်း
+      owned_by:
+        display_name: ဖြစ်ရပ်စီမံခန့်ခွဲသူကုဒ်နံပါတ်
+      reassigned_tranferred_on:
+        display_name: ပြန်လည်တာဝန်ပေးခြင်း / လွှဲပြောင်းခြင်း
+      owned_by_agency:
+        display_name: အေဂျင်စီ
+      telephone_agency:
+        display_name: အေဂျင်စီ၏ ဖုံးနံပါတ်
+      assigned_user_names:
+        display_name: အခြားသတ်မှတ်ထားသောအသုံးပြုသူများ
+      database_operator_user_name:
+        display_name: ကွန်ပျူတာအတွင်းထည့်သွင်းထားသည့်အချက်အလက်များနှင့်ပတ်သက်၍ ကိုင်တွယ်ဆောင်ရွက်သူ၊အော်ပရေတာ
+      address_registration:
+        display_name: မှတ်ပုံတင်ထားသည့်လိပ်စာ
+      location_registration:
+        display_name: တည်နေရာလိပ်စာ
+      record_history_separator:
+        display_name: မှတ်တမ်းရာဇဝင်
+      created_by:
+        display_name: မှတ်တမ်းရေးသွင်းသူ
+      created_by_agency:
+        display_name: ရေးသွင်းသည့် အဖွဲ့အစည်း
+      previously_owned_by:
+        display_name: ယခင် ပိုင်ရှင်
+      previous_agency:
+        display_name: ယခင် အဖွဲ့အစည်း
+      module_id:
+        display_name: အပိုင်း
+      reopened_logs:
+        display_name: အမှု၊ဖြစ်ရပ်ပြန်ဖွင့်ခြင်း

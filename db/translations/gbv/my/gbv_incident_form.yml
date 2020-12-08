@@ -1,0 +1,68 @@
+---
+my:
+  gbv_incident_form:
+    name: ကျား၊မ အခြေပြုအကြမ်းဖက်မှု (GVB) ဖြစ်ရပ်
+    description: ကျား၊မ အခြေပြုအကြမ်းဖက်မှု (GVB) ဖြစ်ရပ်
+    form_group_name: ဖြစ်ရပ်
+    fields:
+      incident_id:
+        display_name: အိုင်ဒီ အရှည်
+      short_id:
+        display_name: ဖြစ်ရပ် အမှတ်
+      marked_for_mobile:
+        display_name: မိုဖိုင်းဖုန်းတွင် အမှတ်အသားပြုခြင်း
+        tick_box_label: 'ဟုတ်ပါသည်။'
+      incident_code:
+        display_name: ဖြစ်စဉ်ကုဒ်
+      incidentid_ir:
+        display_name: ဖြစ်ရပ်မှတ်တမ်းတင်ဇယား (IR) ဖြစ်စဉ်အမှတ်
+        help_text: ဖြစ်ရပ်မှတ်တမ်းတင်ဇယား (IR)အတွက် ဖြစ်ရပ်အမှတ်
+      status:
+        display_name: ဖြစ်ရပ် အခြေအနေ
+      consent_reporting:
+        display_name: သတင်းပို့ခြင်းအတွက် မည်သူမည်ဝါဖြစ်ကြောင်း မသိရှိနိုင်သည့် အချက်အလက်များကိုမျှဝေရန် သဘောတူခွင့်ပြုသည်။
+      date_of_first_report:
+        display_name: တွေ့ဆုံမေးမြန်းသည့် ရက်စွဲ
+      incident_date:
+        display_name: ဖြစ်ရပ်ဖြစ်ပွားသည့် ရက်စွဲ
+      incident_description:
+        display_name: ဖြစ်ရပ်အား ဖေါ်ပြခြင်း
+      displacement_incident:
+        display_name: ဖြစ်ရပ်ဖြစ်ပွားချိန်က နေရပ်စွန့်ခွာရခြင်း ရှိ/မရှိ
+        option_strings_text:
+          not_displaced_home_community: နေရပ်စွန့်ခွာရခြင်းမရှိ/ နေအိမ်ရပ်ရွာတွင်
+          pre_displacement: နေရပ်စွန့်ခွာရမှု မတိုင်မီ
+          during_flight: ထွက်ပြေးတိမ်းရှောင်စဉ်
+          during_refuge: ခိုလှုံနေစဉ်အတောအတွင်း
+          during_return_transit: ပြန်လည်ဝင်ရောက်စဉ်/ ကြားစခန်း
+          post_displacement: နေရပ်စွန့်ခွာရပြီး နောက်ပိုင်း
+      incident_timeofday:
+        display_name: ဖြစ်ရပ်ဖြစ်ပျက်ခဲ့သည့်နေ့နှင့် အချိန်
+        option_strings_text:
+          morning_sunrise_to_noon: နံနက် (နေထွက်ချိန်မှ မွန်တည့်ချိန်အထိ)
+          afternoon_noon_to_sunset: မွန်းလွဲ (မွန်းတည့်ချိန်မှ နေဝင်ချိန်အထိ)
+          evening_night_sunset_to_sunrise: ညနေ (နေဝင်ချိန်မှ နေထွက်ချိန်အထိ)
+          unknown_not_applicable: မသိ/ မသက်ဆိုင်
+      incident_location_type:
+        display_name: ဖြစ်ရပ်ဖြစ်ပွားသည့် နေရာ
+        option_strings_text:
+          bush_forest: ခြုံ/ သစ်တော
+          garden_cultivated_field: ပန်းခြံ/ စိုက်ခင်း
+          school: ကျောင်း
+          road: လမ်း
+          client_s_home: ဝန်ဆောင်မှုရယူသူ၏ နေအိမ်
+          perpetrator_s_home: ကျူးလွန်သူ၏ နေအိမ်
+          other: အခြား
+          market: ဈေး
+          streamside: စမ်းချောင်းနံဘေး
+          beach: ကမ်းခြေ
+          farm: တောင်ယာ
+          latrine: အိမ်သာ
+          perpetrator_s_friend_s_home: ကျူးလွန်သူ၏မိတ်ဆွေ အိမ်
+          entertainment_centre: အပန်းဖြေရာ နေရာ
+          unfinished_house: ဆောက်လုပ်စ အိမ်
+          guest_house_hotel: တည်းခိုခန်း/ ဟော်တယ်
+      incident_location:
+        display_name: ဖြစ်ရပ်ဖြစ်ပွားသည့် နေရာ
+      incident_camp_town:
+        display_name: ဖြစ်ရပ် စခန်း/ မြို့

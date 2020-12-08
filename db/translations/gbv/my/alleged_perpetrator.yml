@@ -1,0 +1,44 @@
+---
+my:
+  alleged_perpetrator:
+    name: ကျူးလွန်သူဟု စွပ်စွဲခံရသူနှင့် ပတ်သက်သည့် ဖောင်ပုံစံခွဲ အဆင့်ဆင့်
+    description: ကျူးလွန်သူဟု စွပ်စွဲခံရသူနှင့် ပတ်သက်သည့် ဖောင်ပုံစံခွဲ အဆင့်ဆင့်
+    fields:
+      primary_perpetrator:
+        display_name: ၎င်းသည် အဓိကပြစ်မှုကျူးလွန်သူဖြစ်ပါလား။
+        option_strings_text:
+          primary: အဓိက
+          secondary: သာမည
+      perpetrator_sex:
+        display_name: ကျူးလွန်သည်ဟု စွပ်စွဲခံရသူ၏ လိင်
+      former_perpetrator:
+        display_name: ကျူးလွန်သည်ဟု စွပ်စွဲခံရသူ၏ ကျား/မ အခြေပြုအကြမ်းဖက်မှုရာဇဝင်
+      perpetrator_nationality:
+        display_name: ကျူးလွန်သည်ဟု စွပ်စွဲခံရသူ၏ နိုင်ငံသား
+      perpetrator_ethnicity:
+        display_name: "ကျူးလွန်သည်ဟု စွပ်စွဲခံရသူ၏ မျိုးနွယ်စု သို့မဟုတ် လူမျိုးစု "
+      age_group:
+        display_name: ကျူးလွန်သည်ဟု စွပ်စွဲခံရသူ၏ အသက်အုပ်စု
+        option_strings_text:
+          '0_11': ၀-၁၁
+          '12_17': ၁၂-၁၇
+          '18_25': ၁၈-၂၅
+          '26_40': ၂၆-၄၀
+          '41_60': ၄၁-၆၀
+          '61': ၆၁+
+          unknown: မသိသေးသည့်အချက်များ
+      age_type:
+        display_name: ကျူးလွန်သူဟု စွပ်စွဲခံရသူ၏ အသက်အုပ်စု
+      perpetrator_relationship:
+        display_name: ကျူးလွန်သည်ဟု စွပ်စွဲခံရသူနှင့် ရှင်သန်ကျန်ရစ်သူ၏ ဆက်ဆံရေး
+      perpetrator_occupation:
+        display_name: ကျူးလွန်သည်ဟု စွပ်စွဲခံရသူ၏ အဓိကအလုပ်အကိုင် (သိရှိခဲ့လျှင်)
+        option_strings_text:
+          other: အခြား
+          unemployed: အလုပ်လက်မဲ့
+          unknown: မသိသေးသည့်အချက်များ
+          occupation_1: အလုပ်အကိုင် (၁)
+          occupation_2: အလုပ်အကိုင် (၂)
+          occupation_3: အလုပ်အကိုင် (၃)
+          occupation_4: အလုပ်အကိုင် (၄)
+          occupation_5: အလုပ်အကိုင် (၅)

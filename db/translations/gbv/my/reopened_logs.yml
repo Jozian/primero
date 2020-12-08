@@ -1,0 +1,10 @@
+---
+my:
+  reopened_logs:
+    name: အမှု၊ဖြစ်ရပ်ပြန်ဖွင့်ခြင်း
+    description: အမှု၊ဖြစ်ရပ်ပြန်ဖွင့်ခြင်း ဖောင်ပုံစံခွဲ 
+    fields:
+      reopened_date:
+        display_name: အမှု၊ဖြစ်ရပ်ပြန်ဖွင့်သည့် ရက်စွဲ
+      reopened_user:
+        display_name: အမှု၊ဖြစ်ရပ်ပြန်ဖွင့်သူ
