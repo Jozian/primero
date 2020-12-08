@@ -1,0 +1,20 @@
+---
+my:
+  legal_assistance_services_subform_section:
+    name: တရားဥပဒေရေးရာအကူအညီပေးသည့်ဝန်ဆောင်မှုများ ဖောင်ပုံစံခွဲအဆင့်ဆင့်
+    description: တရားဥပဒေရေးရာအကူအညီပေးသည့်ဝန်ဆောင်မှုများ ဖောင်ပုံစံခွဲအဆင့်ဆင့်
+    fields:
+      service_legal_referral:
+        display_name: ဝန်ဆောင်မှုရယူသူအား တရားဥပဒေဆိုင်ရာဝန်ဆောင်မှုများသို့ လွဲပြောင်းညွှန်းပို့ခဲ့ပါသလား။
+      service_legal_appointment_date:
+        display_name: ချိန်းဆိုသည့် ရက်စွဲ
+      service_legal_appointment_time:
+        display_name: ချိန်းဆိုသည့် အချိန်
+      service_legal_provider:
+        display_name: ဝန်ဆောင်မှုပေးသူ
+      service_legal_location:
+        display_name: ဝန်ဆောင်မှုပေးသည့် နေရာ
+      service_legal_referral_notes:
+        display_name: မှတ်စုများ
+      pursue_legal_action:
+        display_name: ဝန်ဆောင်မှုရယူသူသည် ဥပဒေလမ်းကြောင်းအရအရေးယူဆောင်ရွက်လိုပါသလား။

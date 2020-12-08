@@ -1,0 +1,9 @@
+---
+my:
+  other_documents:
+    name: အခြားစာရွက်စာတမ်းများ
+    description: အခြားစာရွက်စာတမ်းများ
+    form_group_name: စာရွက်စာတမ်းများ
+    fields:
+      upload_other_document:
+        display_name: အခြားစာရွက်စာတမ်းများ
