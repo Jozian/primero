@@ -1,0 +1,30 @@
+---
+my:
+  action_plan_subform_section:
+    name: လုပ်ငန်းအစီအစဉ် အဆင့်ဆင့်
+    description: လုပ်ငန်းအစီအစဉ် ဖောင်ပုံစံခွဲ
+    fields:
+      action_plan_description:
+        display_name: ဤလိုအပ်ချက်ကို ဖြေရှင်းဆောင်ရွက်ရန် လုပ်ငန်းအစီအစဉ်ကို ဖေါ်ပြပါ။
+      service_type:
+        display_name: လိုအပ်ချက်အမျိုးအစား
+      service_referral:
+        display_name: သင့်လျော်သည့်အခါ  ဤဝန်ဆောင်မှုသို့  ရှင်သန်ကျန်ရစ်သူအား သင်လွှဲပြောင်းပေးခဲ့ပါသလား။
+      service_referral_written_consent:
+        display_name: ညွှန်းပို့ခြင်းပြုလုပ်ရာတွင် ကိုယ်ရေးအချက်အလက်များကို လွှဲပြောင်းပေးရန် ရှင်သန်ကျန်ရစ်သူထံမှ သဘောတူခွင့်ပြုချက်ကို စာဖြင့် သင်ရရှိခဲ့ပါသလား။
+      service_appointment_date:
+        display_name: ချိန်းဆိုသည့် ရက်စွဲ
+      service_appointment_time:
+        display_name: ချိန်းဆိုသည့် အချိန်
+      service_provider:
+        display_name: ဝန်ဆောင်မှုပေးသူ
+      service_location:
+        display_name: ဝန်ဆောင်မှုပေးသည့် နေရာ
+      service_referral_notes:
+        display_name: မှတ်ချက်များ
+      service_referral_mandatory_reporting:
+        display_name: "အကယ်၍ မဖြစ်မနေအစီရင်ခံရန် လိုအပ်သော ဥပဒေများကျင့်သုံးပါက ထိုအဖြစ်အပျက်ကို ရဲ/ အများပြည်သူဆိုင်ရာ အာဏာပိုင်များထံ သင်အစီရင်ခံခဲ့ပါသလား?"
+      service_referral_mandatory_reporting_inform_survivor:
+        display_name: အကယ်၍ အစီရင်ခံခဲ့လျှင်၊ အစီရင်ခံစာမထုတ်ပြန်မီ ရှင်သန်ကျန်ရစ်သူ (နှင့်/ သို့မဟုတ်) သူမ၏ စောင့်ရှောက်သူအား မဖြစ်မနေပြုလုပ်ရမည့် တိုင်ကြားခြင်းနှင့် ပတ်သက်သည့် ဥပဒေများအကြောင်း ရှင်းပြခဲ့ပါသလား။
+      service_referral_case_action_plan_timing:
+        display_name: ဤ အမှုဖြစ်ရပ်အတွက် လုပ်ငန်းအစီအစဉ်ကို ရှင်သန်ကျန်ရစ်သူနှင့်အတူ ရေးဆွဲခဲ့ရာတွင် အချိန်မည်မျှ ကြာခဲ့ပါသလဲ။

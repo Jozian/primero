@@ -1,0 +1,63 @@
+---
+my:
+  gbv_case_closure_form:
+    name: အမှုဖြစ်ရပ် ပိတ်သိမ်းခြင်း
+    description: အမှုဖြစ်ရပ် ပိတ်သိမ်းခြင်း
+    form_group_name: အမှုဖြစ်ရပ် ပိတ်သိမ်းခြင်း
+    fields:
+      created_at:
+        display_name: အမှုဖြစ်ရပ် ဖွင့်သည့်ရက်စွဲ
+      date_closure:
+        display_name: အမှုဖြစ်ရပ် ပိတ်သိမ်းသည့်ရက်စွဲ
+      child_status:
+        display_name: အမှုဖြစ်ရပ် အခြေအနေ
+      closure_assessment:
+        display_name: ပိတ်သိမ်းပြီးချိန် အကဲဖြတ်ခြင်း
+      closure_checklist_header_section:
+        display_name: ပိတ်သိမ်းချိန်တွင် စစ်ဆေးရမည့်အချက်များ
+      closure_needs_met:
+        display_name: ရှင်သန်ကျန်ရစ်သူ၏ လိုအပ်ချက်များကို တတ်နိုင်သမျှအတိုင်းအတာအထိ ဖြည့်ဆည်းခဲ့ပြီးဖြစ်ပါသည်။
+      closure_needs_met_explain:
+        display_name: ရှင်းလင်းဖေါ်ပြပါ။
+      closure_survivor_contact:
+        display_name: သတ်မှတ်ထားသောအချိန်ကာလတစ်ခု (ဥပမာ- ရက်ပေါင်း ၃၀ ကျော်) အတွင်း  ရှင်သန်ကျန်ရစ်သူနှင့် ဆက်အသွယ်မရရှိခဲ့ပါ။
+      closure_survivor_contact_explain:
+        display_name: ရှင်းလင်းဖေါ်ပြပါ။
+      closure_survivor_request_close:
+        display_name: ရှင်သန်ကျန်ရစ်သူက အမှုဖြစ်ရပ် ပိတ်သိမ်းရန် တောင်းဆိုခဲ့သည်။
+      closure_survivor_request_close_explain:
+        display_name: ရှင်းလင်းဖေါ်ပြပါ။
+      closure_survivor_left_area:
+        display_name: ရှင်သန်ကျန်ရစ်သူသည် ထိုဒေသမှထွက်ခွာသွားခဲ့သည် (သို့မဟုတ်) ထိုနေရာတွင် နေထိုင်ခြင်းမရှိတော့ပါ။
+      closure_survivor_left_area_explain:
+        display_name: ရှင်းလင်းဖေါ်ပြပါ။
+      closure_tranferred_organization:
+        display_name: အဆိုပါအမှုဖြစ်ရပ်အား အခြားအဖွဲ့အစည်းသို့လွှဲပြောင်းခဲ့သည်။
+      closure_tranferred_organization_explain:
+        display_name: ရှင်းလင်းဖေါ်ပြပါ။
+      closure_funding_constraints:
+        display_name: ဝန်ဆောင်မှုပေးသူ၏ ရန်ပုံငွေအကန့်အသတ်ကြောင့် အမှုဖြစ်ရပ်အားပိတ်သိမ်းခဲ့သည်။
+      closure_funding_constraints_explain:
+        display_name: ရှင်းလင်းဖေါ်ပြပါ။
+      closure_safety_plan:
+        display_name: ရှင်သန်ကျန်ရစ်သူ၏ ဘေးကင်းလုံခြုံမှုအစီအစဉ်ကို ပြန်လည်သုံးသပ်ခဲ့ပြီး အသုံးပြုနေပြီဖြစ်သည်။
+      closure_safety_plan_explain:
+        display_name: (ဘေးကင်းလုံခြုံမှုအစီအစဉ်အား) ရှင်းလင်းဖေါ်ပြပါ။
+      closure_case_plan_complete:
+        display_name: အမှုဖြစ်ရပ်အတွက်လုပ်ဆောင်မှုအစီအစဉ်တွင် ဖော်ပြထားသည့်အတိုင်း ရှင်သန်ကျန်သူ၏လိုအပ်ချက်များကို ဖြည့်ဆည်းပေးခဲ့ပြီးဖြစ်သည်။
+      closure_case_plan_complete_explain:
+        display_name: "(ပြီးမြောက်ခြင်းနှင့် စိတ်ကျေနပ်ခြင်း)  ရှင်းလင်းဖော်ပြပါ။ "
+      closure_no_further_support:
+        display_name: ရှင်သန်ကျန်ရစ်သူ နှင့် ဖြစ်ရပ်စီမံခန့်ခွဲသူတို့က အထောက်အပံ့ နောက်ထပ်မလိုအပ်ကြောင်း သဘောတူသည်။
+      closure_no_further_support_explain:
+        display_name: (အထောက်အပံ့နောက်ထပ်မလိုအပ်တော့သည့်အကြောင်း) ရှင်းလင်းဖေါ်ပြပါ။
+      closure_resume_notification:
+        display_name: မည်သည့်အချိန်တွင်မဆို ဝန်ဆောင်မှုများကို ပြန်လည်ရယူနိုင်သည်ဟု ရှင်သန်ကျန်ရစ်သူအား အသိပေးခဲ့သည်။
+      closure_resume_notification_explain:
+        display_name: (ဝန်ဆောင်မှုများကို ပြန်လည်ရယူနိုင်သည့်အကြောင်း) ရှင်းလင်းဖေါ်ပြပါ။
+      closure_supervisor_review:
+        display_name: ဖြစ်ရပ်ကြီးကြပ်သူက ဖြစ်ရပ်ပိတ်သိမ်းခြင်း / ထွက်ခွာမှုအစီအစဉ်ကို ပြန်လည်သုံးသပ်ခဲ့သည်။
+      closure_supervisor_review_explain:
+        display_name: (အမှုဖြစ်ရပ်အား ပြန်လည်သုံးသပ်ခြင်း) ရှင်းလင်းဖေါ်ပြပါ။
+      closure_completion_timing:
+        display_name: ဤအမှုဖြစ်ရပ်ကို ပိတ်သိမ်းရန် အချိန်မည်မျှကြာခဲ့ပါသလဲ။

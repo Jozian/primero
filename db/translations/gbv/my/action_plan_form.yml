@@ -1,0 +1,18 @@
+---
+my:
+  action_plan_form:
+    name: လုပ်ငန်းအစီအစဉ်
+    description: လုပ်ငန်းအစီအစဉ်
+    form_group_name: လုပ်ငန်းအစီအစဉ်
+    fields:
+      incident_links:
+        display_name: ဖြစ်ရပ် ချိတ်ဆက်မှုများ
+      action_explanation_header:
+        display_name: 'လုပ်ငန်းအစီအစဉ်'
+        help_text: ကျေးဇူးပြု၍ အကဲဖြတ်ခြင်းတွင် သင်ဖော်ထုတ်ထားသည့် လိုအပ်ချက်အားလုံးကို ထည့်သွင်းပါ။ လုပ်ငန်းအစီအစဉ်၏ အစိတ်အပိုင်းတစ်ခုအဖြစ် ဖြစ်သင့်သော အခြားလိုအပ်ချက်များကိုထည့်သွင်းရန် "ထည့်သွင်း" ခလုတ်ကိုအသုံးပြုပါ။
+      action_plan_section:
+        display_name: လုပ်ငန်းအစီအစဉ်
+      action_follow_up_header:
+        display_name: နောက်ဆက်တွဲ ဆောင်ရွက်မှုများ
+      gbv_follow_up_subform_section:
+        display_name: နောက်ဆက်တွဲ ဆောင်ရွက်မှုများ

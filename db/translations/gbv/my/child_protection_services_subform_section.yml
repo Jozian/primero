@@ -1,0 +1,18 @@
+---
+my:
+  child_protection_services_subform_section:
+    name: ကလေးသူငယ်ကာကွယ်စောင့်ရှောက်ရေးဝန်ဆောင်မှုများဆိုင်ရာဖောင့်ပုံစံခွဲအဆင့်ဆင့်
+    description: ကလေးသူငယ်ကာကွယ်စောင့်ရှောက်ရေးဝန်ဆောင်မှုများဆိုင်ရာဖောင့်ပုံစံခွဲအဆင့်ဆင့်
+    fields:
+      service_protection_referral:
+        display_name: "ဝန်ဆောင်မှုရယူသူအား ကလေးသူငယ်ကာကွယ်စောင့်ရှောက်ရေးဝန်ဆောင်မှုများသို့ လွှဲပြောင်းပေးခဲ့ပါသလား?"
+      service_protection_appointment_date:
+        display_name: ချိန်းဆိုသည့် ရက်စွဲ
+      service_protection_appointment_time:
+        display_name: ချိန်းဆိုသည့် အချိန်
+      service_protection_provider:
+        display_name: ဝန်ဆောင်မှုပေးသူ
+      service_protection_location:
+        display_name: ဝန်ဆောင်မှုပေးသည့် နေရာ
+      service_protection_referral_notes:
+        display_name: မှတ်စုများ

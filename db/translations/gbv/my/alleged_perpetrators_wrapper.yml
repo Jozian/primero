@@ -1,0 +1,9 @@
+---
+my:
+  alleged_perpetrators_wrapper:
+    name: ကျူးလွန်သည်ဟု စွပ်စွဲခံရသူ
+    description: ကျူးလွန်သည်ဟု စွပ်စွဲခံရသူ
+    form_group_name: ကျူးလွန်သည်ဟု စွပ်စွဲခံရသူ
+    fields:
+      alleged_perpetrator:
+        display_name: ကျူးလွန်သည်ဟု စွပ်စွဲခံရသူ

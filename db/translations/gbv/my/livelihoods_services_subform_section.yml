@@ -1,0 +1,18 @@
+---
+my:
+  livelihoods_services_subform_section:
+    name: သက်မွေးဝမ်းကျောင်းဆိုင်ရာဝန်ဆောင်မှုများ ဖောင်ပုံစံခွဲအဆင့်ဆင့်
+    description: သက်မွေးဝမ်းကျောင်းဆိုင်ရာဝန်ဆောင်မှုများ ဖောင်ပုံစံခွဲအဆင့်ဆင့်
+    fields:
+      service_livelihoods_referral:
+        display_name: ဝန်ဆောင်မှုရယူသူအား သက်မွေးဝမ်းကျောင်းဆိုင်ရာဝန်ဆောင်မှုများသို့ လွဲပြောင်းညွှန်းပို့ခဲ့ပါသလား။
+      service_livelihoods_appointment_date:
+        display_name: ချိန်းဆိုသည့် ရက်စွဲ
+      service_livelihoods_appointment_time:
+        display_name: ချိန်းဆိုသည့် အချိန်
+      service_livelihoods_provider:
+        display_name: ဝန်ဆောင်မှုပေးသူ
+      service_livelihoods_location:
+        display_name: ဝန်ဆောင်မှုပေးသည့် နေရာ
+      service_livelihoods_referral_notes:
+        display_name: မှတ်စုများ

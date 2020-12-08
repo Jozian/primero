@@ -1,0 +1,63 @@
+---
+my:
+  gbv_survivor_information:
+    name: ရှင်သန်ကျန်ရစ်သူ၏ သတင်းအချက်အလက်များ
+    description: ရှင်သန်ကျန်ရစ်သူ၏ သတင်းအချက်အလက်များ
+    form_group_name: မည်သူမည်ဝါဖြစ်ကြောင်းသတ်မှတ်ခြင်း / မှတ်ပုံတင်ခြင်း
+    fields:
+      case_id:
+        display_name: အိုင်ဒီ အရှည်ကောက်
+      short_id:
+        display_name: အမှုဖြစ်ရပ် အိုင်ဒီ
+      marked_for_mobile:
+        display_name: မိုဖိုင်းဖုန်းအတွက် အမှတ်အသားပြုထားသည်။
+        tick_box_label: 'ဟုတ်သည်'
+      child_status:
+        display_name: အမှုဖြစ်ရပ် အခြေအနေ
+      name:
+        display_name: အမည်
+      survivor_code_no:
+        display_name: ရှင်သန်ကျန်ရစ်သူ ကုတ်နံပါတ်
+      age:
+        display_name: အသက်
+      date_of_birth:
+        display_name: မွေးသက္ကရာဇ်
+      sex:
+        display_name: ကျား/ မ
+      gbv_ethnicity:
+        display_name: မျိုးနွယ်စု သို့မဟုတ် လူမျိုးစု
+      country_of_origin:
+        display_name: မူလနိုင်ငံ
+      gbv_nationality:
+        display_name: နိုင်ငံသား (မူလနိုင်ငံနှင့် မတူညီပါက)
+      gbv_religion:
+        display_name: ကိုးကွယ်သည့်ဘာသာ
+      maritial_status:
+        display_name: လက်ရှိ အိမ်ထောင်ရေးအခြေအနေ
+      dependents_no:
+        display_name: ကလေးများနှင့် အခြားမှီခိုသူများ၏ အရေအတွက်နှင့် ၎င်းတို့၏အသက်များ
+      occupation:
+        display_name: အလုပ်အကိုင်
+      gbv_displacement_status:
+        display_name: လက်ရှိအစီရင်ခံချိန်တွင် နေရာပြောင်းရွေ့မှုအခြေအနေ
+      gbv_disability_type:
+        display_name: ရှင်သန်ကျန်ရစ်သူသည် မသန်စွမ်းသူတစ်ဦးဖြစ်ပါသလား။
+      unaccompanied_separated_status:
+        display_name: ရှင်သန်ကျန်ရစ်သူသည် အဖေါ်မပါသည့် အရွယ်မရောက်သေးသူ၊ ကွဲကွာနေသော ကလေးငယ် သို့မဟုတ် အခြားထိခိုက်လွယ်သောကလေးငယ် ဖြစ်ပါသလား။
+      section_heading_child_survivors_less_than_18_years_old:
+        display_name: ကလေးရှင်သန်ကျန်ရစ်သူများ (အသက်၁၈ နှစ်အောက်)
+      survivor_lives_alone:
+        display_name: ရှင်သန်ကျန်ရစ်သူသည် ကလေးဖြစ်ပါက သူ / သူမ တစ်ဦးတည်းနေထိုင်နေသည်လား။
+      survivor_caretaker:
+        display_name: ရှင်သန်ကျန်ရစ်သူသည် တစ်စုံတစ်ဦးနှင့်နေပါက သူ/သူမသည် စောင့်ရှောက်သူနှင့် မည်သို့တော်စပ်ပါလဲ။
+        option_strings_text:
+          parent_guardian: မိဘ/ အုပ်ထိန်းသူ
+          relative: ဆွေမျိုး
+          spouse_cohabitating: ဇနီး/ ခင်ပွန်း/ အတူနေသူ
+          other_please_specify: အခြားရှိပါက ကျေးဇူးပြု၍ ဖေါ်ပြပါ။
+      survivor_caretaker_other:
+        display_name: အကယ်၍ သူ/ သူမနှင့် စောင့်ရှောက်သူတို့အကြားတွင် အခြားဆက်ဆံရေးများရှိပါက ကျေးဇူးပြု၍ ဖေါ်ပြပါ။
+      caretaker_marital_status:
+        display_name: စောင့်ရှောက်သူ၏ လက်ရှိအိမ်ထောင်ရေးအခြေအနေ
+      caretaker_occupation:
+        display_name: ယာယီစောင့်ရှောက်သူ၏ အဓိကအလုပ်အကိုင်

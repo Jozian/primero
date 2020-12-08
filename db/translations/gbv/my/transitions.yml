@@ -1,0 +1,43 @@
+---
+my:
+  transitions:
+    name: "ကြားစခန်းများအတွက်ဖောင်ပုံစံခွဲဲအဆင့်ဆင့် "
+    description: ကြားစခန်းများအတွက် ဖောင်ပုံစံခွဲဲ
+    fields:
+      type:
+        display_name: အမျိုးအစား
+      to_user_local:
+        display_name: ဒေသခံအသုံးပြုသူ
+      to_user_remote:
+        display_name: အဝေးမှ အသုံးပြုသူ
+      to_user_local_status:
+        display_name: အခြေအနေ
+        option_strings_text:
+          in_progress: ဆောင်ရွက်ဆဲ
+          pending: ဆိုင်းငံ့
+          accepted: လက်ခံခဲ့သည်
+          rejected: ငြင်းပယ်ခဲ့သည်
+          done: ဆောင်ရွက်ပြီး
+      rejected_reason:
+        display_name: ငြင်းပယ်ရသည့် အကြောင်းရင်း (အကျုံးဝင်ပါက)
+      to_user_agency:
+        display_name: အဝေးမှ အသုံးပြုသည့် အေဂျင်စီ
+      notes:
+        display_name: မှတ်စုများ
+      transitioned_by:
+        display_name: " လွှဲပြောင်းပေးခြင်းနှင့် ညွှန်းပို့ခြင်းကို ပြုလုပ်သူ"
+      service:
+        display_name: ဝန်ဆောင်မှု
+      is_remote:
+        display_name: အဝေးရှိစနစ်တစ်ခုသို့  လွှဲပြောင်းပေးခြင်း သို့မဟုတ် ညွှန်းပို့ခြင်း ပြုလုပ်ခဲ့ပါသလား။
+        tick_box_label: 'ဟုတ်ပါသည်။'
+      type_of_export:
+        display_name: မည်သည့် ပုံစံမျိုးဖြင့် ထုတ်ယူလိုချင်ပါသလဲ။
+      consent_overridden:
+        display_name: မျှဝေရန် သဘောတူညီမှုမရှိသည့် အပြင်အဆင်အား ကျော်လွန်ဆောင်ရွက်ရန်မရှိပါ။
+        tick_box_label: 'ဟုတ်ပါသည်။'
+      consent_individual_transfer:
+        display_name: ဖြစ်ရပ်စီမံခန့်ခွဲသူသည် ဤလွှဲပြောင်းမှုကို ဆောင်ရွက်ရန် ကလေး၏သဘောတူခွင့်ပြုချက်ရရှိပြီးဖြစ်ပါသလား။
+        tick_box_label: 'ဟုတ်ပါသည်။'
+      created_at:
+        display_name: ညွှန်းပို့ခြင်းနှင့် လွှဲပြောင်းခြင်းပြုလုပ်သည့် ရက်စွဲ
