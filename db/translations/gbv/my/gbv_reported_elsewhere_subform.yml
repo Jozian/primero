@@ -1,0 +1,18 @@
+---
+my:
+  gbv_reported_elsewhere_subform:
+    name: အခြားတစ်နေရာတွင် တိုင်ကြားခဲ့သည့် ကျား၊မ အခြေပြုအကြမ်းဖက်မှုအတွက် ဖောင်ပုံစံခွဲ
+    description: အခြားတစ်နေရာတွင် တိုင်ကြားခဲ့သည့် ကျား၊မ အခြေပြုအကြမ်းဖက်မှုအတွက် ဖောင်ပုံစံခွဲ
+    fields:
+      gbv_reported_elsewhere_organization_type:
+        display_name: ရှင်သန်ကျန်ရစ်သူက အဖြစ်အပျက်ကိုတိုင်ကြားခဲ့သည့် ဝန်ဆောင်မှုပေးသူအမျိုးအစား
+        option_strings_text:
+          health_medical_services: ကျန်းမာရေး/ ဆေးကုသမှုဆိုင်ရာ ဝန်ဆောင်မှုများ
+          psychosocial_counseling_services: စိတ်လူမှုပိုင်းဆိုင်ရာ / နှစ်သိမ့်ဆွေးနွေးဝန်ဆောင်မှုများ
+          police_other_security_actor: ရဲ / အခြားလုံခြုံရေး ဆောင်ရွက်သူများ
+          legal_assistance_services: ဥပဒေရေးရာအကူအညီပေးသည့်ဝန်ဆောင်မှုများ
+          livelihoods_program: အသက်မွေးဝမ်းကျောင်းဆိုင်ရာအစီအစဉ်
+          safe_house_shelter: ဘေးကင်းလုံခြုံသည့်အိမ်/ ဂေဟာ
+          other: အခြား
+      gbv_reported_elsewhere_organization_provider:
+        display_name: ဝန်ဆောင်မှုပေးသူအမည်
