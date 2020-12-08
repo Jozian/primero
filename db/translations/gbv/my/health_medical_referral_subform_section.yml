@@ -1,0 +1,18 @@
+---
+my:
+  health_medical_referral_subform_section:
+    name: "ကျန်းမာရေး / ဆေးကုသမှုဆိုင်ရာ လွှဲပြောင်းညွန်းပို့မှု ဖောင်ပုံစံခွဲဲအဆင့်ဆင့် "
+    description: "ကျန်းမာရေး / ဆေးကုသမှုဆိုင်ရာ လွှဲပြောင်းညွန်းပို့မှု ဖောင်ပုံစံခွဲဲအဆင့်ဆင့် "
+    fields:
+      service_medical_referral:
+        display_name: ၀န်ဆောင်မှုရယူသူအား ကျန်းမာရေး/ ဆေးကုသမှုဆိုင်ရာဝန်ဆောင်မှုများသို့ လွဲပြောင်းညွှန်းပို့ခဲ့ပါသလား။
+      service_medical_appointment_date:
+        display_name: ချိန်းဆိုသည့် ရက်စွဲ
+      service_medical_appointment_time:
+        display_name: ချိန်းဆိုသည့် အချိန်
+      service_medical_provider:
+        display_name: ဝန်ဆောင်မှုပေးသူ
+      service_medical_location:
+        display_name: ဝန်ဆောင်မှုပေးသည့် နေရာ
+      service_medical_referral_notes:
+        display_name: မှတ်စုများ

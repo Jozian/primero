@@ -1,0 +1,33 @@
+---
+my:
+  gbv_individual_details:
+    name: ကျား၊ မ အခြေပြုအကြမ်းဖက်မှု တစ်ဦးချင်းစီ၏ အသေးစိတ်အချက်အလက်များ
+    description: ကျား၊ မ အခြေပြုအကြမ်းဖက်မှု တစ်ဦးချင်းစီ၏ အသေးစိတ်အချက်အလက်များ
+    form_group_name: ကျား၊ မ အခြေပြုအကြမ်းဖက်မှု တစ်ဦးချင်းစီ၏ အသေးစိတ်အချက်အလက်များ
+    fields:
+      survivor_code:
+        display_name: ရှင်သန်ကျန်ရစ်သူ ကုတ်နံပါတ်
+      sex:
+        display_name: ရှင်သန်ကျန်ရစ်သူ၏လိင်၊ ကျား၊မ
+      date_of_birth:
+        display_name: ရှင်သန်ကျန်ရစ်သူ၏ မွေးနေ့သက္ကရာဇ်
+      age:
+        display_name: ရှင်သန်ကျန်ရစ်သူ၏ အသက်
+      estimated:
+        display_name: ခန့်မှန်းအသက်ဖြစ်ပါသလား။
+      ethnicity:
+        display_name: ရှင်သန်ကျန်ရစ်သူသည် မည်သည့်လူမျိုးဖြစ်ပါသလဲ။
+      nationality:
+        display_name: ရှင်သန်ကျန်ရစ်သူသည် မည်သည့်နိုင်ငံသားဖြစ်ပါသလဲ။
+      religion:
+        display_name: ရှင်သန်ကျန်ရစ်သူသည် မည်သည့်ဘာသာကို ကိုးကွယ်ပါသလဲ။
+      country_of_origin:
+        display_name: မူလနိုင်ငံ
+      displacement_status:
+        display_name: လက်ရှိအစီရင်ခံစဉ်တွင် နေရပ်စွန့်ခွါရွှေ့ပြောင်းရမှု  အခြေအနေ
+      maritial_status:
+        display_name: လက်ရှိ အိမ်ထောင်ရေးအခြေအနေ
+      disability_type:
+        display_name: မသန်စွမ်းဖြစ်မှု အမျိုးအစား
+      unaccompanied_separated_status:
+        display_name: ရှင်သန်ကျန်ရစ်သူသည် အဖေါ်မပါသည့် အရွယ်မရောက်သေးသူ၊ အုပ်ထိန်းသူနှင့်ကွဲကွာနေသော ကလေးငယ် သို့မဟုတ် အခြားထိခိုက်လွယ်သောကလေး ဖြစ်ပါသလား။

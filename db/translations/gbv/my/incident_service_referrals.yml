@@ -1,0 +1,50 @@
+---
+my:
+  incident_service_referrals:
+    name: ဝန်ဆောင်မှု အတွက် ညွှန်းပို့ခြင်း
+    description: ဝန်ဆောင်မှု အတွက် ညွှန်းပို့ခြင်း
+    form_group_name: ဝန်ဆောင်မှု အတွက် ညွှန်းပို့ခြင်း
+    fields:
+      service_referred_from:
+        display_name: ဝန်ဆောင်ရမှုယူသူအား သင့်ထံ မည်သူကလွှဲပြောင်းညွှန်းပို့ပေးခဲ့ပါသလဲ။
+        option_strings_text:
+          health_medical_services: ကျန်းမာရေး/ ဆေးကုသမှုဆိုင်ရာ ဝန်ဆောင်မှုများ
+          psychosocial_counseling_services: စိတ်လူမှုပိုင်းဆိုင်ရာ / နှစ်သိမ့်ဆွေးနွေးဝန်ဆောင်မှုများ
+          police_other_security_actor: ရဲ / အခြားလုံခြုံရေးလုပ်ငန်းဆောင်ရွက်သူများ
+          legal_assistance_services: တရားဥပဒေရေးရာအကူအညီပေးသည့်ဝန်ဆောင်မှုများ
+          livelihoods_program: အသက်မွေးဝမ်းကျောင်းဆိုင်ရာအစီအစဉ်
+          self_referral_first_point_of_contact: ကိုယ်တိုင်လွှဲပြောင်းညွှန်းပို့ခြင်း/ ပထမဆုံး စဆက်သွယ်သည့် နေရာ
+          teacher_school_official: ဆရာ၊ဆရာမ / ကျောင်းမှ တာဝန်ရှိသူ
+          community_or_camp_leader: ရပ်ရွာလူထုခေါင်းဆောင် သို့မဟုတ် စခန်းခေါင်းဆောင်
+          safe_house_shelter: ဘေးကင်းလုံခြုံသည့်အိမ်/ ဂေဟာ
+          other_humanitarian_or_development_actor: အခြား လူသားချင်းစာနာထောက်ထားမှုဆိုင်ရာ သို့မဟုတ် ဖွံ့ဖြိုးတိုးတက်ရေး ဆိုင်ရာလုပ်ငန်းဆောင်ရွက်သူများ
+          other_government_service: အခြားသောအစိုးရဝန်ဆောင်မှု
+          other: အခြား
+      service_referred_from_other:
+        display_name: အကယ်၍ အခြားမှ လွှဲပြောင်းညွှန်းပို့ပေးခဲ့ပါက ကျေးဇူးပြု၍ ဖေါ်ပြပါ။
+      safe_house_safe_shelter_referral:
+        display_name: ဘေးကင်းလုံခြုံသည့် အိမ်/ ဂေဟာသို့ လွှဲပြောင်းညွှန်းပို့ပေးမှု
+      service_safehouse_referral:
+        display_name: ဝန်ဆောင်မှုရယူသူအား ဘေးကင်းလုံခြုံသည့် အိမ်/ ဂေဟာသို့ လွဲပြောင်းညွှန်းပို့ပေးခဲ့ပါသလား။
+      service_safehouse_appointment_date:
+        display_name: ချိန်းဆိုသည့် ရက်စွဲ
+      service_safehouse_appointment_time:
+        display_name: ချိန်းဆိုသည့် အချိန်
+      service_safehouse_provider:
+        display_name: ဝန်ဆောင်မှုပေးသူ
+      service_safehouse_location:
+        display_name: ဝန်ဆောင်မှုပေးသည့် နေရာ
+      service_safehouse_referral_notes:
+        display_name: မှတ်စုများ
+      health_medical_referral_subform_section:
+        display_name: ကျန်းမာရေး / ဆေးကုသမှုဆိုင်ရာ လွှဲပြောင်းညွှန်းပို့မှု
+      psychosocial_counseling_services_subform_section:
+        display_name: စိတ်လူမှုပိုင်းဆိုင်ရာ / နှစ်သိမ့်ဆွေးနွေးဝန်ဆောင်မှုများ
+      legal_assistance_services_subform_section:
+        display_name: တရားဥပဒေရေးရာအကူအညီပေးသည့်ဝန်ဆောင်မှုများ
+      police_or_other_type_of_security_services_subform_section:
+        display_name: ရဲ သို့မဟုတ် အခြားလုံခြုံရေးဝန်ဆောင်မှုအမျိုးအစားများ
+      livelihoods_services_subform_section:
+        display_name: အသက်မွေးဝမ်းကျောင်းဆိုင်ရာဝန်ဆောင်မှုများ
+      child_protection_services_subform_section:
+        display_name: ကလေးသူငယ်ကာကွယ်စောင့်ရှောက်ရေးဝန်ဆောင်မှုများ

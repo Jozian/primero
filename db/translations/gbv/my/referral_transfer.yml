@@ -1,0 +1,15 @@
+---
+my:
+  referral_transfer:
+    name: ညွှန်းပို့ခြင်းနှင့် လွှဲပြောင်းခြင်းများ
+    description: " လွှဲပြောင်းခြင်းနှင့်ညွှန်းပို့ခြင်းများအတွက်စာရင်း"
+    form_group_name: ညွှန်းပို့ခြင်းနှင့် လွှဲပြောင်းခြင်းများ
+    fields:
+      transfer_status:
+        display_name: လွှဲပြောင်းမှုအခြေအနေ
+        option_strings_text:
+          in_progress: ဆောင်ရွက်ဆဲ
+          accepted: လက်ခံခဲ့သည်
+          rejected: ငြင်းပယ်ခဲ့သည်
+      transitions:
+        display_name: ညွှန်းပို့ခြင်းနှင့် လွှဲပြောင်းခြင်းများ

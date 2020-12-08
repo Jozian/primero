@@ -1,0 +1,18 @@
+---
+my:
+  police_or_other_type_of_security_services_subform_section:
+    name: ရဲ သို့မဟုတ် အခြားလုံခြုံရေးဝန်ဆောင်မှုအမျိုးအစား ဖောင်ပုံစံခွဲအဆင့်ဆင့်
+    description: ရဲ သို့မဟုတ် အခြားလုံခြုံရေးဝန်ဆောင်မှုအမျိုးအစား ဖောင်ပုံစံခွဲအဆင့်ဆင့်
+    fields:
+      service_police_referral:
+        display_name: ဝန်ဆောင်မှုရယူသူအား ရဲ/ အခြားဝန်ဆောင်မှုများသို့ လွဲပြောင်းညွှန်းပို့ပေးခဲ့ပါသလား။
+      service_police_appointment_date:
+        display_name: ချိန်းဆိုသည့် ရက်စွဲ
+      service_police_appointment_time:
+        display_name: ချိန်းဆိုသည့် အချိန်
+      service_police_provider:
+        display_name: ဝန်ဆောင်မှုပေးသူ
+      service_police_location:
+        display_name: ဝန်ဆောင်မှုပေးသည့် နေရာ
+      service_police_referral_notes:
+        display_name: မှတ်စုများ
