@@ -152,9 +152,9 @@ my:
     filter_clear: "စစ်ထုတ်သည့်အရာကို ရှင်းထုတ်ပါ"
     find_tracing_match: "ခြေရာခံရန်တူညီမှုများကို ရှာဖွေပါ"
     filter_restore: "စနစ်ချိန်ညှိချက်များအတိုင်း ပြန်ထားပါ"
-    flag_records: "အလံဖြင့်အမှတ်အသားပြုခြင်း"
-    flag_model: "အလံအညွှန်းတပ်ခြင်း %{model}"
-    unflag_model: "အလံအညွှန်းကိုဖျက်သိမ်းခြင်း %{model}"
+    flag_records: "အမှတ်အသားပြုခြင်း"
+    flag_model: "အမှတ်အသားပြုခြင်းး %{model}"
+    unflag_model: "အမှတ်အသားဖျက်သိမ်းခြင်း %{model}"
     unflag_model_history: "အလံအညွှန်း၏ မှတ်တမ်းရာဇဝင် %{model}"
     ok: 'သဘောတူသည်'
     cancel: "ဖျက်သိမ်းသည်"
@@ -624,7 +624,7 @@ my:
     registered_by: "မှ မှတ်ပုံတင်ခဲ့သည်"
     edit_photo: "ဓါတ်ပုံကို တည်းဖြတ်ပြင်ဆင်ရန်"
     flag_record: "အလံအညွှန်းများ"
-    flag_label: "အလံအညွှန်း"
+    flag_label: "အမှတ်အသားပြုခြင်း"
     flag_reason: "အလံအညွှန်းတပ်ရသည့် အကြောင်းရင်း"
     flag_reason_date: "ရက်စွဲ (မဖြစ်မနေ မဟုတ်ပါ)"
     flag_records_error_message: "အလံအညွှန်းတပ်ရသည့်အကြောင်းရင်းကို ထည့်သွင်းပါ။ ရက်စွဲတစ်ခုထည့်လျှင် မှန်ကန်သောနေ့စွဲပုံစံကိုသုံးပါ။"
@@ -996,11 +996,11 @@ my:
   unique_id: "သီးသန့် ID"
   permissions:
     label: "ခွင့်ပြုချက်များ"
-    Actions: "အရေးယူဆောင်ရွက်မှုများ"
+    Actions: "ဆောင်ရွက်ချက်"
     Resources: "အရင်းအမြစ်များ"
     Management: "စီမံခန့်ခွဲခြင်း"
     group:
-      actions: "အရေးယူဆောင်ရွက်မှုများ"
+      actions: "ဆောင်ရွက်ချက်"
       resources: "အရင်းအမြစ်များ"
       resource: "အရင်းအမြစ်များ"
       management: "စီမံခန့်ခွဲခြင်း"
@@ -1132,7 +1132,7 @@ my:
     back: "ပုံစံများရှိသည့် စာမျက်နှာသို့ပြန်သွားရန်"
     help_text: "အကူအညီစာသားများ"
     actions:
-      label: "အရေးယူဆောင်ရွက်မှုများ"
+      label: "ဆောင်ရွက်ချက်"
       add_custom_field: "အထူးပြုလုပ်ထားသည့် field ကိုထည့်ပါ"
       save_order: "ညွှန်ကြားချက်ကို သိမ်းဆည်းသည်"
     messages:
@@ -1219,7 +1219,7 @@ my:
     display_name: "အမည် ဖေါ်ပြထားသည်"
     db_name: "DB အမည်"
     help_text: "အကူအညီစာသားများ"
-    actions: "အရေးယူဆောင်ရွက်မှုများ"
+    actions: "ဆောင်ရွက်ချက်"
     option_strings_text: "ရွေးချယ်စရာများ"
     option_strings_text_key: "ရွေးချယ်စရာ ခလုပ်"
     option_strings_text_display: "ရွေးချယ်စရာအတွက် စာသားများ"
@@ -1307,7 +1307,7 @@ my:
     create: Remote Server တစ်ခုထည့်ပါ
     edit: စီစဉ်ဖွဲ့စည်းမှုကိုပြင်ဆင်ခြင်း
     remote_app_uri: Primero URL
-    actions: အရေးယူဆောင်ရွက်မှုများ
+    actions: ဆောင်ရွက်ချက်
     status: အခြေအနေ
     description: ရှင်းလင်းဖော်ပြချက်
     timestamp: အချိန်စံနစ်တစ်ခု စတင်ချိန်မှ ယခုအချိန်အထိရောက်ရှိချိန်
@@ -1322,7 +1322,7 @@ my:
     reindex_pending: Reindex ကိုဆိုင်းငံ့ထားရန်
     is_continuous: တဆက်တည်းဖြစ်သည်
   lookup:
-    actions: "အရေးယူဆောင်ရွက်မှုများ"
+    actions: "ဆောင်ရွက်ချက်"
     edit: "ရှာဖွေခြင်းများကို ပြင်ဆင်ရန်"
     create: "ရှာဖွေခြင်းအသစ်"
     label: "ရှာဖွေခြင်း"
@@ -1863,7 +1863,7 @@ my:
       child_status_changed: "ကလေးသူငယ်အခြေအနေအား active အဖြစ်သို့ ပြောင်းလဲခဲ့သူ"
       with_details: "ဤအသေးစိတ်အချက်အလက်များနှင့်အတူ"
   actions:
-    button: "အရေးယူဆောင်ရွက်မှုများ"
+    button: "ဆောင်ရွက်ချက်"
     enable: "စတင်လုပ်ဆောင်စေသည်"
     disable: "ပိတ်သည်"
     reopen: "ပြန်လည်ဖွင့်လှစ်သည်"
@@ -2246,7 +2246,7 @@ my:
     page_entries_info:
       single_page_html:
         zero: "%{model} မတွေ့ပါ"
-        one: "ပြသနေသည် <b>၁</b>%{model}"
+        one: "ပြသနေသည် <b>1</b>%{model}"
         other: "ပြသနေသည် <b>အားလုံး%{count}</b>%{model}"
       multi_page_html: "ပြသနေသည် %{model}<b>%{from}-%{to}</b>၏ <b>%{count}</b>စုစုပေါင်း"
     models:
