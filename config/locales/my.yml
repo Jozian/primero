@@ -1,4 +1,6 @@
 my:
+  "false": "ငြင်းဆိုနေသည်"
+  "true": "လက်ခံသည်"
   valid: "အကျုံးဝင်သည်"
   invalid: "အကျုံးမဝင်ပါ"
   offline: ဤ application သည် အင်တာနက်နှင့်ချိတ်ဆက်ခြင်းမရှိပါ။
@@ -15,7 +17,7 @@ my:
     so: "ဆိုမာလီစာ"
     bn: "ဘင်္ဂလားဒေ့ရှ်စာ"
     id: "မလေးစာ"
-    my: "မြန်မာစာ"
+    my: "မြန်မာ (ယူနီကုဒ်)"
     th: "ထိုင်းစာ"
     ku: "ကဒ်စာ"
     pt: "ပေါ်တူဂီ"
@@ -1634,40 +1636,58 @@ my:
     match_result: "ကိုက်ညီသောရလဒ်များ"
     score_range: "ရမှတ်အဆင့်အပိုင်းအခြား:"
     count_risk_level_total:
+      one: "You have %{stat} <span>%{stat_type} risk</span> case "
       other: "သင့်ထံတွင် %{stat}<span> %{stat_type}အန္တရာယ်ရှိသည့် ဖြစ်ရပ်</span>ခု ရှိသည်"
     count_risk_level_new:
+      one: "and %{stat} <span>new</span> <span>%{stat_type} risk</span> case"
       other: "နှင့် %{stat}<span>အသစ်</span><span>%{stat_type} အန္တရာယ် </span>ဖြစ်ရပ်"
     count_records_total:
+      one: "You have %{stat} <span>total</span> case "
       other: "သင့်တွင်  %{stat}ဖြစ်ရပ်များ <span>စုစုပေါင်း</span>ရှိသည်"
     count_records_new:
+      one: "and %{stat} <span>new</span> case"
       other: "နှင့် %{stat} ဖြစ်ရပ်များ  <span>အသစ်</span>"
     count_referrals_total:
+      one: "You have %{stat} <span>total</span> referral "
       other: "သင့်တွင်  %{stat}လွှဲပြောင်းညွှန်းပို့မှု <span>စုစုပေါင်း</span>ရှိသည်"
     worker_count_referrals_total:
+      one: "<span>%{case_worker}</span> has %{stat} <span>total</span> referral "
       other: "<span>%{case_worker}</span>တွင် %{stat}လွှဲပြောင်းညွှန်းပို့ခြင်း<span>စုစုပေါင်း</span>"
     count_referrals_new:
+      one: "and %{stat} <span>new</span> referrals"
       other: "နှင့် %{stat} လွှဲပြောင်းညွှန်းပို့မှုများ  <span>အသစ်</span>"
     worker_count_total:
+      one: "<span>%{case_worker}</span> has %{stat} <span>total</span> case "
       other: "<span>%{case_worker}</span>ရှိသည် %{stat}ဖြစ်ရပ် <span>စုစုပေါင်း</span>"
     manager_count_open_total:
+      one: "You have %{stat} <span>open</span> case "
       other: "သင့်ထံတွင် %{stat}ဖြစ်ရပ်များ <span>ဖွင့်လှစ်</span>"
     manager_count_closed_total:
+      one: "and %{stat} <span>closed</span> case "
       other: "နှင့် %{stat}ဖြစ်ရပ် <span>ပိတ်သိမ်းပြီး</span>"
     manager_transfers_totals:
+      one: "You have %{stat} <span>%{stat_type}</span> Transfer "
       other: "သင့်ထံတွင် %{stat}လွဲပြောင်းပေးမှု‌‌ပေါင်း <span>%{stat_type}</span>"
     count_pending_approval_total:
+      one: "You have %{stat} <span>pending %{stat_type}</span> Approval "
       other: "သင့်ထံတွင် %{stat}<span>ဆိုင်းငံ့ထားသည့် %{stat_type}</span> အတည်ပြုမှုများ"
     count_rejected_approval_total:
+      one: "and %{stat} <span>rejected %{stat_type}</span> Approval "
       other: "နှင့် %{stat}<span>ငြင်းဆိုခဲ့သည့် %{stat_type}</span>အတည်ပြုမှုများ"
     count_new_bia_approvals:
+      one: "%{stat} <span>new %{stat_type}</span> Approval"
       other: "%{stat}<span>အသစ် %{stat_type}</span>အတည်ပြုမှုများ"
     count_new_case_plan_approvals:
+      one: "%{stat} <span>new %{stat_type}</span> Approval"
       other: "%{stat}<span>အသစ် %{stat_type}</span>အတည်ပြုမှုများ"
     count_new_closure_approvals:
+      one: "%{stat} <span>new %{stat_type}</span> Approval"
       other: "%{stat}<span>အသစ် %{stat_type}</span>အတည်ပြုမှုများ"
     count_pending_transfers:
+      one: "You have %{stat} <span>pending</span> Transfer "
       other: "သင့်ထံတွင် %{stat}<span>ဆိုင်းငံ့ထားသည့် </span> လွှဲပြောင်းပေးမှုများ"
     count_rejected_transfers:
+      one: "and %{stat} <span>rejected</span> Transfer "
       other: "နှင့် %{stat}<span>ငြင်းဆိုခဲ့သည့် </span> လွှဲပြောင်းပေးမှုများ"
     count_waiting_for_acceptance_transfers: "သင့်ထံတွင် %{stat}လွှဲပြောင်းပေးမှုများ </span>စောင့်ဆိုင်းနေသည့် </span> သင့်၏လက်ခံမှုကို"
     open_cases: "လက်ရှိဖွင့်ထားသော အမှုဖြစ််််််််ရပ်များ"
@@ -2251,18 +2271,26 @@ my:
       multi_page_html: "ပြသနေသည် %{model}<b>%{from}-%{to}</b>၏ <b>%{count}</b>စုစုပေါင်း"
     models:
       agency:
+        one: "အဖွဲ့အစည်းများ"
         other: "အဖွဲ့အစည်းများ"
       report:
+        one: "အစီရင်ခံစာများ"
         other: "အစီရင်ခံစာများ"
       child:
+        one: "ဖြစ်စဉ်များ"
         other: "အမှုဖြစ်ရပ်များ"
       incident:
+        one: "ဖြစ်စဉ်များ"
         other: "ဖြစ်စဉ်များ"
       hash:
+        one: "ကိုက်ညီသောရလဒ်များ"
         other: "ကိုက်ညီသောရလဒ်များ"
       bulk_export:
+        one: "ဖိုင်အစုလိုက် export ပြုလုပ်ခြင်းများ"
         other: "ဖိုင်အစုလိုက် export ပြုလုပ်ခြင်းများ"
       task:
+        one: "လုပ်ငန်းတာဝန်များ"
         other: "လုပ်ငန်းတာဝန်များ"
       user_group:
+        one: "အသုံးပြုသူအုပ်စုများ"
         other: "အသုံးပြုသူအုပ်စုများ"
