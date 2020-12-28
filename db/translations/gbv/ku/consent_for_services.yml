@@ -1,0 +1,12 @@
+---
+ku:
+  consent_for_services:
+    name: رەزامەندی بۆ خزمەتگوزاریەكان
+    description: رەزامەندی بۆ خزمەتگوزاریەكان
+    form_group_name: رەزامەندی بۆ خزمەتگوزاریەكان
+    fields:
+      consent_services_header:
+        display_name: رەزامەندی بۆ خزمەتگوزاریەكان
+      consent_for_services:
+        display_name: "ئایا رزگاربووەكە رەزامەندی داوە بۆ بەشداریکردن لەو خزمەتگوزاریانەی کە لەلایەن تۆوە پێشكەشکراوە؟ "
+        tick_box_label: 'بەڵێ'

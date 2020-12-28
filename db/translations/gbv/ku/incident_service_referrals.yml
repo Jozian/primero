@@ -1,0 +1,50 @@
+---
+ku:
+  incident_service_referrals:
+    name: رەوانەکردنی خزمەتگوزاری
+    description: رەوانەکردنی خزمەتگوزاری
+    form_group_name: رەوانەکردنی خزمەتگوزاری
+    fields:
+      service_referred_from:
+        display_name: كێ وەرگری خزمەتگوزاری بۆ لای تۆ رەوانە کردووە؟
+        option_strings_text:
+          health_medical_services: خزمەتگوزاری تەندروستیی / پزیشکیی
+          psychosocial_counseling_services: خزمەتگوزاری دەروونی کۆمەڵایەتیی / راوێژکاریی
+          police_other_security_actor: پۆلیس / لایەنی تری ئاسایش
+          legal_assistance_services: خزمەتگوزاری هاوکاری یاسایی
+          livelihoods_program: پرۆژەی دابینکردنی بژێویی
+          self_referral_first_point_of_contact: خۆ رەوانەکردن / یەكەم خاڵی پەیوەندی
+          teacher_school_official: مامۆستا / فەرمانبەری قوتابخانە
+          community_or_camp_leader: سەركردەی كۆمەڵگە یان كەمپ
+          safe_house_shelter: خانەی ئارام / پەناگە
+          other_humanitarian_or_development_actor: لایەنی تری مرۆیی یان پەرەپێدان
+          other_government_service: خزمەتگوزاریی تری حكومەت
+          other: هی تر
+      service_referred_from_other:
+        display_name: ئەگەر رزگاربوو لەلایەن (هی تر)ەوە رەوانە کراوە، تكایە دەستنیشانی بكە
+      safe_house_safe_shelter_referral:
+        display_name: رەوانەکردنی خانەی ئارام / پەناگەی ئارام
+      service_safehouse_referral:
+        display_name: ئایا تۆ وەرگری خزمەتگوزاریت بۆ خانەی ئارام / پەناگە رەوانە کرد؟
+      service_safehouse_appointment_date:
+        display_name: رێكەوتی چاوپێکەوتن
+      service_safehouse_appointment_time:
+        display_name: كاتی چاوپێکەوتن
+      service_safehouse_provider:
+        display_name: دابینکەری خزمەتگوزاریی
+      service_safehouse_location:
+        display_name: شوێنی پێشکەشکردنی خزمەتگوزاریی
+      service_safehouse_referral_notes:
+        display_name: تێبینییەكان
+      health_medical_referral_subform_section:
+        display_name: رەوانەکردنی تەندروستی / پزیشكی
+      psychosocial_counseling_services_subform_section:
+        display_name: خزمەتگوزاری دەروونی کۆمەڵایەتیی / راوێژکاریی
+      legal_assistance_services_subform_section:
+        display_name: خزمەتگوزاری هاوکاری یاسایی
+      police_or_other_type_of_security_services_subform_section:
+        display_name: خزمەتگوزاری پۆلیس یان جۆری دیکەی ئاسایش
+      livelihoods_services_subform_section:
+        display_name: خزمەتگوزاریی دابینکردنی بژێوی ژیان
+      child_protection_services_subform_section:
+        display_name: خزمەتگوزاریی پاراستنی منداڵ

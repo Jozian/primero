@@ -1,0 +1,41 @@
+---
+ku:
+  consent_for_referrals:
+    name: رەزامەندی بۆ رەوانەکردن
+    description: رەزامەندی بۆ رەوانەکردن
+    form_group_name: رەزامەندی بۆ رەوانەکردن
+    fields:
+      consent_release_separator:
+        display_name: رەزامەندی لەسەر دەرخستنی زانیاریەكان بەپێی جۆری رەوانەکردن
+      consent_to_share_info_by_security:
+        display_name: رەزامەندی لەسەر دەرخستنی زانیاریەكان بۆ خزمەتگوزاریەكانی ئاسایش
+      consent_to_share_security_organization:
+        display_name: "دیاریكردنی ناوی ئاسایش، دەزگا یان ئاژانس / رێكخراو بەپێی پێویست "
+      consent_to_share_info_by_psychosocial:
+        display_name: رەزامەندی لەسەر دەرخستنی زانیاریەكان بۆ خزمەتگوزاریە دەروونیەكان
+      consent_to_share_psychosocial_organization:
+        display_name: "دیاریكردنی ناوی دەروونی، دەزگا یان ئاژانس / رێكخراو بەپێی پێویست "
+      consent_to_share_info_by_health:
+        display_name: رەزامەندی لەسەر دەرخستنی زانیاریەكان بۆ خزمەتگوزاریە تەندروستی/پزیشكیەكان
+      consent_to_share_health_organization:
+        display_name: "دیاریكردنی ناوی تەندروستی / پزیشكی، دەزگا یان ئاژانس / رێكخراو بەپێی پێویست "
+      consent_to_share_info_by_safehouse:
+        display_name: رەزامەندی لەسەر دەرخستنی زانیاریەكان بۆ خانەی ئارام / پەناگە
+      consent_to_share_safehouse_organization:
+        display_name: "دیاریكردنی ناوی خانەی ئارام/ پەناگە، دەزگا یان ئاژانس / رێكخراو بەپێی پێویست "
+      consent_to_share_info_by_legal:
+        display_name: رەزامەندی لەسەر دەرخستنی زانیاریەكان بۆ خزمەتگوزاریەكانی هاوكاری یاسایی
+      consent_to_share_legal_organization:
+        display_name: "دیاریكردنی ناوی هاوكاری یاسایی، دەزگا یان ئاژانس / رێكخراو بەپێی پێویست "
+      consent_to_share_info_by_protection:
+        display_name: رەزامەندی لەسەر دەرخستنی زانیاریەكان بۆ خزمەتگوزاریەكانی پاراستن
+      consent_to_share_protection_organization:
+        display_name: "دیاریكردنی ناوی خزمەتگوزاریەكانی پاراستن، دەزگا یان ئاژانس / رێكخراو بەپێی پێویست "
+      consent_to_share_info_by_livelihoods:
+        display_name: رەزامەندی لەسەر دەرخستنی زانیاریەكان بۆ خزمەتگوزاریەكانی بژێوی
+      consent_to_share_livelihoods_organization:
+        display_name: "دیاریكردنی ناوی خزمەتگوزاریەكانی بژێوی، دەزگا یان ئاژانس / رێكخراو بەپێی پێویست "
+      consent_to_share_info_by_other:
+        display_name: رەزامەندی لەسەر دەرخستنی زانیاریەكان بۆ خزمەتگوزاری دیكە
+      consent_to_share_info_by_other_details:
+        display_name: ئەگەر خزمەتگوزاری دیكە لە ئارادابوو، تكایە خزمەتگوزارییەکە، ناو و ئاژانسەكە دیاریبكە

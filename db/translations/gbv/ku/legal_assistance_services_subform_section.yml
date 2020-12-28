@@ -1,0 +1,20 @@
+---
+ku:
+  legal_assistance_services_subform_section:
+    name: فۆرمی لاوەكی بەیەکەوەگرێدراو بۆ خزمەتگوزاری یاسایی
+    description: فۆرمی لاوەكی بەیەکەوەگرێدراو بۆ خزمەتگوزاری یاسایی
+    fields:
+      service_legal_referral:
+        display_name: ئایا تۆ وەرگری خزمەتگوزاریت رەوانەکردوە بۆ خزمەتگوزاری یاسایی؟
+      service_legal_appointment_date:
+        display_name: رێكەوتی چاوپێکەوتن
+      service_legal_appointment_time:
+        display_name: كاتی چاوپێکەوتن
+      service_legal_provider:
+        display_name: دابینکەری خزمەتگوزاریی
+      service_legal_location:
+        display_name: شوێنی پێشکەشکردنی خزمەتگوزاریی
+      service_legal_referral_notes:
+        display_name: تێبینیەكان
+      pursue_legal_action:
+        display_name: ئایا وەرگری خزمەتگوزاری دەیەوێت رێگەی یاسایی بگرێتە بەر؟

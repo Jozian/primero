@@ -1,0 +1,43 @@
+---
+ku:
+  transitions:
+    name: فۆرمی لاوەكی بەیەکەوەگرێدراوی گواستنەوە
+    description: فۆرمی لاوەكی گواستنەوە
+    fields:
+      type:
+        display_name: جۆر
+      to_user_local:
+        display_name: بەكارهێنەری ناوخۆ
+      to_user_remote:
+        display_name: بەكارهێنەری دوور (لەدوورەوە)
+      to_user_local_status:
+        display_name: بار
+        option_strings_text:
+          in_progress: لە بەرەوپێشچووندایە
+          pending: لە چاوەڕوانی بڕیاردایە
+          accepted: قبوڵ کراوە
+          rejected: رەتکراوەتەوە
+          done: تەواوبوو
+      rejected_reason:
+        display_name: هۆكاری رەتكردنەوە (ئەگەر هەبێت)
+      to_user_agency:
+        display_name: ئاژانسی بەكارهێنەر لەدوورەوە
+      notes:
+        display_name: تێبینیەكان
+      transitioned_by:
+        display_name: گواستراوەتەوە یان رەوانەکراوە لەلایەن
+      service:
+        display_name: خزمەتگوزاریی
+      is_remote:
+        display_name: ئایا رەوانەکردن یان گواستنەوە بۆ سیستەمێکی لەدوورەوەیە؟
+        tick_box_label: 'بەڵێ'
+      type_of_export:
+        display_name: چ جۆرێكی هەناردەت دەوێت
+      consent_overridden:
+        display_name: حاڵەتی رەزامەندی بۆ درکاندنی زانیاریی بەتاڵنەکراوەتەوە
+        tick_box_label: 'بەڵێ'
+      consent_individual_transfer:
+        display_name: ئایا كارمەندی كەیسەكە رەزامەندی منداڵەكەی هەیە بۆ گواستنەوە؟
+        tick_box_label: 'بەڵێ'
+      created_at:
+        display_name: رێكەوتی رەوانەکردن یان گواستنەوە

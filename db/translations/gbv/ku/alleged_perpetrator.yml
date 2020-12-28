@@ -1,0 +1,44 @@
+---
+ku:
+  alleged_perpetrator:
+    name: فۆرمی لاوەكی بەیەکەوەگرێدراو بۆ گومانلێکراوی تاوانەکە
+    description: فۆرمی لاوەكی بەیەکەوەگرێدراو بۆ گومانلێکراوی تاوانەکە
+    fields:
+      primary_perpetrator:
+        display_name: ئایا ئەمە تاوانبارە سەرەكییەکەیە؟
+        option_strings_text:
+          primary: سەرەكی
+          secondary: لاوەكی
+      perpetrator_sex:
+        display_name: رەگەزی گومانلێکراو
+      former_perpetrator:
+        display_name: پێشینەی گومانلێکراو لەبواری توندوتیژیی لەسەر بنەمای جێندەر
+      perpetrator_nationality:
+        display_name: رەگەزنامەی گومانلێکراو
+      perpetrator_ethnicity:
+        display_name: هۆز یان نەتەوەی گومانلێکراو
+      age_group:
+        display_name: گروپی تەمەنی گومانلێکراو
+        option_strings_text:
+          '0_11': 0 - 11
+          '12_17': 12 - 17
+          '18_25': 18 - 25
+          '26_40': 26 - 40
+          '41_60': 41 - 60
+          '61': +61
+          unknown: نەزانراو
+      age_type:
+        display_name: جۆری تەمەنی گومانلێکراو
+      perpetrator_relationship:
+        display_name: پەیوەندی گومانلێکراو لەگەڵ رزگاربوو
+      perpetrator_occupation:
+        display_name: پیشەی سەرەكی گومانلێکراو (ئەگەر بزانرێت)
+        option_strings_text:
+          other: هی دیكە
+          unemployed: بێكار
+          unknown: نەزانراو
+          occupation_1: پیشە 1
+          occupation_2: پیشە 2
+          occupation_3: پیشە 3
+          occupation_4: پیشە 4
+          occupation_5: پیشە 5

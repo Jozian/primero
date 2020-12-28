@@ -1,0 +1,18 @@
+---
+ku:
+  livelihoods_services_subform_section:
+    name: فۆرمی لاوەكی بەیەکەوەگرێدراو بۆ خزمەتگوزارییەکانی بژێوی
+    description: فۆرمی لاوەكی بەیەکەوەگرێدراو بۆ خزمەتگوزارییەکانی بژێوی
+    fields:
+      service_livelihoods_referral:
+        display_name: ئایا تۆ وەرگری خزمەتگوزاریت رەوانەکردوە بۆ بەرنامەیەکی بژێوی؟
+      service_livelihoods_appointment_date:
+        display_name: رێكەوتی چاوپێکەوتن
+      service_livelihoods_appointment_time:
+        display_name: كاتی چاوپێکەوتن
+      service_livelihoods_provider:
+        display_name: دابینکەری خزمەتگوزاریی
+      service_livelihoods_location:
+        display_name: شوێنی خزمەتگوزاریی
+      service_livelihoods_referral_notes:
+        display_name: تێبینیەكان

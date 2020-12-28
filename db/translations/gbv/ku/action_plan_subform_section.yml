@@ -1,0 +1,30 @@
+---
+ku:
+  action_plan_subform_section:
+    name: پلانی كاری بەیەکەوەگرێدراو
+    description: فۆرمی لاوەكی پلانی كار
+    fields:
+      action_plan_description:
+        display_name: پلانی كار بۆ بەدەمەوەچوونی ئەم پێویستییە وەسف بكە.
+      service_type:
+        display_name: جۆری پێویستیی
+      service_referral:
+        display_name: ئەگەر گونجاو بووبێت، رزگاربووەكەت بۆ ئەم خزمەتگوزارییە رەوانە كردووە؟
+      service_referral_written_consent:
+        display_name: "ئایا رەزامەندی نووسراوت لە رزگاربوو وەدەستهێناوە بۆ ئاشکراکردن و پێدانی زانیاری كەسیی بە مەبەستی رەوانەکردن؟ "
+      service_appointment_date:
+        display_name: رێكەوتی چاوپێکەوتن
+      service_appointment_time:
+        display_name: كاتی چاوپێکەوتن
+      service_provider:
+        display_name: پێشكەشكاری خزمەتگوزاریی
+      service_location:
+        display_name: شوێنی پێشکەشکردنی خزمەتگوزاریی
+      service_referral_notes:
+        display_name: تێبینیەكان
+      service_referral_mandatory_reporting:
+        display_name: لەحاڵەتی هەبوونی یاسای رێپۆرتکردنی ناچاریی، ئایا پۆلیس/دەزگای حکومیت لە رووداوەکە ئاگادار کردەوە؟
+      service_referral_mandatory_reporting_inform_survivor:
+        display_name: "ئەگەر بەڵێ، ئایا تۆ پێش ئامادەكردنی ریپۆرتەكە، زانیاریت لەبارەی یاسا ناچارییەکانی ریپۆرتكردن بە رزگاربووەكەو / یان چاودێریكەرەکەی داوە؟ "
+      service_referral_case_action_plan_timing:
+        display_name: دانانی پلانی كار بۆ کەیسەکە لەگەڵ رزگاربوو بۆ ئەم كەیسە لای تۆ چەندی خایاند؟

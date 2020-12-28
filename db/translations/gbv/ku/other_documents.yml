@@ -1,0 +1,9 @@
+---
+ku:
+  other_documents:
+    name: بەڵگەنامەکانی تر
+    description: بەڵگەنامەکانی تر
+    form_group_name: بەڵگەنامەکان
+    fields:
+      upload_other_document:
+        display_name: بەڵگەنامەی تر
