@@ -1,0 +1,9 @@
+---
+ku:
+  alleged_perpetrators_wrapper:
+    name: گومانلێکراو
+    description: گومانلێکراو
+    form_group_name: گومانلێکراو
+    fields:
+      alleged_perpetrator:
+        display_name: گومانلێکراو

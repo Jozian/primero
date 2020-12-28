@@ -1,0 +1,33 @@
+---
+ku:
+  gbv_individual_details:
+    name: وردەكاری كەسیی توندوتیژی لەسەر بنەمای جێندەر
+    description: وردەكاری كەسیی توندوتیژی لەسەر بنەمای جێندەر
+    form_group_name: وردەكاری كەسیی توندوتیژی لەسەر بنەمای جێندەر
+    fields:
+      survivor_code:
+        display_name: كۆدی رزگاربوو
+      sex:
+        display_name: رەگەزی رزگاربوو چییە؟
+      date_of_birth:
+        display_name: رۆژی لەدایکبوونی رزگاربوو چییە؟
+      age:
+        display_name: تەمەنی رزگاربوو چەندە؟
+      estimated:
+        display_name: ئایا تەمەنەكە خەمڵێنراوە؟
+      ethnicity:
+        display_name: ئایا نەژادی رزگاربوو چییە؟
+      nationality:
+        display_name: رەگەزنامەی رزگاربوو چییە؟
+      religion:
+        display_name: ئاینی رزگاربوو چییە؟
+      country_of_origin:
+        display_name: وڵاتی بنچینەیی؟
+      displacement_status:
+        display_name: باری ئاوارەیی لە كاتی ریپۆرتكردندا
+      maritial_status:
+        display_name: "باری شارستانی / هاوسەرگیری لە ئێستادا "
+      disability_type:
+        display_name: جۆری پەككەوتەیی
+      unaccompanied_separated_status:
+        display_name: ئایا رزگاربوو پێنەگەیشتوویەكی تەنیایە، منداڵێكی دابڕاوە، یان منداڵێكی دیکەیە کە مەترسی لەسەرە؟

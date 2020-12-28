@@ -1,0 +1,63 @@
+---
+ku:
+  gbv_survivor_information:
+    name: زانیاری رزگاربوو
+    description: زانیاری رزگاربوو
+    form_group_name: ناسنامە / تۆمارکردن
+    fields:
+      case_id:
+        display_name: ناسنامەی درێژ
+      short_id:
+        display_name: ناسنامەی  كەیس
+      marked_for_mobile:
+        display_name: نیشانەكراو بۆ مۆبایل
+        tick_box_label: 'بەڵێ'
+      child_status:
+        display_name: باری كەیس
+      name:
+        display_name: ناو
+      survivor_code_no:
+        display_name: كۆدی رزگاربوو
+      age:
+        display_name: تەمەن
+      date_of_birth:
+        display_name: رێكەوتی لەدایكبوون
+      sex:
+        display_name: رەگەز
+      gbv_ethnicity:
+        display_name: هۆز یان نەژاد
+      country_of_origin:
+        display_name: وڵاتی بنچینەیی
+      gbv_nationality:
+        display_name: رەگەزنامە (ئەگەر لە وڵاتی بنچینەیی جیاواز بوو)
+      gbv_religion:
+        display_name: ئاین
+      maritial_status:
+        display_name: "باری شارستانی / هاوسەرگیری لە ئێستادا "
+      dependents_no:
+        display_name: ژمارەو تەمەنی منداڵ و کەسانی نزیکی دی
+      occupation:
+        display_name: پیشە
+      gbv_displacement_status:
+        display_name: باری ئاوارەبوون لە كاتی ریپۆرتكردن
+      gbv_disability_type:
+        display_name: ئایا رزگاربوو کەسێکی خاوەن پێداویستی تایبەتە؟
+      unaccompanied_separated_status:
+        display_name: ئایا رزگاربوو پێنەگەیشتوویەكی تەنیایە، منداڵێكی دابڕاوە، یان منداڵێكی دیکەیە کە مەترسی لەسەرە؟
+      section_heading_child_survivors_less_than_18_years_old:
+        display_name: منداڵی رزگاربوو (كەمتر لە تەمەنی 18 ساڵی)
+      survivor_lives_alone:
+        display_name: ئەگەر رزگاربوو منداڵە، ئایا بە تەنیا دەژی؟
+      survivor_caretaker:
+        display_name: ئەگەر رزگاربوو لەگەڵ كەسێكی دیکەدا دەژی، پەیوەندی نێوانی ئەوو چاودێرەكەی چیە؟
+        option_strings_text:
+          parent_guardian: دایک یان باوک / بەخێوكار
+          relative: خزم
+          spouse_cohabitating: هاوسەر / هاوژین
+          other_please_specify: هی تر، تكایە دەستنیشانی بكە
+      survivor_caretaker_other:
+        display_name: ئەگەر پەیوەندی تر لەنێوان ئەوو چاودێرەكەی هەیە، تكایە دەستنیشانی بكە.
+      caretaker_marital_status:
+        display_name: باری هاوسەرگیری چاوێریكارەكە چییە لە ئێستادا؟
+      caretaker_occupation:
+        display_name: پیشەی سەرەكی چاودێرەكە چییە؟

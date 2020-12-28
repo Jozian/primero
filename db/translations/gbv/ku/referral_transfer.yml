@@ -1,0 +1,15 @@
+---
+ku:
+  referral_transfer:
+    name: رەوانەكردن و گواستنەوەكان
+    description: لیستی رەوانەكردن و گواستنەوەكان
+    form_group_name: رەوانەكردن و گواستنەوەكان
+    fields:
+      transfer_status:
+        display_name: باری گواستنەوە
+        option_strings_text:
+          in_progress: پێشڤەچوون
+          accepted: قبوڵكرا
+          rejected: رەتكرایەوە
+      transitions:
+        display_name: رەوانەكردن و گواستنەوەكان
