@@ -1,0 +1,12 @@
+---
+ku_IQ:
+  consent_for_services:
+    name: رازەمەندی بۆ خزمەتگوزاریا
+    description: رازەمەندی بۆ خزمەتگوزاریا
+    form_group_name: رازەمەندی بۆ خزمەتگوزاریا
+    fields:
+      consent_services_header:
+        display_name: رازەمەندی بۆ خزمەتگوزاریا
+      consent_for_services:
+        display_name: ئەرێ رزگاربوویێ رازەمەندی دا بۆ پشکداریکرن د خزمەتگوزاریێن ژ لایێ تە ڤە هاتینە پێشکێشکرن؟
+        tick_box_label: 'بەلێ'

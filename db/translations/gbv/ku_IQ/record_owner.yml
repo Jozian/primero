@@ -1,0 +1,41 @@
+---
+ku_IQ:
+  record_owner:
+    name: تۆمارکرنا پێزانینا
+    description: پێزانینێن تومارکرنێ
+    form_group_name: تۆمارکرنا پێزانینا
+    fields:
+      current_owner_separator:
+        display_name: خودانێ نوکە
+      owned_by_text:
+        display_name: کارمەندێ مەیدانی یان کەیسی یان یێ جڤاکی
+      owned_by:
+        display_name: کودێ کارمەندێ جڤاکی
+      reassigned_tranferred_on:
+        display_name: دوبارە هاتیە دەستنیشانکرن یان هاتیە ڤەگۆهاستن ل سەر
+      owned_by_agency:
+        display_name: ئاژانس
+      telephone_agency:
+        display_name: ژمارا تەلەفونا ئاژانسێ
+      assigned_user_names:
+        display_name: بکارهێنەرێن دی یێن هاتینە دەستنیشانکرن
+      database_operator_user_name:
+        display_name: کاربرێکەرێ داتابەیسی
+      address_registration:
+        display_name: ناڤ و نیشانێن تۆمارکرنێ
+      location_registration:
+        display_name: ناڤ و نیشانێن جهی
+      record_history_separator:
+        display_name: دیروکا تومارکرنێ
+      created_by:
+        display_name: تۆمار هاتیە دروستکرن ژ لایێ
+      created_by_agency:
+        display_name: دروستکری ژ لایێ بریکاری ڤە
+      previously_owned_by:
+        display_name: خودانێ بەرێ
+      previous_agency:
+        display_name: ئاژانسا بەرێ
+      module_id:
+        display_name: یەکە\مۆدیول
+      reopened_logs:
+        display_name: کەیس دوبارە هاتیە ڤەکرن

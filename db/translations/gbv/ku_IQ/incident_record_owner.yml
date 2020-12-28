@@ -1,0 +1,29 @@
+---
+ku_IQ:
+  incident_record_owner:
+    name: خودانێ تومارێ
+    description: خودانێ تومارێ
+    form_group_name: خودانێ تومارێ
+    fields:
+      current_owner_section:
+        display_name: خودانێ نوکە
+      caseworker_name:
+        display_name: کرێکارێ مەیدانی یان کەیس یان جڤاکی
+      owned_by:
+        display_name: کودێ کرێکارێ کەیسی
+      owned_by_agency:
+        display_name: ئاژانس
+      assigned_user_names:
+        display_name: بکارهێنەرێن دی یێن هاتینە دەستنینشانکرن
+      record_history_section:
+        display_name: دیروکا تۆمارکرنێ
+      created_by:
+        display_name: تومار هاتیە دروستکرن ژ لایێ
+      created_organization:
+        display_name: هاتیە دروستکرن ژ لایێ ئاژانسێ ڤە
+      previously_owned_by:
+        display_name: خودانێ بەرێ
+      previous_agency:
+        display_name: ئاژانسا بەرێ
+      module_id:
+        display_name: یەکە\مۆدیول

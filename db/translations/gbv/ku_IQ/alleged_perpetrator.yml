@@ -1,0 +1,44 @@
+---
+ku_IQ:
+  alleged_perpetrator:
+    name: "فورما نەسەرەکیا تاوانبارێ گومانلێکری یا تێکەل "
+    description: "فورما نەسەرەکیا تاوانبارێ گومانلێکری یا تێکەل "
+    fields:
+      primary_perpetrator:
+        display_name: ئەرێ ئەڤە تاوانبارێ سەرەکییە؟
+        option_strings_text:
+          primary: سەرەکی
+          secondary: نەسەرەکی
+      perpetrator_sex:
+        display_name: رەگەزێ تاوانبارێ گومانلێکری
+      former_perpetrator:
+        display_name: " توندو تیژی لسەر بنیاتێ رەگەزی یابەرێ ژ لایێ تاوانبارێ گومانلێکری"
+      perpetrator_nationality:
+        display_name: نەتەوەیێ تاوانبارێ گومانلێکری
+      perpetrator_ethnicity:
+        display_name: هوز یان نەژادێ تاوانبارێ گومانلێکری
+      age_group:
+        display_name: گروپێ تەمەنێ تاوانێ پێشبینیکری
+        option_strings_text:
+          '0_11': 0-11
+          '12_17': 12-17
+          '18_25': 18-25
+          '26_40': 26-40
+          '41_60': 41-60
+          '61': ل سەر 60 سالیێ دا
+          unknown: ناهێتە زانین
+      age_type:
+        display_name: جورێ تەمەنێ تاوانبارێ گومانلێکری
+      perpetrator_relationship:
+        display_name: پەیوەندیا تاوانبارێ گومانلێکری دگەل رزگاربووی
+      perpetrator_occupation:
+        display_name: (کارێ سەرەکیێ تاوانبارێ گومانلێکری (ئەگەر بزانن
+        option_strings_text:
+          other: یێن دی
+          unemployed: بێ کار
+          unknown: ناهێتە زانین
+          occupation_1: کار 1
+          occupation_2: کار 2
+          occupation_3: کار 3
+          occupation_4: کار 4
+          occupation_5: کار 5
