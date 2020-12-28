@@ -1,0 +1,18 @@
+---
+ku:
+  health_medical_referral_subform_section:
+    name: فۆرمی لاوەكی بەیەکەوە گرێدراو ی رەوانەکردنی تەندروستی / پزیشكی
+    description: فۆرمی لاوەكی بەیەکەوە گرێدراو ی رەوانەکردنی تەندروستی / پزیشكی
+    fields:
+      service_medical_referral:
+        display_name: ئایا تۆ وەرگری خزمەتگوزاریت بۆ خزمەتگوزاری تەندروستی / پزیشكی رەوانەکردوە؟
+      service_medical_appointment_date:
+        display_name: رێكەوتی چاوپێکەوتن
+      service_medical_appointment_time:
+        display_name: كاتی چاوپێکەوتن
+      service_medical_provider:
+        display_name: دابینکەری خزمەتگوزاری
+      service_medical_location:
+        display_name: شوێنی خزمەتگوزاریی
+      service_medical_referral_notes:
+        display_name: تێبینیەكان

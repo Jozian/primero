@@ -1,0 +1,18 @@
+---
+ku:
+  gbv_reported_elsewhere_subform:
+    name: فۆرمی لاوەكی توندوتیژی لەسەر جێندەر كە لە شوێنێكی تر ریپۆرت كرابێت
+    description: فۆرمی لاوەكی توندوتیژی لەسەر جێندەر كە لە شوێنێكی تر ریپۆرت كرابێت
+    fields:
+      gbv_reported_elsewhere_organization_type:
+        display_name: جۆری دابینکەری خزمەتگوزاری لەو شوێنەی رزگاربووەكە رووداوەكەی ریپۆرت كردووە
+        option_strings_text:
+          health_medical_services: خزمەتگوزارییەکانی تەندروستی / پزیشكی
+          psychosocial_counseling_services: خزمەتگوزارییەکانی دەروونی / راوێژكاری
+          police_other_security_actor: "پۆلیس / لایەنی تری ئاسایش "
+          legal_assistance_services: خزمەتگوزارییەکانی یارمەتی یاسایی
+          livelihoods_program: بەرنامەی بژێوی
+          safe_house_shelter: خانەی ئارام / پەناگە
+          other: هی تر
+      gbv_reported_elsewhere_organization_provider:
+        display_name: ناوی دابینکەری خزمەتگوزاریی

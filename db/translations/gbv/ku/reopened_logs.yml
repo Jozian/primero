@@ -1,0 +1,10 @@
+---
+ku:
+  reopened_logs:
+    name: دووبارە كردنەوەی كەیس
+    description: فۆرمی لاوەكی دووبارە كردنەوەی كەیس
+    fields:
+      reopened_date:
+        display_name: رێكەوتی دووبارە كردنەوە
+      reopened_user:
+        display_name: دووبارە كراوەتەوە لە لایەن

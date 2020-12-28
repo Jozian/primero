@@ -1,0 +1,18 @@
+---
+ku:
+  police_or_other_type_of_security_services_subform_section:
+    name: فۆرمی لاوەكی بەیەکەوەگرێدراوی پۆلیس یان جۆری تری خزمەتگوزاریی ئاسایش
+    description: فۆرمی لاوەكی بەیەکەوەگرێدراوی پۆلیس یان جۆری تری خزمەتگوزاریی ئاسایش
+    fields:
+      service_police_referral:
+        display_name: ئایا تۆ وەرگری خزمەتگوزاریت رەوانەکردوە بۆ پۆلیس یان خزمەتگوزارییەکانی تر ؟
+      service_police_appointment_date:
+        display_name: رێكەوتی دیدار
+      service_police_appointment_time:
+        display_name: كاتی چاوپێکەوتن
+      service_police_provider:
+        display_name: دابینکەری خزمەتگوزاریی
+      service_police_location:
+        display_name: شوێنی خزمەتگوزاریی
+      service_police_referral_notes:
+        display_name: تێبینیەكان

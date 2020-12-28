@@ -1,0 +1,18 @@
+---
+ku:
+  action_plan_form:
+    name: "پلانی کار "
+    description: "پلانی کار "
+    form_group_name: "پلانی کار "
+    fields:
+      incident_links:
+        display_name: بەستەری رووداوەكان
+      action_explanation_header:
+        display_name: 'پلانی كار'
+        help_text: تكایە هەموو ئەو پێداویستییانە زیادبكە كە لە هەڵسەنگاندنەكەدا دەستنیشانت کردن. دوگمەی "زیادكردن" بەكاربێنە بۆ زیادكردنی پێداویستی تر كە دەبێ ببێتە بەشێك لە پلانی كار.
+      action_plan_section:
+        display_name: پلانی كار
+      action_follow_up_header:
+        display_name: بەدواداچوونەكان
+      gbv_follow_up_subform_section:
+        display_name: بەدواداچوون
