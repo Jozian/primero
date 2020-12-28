@@ -15,3 +15,213 @@ source_file = config/locales/incident_recorder/en.yml
 source_lang = en
 type = YML
 
+[gbv-forms.action_plan_formyml]
+organization = 1
+file_filter = db/translations/gbv/<lang>/action_plan_form.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/action_plan_form.yml
+source_lang = en
+type = YML
+
+[gbv-forms.action_plan_subform_sectionyml]
+file_filter = db/translations/gbv/<lang>/action_plan_subform_section.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/action_plan_subform_section.yml
+source_lang = en
+type = YML
+
+[gbv-forms.alleged_perpetrators_wrapperyml]
+file_filter = db/translations/gbv/<lang>/alleged_perpetrators_wrapper.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/alleged_perpetrators_wrapper.yml
+source_lang = en
+type = YML
+
+[gbv-forms.alleged_perpetratoryml]
+file_filter = db/translations/gbv/<lang>/alleged_perpetrator.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/alleged_perpetrator.yml
+source_lang = en
+type = YML
+
+[gbv-forms.child_protection_services_subform_sectionyml]
+file_filter = db/translations/gbv/<lang>/child_protection_services_subform_section.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/child_protection_services_subform_section.yml
+source_lang = en
+type = YML
+
+[gbv-forms.client_feedbackyml]
+file_filter = db/translations/gbv/<lang>/client_feedback.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/client_feedback.yml
+source_lang = en
+type = YML
+
+[gbv-forms.consent_for_referralsyml]
+file_filter = db/translations/gbv/<lang>/consent_for_referrals.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/consent_for_referrals.yml
+source_lang = en
+type = YML
+
+[gbv-forms.consent_for_servicesyml]
+file_filter = db/translations/gbv/<lang>/consent_for_services.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/consent_for_services.yml
+source_lang = en
+type = YML
+
+[gbv-forms.gbv_case_closure_formyml]
+file_filter = db/translations/gbv/<lang>/gbv_case_closure_form.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/gbv_case_closure_form.yml
+source_lang = en
+type = YML
+
+[gbv-forms.gbv_follow_up_subform_sectionyml]
+file_filter = db/translations/gbv/<lang>/gbv_follow_up_subform_section.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/gbv_follow_up_subform_section.yml
+source_lang = en
+type = YML
+
+[gbv-forms.gbv_incident_formyml]
+file_filter = db/translations/gbv/<lang>/gbv_incident_form.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/gbv_incident_form.yml
+source_lang = en
+type = YML
+
+[gbv-forms.gbv_individual_detailsyml]
+file_filter = db/translations/gbv/<lang>/gbv_individual_details.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/gbv_individual_details.yml
+source_lang = en
+type = YML
+
+[gbv-forms.gbv_reported_elsewhere_subformyml]
+file_filter = db/translations/gbv/<lang>/gbv_reported_elsewhere_subform.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/gbv_reported_elsewhere_subform.yml
+source_lang = en
+type = YML
+
+[gbv-forms.gbv_sexual_violenceyml]
+file_filter = db/translations/gbv/<lang>/gbv_sexual_violence.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/gbv_sexual_violence.yml
+source_lang = en
+type = YML
+
+[gbv-forms.gbv_survivor_informationyml]
+file_filter = db/translations/gbv/<lang>/gbv_survivor_information.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/gbv_survivor_information.yml
+source_lang = en
+type = YML
+
+[gbv-forms.health_medical_referral_subform_sectionyml]
+file_filter = db/translations/gbv/<lang>/health_medical_referral_subform_section.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/health_medical_referral_subform_section.yml
+source_lang = en
+type = YML
+
+[gbv-forms.incident_record_owneryml]
+file_filter = db/translations/gbv/<lang>/incident_record_owner.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/incident_record_owner.yml
+source_lang = en
+type = YML
+
+[gbv-forms.incident_service_referralsyml]
+file_filter = db/translations/gbv/<lang>/incident_service_referrals.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/incident_service_referrals.yml
+source_lang = en
+type = YML
+
+[gbv-forms.legal_assistance_services_subform_sectionyml]
+file_filter = db/translations/gbv/<lang>/legal_assistance_services_subform_section.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/legal_assistance_services_subform_section.yml
+source_lang = en
+type = YML
+
+[gbv-forms.livelihoods_services_subform_sectionyml]
+file_filter = db/translations/gbv/<lang>/livelihoods_services_subform_section.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/livelihoods_services_subform_section.yml
+source_lang = en
+type = YML
+
+[gbv-forms.lookupsyml]
+file_filter = db/translations/gbv/<lang>/lookups.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/lookups.yml
+source_lang = en
+type = YML
+
+[gbv-forms.other_documentsyml]
+file_filter = db/translations/gbv/<lang>/other_documents.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/other_documents.yml
+source_lang = en
+type = YML
+
+[gbv-forms.police_or_other_type_of_security_services_subform_sectionyml]
+file_filter = db/translations/gbv/<lang>/police_or_other_type_of_security_services_subform_section.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/police_or_other_type_of_security_services_subform_section.yml
+source_lang = en
+type = YML
+
+[gbv-forms.psychosocial_counseling_services_subform_sectionyml]
+file_filter = db/translations/gbv/<lang>/psychosocial_counseling_services_subform_section.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/psychosocial_counseling_services_subform_section.yml
+source_lang = en
+type = YML
+
+[gbv-forms.record_owneryml]
+file_filter = db/translations/gbv/<lang>/record_owner.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/record_owner.yml
+source_lang = en
+type = YML
+
+[gbv-forms.referral_transferyml]
+file_filter = db/translations/gbv/<lang>/referral_transfer.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/referral_transfer.yml
+source_lang = en
+type = YML
+
+[gbv-forms.reopened_logsyml]
+file_filter = db/translations/gbv/<lang>/reopened_logs.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/reopened_logs.yml
+source_lang = en
+type = YML
+
+[gbv-forms.safety_planyml]
+file_filter = db/translations/gbv/<lang>/safety_plan.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/safety_plan.yml
+source_lang = en
+type = YML
+
+[gbv-forms.survivor_assessment_formyml]
+file_filter = db/translations/gbv/<lang>/survivor_assessment_form.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/survivor_assessment_form.yml
+source_lang = en
+type = YML
+
+[gbv-forms.transitionsyml]
+file_filter = db/translations/gbv/<lang>/transitions.yml
+minimum_perc = 0
+source_file = db/translations/gbv/en/transitions.yml
+source_lang = en
+type = YML
