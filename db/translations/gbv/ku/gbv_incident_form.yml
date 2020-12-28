@@ -1,0 +1,68 @@
+---
+ku:
+  gbv_incident_form:
+    name: رووداوی توندوتیژی لەسەر بنەمای جێندەر
+    description: رووداوی توندوتیژی لەسەر بنەمای جێندەر
+    form_group_name: رووداو
+    fields:
+      incident_id:
+        display_name: ژمارەی ناسنامەی درێژ
+      short_id:
+        display_name: ژمارەی ناسنامەی رووداو
+      marked_for_mobile:
+        display_name: نیشانكراو بۆ مۆبایل؟
+        tick_box_label: 'بەڵێ'
+      incident_code:
+        display_name: كۆدی رووداو
+      incidentid_ir:
+        display_name: ژمارەی ناسنامەی IRی رووداو
+        help_text: ژمارەی ناسنامەی رووداو بۆ  IR
+      status:
+        display_name: باری رووداو
+      consent_reporting:
+        display_name: رەزامەندی دراوە بۆ درکاندنی زانیاری نەناسێنەر بە مەبەستی راپۆرت كردن
+      date_of_first_report:
+        display_name: رێكەوتی چاوپێکەوتن
+      incident_date:
+        display_name: رێكەوتی رووداو
+      incident_description:
+        display_name: هەژماری رووداو
+      displacement_incident:
+        display_name: قۆناغی ئاوارەبوون لەكاتی روودانی رووداوەكەدا
+        option_strings_text:
+          not_displaced_home_community: ئاوارە نەبوو/ كۆمەڵگەی بنچینەیی خۆی
+          pre_displacement: پێش ئاوارەبوون
+          during_flight: لەكاتی راکردندا
+          during_refuge: لەكاتی پەنابەری
+          during_return_transit: لەكاتی گەڕانەوە / گواستنەوە
+          post_displacement: دوای ئاوارەبوون
+      incident_timeofday:
+        display_name: ئەو کاتەی رۆژ كە رووداوەكە روویدا
+        option_strings_text:
+          morning_sunrise_to_noon: بەیانی (رۆژهەڵات تا نیوەڕۆ)
+          afternoon_noon_to_sunset: دوای نیوەڕۆ (نیوەڕۆ تا رۆژئاوابوون)
+          evening_night_sunset_to_sunrise: ئێوارە / شەو (رۆژئاوابوون تا رۆژهەڵاتن)
+          unknown_not_applicable: نەزانراو / پیادەنەكراو
+      incident_location_type:
+        display_name: جۆری ئەو شوێنەی كە رووداوەكەی تیادا روویداوە
+        option_strings_text:
+          bush_forest: دەوەن / دارستان
+          garden_cultivated_field: باخچە / كێڵگەی کێڵراو
+          school: قوتابخانە
+          road: رێگا
+          client_s_home: ماڵی وەرگری خزمەتگوزاری
+          perpetrator_s_home: ماڵی تاوانبار
+          other: هی تر
+          market: بازاڕ
+          streamside: رۆخی روبار یان ئاوەڕۆ
+          beach: كەنار
+          farm: كێڵگە
+          latrine: ئاودەست
+          perpetrator_s_friend_s_home: ماڵی هاوڕێی تاوانبار
+          entertainment_centre: سەنترەی كاتبەسەربردن
+          unfinished_house: خانووی تەواونەكراو
+          guest_house_hotel: میوانخانە - هوتێل
+      incident_location:
+        display_name: شوێنی رووداو
+      incident_camp_town:
+        display_name: كەمپ / شارۆچكەی رووداو

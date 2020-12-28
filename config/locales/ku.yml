@@ -860,7 +860,6 @@ ku:
     history_of: "مێژووى %{user_name}"
     disabled: "لەکارخست"
     services: "خزمەتگوزاریەکان"
-    agency_office: "ئۆفیسی دامەزراوە"
     position: پۆست
     actions:
       delete: "بسرەوە"
@@ -1820,6 +1819,10 @@ ku:
       one: وێنەى پشتەوە
       selected: بو وێنەى پشتەوە دەستنیشانکرا
     case_pdf:
+      all: PDF
+      one: PDF
+      selected: بو PDF دەستنیشانکرا
+    child_pdf:
       all: PDF
       one: PDF
       selected: بو PDF دەستنیشانکرا

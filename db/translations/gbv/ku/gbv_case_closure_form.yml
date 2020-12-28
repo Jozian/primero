@@ -1,0 +1,63 @@
+---
+ku:
+  gbv_case_closure_form:
+    name: داخستنی كەیس
+    description: داخستنی كەیس
+    form_group_name: داخستنی كەیس
+    fields:
+      created_at:
+        display_name: رێكەوتی كردنەوەی كەیس
+      date_closure:
+        display_name: رێكەوتی داخستنی كەیس
+      child_status:
+        display_name: باری كەیس
+      closure_assessment:
+        display_name: هەڵسەنگاندنی داخستن
+      closure_checklist_header_section:
+        display_name: لیستی پێداچوونەوەی داخستن
+      closure_needs_met:
+        display_name: پێویستییەكانی رزگاربوو تا ئەوپەڕی توانا جێبەجێکراون
+      closure_needs_met_explain:
+        display_name: روونی بكەوە
+      closure_survivor_contact:
+        display_name: هیچ پەیوەندییەك لەگەڵ رزگاربوودا نەبوو بۆ ماوەیەكی دیاریكراو (بۆنمونە، زیاتر لە 30 رۆژ)
+      closure_survivor_contact_explain:
+        display_name: روونی بكەوە
+      closure_survivor_request_close:
+        display_name: داواکاری رزگاربوو بۆ داخستنی كەیسەكە
+      closure_survivor_request_close_explain:
+        display_name: روونی بكەوە
+      closure_survivor_left_area:
+        display_name: رزگاربوو شوێنەكەی جێهێشتووە یان چیدی لەوێ ناژی
+      closure_survivor_left_area_explain:
+        display_name: روونی بكەوە
+      closure_tranferred_organization:
+        display_name: كەیسەكە رەوانەی رێكخراوێكی تر كراوە
+      closure_tranferred_organization_explain:
+        display_name: روونی بكەوە
+      closure_funding_constraints:
+        display_name: كەیسەكە داخرا بەهۆی كۆتوبەندی دابینكردنی پاڵپشتی دارایی لەلایەن دابینکەری خزمەتگوزاریی
+      closure_funding_constraints_explain:
+        display_name: روونی بكەوە
+      closure_safety_plan:
+        display_name: پلانی سەلامەتی رزگاربوو پێداچوونەوەی بۆ كراوەو لە جێبەجێكردندایە
+      closure_safety_plan_explain:
+        display_name: روونی بكەوە (پلانی سەلامەتی)
+      closure_case_plan_complete:
+        display_name: پێویستییەكانی رزگاربوو هاتۆتەدی وەك چۆن لە پلانی كاری كەیسەكەدا دیاریکراوە
+      closure_case_plan_complete_explain:
+        display_name: "روونی بكەوە (تەواوەو جێی رەزامەندیە) "
+      closure_no_further_support:
+        display_name: رزگاربووی وەرگری خزمەتگوزاری و كارمەندی كەیس كۆكن لەسەر ئەوەی كە پاڵپشتی زیاتر پێویست نییە
+      closure_no_further_support_explain:
+        display_name: روونی بكەوە (پاڵپشتی زیاتر پێویست نییە)
+      closure_resume_notification:
+        display_name: بە رزگاربووەكە راگەیەندراوە كە هەر كاتێك بیەوێت دەتوانێ دەست بە خزمەتگوزارییەكان بكاتەوە
+      closure_resume_notification_explain:
+        display_name: روونی بكەوە (دەستپێكردنەوەی خزمەتگوزاری)
+      closure_supervisor_review:
+        display_name: سەرپەرشتیاری كەیس پێداچوونەوەی بە پلانی داخستنی كەیس / دەرچوون كردووە
+      closure_supervisor_review_explain:
+        display_name: روونی بكەوە (پێداچوونەوە بە كەیس)
+      closure_completion_timing:
+        display_name: سەبارەت بەم كەیسە، بۆ تەواوكردنی داخستنی كەیسەكە چەند کاتت پێچوو؟

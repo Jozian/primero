@@ -1,0 +1,18 @@
+---
+ku:
+  child_protection_services_subform_section:
+    name: فۆرمی لاوەكی بەیەکەوەگرێدراو بۆ خزمەتگوزارییەكانی پاراستنی منداڵ
+    description: فۆرمی لاوەكی بەیەکەوەگرێدراو بۆ خزمەتگوزاریەكانی پاراستنی منداڵ
+    fields:
+      service_protection_referral:
+        display_name: "ئایا تۆ (بەشداربوو) یان سوودمەندەکەت بۆ خزمەتگوزاری پاراستنی منداڵ رەوانە كردووە؟ "
+      service_protection_appointment_date:
+        display_name: رێكەوتی چاوپێکەوتن
+      service_protection_appointment_time:
+        display_name: كاتی چاوپێکەوتن
+      service_protection_provider:
+        display_name: دابینکەری خزمەتگوزاریی
+      service_protection_location:
+        display_name: شوێنی خزمەتگوزاریی
+      service_protection_referral_notes:
+        display_name: تێبینییەکان

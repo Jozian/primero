@@ -6,9 +6,9 @@ ku:
     incident_recorder_xls:
       all: تۆمارکەری رووداو
       one: تۆمارکەری رووداو
-      selected: هەلبژێردرا بۆ تۆمارکەری رووداو
-      'yes': "به لێ"
-      'no': "نه خێر"
+      selected: هەڵبژێردرا بۆ تۆمارکەری رووداو
+      'yes': "بەڵێ"
+      'no': "نەخێر"
       gender:
         male: "نێر"
         female: "مێ"
@@ -23,11 +23,11 @@ ku:
         minor: "بچوک"
         both: "پێگەيشتو & بچوک"
         unknown: "نەزانراو"
-        header: "تەمەنی تاوانباری دیاریکراو"
+        header: "تەمەنی تاوانبار لەسەر بنەمای خەمڵاندن"
       service_referral:
         undecided: "بریار نەدرابوو لەکاتی ریپۆرتکردن"
       headers:
-        incident_id: "ناسنامەی رووداوەکە"
+        incident_id: "ژمارەی رووداوەکە"
         survivor_code: "کۆدی رزگاربوو"
         case_manager_code: "کۆدی بەرێوبەری کەیس"
         case_worker_code: "کۆدی کارمەندی کەیس"
@@ -36,9 +36,9 @@ ku:
         date_of_birth: "رێککەوتی لەدایکبون"
         sex: "رەگەز"
         ethnicity: "نەتەوە"
-        country_of_origin: "ولاتی بنچینەیی"
-        marital_status: "سڤیل/ باری کەسی"
-        displacement_status: "دۆخی جێگۆرین لە راپۆرتەکەدا"
+        country_of_origin: "وڵاتی بنچینەیی"
+        marital_status: "باری کەسێتی/هاوسەرگیریی"
+        displacement_status: "باری ئاوارەیی لە راپۆرتەکەدا"
         disability_type: "کەسی کەمئەندام؟"
         unaccompanied_separated_status: "منداڵی بێ سەرپەرشت یان دابڕاو؟"
         stage_of_displacement: "ئاستی جێگۆرین لە رووداوەکەدا"
@@ -67,10 +67,10 @@ ku:
           safehouse_referral: "خانوی پارێزراو/ پەناگە"
           medical_referral: "تەندروستی/ خزمەتگوزاری پزیشکی"
           psycho_referral: "خزمەتگوزاری دەروونی"
-          wants_legal_action: "کاری یاسایی پێویستە؟"
+          wants_legal_action: "گرتنەبەری رێکاری یاسایی پێویستە؟"
           legal_referral: "خزمەتگوزاری یاسایی"
-          police_referral: "پۆلیس/ فاکتەری تری پاراستن"
+          police_referral: "پۆلیس/ فاکتەری دیکەی پەیوەست بە ئاسایش"
           livelihoods_referral: "پرۆگرامی بژێوی ژیان"
           protection_referral: "خزمەتگوزاری پاراستنی منداڵ/خزمەتگوزاری پەروەردە و فێرکردن"
         consent: "رەزامەندی دراوە"
-        agency_code: "کۆدی ئەو لایەنەی کە بۆی ریپۆرت دەکرێت"
+        agency_code: "کۆدی ئەو لایەنەی کە ریپۆرتی دەکات"

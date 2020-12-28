@@ -1,0 +1,29 @@
+---
+ku:
+  incident_record_owner:
+    name: خاوەنی تۆمار
+    description: خاوەنی تۆمار
+    form_group_name: خاوەنی تۆمار
+    fields:
+      current_owner_section:
+        display_name: خاوەنی ئێستا
+      caseworker_name:
+        display_name: توێژەری كۆمەڵایەتی /كەیس/ بوار
+      owned_by:
+        display_name: كۆدی كارمەندی کەیسەکە
+      owned_by_agency:
+        display_name: ئاژانس
+      assigned_user_names:
+        display_name: بەكارهێنەرانی دیاریكراوی تر
+      record_history_section:
+        display_name: مێژوی تۆمار
+      created_by:
+        display_name: تۆماری ئامادەكراوە لەلایەن
+      created_organization:
+        display_name: ئامادەكراوە لەلایەن ئاژانسەوە
+      previously_owned_by:
+        display_name: خاوەنیش پێشوو
+      previous_agency:
+        display_name: ئاژانسی پێشوو
+      module_id:
+        display_name: یەكە
