@@ -64,7 +64,7 @@ end
 
 if ENV['NO_RESEED'] != 'true'
   puts "Loading Form Translations"
-  Dir[File.dirname(__FILE__) + '/translations/gbv/{ar,fr,bn}/*.yml'].each do |file|
+  Dir[File.dirname(__FILE__) + '/translations/gbv/{ar,fr,bn,ku,ku_IQ}/*.yml'].each do |file|
     puts file
     clazz = file.end_with?('lookups.yml') ? Lookup : FormSection
     Importers::YamlI18nImporter.import(file, clazz)
