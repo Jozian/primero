@@ -1,0 +1,18 @@
+---
+ku_IQ:
+  livelihoods_services_subform_section:
+    name: "فۆرما نەسەرەکیا خزمەتگوزاریا ژیارێ یا تێکەل "
+    description: "فۆرما نەسەرەکیا خزمەتگوزاریا ژیارێ یا تێکەل "
+    fields:
+      service_livelihoods_referral:
+        display_name: تە بریکار رەوانەکريە پرۆگرامەکێ ژیارێ؟
+      service_livelihoods_appointment_date:
+        display_name: مێژوویا ژڤانی
+      service_livelihoods_appointment_time:
+        display_name: دەمێ ژڤانی
+      service_livelihoods_provider:
+        display_name: دابینکەرێ خزمەتگوزاریێ
+      service_livelihoods_location:
+        display_name: جهێ خزمەتگوزاریێ
+      service_livelihoods_referral_notes:
+        display_name: تێبینی

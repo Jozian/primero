@@ -1,0 +1,50 @@
+---
+ku_IQ:
+  incident_service_referrals:
+    name: رەوانەکرنا خزمەتگوزاریان
+    description: رەوانەکرنا خزمەتگوزاریێ
+    form_group_name: خزمەتگوزاریێن رەوانەکرنێ
+    fields:
+      service_referred_from:
+        display_name: کێ بریکار رەوانەکريە دەف تە؟
+        option_strings_text:
+          health_medical_services: خزمەتگوزاریا ساخلەمی یان پزیشکی
+          psychosocial_counseling_services: خزمەتگوزاریێن دەروونی یان شیرەتکاریێ
+          police_other_security_actor: پولیس یان ئەکتەرێن دی یێن ئێمناهیێ
+          legal_assistance_services: خزمەتگوزاریێن هاریکاریا قانونی
+          livelihoods_program: پروگرامێ ژیارێ
+          self_referral_first_point_of_contact: کەسی بخو رەوانەکريە یان خالا ئێکێ یا پەیوەندیێ
+          teacher_school_official: ماموستا یان بەرپرسێ قوتابخانێ
+          community_or_camp_leader: سەرکردێ جڤاکی یان کەمپێ
+          safe_house_shelter: مالا پاراستی یان پەناگەهـ
+          other_humanitarian_or_development_actor: ئەکتەرێن دی یێن مرۆڤایەتی یان پێشڤەبرنێ
+          other_government_service: خزمەتگوزاریێن دی یێن حکومی
+          other: یێن دی
+      service_referred_from_other:
+        display_name: ئەگەر رزگاربوو هاتیە ئێحالە کرن ژ لایەنێن دی ڤە، هیڤیدارین ئاماژێ پێ بکە
+      safe_house_safe_shelter_referral:
+        display_name: رەوانەکرنا مالا پاراستی یان پەناگەها ئارام
+      service_safehouse_referral:
+        display_name: ئەرێ تە بریکار رەوانەکریە مالەکا پاراستی یان پەناگەهەکا ئارام؟
+      service_safehouse_appointment_date:
+        display_name: مێژوویا ژڤانی
+      service_safehouse_appointment_time:
+        display_name: دەمێ ژڤانی
+      service_safehouse_provider:
+        display_name: دابینکەرێ خزمەتگوزاریێ
+      service_safehouse_location:
+        display_name: جهێ خزمەتگوزاریێ
+      service_safehouse_referral_notes:
+        display_name: تێبینی
+      health_medical_referral_subform_section:
+        display_name: رەوانەکرنا ساخلەمی یان پزیشکی
+      psychosocial_counseling_services_subform_section:
+        display_name: خزمەتگوزاریێن دەروونی یان شیرەتکاریێ
+      legal_assistance_services_subform_section:
+        display_name: خزمەتگوزاریێن هاریکاریا قانونی
+      police_or_other_type_of_security_services_subform_section:
+        display_name: پولیس یان جورێن دی یێن خزمەتگوزاریێن ئێمناهیێ
+      livelihoods_services_subform_section:
+        display_name: خزمەتگوزاریێن ژیارێ
+      child_protection_services_subform_section:
+        display_name: خزمەتگوزاریێن پاراستنا زاروکی
