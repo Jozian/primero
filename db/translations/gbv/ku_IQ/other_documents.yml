@@ -1,0 +1,9 @@
+---
+ku_IQ:
+  other_documents:
+    name: بەلگەیێن دی
+    description: بەلگەیێن دی
+    form_group_name: بەلگە
+    fields:
+      upload_other_document:
+        display_name: بەلگەیێن دی

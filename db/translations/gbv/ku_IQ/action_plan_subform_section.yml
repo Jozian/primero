@@ -1,0 +1,30 @@
+---
+ku_IQ:
+  action_plan_subform_section:
+    name: پلانا کریارێ یا تێکەل
+    description: فورما نەسەرەکیا پلانا کریارێ
+    fields:
+      action_plan_description:
+        display_name: پلانا کریارێ وەسف بکە بۆ چارەسەرکرنا پێدڤیا
+      service_type:
+        display_name: جورێ پێدڤیێ
+      service_referral:
+        display_name: ل دەمێ گونجایی، تە رزگاربووی رەوانەکریە ڤێ خزمەتگوزاریێ
+      service_referral_written_consent:
+        display_name: ئەرێ تە رازەمەندی ل سەر وەرەقێ ژ رزگاربووی وەرگرت بۆ بەلاڤکرنا پێزانینا ژبۆ مەرەما رەوانەکرنێ؟
+      service_appointment_date:
+        display_name: مێژوویا ژڤانی
+      service_appointment_time:
+        display_name: دەمێ ژڤانی
+      service_provider:
+        display_name: دابینکەرێ خزمەتگوزاریێ
+      service_location:
+        display_name: جهێ خزمەتگوزاریێ
+      service_referral_notes:
+        display_name: تێبینی
+      service_referral_mandatory_reporting:
+        display_name: "ئەگەر جێبەجێکرنا قانونێن راپورتکرنێ نەچاری بیت، تە ریدان بو پولیس یان دەسەلاتا گشتی راپورتکریە؟  "
+      service_referral_mandatory_reporting_inform_survivor:
+        display_name: "ئەگەر بەلێ، تە رزگاربووی و یان چاڤدێرێن وێ ژ قانونا نەچاریا راپورتکرنێ ژ بەری دروستکرنا راپورتێ ئاگەهدارکریە؟ "
+      service_referral_case_action_plan_timing:
+        display_name: تە چەند دەم بو دانانا پلانا کریارێن کەیسی دگەل رزگاربووی بۆ ڤی کەیسی دەربازکری؟

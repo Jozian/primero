@@ -1,0 +1,61 @@
+---
+ku_IQ:
+  gbv_follow_up_subform_section:
+    name: "یا تێکەل GBV فورما نەسەرەکیا دیفچوونا "
+    description: "یا تێکەل GBV فورما نەسەرەکیا دیفچوونا "
+    fields:
+      service_type_provided:
+        display_name: جورێن خزمەتگوزاریێن ژ لایێ من یان رێکخراوا من ڤە هاتینە دابینکرن
+      followup_date:
+        display_name: مێژوویا دیفچوونێ
+      followup_service_type:
+        display_name: جورێ خزمەتگوزاریا رەوانەکرنێ
+      action_taken_already:
+        display_name: کریار هاتیە ئەنجامدان؟
+      action_taken_details:
+        display_name: وردەکاری لسەر کریارا هاتیە کرن
+      service_provided_date:
+        display_name: ئەگەر بەلێ، کەنگی خزمەتگوزاری هاتیە دابینکرن؟
+      need_follow_up_visit:
+        display_name: ئەرێ پێدڤی ب سەرەدانێن زێدەتر یێن دیفچوونێ هەیە؟
+      when_follow_up_visit_should_happen:
+        display_name: ئەگەر بەلێ، بۆ سەرەدانا بهێت تو چ دەم پێشنیار دکەی؟
+      follow_up_comments:
+        display_name: کومێنت
+      follow_up_survivor_share_needs:
+        display_name: ل دەما ژڤانێ دیفچوونێ، ئەرێ رزگاربووی بەحسا چ پێدڤیێن نی یان ژی نیگەرانیا کر؟
+        help_text: ئەگەر بەلێ، هیڤیدارین وان پێدڤیا وەسف بکە و لدیف هندێ پێداچوونێ د بەشێ پلانا کریارا کەیسی دا بکە
+      survivor_needs_met:
+        display_name: ئەو کریارێن هاتینە کرن لدیف پێدڤیێن رزگاربووی بوو؟
+        help_text: "ئەگەر نە، هیڤیدارین لدیف هندێ بەشێ پلانا کریارا کەیسی ئاپدەیت بکە بۆ چارەسەرکرنا وان پێدڤیا "
+      referred_for_another_appointment:
+        display_name: ئەگەر نە، تە رزگاربوو رەوانەکریە ژبۆ چاڤپێکەفتنەکا دی؟
+      recommend_case_closed:
+        display_name: ئەگەر هەمی پێدڤی هاتبنە جێبەجێکرن، تو پێشنیار دکەی کەیس بهێتە گرتن؟
+      case_action_plan_implementation_timing:
+        display_name: " بۆ جێبەجێکرنا پلانا کریارا کەیسی بۆ ڤێ ریدانێ چەند وەختێ تە پێڤە چوو؟"
+      progress_made_towards_goals:
+        display_name: پێشڤەچوون بەرەف گەهشتن ب ئارمانجا ڤە هاتە کرن
+        help_text: پێشڤەچوونا بەرەف گەهشتن ب ئارمانجا ڤە هاتە دیتن هەلسەنگینە، ل گوری رێکەفتنا ل سەر هاتیە کرن بۆ هەلسەنگاندنا رزگاربووی و پلانا کارێ کەیسی
+      gbv_assessment_progress_safety:
+        display_name: پێشڤەچوون بەرەف ئارمانجێن ئێمناهیێ
+      gbv_assessment_progress_safety_text:
+        display_name: پێشڤچوونا بەرەف ئارمانجێن ئێمناهێ شروڤە بکە
+      gbv_assessment_progress_health:
+        display_name: پێشڤەچوون بەرەف ئارمانجێن ساخلەمیێ
+      gbv_assessment_progress_health_text:
+        display_name: پێشڤچوونا بەرەف ئارمانجێن ساخلەمیێ شروڤە بکە
+      gbv_assessment_progress_psychosocial:
+        display_name: پێشڤەچوون بەرەف ئارمانجێن پشتەڤانیا دەروونی
+      gbv_assessment_progress_psychosocial_text:
+        display_name: پێشڤچوونا بەرەف ئارمانجێن پشتەڤانیا دەروونی شروڤە بکە
+      gbv_assessment_progress_justice:
+        display_name: پێشڤەچوون بەرەف ئارمانجێن دادوەریێ یان یاسایی
+      gbv_assessment_progress_justice_text:
+        display_name: پێشڤچوونا بەرەف گەهشتن ب ئارمانجێن دادوەریێ یان یاسایی شروڤە بکە
+      gbv_assessment_other_goals_list:
+        display_name: ئارمانجێن دی (ل ڤێرە بکە لیست
+      gbv_assessment_other_goals:
+        display_name: پێشڤەچوون بەرەف ئارمانجێن دی
+      gbv_assessment_other_goals_text:
+        display_name: پێشڤچوونا بەرەف ئارمانجێن دی شروڤە بکە

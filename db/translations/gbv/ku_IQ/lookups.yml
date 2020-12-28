@@ -1,0 +1,731 @@
+---
+ku_IQ:
+  lookup-age-group-type:
+    name: جورێ گرۆپێ تەمەنی
+    lookup_values:
+      adult: مەزن
+      minor: سنێلە
+      unknown: نەدیار
+  lookup-agency-office:
+    name: ئوفیسا ئاژانسێ
+    lookup_values:
+      agency_office_1: ئوفیسا ئاژانسی 1
+      agency_office_2: ئوفیسا ئاژانسی 2
+      agency_office_3: ئوفیسا ئاژانسی 3
+      agency_office_4: ئوفیسا ئاژانسی 4
+      agency_office_5: ئوفیسا ئاژانسی 5
+  lookup-approval-status:
+    name: بارودوخێ قەبیلکرنێ
+    lookup_values:
+      requested: داخازکری
+      pending: هەلاویستی
+      approved: هاتیە دەستيردان
+      rejected: رەتکری
+  lookup-approval-type:
+    name: جورێ دەستيردانێ
+    lookup_values:
+      case_plan: پلانا کەیسی
+      action_plan: پلانا کریارێ
+      service_provision: دابینکرنا خزمەتگۆزاریێ
+  lookup-armed-force-group-name:
+    name: "ناڤێ گرۆپێ هێزا چەکدار "
+    lookup_values:
+      armed_force_or_group_1: "ناڤێ گرۆپێ هێزا چەکدار 1 "
+      armed_force_or_group_2: "ناڤێ گرۆپێ هێزا چەکدار 2 "
+      armed_force_or_group_3: "ناڤێ گرۆپێ هێزا چەکدار 3 "
+      other_please_specify: یێن دی، هیڤیدارین دیاربکە
+  lookup-armed-force-group-type:
+    name: "جورێ گرۆپێ هێزا چەکدار  "
+    lookup_values:
+      national_army: لەشکەرێ نەتەوەیی
+      security_forces: هێزێن ئێمناهیێ
+      international_forces: هێزێن نێڤدەولەتی
+      police_forces: هێزێن پۆلیسا
+      para-military_forces: هێزێن نیمچە لەشکەری
+      unknown: نەدیار
+      other: یێن دی
+  lookup-assessment-duration:
+    name: ماوێ هەلسەنگاندنێ
+    lookup_values:
+      less_than_15_minutes: کێمتر ژ 15 خولەکا
+      16_30_minutes: 16-30 خولەک
+      31_minutes_1_hour: خولەک 31 - 1 دەمژمێر
+      1_2_hours: 1-2 دەمژمێر
+      more_than_2_hours: پتر ژ 2 دەمژمێرا
+  lookup-assessment-progress:
+    name: پێشڤەچوونا هەلسەنگاندنێ
+    lookup_values:
+      n_a: " بەردەست نینە \\نە پەیوەندیدار"
+      in_progress: د پێشڤەچوونێ دایە
+      met: ئێک دوو یا دیتی
+  lookup-case-status:
+    name: بارودوخێ کەیسی
+    lookup_values:
+      open: ڤەکری
+      closed: گرتی
+      transferred: ڤەگوهاستی
+      duplicate: دوبارەکری
+  lookup-child-minor-age-group:
+    name: زارۆک\ گرۆپێ تەمەنێ ل ژێر تەمەنێ قانونی
+    lookup_values:
+      0_5_year_old: "سالی 0-5 "
+      6_12_year_old: 6-12 سالی
+      13_17_year_old: 13-17 سالی
+  lookup-conference-case-status:
+    name: بارودوخێ کەیسی
+    lookup_values:
+      open: کەیس دێ ڤەکری مینیت
+      closed: کەیس دێ هێتە گرتن
+      transferred: کەیس دێ هێتە ڤەگۆهاستن
+      other: یێن دی
+  lookup-country:
+    name: وەلات
+    lookup_values:
+      afghanistan: ئەفغانستان
+      albania: ئەلبانیا
+      algeria: جەزائر
+      andorra: ئەندورا
+      angola: ئەنگۆلا
+      antigua_and_barbuda: ئەنتیگوا و باربودا
+      argentina: ئەرژەنتین
+      armenia: ئەرمینیا
+      australia: ئۆسترالیا
+      austria: نەمسا
+      azerbaijan: ئازربایجان
+      bahamas: باهاماس
+      bahrain: بەحرێن
+      bangladesh: بەنگلادش
+      barbados: باربادوس
+      belarus: بێلاروس
+      belgium: بەلجیک
+      belize: بلیزێ
+      benin: بەنین
+      bhutan: بوتان
+      bolivia: بولیڤیا
+      bosnia_and_herzegovina: بوسنیا و هێرسک
+      botswana: بوتسوانا
+      brazil: بەرازیل
+      brunei: برونای
+      bulgaria: بولگاریا
+      burkina_faso: بورکینا فاسو
+      burundi: بروندی
+      cabo_verde: کابو ڤێردێ
+      cambodia: کەمبودیا
+      cameroon: کامیرون
+      canada: کەنەدا
+      central_african_republic: کومارا ئەفریکا ناڤەراست
+      chad: شاد
+      chile: شیلی
+      china: چین
+      colombia: کولومبیا
+      comoros: کوموروس \ گزیرتا هەیڤێ
+      congo: کومارا کونگو
+      drc: کومارا دیموکراتا کونگو
+      costa_rica: کوستاریکا
+      cote_divoire: کوت دیڤوار
+      croatia: کرواتیا
+      cuba: کوبا
+      cyprus: قوبرس
+      czech_republic: کومارا چیک
+      denmark: دانیمارک
+      djibouti: جیبوتی
+      dominica: دومینیکا
+      dominican_republic: کومارا دومینیکان
+      ecuador: ئیکوادور
+      egypt: مسر
+      el_salvador: سلڤادور
+      equatorial_guinea: گینیا جەمسەری
+      eritrea: ئیریتێریا
+      estonia: ئەستونیا
+      ethiopia: ئیسیوپیا
+      fiji: فیجی
+      finland: فینلەند
+      france: فرەنسا
+      gabon: گابون
+      gambia: گامبیا
+      georgia: جورجیا
+      germany: ئەلمانیا
+      ghana: غانا
+      greece: یونان
+      grenada: گرێنادا
+      guatemala: گواتیمالا
+      guinea: غینیا
+      guinea_bissau: غینیا بیساو
+      guyana: غیانا
+      haiti: هایتی
+      honduras: هوندوراس
+      hungary: هنگاریا
+      iceland: ئایسلەند
+      india: هندستان
+      indonesia: ئەندونیزیا
+      iran: ئیران
+      iraq: عیراق
+      ireland: ئیرلەندا
+      israel: ئسرائیل
+      italy: ئیتالیا
+      jamaica: جامایکا
+      japan: ژاپون
+      jordan: ئوردن
+      kazakhstan: کازاخستان
+      kenya: کینیا
+      kiribati: کیریباتی
+      kosovo: کوسوڤو
+      kuwait: کوێت
+      kyrgyzstan: قیرغزستان
+      laos: لاوس
+      latvia: لاتڤیا
+      lebanon: لبنان
+      lesotho: لیسوتو
+      liberia: لیبیریا
+      libya: لیبیا
+      liechtenstein: لشتنتاین
+      lithuania: لیتوانیا
+      luxembourg: لوکسومبورگ
+      macedonia: مەقدونیا
+      madagascar: ماداگاسکار
+      malawi: مالاوی
+      malaysia: مالیزیا
+      maldives: مالدیڤ
+      mali: مالی
+      malta: مالتا
+      marshall_islands: گزیرتێن مارشال
+      mauritania: موریتانیا
+      mauritius: موریشیوس
+      mexico: مەکسیک
+      micronesia: مایکرونیزیا
+      moldova: مولدوڤا
+      monaco: موناکو
+      mongolia: مونگولیا
+      montenegro: مونتێنێگرو
+      morocco: مەغرب
+      mozambique: موزەمبیق
+      myanmar: میانمار
+      namibia: نامیبیا
+      nauru: ناورو
+      nepal: نیپال
+      netherlands: هولەندا
+      new_zealand: نیوزیلەندا
+      nicaragua: نیکاراگوا
+      niger: نیجر
+      nigeria: نیجیریا
+      north_korea: کوربا باکۆر
+      norway: نەرویج
+      oman: عومان
+      pakistan: پاکستان
+      palau: پالاو
+      palestine: فەلەستین
+      panama: پاناما
+      papua_new_guinea: پاپوا غینیا نی
+      paraguay: پاراگوای
+      peru: پیرو
+      philippines: فلیپین
+      poland: پولەندا
+      portugal: پورتوگال
+      qatar: قەتەر
+      romania: رومانیا
+      russia: رووسیا
+      rwanda: رواندا
+      st_kitts_and_nevis: سانت کێتس و نێڤێس
+      st_lucia: سانت لوسیا
+      st_vincent_and_the_grenadines: "سێنت ڤێنسێنت و گرێنادین "
+      samoa: ساموا
+      san_marino: سان مارینو
+      sao_tome_and_principe: ساو تۆمێ و پرێنسیپێ
+      saudi_arabia: ئەرەبستانا سعوودیا
+      senegal: سینیگال
+      serbia: سربیا
+      seychelles: سیشێل
+      sierra_leone: سیێرا لیون
+      singapore: سنگاپور
+      slovakia: سلوڤاکیا
+      slovenia: سلوڤینیا
+      solomon_islands: گزیرتێن سولومون
+      somalia: سومالیا
+      south_africa: ئەفریکا باشوور
+      south_korea: کوریا باشوور
+      south_sudan: سودانا باشوور
+      spain: ئسپانیا
+      sri_lanka: سریلانکا
+      sudan: سودان
+      suriname: سورینامی
+      swaziland: سوازیلەند
+      sweden: سوید
+      switzerland: سویسرا
+      syria: سووریا
+      taiwan: تایوان
+      tajikistan: تاجکستان
+      tanzania: تانزانیا
+      thailand: تایلەند
+      timor_leste: تیمور لیستێ
+      togo: توگو
+      tonga: تونگا
+      trinidad_and_tobago: ترینیداد توباگو
+      tunisia: تونس
+      turkey: تورکیا
+      turkmenistan: ترکمنستان
+      tuvalu: توڤالو
+      uganda: ئوگاندا
+      ukraine: ئوکرانیا
+      united_arab_emirates: ئیمارات
+      uk: " شانشینا ئێکگرتی "
+      usa: (ئەمریکا (ویلایەتێن ئێکگرتی یێن ئەمریکا
+      uruguay: ئوروگوای
+      uzbekistan: ئوزبەکستان
+      vanuatu: ڤانواتو
+      vatican: "باژارێ ڤاتیکان "
+      venezuela: ڤەنزوێلا
+      vietnam: ڤیێتنام
+      yemen: یەمەن
+      zambia: زامبیا
+      zimbabwe: زیمبابوی
+  lookup-cp-violence-type:
+    name: جورێ تۆندووتیژیێ Cp
+    lookup_values:
+      rape: دەستدرێژی یا سێکسی
+      sexual_assault: دەستدرێژیا سکسی
+      physical_assault: دەستدرێژیا فیزیکی
+      forced_marriage: هەڤژینیا ب زۆری
+      denial_of_resources_opportunities_or_services: دیرخستنا ژێدەران، دەلیڤە و خزمەتگۆزاری
+      psychological_emotional_abuse: دەستدرێژیا دەروونی یان هەستی
+      non-gbv: تۆندووتیژیا نە ل سەر بنەمایێ رەگەزی
+  lookup-disability-type:
+    name: جورێ کێم ئەندامیێ
+    lookup_values:
+      mental_disability: پەککەفتنا مێشکی
+      physical_disability: کێم ئەندامیا فیزیکی
+      both: هەردووک
+  lookup-disability-type-with-mental-physical:
+    name: جورێ پەککەفتنێ یا دەرونی و کێم ئەندامیا فیزیکی
+    lookup_values:
+      'no': 'نەخێر'
+      mental_disability: پەککەفتنا دەرونی
+      physical_disability: کێم ئەندامیا فیزیکی
+      mental_physical_disability: پەککەفتنا دەرونی و کێم ئەندامیا فیزیکی
+  lookup-disability-type-with-no:
+    name: جورێ کێم ئەندامیێ
+    lookup_values:
+      'no': 'نەخێر'
+      mental_disability: پەککەفتنا دەرونی
+      physical_disability: کێم ئەندامیا فیزیکی
+      both: هەردووک
+  lookup-discovery-method:
+    name: رێکا کەشفکرنێ
+    lookup_values:
+      family_or_friend: خێزان یان هەڤال
+      referral: رەوانەکرن ژ رێکخراوەکا دی
+      neighbor: جیران یان ئەندامێ جڤاکی
+      community_discussion: گەنگەشەیا جڤاکی
+      pamphlet: فلایەر یان نامیلکەیێن تە دیتین یان وەرگرتین
+      other: یێن دی
+  lookup-displacement-status:
+    name: بارودوخێ ئاوارەبوونێ
+    lookup_values:
+      resident: ئاکنجی
+      idp: ئاوارە
+      refugee: پەنابەر
+      stateless_person: کەسەکێ بێ ناسنامە
+      returnee: ڤەگەریایی
+      foreign_national: نەتەوەیا بیانی
+      asylum_seeker: داخازکەرێ پەنابەرایەتیێ
+  lookup-ethnicity:
+    name: نەژاد
+    lookup_values:
+      ethnicity1: نەژاد 1
+      ethnicity2: نەژاد 2
+      ethnicity3: نەژاد 3
+      ethnicity4: نەژاد 4
+      ethnicity5: نەژاد 5
+      ethnicity6: نەژاد 6
+      ethnicity7: نەژاد 7
+      ethnicity8: نەژاد 8
+      ethnicity9: نەژاد 9
+      ethnicity10: نەژاد 10
+  lookup-family-relationship:
+    name: پەیوەندیا خێزانی
+    lookup_values:
+      mother: دەیک
+      father: باب
+      aunt: مەت یان خالەت
+      uncle: خال یان مام
+      grandmother: داپیر
+      grandfather: باپیر
+      brother: برا
+      sister: خیشک
+      husband: هەڤژین، زەلام
+      wife: هەڤژین، ژن
+      partner: هەڤال
+      other_family: ئەندامێن دی یێن خێزانێ
+      other_nonfamily: ئەندامێن دی یێن نە خێزانێ
+  lookup-followup-type:
+    name: جورێ دیفچوونێ
+    lookup_values:
+      after_reunification: دیفچوون پشتی دوبارە گەهشتن ب ئێک
+      in_care: دیفچوون د چاڤدێریێ دا
+      for_service: دیفچوون بۆ خزمەتگۆزاریا
+      for_assesment: دیفچوون بۆ هەلسەنگاندنێ
+  lookup-further-action_needed:
+    name: کارێ پتر پێدڤیە
+    lookup_values:
+      no_further_action_needed: کریارێن پتر پێدڤی نینە
+      ongoing_monitoring: چاڤدێریا بەردەوام
+      urgent_intervention: مایتێکرنا بلەز
+  lookup-gbv-approval-types:
+    name: جورێ دەستيردانێ بۆ بکارهێنەرێ توندو تیژی لسەر بنیاتێ رەگەزی
+    lookup_values:
+      case_plan: پلانا کەیسی
+      closure: گرتن
+  lookup-gbv-reported-elsewhere:
+    name: بەلێ، نەخێر، یان ناهێتە زانین
+    lookup_values:
+      'no': 'نەخێر'
+      gbvims-org: " ئاژانس /GBVIMS بەلێ-رێکخراوا"
+      non-gbvims-org: " ئاژانس /GBVIMS بەلێ- نە رێکخراوا"
+  lookup-gbv-sexual-violence-type:
+    name: جورێ توندو تیژی یا سکسی لسەر بنیاتێ رەگەزی
+    lookup_values:
+      rape: دەستدرێژیا سێکسی
+      sexual_assault: دەستدرێژیا سکسی
+      physical_assault: دەستدرێژیا فیزیکی
+      forced_marriage: هەڤژینیا ب زۆری
+      denial_of_resources_opportunities_or_services: دیرخستنا ژێدەران، دەلیڤە و خزمەتگۆزاری
+      psychological_emotional_abuse: دەستدرێژیا دەروونی یان هەستی
+      non-gbv: تۆندووتیژیا نە ل سەر بنەمایێ رەگەزی
+  lookup-gender:
+    name: رەگەز
+    lookup_values:
+      male: نێر
+      female: مێ
+  lookup-incident-identification:
+    name: دەستنیشاکرنا ریدانێ
+    lookup_values:
+      disclosure_complaint_by_the_abused_person_or_family_member: ئاشکراکرنا نهێنیان یان سکالا ژ لایێ کەسێ دەستدرێژی ل سەر هاتیە کرن یان ئەندامێن خێزانێ
+      discovered_by_service_provider: هاتیە ئاشکراکرن ژ لایێ دابینکەرێ خزمەتگۆزاریێ ڤە
+      report_by_the_institution_providing_the_service_discovery: راپۆرت ژ لایێ سازیا خزمەتێ ڤە دابین دکەت (کەشف کرن
+      other: یێن دی
+  lookup-incident-location:
+    name: جهێ ریدانێ
+    lookup_values:
+      home: مال
+      street: جادە
+      school: قوتابخانە
+      work_place: جهێ کاری
+      other: یێن دی
+  lookup-incident-status:
+    name: بارودوخێ ریدانێ
+    lookup_values:
+      open: ڤەکری
+      closed: گرتی
+      duplicate: دوبارەکری
+  lookup-inquiry-status:
+    name: "بارودوخێ پرسیارکرنێ "
+    lookup_values:
+      open: ڤەکری
+      closed: گرتی
+  lookup-language:
+    name: زمان
+    lookup_values:
+      language1: زمان 1
+      language2: زمان 2
+      language3: زمان 3
+      language4: زمان 4
+      language5: زمان 5
+      language6: زمان 6
+      language7: زمان 7
+      language8: زمان 8
+      language9: زمان 9
+      language10: زمان 10
+  lookup-location-type:
+    name: جورێ جهی
+    lookup_values:
+      country: وەلات
+      region: دەڤەر
+      province: هەرێم
+      district: قەزا
+      governorate: پارێزگە
+      chiefdom: دەڤەرا ژ لایێ مەزنەک\شێخەکی ڤە دهێتە برێڤەبرن
+      state: بارودوخ
+      city: باژێر
+      county: وەلات
+      camp: کەمپ
+      site: جهـ
+      village: گوند
+      zone: زون
+      sub_district: باژاروک
+      locality: خوجهی
+      prefecture: قەزا
+      sub-prefecture: قەزایا نەسەرەکی
+      commune: باژێرڤانی
+      payam: پەیام
+      other: یێن دی
+  lookup-marital-status:
+    name: بارودوخێ هەڤژینیێ
+    lookup_values:
+      single: سینگل
+      married_cohabitating: ژیانا هەڤژینیێ پێکئینایە
+      divorced_separated: ژێکجودابوویی
+      widowed: بێژنی\بێوەژن
+  lookup-marital-status-unknown:
+    name: بارودوخێ هەڤژینیێ
+    lookup_values:
+      single: سینگل
+      married_cohabitating: ژیانا هەڤژینیێ پێکئینایە
+      divorced_separated: ژێکجودابوویی
+      widowed: بێژنی\بێوەژن
+      unknown_not_applicable: نە زانیار\ نەپەیوەندیدار
+  lookup-marital-status-with-spouse:
+    name: بارودوخێ هەڤژینیێ
+    lookup_values:
+      single: سینگل
+      married_cohabitating: ژیانا هەڤژینیێ پێکئینایە
+      divorced_separated: ژێکجودابوویی
+      widowed: بێژنی\بێوەژن
+      with_spouse: دگەل هەڤال یان هەڤالێ ژیانێ
+  lookup-nationality:
+    name: نەتەوە
+    lookup_values:
+      nationality1: نەتەوە 1
+      nationality2: نەتەوە 2
+      nationality3: نەتەوە 3
+      nationality4: نەتەوە 4
+      nationality5: نەتەوە 5
+      nationality6: نەتەوە 6
+      nationality7: نەتەوە 7
+      nationality8: نەتەوە 8
+      nationality9: نەتەوە 9
+      nationality10: نەتەوە 10
+  lookup-perpetrator-relationship:
+    name: پەیوەندیا تاوانباری
+    lookup_values:
+      intimate_partner_former_partner: هەڤالێ نێزیک یان هەڤالێ بەرێ
+      primary_caregiver: چاڤدێرێ سەرەکی
+      family_other_than_spouse_or_caregiver: خێزان جۆدا ژ هەڤالێ ژیانێ یان چاڤدێری
+      supervisor_employer: سەرپەرشت یان خودانێ کاری
+      schoolmate: هەڤالێ قوتابخانێ
+      teacher_school_official: ماموستا یان بەرپرسێ قوتابخانێ
+      service_provider: دابینکەرێ خزمەتگۆزاریێ
+      cotenant_housemate: هەڤکارێ مال
+      family_friend_neighbor: هەڤالێ خێزانێ یان جیران
+      other_refugee_idp_returnee: پەنابەر یان ئاوارە یان ڤەگەریایێ دی
+      other_resident_community_member: ئەندامێن دی یێن جڤاکێ ئاکنجی
+      other: یێن دی
+      no_relation: چ پەیوەندی نینە
+      unknown: نە دیار
+  lookup-protection-concerns:
+    name: نیگەرانیێن پاراستنێ
+    lookup_values:
+      sexually_exploited: ئیستغلالا سکسی
+      gbv_survivor: رزگاربوویێ توندو تیژی لسەر بنیاتێ رەگەزی
+      trafficked_smuggled: هاتیە قاچاخچیکرن
+      statelessness: بێی ناسنامە
+      arrested_detained: دەستەسەرکری\ گرتی
+      migrant: کوچبەر
+      disabled: پەککەفتی یان کێم ئەندام
+      serious_health_issue: ئاریشێن رژدێن ساخلەمیێ
+      refugee: پەنابەر
+      caafag: زارۆکێن گرێدایی هێز و گروپێن چەکدار                                                                                                       Children Associated with Armed Forces and Armed Groups
+      street_child: زاروکێ سەر جادێ
+      child_mother: دەيکا زاروك
+      physically_or_mentally_abused: ژ لایێ فیزیکی یان مێشکی ڤە دەستدرێژیا ل سەر هاتیە کرن
+      living_with_vulnerable_person: دگەل کەسەکێ بێهێز دژیت
+      worst_forms_of_child_labor: نەخوشترین شێوازێ کرێکاریا زاروکا
+      child_headed_household: زاروکێ مالێ برێڤەدبەت
+      mentally_distressed: ژلایێ مێشکی ڤە نەئارام
+      other: یێن دی
+  lookup-protection-status:
+    name: بارودوخێ پاراستنێ
+    lookup_values:
+      unaccompanied: بتنێ
+      separated: جودابوویی
+  lookup-religion:
+    name: ئاین
+    lookup_values:
+      religion1: ئاین 1
+      religion2: ئاین 2
+      religion3: ئاین 3
+      religion4: ئاین 4
+      religion5: ئاین 5
+      religion6: ئاین 6
+      religion7: ئاین 7
+      religion8: ئاین 8
+      religion9: ئاین 9
+      religion10: ئاین 10
+  lookup-risk-level:
+    name: ئاستێ مەترسیێ
+    lookup_values:
+      high: بلند
+      medium: مام ناڤەند
+      low: نزم
+  lookup-separation-cause:
+    name: ئەگەرێ جودابوونێ
+    lookup_values:
+      conflict: ناکوکی
+      death: مرن
+      family_abuse_violence_exploitation: دەستدرێژی یان تۆندووتیژی یان ئستیغلال یا خێزانی 
+      lack_of_access_to_services_support: نەبوونا گەهشتن ب خزمەتگۆزاریا یان پشتەڤانیێ
+      caafag: زارۆکێن گرێدایی هێز و گروپێن چەکدار Children Associated with Armed Forces and Armed Groups
+      sickness_of_family_member: نساخبوونا ئەندامێن خێزانێ
+      entrusted_into_the_care_of_an_individual: هاتیە بەرپرس کرن بۆ چاڤدێریکرنا کەسەکی
+      arrest_and_detention: دەستەسەرکرن و گرتن
+      abandonment: هێلان
+      repatriation: ڤەگەریان بۆ وەلاتی
+      population_movement: لڤینا ئاکنجیا
+      migration: کوچبەری
+      poverty: هەژاری
+      natural_disaster: کارەساتێن سروشتی
+      divorce_remarriage: جودابووی\ دوبارە هەڤژینی پێکئینای
+      other_please_specify: (یێن دی (هیڤیدارین دەستنیشان بکە
+  lookup-service-implemented:
+    name: خزمەتگۆزاری هاتیە جێبەجێکرن
+    lookup_values:
+      not_implemented: نەهاتیە جێبەجێکرن
+      implemented: هاتیە جێبەجێکرن
+  lookup-service-referred:
+    name: خزمەتگۆزاری هاتیە رەوانەکرن
+    lookup_values:
+      referred: هاتیە رەوانەکرن
+      service_provided_by_your_agency: خزمەتگۆزاری ژ لایێ ئاژانسا تەڤە هاتیە دابینکرن
+      services_already_received_from_another_agency: خزمەتگۆزاری ژ لایێ ئاژانسەکادی ڤە هاتیە وەرگرتن
+      service_not_applicable: خزمەتگۆزاری نە گونجایی یە
+      referral_declined_by_survivor: رەوانەکرن هاتیە رەتکرن ژلایێ رزگاربووی ڤە
+      service_unavailable: خزمەتگوزاری بەردەست نینە
+  lookup-service-referred-gbv:
+    name: "GBV خزمەتگۆزاری هاتیە رەوانەکرن بۆ "
+    lookup_values:
+      referred: هاتیە رەوانەکرن
+      no_referral_service_provided_by_your_agency: " رەوانەکرن نینە، خزمەتگۆزاری ژلایێ ئاژانسا تەڤە هاتیە دابینکرن"
+      no_referral_services_already_received_from_another_agency: رەوانەکرن نینە، خزمەتگۆزاری ژلایێ ئاژانسەکادی ڤە هاتیە وەرگرتن
+      no_referral_service_not_applicable: " رەوانەکرن نینە، خزمەتگۆزاری نە گونجایی یە"
+      no_referral_declined_by_survivor: رەوانەکرن نینە، ژلایێ رزگاربووی ڤە هاتیە رەتکرن
+      no_referral_service_unavailable: " رەوانەکرن نینە، خزمەتگۆزاری بەردەست نینە"
+  lookup-service-response-type:
+    name: جورێ بەرسڤدانا خزمەتگۆزاریێ
+    lookup_values:
+      care_plan: پلانا چاڤدێریێ
+      action_plan: پلانا کریارێ
+      service_provision: دابینکرنا خزمەتگۆزاریێ
+  lookup-service-type:
+    name: جورێ خزمەتگۆزاریێ
+    lookup_values:
+      safehouse_service: خزمەتگۆزاریا مالا پاراستی
+      health_medical_service: خزمەتگوزاریا ساخلەمی یان پزیشکی
+      psychosocial_service: خزمەتگوزاریا دەروونی
+      police_other_service: پولیس یان خزمەتگوزاریێن دی
+      legal_assistance_service: خزمەتگوزاریا هاریکاریا قانونی
+      livelihoods_service: خزمەتگوزاریێن ژیارێ
+      child_protection_service: خزمەتگوزاریێن پاراستنا زاروکی
+      family_mediation_service: خزمەتگوزاریا ناڤبەینکاریا خێزانێ
+      family_seunification_service: خزمەتگوزاریا دوبارە گەهشتن ب ئێک یا خێزانی
+      education_service: خزمەتگوزاریێن پەروەردەیی
+      nfi_clothes_shoes_service: خزمەتگوزاریا کەلوپەلێن نەیێن خارنێ یان جلوبەرگان یان پێلاڤا
+      water_sanitation_service: خزمەتگوزاریێن ئاڤێ یان تافیلکرنێ
+      registration_service: خزمەتگوزاریا تۆمارکرنێ
+      food_service: خزمەتگوزاریێن خارنێ
+      other_service: خزمەتگوزاریێن دی
+  lookup-time-of-day:
+    name: دەمێ روژێ
+    lookup_values:
+      morning: سپێدە
+      noon: نیڤرو
+      evening: ئێڤار
+      night: شەڤ
+  lookup-tracing-status:
+    name: بارودوخێ دیفچوونێ
+    lookup_values:
+      open: ڤەکری
+      tracing_in_progress: دیفچوون بەردەوامە
+      verified: هاتیە پشکنینکرن
+      reunified: ئێکگرتی
+      closed: داخستی
+  lookup-transition-type:
+    name: جورێ ڤەگوهاستنێ
+    lookup_values:
+      referral: رەوانەکرن
+      reassign: دوبارە هاتیە دەستنیشانکرن
+      transfer: ڤەگوهاستن
+      transfer_request: داخازا ڤەگوهاستنێ
+  lookup-unaccompanied-separated-status:
+    name: بارودوخێ جودابوویی یێ بتنێ
+    lookup_values:
+      'no': 'نەخێر'
+      unaccompanied_minor: کەسەکێ ل ژێر تەمەنێ قانونیێ بتنێ
+      separated_child: زاروکێ جودابوویی
+      other_vulnerable_child: بێ سەمیان یان زاروکێ لاواز
+  lookup-unhcr-needs-codes:
+    name: "Unhcr کودێن پێدڤیێن "
+    lookup_values:
+      cr-cp: CR-CP
+      cr-cs: CR-CS
+      cr-cc: CR-CC
+      cr-tp: CR-TP
+      cr-lw: CR-LW
+      cr-lo: CR-LO
+      cr-ne: CR-NE
+      cr-se: CR-SE
+      cr-af: CR-AF
+      cr-cl: CR-CL
+      sc-ch: SC-CH
+      sc-ic: SC-IC
+      sc-fc: SC-FC
+      ds-bd: DS-BD
+      ds-df: DS-DF
+      ds-pm: DS-PM
+      ds-ps: DS-PS
+      ds-mm: DS-MM
+      ds-ms: DS-MS
+      ds-sd: DS-SD
+      sm-mi: SM-MI
+      sm-mn: SM-MN
+      sm-ci: SM-CI
+      sm-cc: SM-CC
+      sm-ot: SM-OT
+      fu-tr: FU-TR
+      fu-fr: FU-FR
+      lp-nd: LP-ND
+      tr-pi: TR-PI
+      tr-ho: TR-HO
+      tr-wv: TR-WV
+      sv-va: SV-VA
+      lp-an: LP-AN
+      lp-md: LP-MD
+      lp-ms: LP-MS
+      lp-rr: LP-RR
+  lookup-verification-status:
+    name: بارودوخێ پشت راستکرنێ
+    lookup_values:
+      verified: هاتیە پشکنینکرن
+      unverified: نەهاتیە پشکنینکرن
+      pending_verification: پشت راستکرن هەلاویستییە
+      falsely_attributed: خەلەت هاتیە وەسفکرن
+      rejected: رەتکری
+  lookup-workflow:
+    name: برێڤەچوونا کاری
+    lookup_values:
+      new: کەیسێ نی
+      closed: کەیس هاتیە گرتن
+      reopened: کەیس دوبارە هاتیە ڤەکرن
+      service_provision: دابینکرنا خزمەتگۆزاریێ
+      services_implemented: هەمی خزمەتگوزاریێن بەرسڤدانێ هاتینە جێبەجێکرن
+      case_plan: پلانا کەیسی
+  lookup-yes-no:
+    name: بەلێ یان نەخێر
+    lookup_values:
+      'true': 'بەلێ'
+      'false': 'نەخێر'
+  lookup-yes-no-not-applicable:
+    name: بەلێ، نەخێر، یان نەگونجایی یە
+    lookup_values:
+      'true': 'بەلێ'
+      'false': 'نەخێر'
+      not_applicable: نە گونجایی یە
+  lookup-yes-no-undecided:
+    name: بەلێ، نەخێر، یان بریار ل سەر نەهاتیە دان
+    lookup_values:
+      'true': 'بەلێ'
+      'false': 'نەخێر'
+      undecided: بریار ل سەر نەهاتیە دان
+  lookup-yes-no-unknown:
+    name: بەلێ، نەخێر، یان ناهێتە زانین
+    lookup_values:
+      'true': 'بەلێ'
+      'false': 'نەخێر'
+      unknown: ناهێتە زانین

@@ -1,0 +1,16 @@
+ku_IQ:
+  exports:
+    incident_recorder_xls:
+      'yes': "بەلێ"
+      'no': "نەخێر"
+      gender:
+        male: "F"
+        female: "F"
+      age_group:
+        age: "تەمەن"
+        unknown: "ناهێتە زانین"
+      age_type:
+        adult: "مازن"
+        unknown: "ناهێتە زانین"
+      service_referral:
+        undecided: "بریار نەهاتیە دان ددەمێ راپۆرتکرنێ دا"

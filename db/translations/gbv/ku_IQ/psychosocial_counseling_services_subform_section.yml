@@ -1,0 +1,18 @@
+---
+ku_IQ:
+  psychosocial_counseling_services_subform_section:
+    name: "فورما نەسەرەکیا خزمەتگۆزاریێن دەروونی یان شیرەتکاری یێن تێکەل "
+    description: "فورما نەسەرەکیا خزمەتگۆزاریێن دەروونی یان شیرەتکاری یێن تێکەل "
+    fields:
+      service_psycho_referral:
+        display_name: تە بریکار رەوانەکریە خزمەتگۆزاریێن دەروونی یان شیرەتکاری؟
+      service_psycho_appointment_date:
+        display_name: مێژوویا ژڤانی
+      service_psycho_appointment_time:
+        display_name: دەمێ ژڤانی
+      service_psycho_provider:
+        display_name: دابینکەرێ خزمەتگۆزاریێ
+      service_psycho_service_location:
+        display_name: جهێ خزمەتگۆزاریێ
+      service_psycho_referral_notes:
+        display_name: تێبینی

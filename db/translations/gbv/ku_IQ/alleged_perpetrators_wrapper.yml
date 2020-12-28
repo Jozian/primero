@@ -1,0 +1,9 @@
+---
+ku_IQ:
+  alleged_perpetrators_wrapper:
+    name: تاوانبارێ گومانلێکری
+    description: تاوانبارێ گومانلێکری
+    form_group_name: تاوانبارێ گومانلێکری
+    fields:
+      alleged_perpetrator:
+        display_name: تاوانبارێ گومانلێکری

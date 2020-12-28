@@ -1,0 +1,68 @@
+---
+ku_IQ:
+  gbv_incident_form:
+    name: ریدانا توندو تیژی لسەر بنیاتێ رەگەزی
+    description: ریدانا توندو تیژی لسەر بنیاتێ رەگەزی
+    form_group_name: ریدان
+    fields:
+      incident_id:
+        display_name: ناسناما درێژ
+      short_id:
+        display_name: ناسناما ریدانێ
+      marked_for_mobile:
+        display_name: دەستنینشانکریە بۆ موبایلێ؟
+        tick_box_label: 'بەلێ'
+      incident_code:
+        display_name: کودێ ریدانێ
+      incidentid_ir:
+        display_name: ناسناما ریدانێ بو IR
+        help_text: "IR ناسناما ریدانێ بۆ "
+      status:
+        display_name: بارودوخێ ریدانێ
+      consent_reporting:
+        display_name: " رازەمەندی هاتیە دان بۆ پشکدارکرنا پێزانینێن نە دەستنیشانکری بۆ راپورتکرنێ "
+      date_of_first_report:
+        display_name: رۆژا چاڤپێکەفتنێ
+      incident_date:
+        display_name: مێژوویا ریدانێ
+      incident_description:
+        display_name: هەژمارا ریدانێ
+      displacement_incident:
+        display_name: بارودوخێ ئاوارەبوونێ ل دەمێ ریدانێ
+        option_strings_text:
+          not_displaced_home_community: ئاوارەنەبوویە \ کومەلگەهێ مێهڤاندار
+          pre_displacement: بەری ئاوارەبوونێ
+          during_flight: "ل دەمێ گەشتا ئاسمانی "
+          during_refuge: ل دەما پەنابەراتیێ
+          during_return_transit: ل دەما زڤرین یان ترانزێت
+          post_displacement: پشتی ئاوارەبوونێ
+      incident_timeofday:
+        display_name: وەختێ رۆژێ کو ریدان تێدا چێبووی
+        option_strings_text:
+          morning_sunrise_to_noon: (سپێدە (رۆژئاڤابوون بۆ دەمێ نیڤرو
+          afternoon_noon_to_sunset: (نیڤرو (نیڤرو بۆ رۆژئاڤابوونێ
+          evening_night_sunset_to_sunrise: (ئێڤار یان شەڤ (رۆژئاڤابوون بۆ رۆژهەلاتنێ
+          unknown_not_applicable: ناهێتە زانین \ پەیوەندیدار نینە
+      incident_location_type:
+        display_name: جورێ جهێ ریدان لێ پەیدابووی
+        option_strings_text:
+          bush_forest: تەڕاش یان دارستان
+          garden_cultivated_field: "باخچە یان جهێ چاندنێ "
+          school: قوتابخانە
+          road: جادە
+          client_s_home: مالا بریکاری
+          perpetrator_s_home: مالا تاوانباری
+          other: یێن دی
+          market: بازار
+          streamside: رەخێن ئاڤێ
+          beach: بەر لێڤا ئاڤێ
+          farm: کێلگە
+          latrine: تەوالێت
+          perpetrator_s_friend_s_home: مالا هەڤالێ تاوانباری
+          entertainment_centre: سەنتەرێ تەرفیهی
+          unfinished_house: خانيەکێ نە تمامکری
+          guest_house_hotel: مالا مێهڤانداریێ - هوتێڵ
+      incident_location:
+        display_name: جهێ ریدانێ
+      incident_camp_town:
+        display_name: دناڤا کەمپێ یان باژاری دا

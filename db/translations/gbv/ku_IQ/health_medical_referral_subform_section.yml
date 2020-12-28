@@ -1,0 +1,18 @@
+---
+ku_IQ:
+  health_medical_referral_subform_section:
+    name: "فورما نەسەرەکیا رەوانەکرنا ساخلەمی یان پزیشکی یا تێکەل "
+    description: "فورما نەسەرەکیا رەوانەکرنا ساخلەمی یان پزیشکی یا تێکەل "
+    fields:
+      service_medical_referral:
+        display_name: تە بریکار ئاراستەکریە خزمەتگۆزاریێن ساخلەمی یان پزیشکی؟
+      service_medical_appointment_date:
+        display_name: مێژوویا ژڤانی
+      service_medical_appointment_time:
+        display_name: دەمێ ژڤانی
+      service_medical_provider:
+        display_name: دابینکەرێ خزمەتگوزاریێ
+      service_medical_location:
+        display_name: جهێ خزمەتگوزاریێ
+      service_medical_referral_notes:
+        display_name: تێبینی

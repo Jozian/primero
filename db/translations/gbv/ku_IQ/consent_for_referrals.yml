@@ -1,0 +1,41 @@
+---
+ku_IQ:
+  consent_for_referrals:
+    name: رازەمەندی بۆ رەوانەکرنێ
+    description: رازەمەندی بۆ رەوانەکرنێ
+    form_group_name: رازەمەندی بۆ رەوانەکرنێ
+    fields:
+      consent_release_separator:
+        display_name: رازەمەندی بۆ بەلاڤکرنا پێزانینا ل گوری جورێ رەوانەکرنێ
+      consent_to_share_info_by_security:
+        display_name: رازەمەندی بۆ بەلاڤکرنا پێزانینا بو خزمەتگوزاریێن ئێمناهیێ
+      consent_to_share_security_organization:
+        display_name: ناڤێ ئێمناهیێ دیارکە، سازی یان ئاژانس یان رێکخراو لديف چێبوونێ
+      consent_to_share_info_by_psychosocial:
+        display_name: رازەمەندی بۆ بەلاڤکرنا پێزانینا بۆ خزمەتگوزاریێن دەروونی
+      consent_to_share_psychosocial_organization:
+        display_name: ناڤێ دەروونێ جڤاکی دیارکە، سازی یان ئاژانس یان رێکخراو لديف چێبوونێ
+      consent_to_share_info_by_health:
+        display_name: رازەمەندی بۆ بەلاڤکرنا پێزانینا بۆ خزمەتگوزاریێن ساخلەمی یان پزیشکی
+      consent_to_share_health_organization:
+        display_name: ناڤێ ساخلەمی یان پزیشکی دیارکە، سازی یان ئاژانس یان رێکخراو لديف چێبوونێ
+      consent_to_share_info_by_safehouse:
+        display_name: رازەمەندی بۆ بەلاڤکرنا پێزانینا بۆ مالا ئارام یان پەناگە
+      consent_to_share_safehouse_organization:
+        display_name: ناڤێ مالا ئارام یان پەناگەهی دیارکە، سازی یان ئاژانس یان رێکخراو
+      consent_to_share_info_by_legal:
+        display_name: رازەمەندی بۆ بەلاڤکرنا پێزانینا بۆ خزمەتگوزاریێن هاریکاریا قانونی
+      consent_to_share_legal_organization:
+        display_name: ناڤێ هاریکاریا قانونی دیارکە، سازی یان ئاژانس یان رێکخراو لديف چێبوونێ
+      consent_to_share_info_by_protection:
+        display_name: رازەمەندی بۆ بەلاڤکرنا پێزانینا بۆ خزمەتگوزاریێن پاراستنێ
+      consent_to_share_protection_organization:
+        display_name: ناڤێ خزمەتگوزاریێن پاراستنێ دیارکە، سازی یان ئاژانس یان رێکخراو لديف چێبوونێ
+      consent_to_share_info_by_livelihoods:
+        display_name: رازەمەندی بۆ بەلاڤکرنا پێزانینا بۆ خزمەتگوزاریێن ژیارێ
+      consent_to_share_livelihoods_organization:
+        display_name: ناڤێ خزمەتگوزاریێن ژیارێ دیارکە، سازی یان ئاژانس یان رێکخراو لديف چێبوونێ
+      consent_to_share_info_by_other:
+        display_name: رازەمەندی بۆ بەلاڤکرنا پێزانینا بۆ خزمەتگوزاریێن دی
+      consent_to_share_info_by_other_details:
+        display_name: ئەگەر خزمەتگوزاریێن دی هەبن، هیڤیدارین وان خزمەتگوزاریا، ناڤ و ئاژانسێ دیارکە

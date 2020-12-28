@@ -1,0 +1,43 @@
+---
+ku_IQ:
+  transitions:
+    name: "فۆرما نەسەرەکیا ڤەگوهاستنان یا تێکەل "
+    description: فۆرما نەسەرەکیا ڤەگۆهاستنێ
+    fields:
+      type:
+        display_name: جور
+      to_user_local:
+        display_name: بکارهێنەرێ خوجهی
+      to_user_remote:
+        display_name: بکارهێنەرێ ژدیرڤە
+      to_user_local_status:
+        display_name: بارودوخ
+        option_strings_text:
+          in_progress: د پێشڤەچوونێ دایە
+          pending: هەلاویستی
+          accepted: هاتیە قەبیلکرن
+          rejected: رەتکری
+          done: دوماهیک هاتی
+      rejected_reason:
+        display_name: ئەگەرێ رەتکرنێ (گەر پەیوەندی پێ ڤە هەبیت
+      to_user_agency:
+        display_name: بریکارێ بکارهێنەرێ ژدیرڤە
+      notes:
+        display_name: تێبینی
+      transitioned_by:
+        display_name: هاتيە ڤەگوهاستن یان رەوانەکرن ژلایێ
+      service:
+        display_name: خزمەتگۆزاری
+      is_remote:
+        display_name: ئەرێ رەوانەکرن یان ژی ڤەگۆهاستن بۆ سیستەمەکێ ژدویرە؟
+        tick_box_label: 'بەلێ'
+      type_of_export:
+        display_name: هەوە ج جورەکێ هاوردەکرنێ دڤێت
+      consent_overridden:
+        display_name: "رازەمەندی نینە بۆ پشکدارکرنا تاخمێ تەجاوزکری "
+        tick_box_label: 'بەلێ'
+      consent_individual_transfer:
+        display_name: ئەرێ کارمەندێ کەیسی رازەمەندیا زاروکی هەیە بۆ ئەنجامدانا ڤێ ڤەگۆهاستنێ؟
+        tick_box_label: 'بەلێ'
+      created_at:
+        display_name: مێژوویا رەوانەکرن یان ڤەگۆهاستنێ
