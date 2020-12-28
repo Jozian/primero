@@ -1,0 +1,10 @@
+---
+ku_IQ:
+  reopened_logs:
+    name: کەیس دوبارە هاتە ڤەکرن
+    description: فورما نەسەرەکیا کەیس دوبارە هاتیە ڤەکرن
+    fields:
+      reopened_date:
+        display_name: مێژوویا دوبارە ڤەکرنێ
+      reopened_user:
+        display_name: کەیس دوبارە هاتیە ڤەکرن ژلایێ

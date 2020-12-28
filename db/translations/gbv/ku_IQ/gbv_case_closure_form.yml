@@ -1,0 +1,63 @@
+---
+ku_IQ:
+  gbv_case_closure_form:
+    name: گرتنا کەیسی
+    description: گرتنا کەیسی
+    form_group_name: گرتنا کەیسی
+    fields:
+      created_at:
+        display_name: مێژوویا ڤەکرنا کەیسی
+      date_closure:
+        display_name: مێژوویا گرتنا کەیسی
+      child_status:
+        display_name: بارودوخێ کەیسی
+      closure_assessment:
+        display_name: هەلسەنگاندنا گرتنێ
+      closure_checklist_header_section:
+        display_name: لیستا دیفچوونا گرتنێ
+      closure_needs_met:
+        display_name: پێدڤیێن رزگاربوویی هاتینە جێبەجێکرن تا رادەیێ پێ چێبووی
+      closure_needs_met_explain:
+        display_name: شروڤە بکە
+      closure_survivor_contact:
+        display_name: دەمەکێ دەستنیشانکریە کو چ پەیوەندی دگەل رزگاربووی نەهاتیە کرن (بو نمونە، پتر ژ ٣٠ رۆژانە
+      closure_survivor_contact_explain:
+        display_name: شروڤە بکە
+      closure_survivor_request_close:
+        display_name: رزگاربووی داخواز کریە کەيس بهێتە گرتن
+      closure_survivor_request_close_explain:
+        display_name: شروڤە بکە
+      closure_survivor_left_area:
+        display_name: رزگاربووی یێ ژ وی جهی چووی یان ئێدی ل وێرێ ناژیت
+      closure_survivor_left_area_explain:
+        display_name: شروڤە بکە
+      closure_tranferred_organization:
+        display_name: کەیس هاتیە ڤەگوهاستن بۆ رێکخراوەکا دی
+      closure_tranferred_organization_explain:
+        display_name: شروڤە بکە
+      closure_funding_constraints:
+        display_name: کەیس هاتیە گرتن ژبەر سنورێن تەمویلێ یێن دابینکەرێ خزمەتگوزاریێ
+      closure_funding_constraints_explain:
+        display_name: شروڤە بکە
+      closure_safety_plan:
+        display_name: "پێداچوون د پلانا ئێمناهیا رزگاربووی دا هاتیە کرن و د جهێ خودایە "
+      closure_safety_plan_explain:
+        display_name: (شروڤە بکە (پلانا ئێمناهیێ
+      closure_case_plan_complete:
+        display_name: پێدڤیێن رزگاربوویی وەک د پلانا کریارا کەیسی دا هاتینە وەسفکرن هاتینە جێبەجێکرن
+      closure_case_plan_complete_explain:
+        display_name: شروڤە بکە (تمامکرن و رازەمەندی
+      closure_no_further_support:
+        display_name: بریکار و کارمەندێ جڤاکیێ رزگاربووی رازەمەندن کو چ پشتەڤانیەکا دی پێدڤی نینە
+      closure_no_further_support_explain:
+        display_name: شروڤە بکە (چ پێدڤی ب پشتەڤانیا پتر نینە
+      closure_resume_notification:
+        display_name: رزگاربووی هاتیە ئاگەهدارکرن کو هەر دەمەکێ وێ دڤێت دشێت بەردەوامیێ بدەتە خزمەتگوزاریا
+      closure_resume_notification_explain:
+        display_name: شروڤە بکە (بەردەوامیدان ب خزمەتگۆزاریا)
+      closure_supervisor_review:
+        display_name: سەرپەرشتێ کەیسی پێداچوون د گرتن یان پلانا بدوماهیک هاتنا دا کریە
+      closure_supervisor_review_explain:
+        display_name: شروڤە بکە (پێداچوون د کەیسی دا
+      closure_completion_timing:
+        display_name: تە چەند دەم بۆ تماکرنا گرتنا ڤی کەیسی دەربازکر؟

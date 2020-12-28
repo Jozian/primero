@@ -1,0 +1,63 @@
+---
+ku_IQ:
+  gbv_survivor_information:
+    name: پێزانینێن رزگاربووی
+    description: پێزانینێن رزگاربووی
+    form_group_name: ناسنامە یان تومار
+    fields:
+      case_id:
+        display_name: ناسناما درێژ
+      short_id:
+        display_name: ناسناما کەیسی
+      marked_for_mobile:
+        display_name: دەستنینشانکریە بۆ موبایلێ؟
+        tick_box_label: 'بەلێ'
+      child_status:
+        display_name: بارودوخێ کەیسی
+      name:
+        display_name: ناڤ
+      survivor_code_no:
+        display_name: کودێ رزگاربووی
+      age:
+        display_name: تەمەن
+      date_of_birth:
+        display_name: روژا ژدایکبوونێ
+      sex:
+        display_name: رەگەز
+      gbv_ethnicity:
+        display_name: هوز یان نەژاد
+      country_of_origin:
+        display_name: "وەلاتێ رەسەن "
+      gbv_nationality:
+        display_name: نەتەوە، (ئەگەر وەك وەلاتێ رەسەن نەبیت)
+      gbv_religion:
+        display_name: ئاین
+      maritial_status:
+        display_name: بارودوخێ نوکە یێ مەدەنی یان هەڤژینیێ؟
+      dependents_no:
+        display_name: ژمارە و تەمەنێ زاروکا
+      occupation:
+        display_name: کار
+      gbv_displacement_status:
+        display_name: بارودوخێ ئاوارەبوونێ ل دەمێ نڤیسینا راپورتێ
+      gbv_disability_type:
+        display_name: ئەرێ رزگاربوو کەسەکێ خودان پێدڤیێن تایبەتە؟
+      unaccompanied_separated_status:
+        display_name: ئەرێ رزگاربوو سنێلەکێ بتنێ یە، زاروکەکێ جودابوویی ژ خێزانا خویە یان ژ زاروکێن دی یێن لاوازە؟
+      section_heading_child_survivors_less_than_18_years_old:
+        display_name: رزگاربوویێن زاروك (ل ژێر تەمەنێ ١٨ سالیێ
+      survivor_lives_alone:
+        display_name: ئەرێ رزگاربوو زاروکە، ئەرێ ئەو بتنێ دژیت؟
+      survivor_caretaker:
+        display_name: ئەرێ رزگاربوو دگەل کەسەکی دژیت، پەیوەندی دناڤبەرا وان چیە؟
+        option_strings_text:
+          parent_guardian: دەیباب یان پارێزڤان
+          relative: کەس و کار
+          spouse_cohabitating: هەڤژین
+          other_please_specify: یێن دی، هیڤیدارین دەستنیشان بکە
+      survivor_caretaker_other:
+        display_name: ئەگەر پەیوەندیێن دی دناڤبەرا وی و چاڤدێری بن، هیڤیدارین دیار بکەی
+      caretaker_marital_status:
+        display_name: بارودوخێ هەڤژینیێ چاڤدێری چییە؟
+      caretaker_occupation:
+        display_name: کارێ سەرەکی یێ چاڤدێری چییە؟

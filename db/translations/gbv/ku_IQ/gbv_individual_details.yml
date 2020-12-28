@@ -1,0 +1,33 @@
+---
+ku_IQ:
+  gbv_individual_details:
+    name: وردەکاریێن کەسی یێن توندو تیژی لسەر بنیاتێ رەگەزی
+    description: وردەکاریێن کەسی یێن توندو تیژی لسەر بنیاتێ رەگەزی
+    form_group_name: وردەکاریێن کەسی یێن توندو تیژی لسەر بنیاتێ رەگەزی
+    fields:
+      survivor_code:
+        display_name: کودێ رزگاربووی
+      sex:
+        display_name: رەگەزێ رزگاربووی چییە؟
+      date_of_birth:
+        display_name: روژا ژدایکبوونا رزگاربووی چییە؟
+      age:
+        display_name: تەمەنێ رزگاربووی چەندە؟
+      estimated:
+        display_name: ئەرێ تەمەن تەخمینکریە؟
+      ethnicity:
+        display_name: نەژادێ رزگاربووی چيە؟
+      nationality:
+        display_name: رزگاربووی لایەنگرێ چ نەتەوەیە؟
+      religion:
+        display_name: رزگاربوویی لایەنگرێ کیش ئاینی یە؟
+      country_of_origin:
+        display_name: وەلاتێ رەسەن
+      displacement_status:
+        display_name: بارودوخێ ئاوارەبوونێ ل دەمێ نڤیسینا راپورتێ
+      maritial_status:
+        display_name: بارودوخێ نوکە یێ مەدەنی یان هەڤژینیێ؟
+      disability_type:
+        display_name: جورێ پەککەفتن یا کێم ئەندامیێ
+      unaccompanied_separated_status:
+        display_name: ئەرێ رزگاربوو کەسەکێ ل ژێر تەمەنێ قانونی یە و یێ بتنێ یە، زاروکەکێ جودابوویی یە ژ خێزانا خو یان ژ زاروکێن دی یێن لاوازە؟

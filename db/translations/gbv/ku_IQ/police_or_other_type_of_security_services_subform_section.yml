@@ -1,0 +1,18 @@
+---
+ku_IQ:
+  police_or_other_type_of_security_services_subform_section:
+    name: فورما نەسەرەکیا خزمەتگۆزاریێن پۆلیس یان جۆرێن دی یێن ئێمناهیێ یێن تێکەل
+    description: فورما نەسەرەکیا خزمەتگۆزاریێن پۆلیس یان جۆرێن دی یێن ئێمناهیێ یێن تێکەل
+    fields:
+      service_police_referral:
+        display_name: تە بریکار رەوانەکریە دەف پۆلیس یان جۆرێن دی یێن خزمەتگۆزاریا؟
+      service_police_appointment_date:
+        display_name: مێژوویا ژڤانی
+      service_police_appointment_time:
+        display_name: دەمێ ژڤانی
+      service_police_provider:
+        display_name: دابینکەرێ خزمەتگۆزاریێ
+      service_police_location:
+        display_name: جهێ خزمەتگۆزاریێ
+      service_police_referral_notes:
+        display_name: تێبینی

@@ -1,0 +1,18 @@
+---
+ku_IQ:
+  action_plan_form:
+    name: پلانا کریارێ
+    description: پلانا کریارێ
+    form_group_name: پلانا کریارێ
+    fields:
+      incident_links:
+        display_name: لینکێن ریدانێ
+      action_explanation_header:
+        display_name: 'پلانا کریارێ'
+        help_text: هیڤیدارین هەمی پێدڤیێن تە د هەلسەنگاندنێ دا دەستنیشانکرین زێدە بکە. دوکما زێدەکرنێ بکاربینە بۆ زێدەکرنا پێدڤیێن دی کو پێدڤیە پشکەک بن ژ پلانا کریارێ
+      action_plan_section:
+        display_name: پلانا کریارێ
+      action_follow_up_header:
+        display_name: دیفچوون
+      gbv_follow_up_subform_section:
+        display_name: دیفچوون

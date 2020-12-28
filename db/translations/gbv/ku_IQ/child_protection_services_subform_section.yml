@@ -1,0 +1,18 @@
+---
+ku_IQ:
+  child_protection_services_subform_section:
+    name: "فورما نەسەرەکیا خزمەتگۆزاریێن پارستنا زاروکی یا تێکەل "
+    description: "فورما نەسەرەکیا خزمەتگۆزاریێن پارستنا زاروکی یا تێکەل "
+    fields:
+      service_protection_referral:
+        display_name: ئەرێ تە بریکار ئاراستەکرە خزمەتگوزاریێن پاراستنا زاروکی؟
+      service_protection_appointment_date:
+        display_name: مێژوویا ژڤانی
+      service_protection_appointment_time:
+        display_name: دەمێ ژڤانی
+      service_protection_provider:
+        display_name: دابینکەرێ خزمەتگوزاریێ
+      service_protection_location:
+        display_name: جهێ خزمەتگوزاریێ
+      service_protection_referral_notes:
+        display_name: تێبینی

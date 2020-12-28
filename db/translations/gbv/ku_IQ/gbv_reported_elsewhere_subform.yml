@@ -1,0 +1,18 @@
+---
+ku_IQ:
+  gbv_reported_elsewhere_subform:
+    name:  فورما نەسەرەکیا توندو تیژی لسەر بنیاتێ رەگەزی ل جهەکێ دی هاتیە راپورتکرن
+    description: " فورما نەسەرەکیا توندو تیژی لسەر بنیاتێ رەگەزی ل جهەکێ دی هاتیە راپورتکرن"
+    fields:
+      gbv_reported_elsewhere_organization_type:
+        display_name: جورێ دابینکەرێ خزمەتگوزاریێ ل دەما کو رزگاربووی ریدان راپورتکری
+        option_strings_text:
+          health_medical_services: خزمەتگوزاریێن ساخلەمی یان پزیشکی
+          psychosocial_counseling_services: خزمەتگوزاریێن دەروونی یان شیرەتکاری
+          police_other_security_actor: پولیس یان ئەکتەرێن دی یێن ئێمناهیێ
+          legal_assistance_services: خزمەتگوزاریێن هاریکاریا قانونی
+          livelihoods_program: پروگرامێ ژیارێ
+          safe_house_shelter: مالا ئارام یان پەناگە
+          other: یێن دی
+      gbv_reported_elsewhere_organization_provider:
+        display_name: ناڤێ دابینکەرێ خزمەتگوزاریێ

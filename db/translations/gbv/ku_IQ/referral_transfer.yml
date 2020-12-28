@@ -1,0 +1,15 @@
+---
+ku_IQ:
+  referral_transfer:
+    name: رەوانەکرن و ڤەگوهاستن
+    description: لیستا ڤەگوهاستن و رەوانەکرنا
+    form_group_name: رەوانەکرن و ڤەگوهاستن
+    fields:
+      transfer_status:
+        display_name: بارودوخێ ڤەگوهاستنێ
+        option_strings_text:
+          in_progress: دپێشڤەچوونێ دایە
+          accepted: هاتیە قەبیلکرن
+          rejected: رەتکری
+      transitions:
+        display_name: ڤەگوهاستن و رەوانەکرن

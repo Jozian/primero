@@ -1,0 +1,20 @@
+---
+ku_IQ:
+  legal_assistance_services_subform_section:
+    name: فۆرما نەسەرەکیا خزمەتگوزاریا هاریکاریا قانونی یا تێکەل
+    description: فۆرما نەسەرەکیا خزمەتگوزاریا هاریکاریا قانونی یا تێکەل
+    fields:
+      service_legal_referral:
+        display_name: تە بریکار رەوانەکريە خزمەتگوزاریێن قانونی؟
+      service_legal_appointment_date:
+        display_name: مێژوویا ژڤانی
+      service_legal_appointment_time:
+        display_name: دەمێ ژڤانی
+      service_legal_provider:
+        display_name: دابینکەرێ خزمەتگوزاریێ
+      service_legal_location:
+        display_name: جهێ خزمەتگوزاریێ
+      service_legal_referral_notes:
+        display_name: تێبینی
+      pursue_legal_action:
+        display_name: ئەرێ بریکارێ دڤێت رێکارێن قانونی بگریتە بەر؟
