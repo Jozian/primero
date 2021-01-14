@@ -1,6 +1,4 @@
 my:
-  "false": "ငြင်းဆိုနေသည်"
-  "true": "လက်ခံသည်"
   valid: "အကျုံးဝင်သည်"
   invalid: "အကျုံးမဝင်ပါ"
   offline: ဤ application သည် အင်တာနက်နှင့်ချိတ်ဆက်ခြင်းမရှိပါ။
@@ -30,8 +28,8 @@ my:
     users: "အသုံးပြုသူများကို စီမံခန်ံခွဲရန်"
     manage_system_users: "ဆာဗာထပ်တူပြုခြင်းကို အသုံးပြုသောသူများအား စီမံခန့်ခွဲခြင်း"
     records_need_attention: "သတိပြုရန်လိုအပ်သော မှတ်တမ်းများ"
-    label: "အိမ်"
-  clear: "ရှင်းလင်းသော"
+    label: "ပင်မ စာမျက်နှာ"
+  clear: "ရှင်းလင်းသည်၊"
   messages:
     delete_item: |
         သတိပေးချက် - သင်ဆက်လုပ်ပါက ဤ နေရာ(field) နှင့်သက်ဆိုင်သော မည်သည့်အချက်အလက်မဆို ပျောက်ဆုံးပါလိမ့်မည်။
@@ -104,14 +102,14 @@ my:
     label: "စနစ်အတွင်းဝင်ရောက်ခြင်း"
   header:
     contact: "ဆက်သွယ်ရန် နှင့် အကူအညီ"
-    logged_in_as: " အဖြစ် စနစ်အတွင်းဝင်ရောက်ခဲ့သည်"
+    logged_in_as: "စနစ်အတွင်း ၀င်ရောက်သည်"
     welcome: "ကြိုဆိုပါသည်"
-    logout: "စနစ်အတွင်းမှ ထွက်ခြင်း"
+    logout: "စနစ်အတွင်းမှ ထွက်သည်"
     my_account: "ကိုယ်ပိုင် အကောင့် (Account)"
     system_settings: "စနစ်ချိန်ညှိချက်များ"
   navigation:
-    home: "အိမ်"
-    cases: "အမှုဖြစ်ရပ်များ"
+    home: "ပင်မ စာမျက်နှာ"
+    cases: "ဖြစ်ရပ်များ"
     tracing_request: "တောင်းဆိုမှုများကို ခြေရာခံခြင်း"
     incidents: "ဖြစ်စဉ်များ"
     potential_match: "တူညီမှုများ"
@@ -134,7 +132,7 @@ my:
     delete: "ဖျက်သိမ်းသည်"
     disable: "မလုပ်ဆောင်နိုင်စေရန်ပြုလုပ်သည်"
     enable: "စတင်လုပ်ဆောင်စေသည်"
-    save: "သိမ်းဆည်းသည်"
+    save: "သိမ်းဆည်းသည်၊"
     save_and_add_service_provision: "သိမ်းဆည်းခြင်းနှင့် ဝန်ဆောင်မှုပေးခြင်းကို ထည့်သွင်းခြင်း"
     login: "စနစ်အတွင်းဝင်ရောက်ခြင်း"
     reunite: "ပြန်လည်ပေါင်းစည်းခြင်း"
@@ -155,9 +153,9 @@ my:
     find_tracing_match: "ခြေရာခံရန်တူညီမှုများကို ရှာဖွေပါ"
     filter_restore: "စနစ်ချိန်ညှိချက်များအတိုင်း ပြန်ထားပါ"
     flag_records: "အမှတ်အသားပြုခြင်း"
-    flag_model: "အမှတ်အသားပြုခြင်းး %{model}"
+    flag_model: "အမှတ်အသားပြုခြင်း %{model}"
     unflag_model: "အမှတ်အသားဖျက်သိမ်းခြင်း %{model}"
-    unflag_model_history: "အလံအညွှန်း၏ မှတ်တမ်းရာဇဝင် %{model}"
+    unflag_model_history: "အမှတ်အသား ရာဇဝင် %{model}"
     ok: 'သဘောတူသည်'
     cancel: "ဖျက်သိမ်းသည်"
     edit_subform: 'ဖောင်ပုံစံခွဲကို ပြင်ဆင်ခြင်း'
@@ -172,7 +170,7 @@ my:
     approve_bia: "BIA ကို အတည်ပြုသည်"
     approve_case_plan: "ဖြစ်ရပ်အတွက် အစီအစဉ်ကို အတည်ပြုသည်"
     sort_by_tr: "ခြေရာခံရန် တောင်းဆိုမှုများ"
-    sort_by_case: "အမှုဖြစ်ရပ်"
+    sort_by_case: "ဖြစ်ရပ်များ"
     approve_closure: "ပိတ်သိမ်းမှုကို အတည်ပြုသည်"
     view_flags_history: "မှတ်တမ်းရာဇဝင်ကို ကြည့်သည်"
     request_approval: "အတည်ပြုရန်တောင်းဆိုသည်"
@@ -188,26 +186,26 @@ my:
     subforms: "%{form} တွင် အသေးစိတ်ထည့်ရန် တည်းဖြတ်ခလုတ်ကိုနှိပ်ပါ"
     editing_subforms: "%{form}၏အသေးစိတ်အချက်အလက်များကိုထည့်ရန် ADD ခလုတ်ကိုနှိပ်ပါ"
   cases:
-    label: "အမှုဖြစ်ရပ်"
-    register_new_case: "အမှုဖြစ်ရပ်အသစ်"
+    label: "ဖြစ်ရပ်များ"
+    register_new_case: "ဖြစ်ရပ်အသစ်"
     export: "Export"
     filter_by:
-      flag: "အလံအညွှန်းတပ်ခဲ့သလား?"
-      flag_label: "အလံအညွှန်းတပ်ခဲ့သလား?"
+      flag: "အမှတ်အသားပြုခဲ့သူ"
+      flag_label: "အမှတ်အသားပြုခဲ့သလား။"
       mobile: "လက်ကိုင်တယ်လီဖုန်း"
       mobile_label: "လက်ကိုင်ဖုန်းအတွက် မှတ်သားခြင်း"
       social_worker: "ကွင်းဆင်း / ဖြစ်ရပ် / လူမှုရေးလုပ်သား:"
-      my_cases: "ကျွန်ုပ်၏ အမှုဖြစ်ရပ်"
+      my_cases: "ကျွန်ုပ် ကိုင်တွယ်သော ဖြစ်ရပ်များ"
       workflow: "လုပ်ငန်းစီးဆင်းမှုအလိုက် ဖြစ်ရပ်"
       no_activity: "ဆောင်ရွက်မှုမရှိ"
       3month_inactivity: "၃ လနှင့် အထက်အတွက်"
-      referred_cases: "ကျွန်ုပ်ထံ လွှဲပြောင်းညွှန်းပို့မှုများ"
+      referred_cases: "ကျွန်ုပ်ထံ လွှဲပြောင်းထားသော ဖြစ်ရပ်များ"
       agency: "အဖွဲ့အစည်း"
-      status: "အခြေအနေ-"
+      status: "ဖြစ်ရပ်အခြေအနေ"
       age_range: "အသက်အပိုင်းအခြား:"
       sex: "လိင်-"
-      male: "ယောက်ျား"
-      female: "မိန်းမ"
+      male: "ကျား၊"
+      female: " မ"
       displacement_status: "နေအိမ်စွန့်ခွာထွက်ပြေးရသည့် အခြေအနေ"
       protection_status: "ကာကွယ်စောင့်ရှောက်မှုအခြေအနေ:"
       urgent_protection_concern: "အရေးပေါ်ကာကွယ်စောင့်ရှောက်ရေးအတွက်စိုးရိမ်ပူပန်မှု-"
@@ -224,18 +222,18 @@ my:
       by_date: 'ရက်စွဲအလိုက် -'
       date: 'ရက်စွဲ'
       approvals:
-        pending: "ဆိုင်းငံထားသည့် အတည်ပြုချက်များ"
-        approved: "အတည်ပြုသည်"
+        pending: "အတည်ပြုရန် ဆိုင်းငံ့ခြင်း"
+        approved: "အတည်ပြုပြီးစီးခြင်း"
         rejected: "ငြင်းဆိုသည်"
-    clear_filter: "ရှင်းလင်းသော"
+    clear_filter: "ရှင်းလင်းသည်၊"
     apply_filter: "အသုံးပြုသည်"
-    save_filter: "သိမ်းဆည်းသည်"
+    save_filter: "သိမ်းဆည်းသည်၊"
     my_filters: "ကျွန်ုပ်၏ စစ်ထုတ်သည့်အရာ:"
     order_by:
       most_recently: "မကြာသေးမီက"
       label: "၏ အမိန့်အရ"
       name: "အမည်"
-    flag_summary: "အလံအညွှန်း၏ အကျဉ်းချုပ်"
+    flag_summary: "အမှတ်အသားး၏ အကျဉ်းချုပ်"
     filer_by:
       all: "အားလုံး"
       active: "အလုပ်လုပ်နေသော"
@@ -261,39 +259,39 @@ my:
       all: "အားလုံး"
       active: "အလုပ်လုပ်နေသော"
       reunited: "ပြန်လည်ပေါင်းစည်းခဲ့သည်"
-      flag: "အလံအညွှန်းတပ်ခဲ့သည်"
+      flag: "အမှတ်အသားပြုခဲ့သည်။"
       created: "စတင်ပြုလုပ်ခဲ့သည်"
     order_by:
       most_recently: "မကြာသေးမီက"
       label: "၏ အမိန့်အရ"
       name: "အမည်"
-    flag_summary: "အလံအညွှန်း၏ အကျဉ်းချုပ်"
+    flag_summary: "အမှတ်အသား၏ အကျဉ်းချုပ်"
     filer_by:
       all: "အားလုံး"
       active: "အလုပ်လုပ်နေသော"
       reunited: "ပြန်လည်ပေါင်းစည်းခဲ့သည်"
-      flagged: "အလံအညွှန်းတပ်ခဲ့သည်"
+      flagged: "အမှတ်အသားပြုခဲ့သည်။"
   child:
-    flagged_by: "ကအလံအညွှန်းတပ်ခဲ့သည်"
+    flagged_by: "အမှတ်အသား လုပ်ခဲ့သူ"
     last_updated: "နောက်ဆုံးအခြေအနေနှင့်အညီ ပြင်ဆင်ခဲ့သည့် နောက်ဆုံးအကြိမ်"
     registered_by: "ကမှတ်ပုံတင်ခဲ့သည်"
     mark_as_duplicate: "မိတ္တူအဖြစ်မှတ်သားခြင်း"
-    flag_record: "အလံအညွှန်းများ"
-    flag_label: "အလံအညွှန်း"
-    flag_reason: "အလံအညွှန်းတပ်ရသည့် အကြောင်းရင်း"
-    flag_reason_date: "ရက်စွဲ (စိတ်ကြိုက်)"
-    unflag_record: "မှတ်တမ်းမှ အလံအညွှန်းကိုဖျက်သိမ်းခြင်း "
-    unflag_reason: "အလံဖြင့်မှတ်သားမှုကိုဖျက်သိမ်းရသည့်အကြောင်းရင်း"
+    flag_record: "အမှတ်အသားများ"
+    flag_label: "အမှတ်အသား "
+    flag_reason: "အမှတ်အသားပြုရသည့် အကြောင်အရင်း"
+    flag_reason_date: "ရက်စွဲ (လိုအပ်ပါက)"
+    unflag_record: "အမှတ်အသား မှတ်တမ်းကိုဖျက်သိမ်းခြင်း "
+    unflag_reason: "အမှတ်အသား မှတ်တမ်းကိုဖျက်သိမ်းရသည့်အကြောင်းရင်း"
     unflagged_label: "အကြောင်းရင်း"
     unflag_date: "ရက်စွဲ"
-    unflag_by: "အလံအညွှန်းကိုဖျက်သိမ်းခဲ့သည်"
-    unflag_label: "အလံအညွှန်းကိုဖျက်သိမ်းသည်"
-    unflag_error_message: "ကျေးဇူးပြု၍ ဤမှတ်တမ်း၏  အလံအညွှန်းကို ဘာ့ကြောင့်ဖျက်သိမ်းကြောင်းရှင်းပြပါ။"
+    unflag_by: "အမှတ်အသားကိုဖျက်သိမ်းခြင်း "
+    unflag_label: "အမှတ်အသား ဖျက်သိမ်းခြင်း "
+    unflag_error_message: "အမှတ်အသား မှတ်တမ်းဖျက်သိမ်းရခြင်းကို ရှင်းပြပါ။"
     id_of_record_this_duplicate_of: "မိတ္တူမှတ်တမ်း၏ ID ကိုထည့်ပါ။"
     duplicate_header: "%{child_name}ကို မိတ္တူအဖြစ် မှတ်သားခြင်း"
-    flag_error_message: "ကျေးဇူးပြု၍ ဤမှတ်တမ်း၏  အလံအညွှန်းကို ဘာ့ကြောင့်တပ်ခဲ့ကြောင်းရှင်းပြပါ။"
-    flag_records_error_message: "အလံအညွှန်းတပ်ရသည့်အကြောင်းရင်းကို ထည့်သွင်းပါ။ ရက်စွဲတစ်ခုထည့်လျှင် မှန်ကန်သောရက်စွဲပုံစံကိုသုံးပါ။"
-    selected_records_error_message: "ကျေးဇူးပြု၍ တစ်ခု သို့မဟုတ် တစ်ခုထက်ပိုသောမှတ်တမ်းများကိုရွေးချယ်၍ အလံအညွှန်းတပ်ပါ"
+    flag_error_message: "မှတ်တမ်းကို အမှတ်အသာ ပြုရခြင်းအကြောင်း ရှင်းပြပါ။"
+    flag_records_error_message: "အမှတ်အသားပြုရသည့်အကြောင်းရင်းကို ထည့်သွင်းပါ။ ရက်စွဲတစ်ခုထည့်လျှင် မှန်ကန်သောရက်စွဲပုံစံကိုသုံးပါ။"
+    selected_records_error_message: "ကျေးဇူးပြု၍ တစ်ခု သို့မဟုတ် တစ်ခုထက်ပိုသောမှတ်တမ်းများကိုရွေးချယ်၍ အမှတ်အသားပြုပါ"
     investigation_details: "စုံစမ်းစစ်ဆေးခြင်း အသေးစိတ်အချက်အလက်များ -"
     reunite_details: "ပြန်လည်ပေါင်းစည်းခြင်း အသေးစိတ်အချက်အလက်များ -"
     another_duplicate_before_link: "အခြားမှတ်တမ်းတစ်ခုကို မိတ္တူပွားအဖြစ် မှတ်သားထားသည်။ ကိုနှိပ်ပါ"
@@ -304,13 +302,13 @@ my:
     age: "အသက်"
     sex: "လိင်"
     registration_date: "မှတ်ပုံတင်သည့် ရက်စွဲ-"
-    status: "အခြေအနေ"
+    status: "ဖြစ်ရပ်အခြေအနေ"
     match_record: "ကိုက်ညီမှုရှိသည်"
     match_record_success: "မှတ်တမ်းများ ကိုက်ညီမှုရှိသည်"
     match_record_failed: "ကိုက်ညီသည့်မှတ်တမ်းမတွေ့ပါ"
     messages:
       update_success: "%{record_id} ဖြစ်ရပ်ကို နောက်ဆုံးအခြေအနေနှင့်အညီ အောင်မြင်စွာပြင်ဆင်ခဲ့သည်။"
-      investigation_error_message: "ကျေးဇူးပြု၍ အလံပြအညွှန်းပြထားသည့်မှတ်တမ်းကို စုံစမ်းစစ်ဆေးပြီးဟု မှတ်သားသင့်ကြောင်းအတည်ပြုပါ၊ သင်၌ရှိသောအသေးစိတ်အချက်အလက်များကိုထည့်သွင်းပါ။"
+      investigation_error_message: "အမှတ်အသားပြထားသည့်မှတ်တမ်းကို စုံစမ်းစစ်ဆေးပြီးဟု မှတ်သားသင့်ကြောင်းအတည်ပြုပါ၊ သင်၌ရှိသောအသေးစိတ်အချက်အလက်များကိုထည့်သွင်းပါ။"
       undo_investigation_error_message: "စုံစမ်းစစ်ဆေးခြင်း အသေးစိတ်အချက်အလက်များကို နောက်သို့ပြန်ဖျက်ပါ"
       reunite_error_message: "ကျေးဇူးပြု၍ ဤကလေးသည် မိသားစု (သို့) အုပ်ထိန်းသူများနှင့်ပြန်လည်ပေါင်းစည်းပြီးဖြစ်ကြောင်းနှင့် သင်၌ရှိသောအသေးစိတ်အချက်အလက်များကိုထည့်သွင်းပါ။"
       undo_reunite_error_message: "ကျေးဇူးပြု၍ ဤကလေးသည် ပြန်လည်ပေါင်းစည်းမှုမရရှိသေးကြောင်း အလံဖြင့်မှတ်သားရန်နှင့် သင်၌ရှိသောအသေးစိတ်အချက်အလက်များကိုထည့်သွင်းပါ။"
@@ -346,7 +344,7 @@ my:
       rotate_clockwise: "နာရီလက်တံလည်ပတ်မှုအတိုင်းလှည့်ပါ"
       view_full_size_photo: "ဓါတ်ပုံကို အရွယ်အစားအပြည့်ဖြင့်ကြည့်ပါ"
     change_log: "မှတ်တမ်းရေးသွင်းချက်ကို ပြင်ပါ"
-    flagged_as_suspected: "ကအလံအညွှန်းတပ်ခဲ့သည်"
+    flagged_as_suspected: "အမှတ်အသား ပြုလုပ်ခဲ့သူ"
     posted_from_mobile: "Mobile ဝန်ဆောင်မှုရယူသူက တင်ပြသည် "
     edit_photo: "ဓါတ်ပုံကို တည်းဖြတ်ပြင်ဆင်ရန်"
     manage_photos: "ဓါတ်ပုံများကို စီမံပါ"
@@ -359,8 +357,8 @@ my:
     save_error: "သိမ်းဆည်းခြင်း မအောင်မြင်ပါ"
     deleted: "ဖျက်သိမ်းထားသည်များကို အောင်မြင်စွာ ရှာဖွေခဲ့သည်"
     delete_error: "ဖျက်သိမ်းခြင်း မအောင်မြင်ပါ"
-    saved_searches_tab: "ရှိဖွေတွေ့ရှိမှုများကို သိမ်းဆည်းပြီး"
-    filters_tab: "စစ်ထုတ်သည့်အရာများ -"
+    saved_searches_tab: "ရှာဖွေကြည့်ရှုမှုများကို မှတ်သားထားသည်။"
+    filters_tab: "စစ်ထုတ်ကြည့်ရှုရန်"
   task:
     id: "ID နံပါတ်"
     priority: "ဦးစားပေးအဆင့်အတန်း"
@@ -389,24 +387,24 @@ my:
       services_implemented: ဝန်ဆောင်မှုကို အကောင်အထည်ဖေါ်ပြီးဖြစ်သည်
       case_plan: "ဖြစ်ရပ်အတွက် အစီအစဉ်"
       assessment: "အကဲဖြတ်လေ့လာခြင်း"
-    flagged_by: "ကအလံအညွှန်းတပ်ခဲ့သည်"
+    flagged_by: "အမှတ်အသား ပြုလုပ်ခဲ့သူ"
     last_updated: "နောက်ဆုံးအခြေအနေနှင့်အညီ ပြင်ဆင်ခဲ့သည့် နောက်ဆုံးအကြိမ်"
     registered_by: "ကမှတ်ပုံတင်ခဲ့သည်"
     mark_as_duplicate: "မိတ္တူအဖြစ်မှတ်သားခြင်း"
-    flag_record: "အလံအညွှန်းတပ်ထားသည့်မှတ်တမ်း"
-    flag_label: "အလံအညွှန်းတပ်သည်"
-    flag_reason: "အလံအညွှန်းတပ်ရသည့် အကြောင်းရင်း"
-    flag_reason_date: "ရက်စွဲ (စိတ်ကြိုက်)"
-    unflag_record: "မှတ်တမ်းမှ အလံအညွှန်းကိုဖျက်သိမ်းခြင်း "
-    unflag_reason: "အလံအညွှန်းကိုဖျက်သိမ်းခဲ့သည့်အကြောင်းရင်း"
+    flag_record: "အမှတ်အသား မှတ်တမ်း"
+    flag_label: "အမှတ်အသား ပြုလုပ်ခြင်း"
+    flag_reason: "အမှတ်အသားပြုရသည့် အကြောင်အရင်း"
+    flag_reason_date: "ရက်စွဲ (လိုအပ်ပါက)"
+    unflag_record: "အမှတ်အသား မှတ်တမ်းကိုဖျက်သိမ်းခြင်း "
+    unflag_reason: "အမှတ်အသား မှတ်တမ်းကိုဖျက်သိမ်းရသည့် အကြောင်းအရင်း  "
     unflagged_label: "အကြောင်းရင်း"
     unflag_date: "ရက်စွဲ"
-    unflag_by: "အလံအညွှန်းကိုဖျက်သိမ်းခဲ့သည်"
-    unflag_label: "အလံအညွှန်းကိုဖျက်သိမ်းသည်"
-    unflag_error_message: "ကျေးဇူးပြု၍ ဤမှတ်တမ်း၏  အလံအညွှန်းကို ဘာ့ကြောင့်ဖျက်သိမ်းခဲ့ကြောင်းရှင်းပြပါ။"
+    unflag_by: "အမှတ်အသားကိုဖျက်သိမ်းခဲ့ခြင်း "
+    unflag_label: "အမှတ်အသားကိုဖျက်သိမ်းခြင်း "
+    unflag_error_message: "အမှတ်အသား မှတ်တမ်းဖျက်သိမ်းရခြင်းကို ရှင်းပြပါ။"
     id_of_record_this_duplicate_of: "မိတ္တူမှတ်တမ်း၏ ID ကိုထည့်ပါ။"
     duplicate_header: "%{child_name}ကို မိတ္တူအဖြစ် မှတ်သားခြင်း"
-    flag_error_message: "ကျေးဇူးပြု၍ ဤမှတ်တမ်း၏  အလံအညွှန်းကို ဘာ့ကြောင့်တပ်ကြောင်းရှင်းပြပါ။"
+    flag_error_message: "မှတ်တမ်းကို အမှတ်အသာ ပြုရခြင်းအကြောင်း ရှင်းပြပါ။"
     investigation_details: "စုံစမ်းစစ်ဆေးခြင်း အသေးစိတ်အချက်အလက်များ -"
     reunite_details: "ပြန်လည်ပေါင်းစည်းခြင်း အသေးစိတ်အချက်အလက်များ -"
     another_duplicate_before_link: "အခြားမှတ်တမ်းတစ်ခုကို မိတ္တူပွားအဖြစ် မှတ်သားထားသည်။ ကိုနှိပ်ပါ"
@@ -417,7 +415,7 @@ my:
     age: "အသက်"
     sex: "လိင်-"
     registration_date: "မှတ်ပုံတင်သည့် ရက်စွဲ-"
-    status: "အခြေအနေ"
+    status: "ဖြစ်ရပ်အခြေအနေ"
     social_worker: "လူမှုရေးလုပ်သား:"
     survivor_code: "ရှင်သန်ကျန်ရစ်သူ၏ ကုဒ်နံပါတ်"
     case_opening_date: "ဖြစ်ရပ်ဖွင့်လှစ်သည့် ရက်စွဲ-"
@@ -427,7 +425,7 @@ my:
     refer_again: 'နောက်တစ်ကြိမ်'
     messages:
       update_success: "%{record_id} ဖြစ်ရပ်ကို နောက်ဆုံးအခြေအနေနှင့်အညီ အောင်မြင်စွာပြင်ဆင်ခဲ့သည်။"
-      investigation_error_message: "ကျေးဇူးပြု၍ အလံပြအညွှန်းပြထားသည့်မှတ်တမ်းကို စုံစမ်းစစ်ဆေးပြီးဟု မှတ်သားသင့်ကြောင်းအတည်ပြုပါ၊ သင်၌ရှိသောအသေးစိတ်အချက်အလက်များကိုထည့်သွင်းပါ။"
+      investigation_error_message: "အမှတ်အသားပြထားသည့်မှတ်တမ်းကို စုံစမ်းစစ်ဆေးပြီးဟု မှတ်သားသင့်ကြောင်းအတည်ပြုပါ၊ သင်၌ရှိသောအသေးစိတ်အချက်အလက်များကိုထည့်သွင်းပါ။"
       undo_investigation_error_message: "စုံစမ်းစစ်ဆေးခြင်း အသေးစိတ်အချက်အလက်များကို ဖျက်ပါ"
       reunite_error_message: "ကျေးဇူးပြု၍ ဤဖြစ်ရပ်သည် မိသားစု (သို့) အုပ်ထိန်းသူများနှင့်ပြန်လည်ပေါင်းစည်းပြီးဖြစ်ကြောင်းအတည်ပြုရန်နှင့် သင်၌ရှိသောအသေးစိတ်အချက်အလက်များကိုထည့်သွင်းပါ။"
       undo_reunite_error_message: "ကျေးဇူးပြု၍ ဤဖြစ်ရပ်သည် ပြန်လည်ပေါင်းစည်းမှုမရရှိသေးကြောင်း အလံဖြင့်မှတ်သားသင့်ကြောင်းအတည်ပြုရန်နှင့် သင်၌ရှိသောအသေးစိတ်အချက်အလက်များကိုထည့်သွင်းပါ။"
@@ -458,7 +456,7 @@ my:
       rotate_clockwise: "နာရီလက်တံလည်ပတ်မှုအတိုင်းလှည့်ပါ"
       view_full_size_photo: "ဓါတ်ပုံကို အရွယ်အစားအပြည့်ဖြင့်ကြည့်ပါ"
     change_log: "မှတ်တမ်းရေးသွင်းချက်ကို ပြင်ပါ"
-    flagged_as_suspected: "ကအလံအညွှန်းတပ်ခဲ့သည်"
+    flagged_as_suspected: "အမှတ်အသား ပြုလုပ်ခဲ့သူ"
     posted_from_mobile: "Mobile ဝန်ဆောင်မှုရယူသူက    တွင်တင်ပြသည် "
     edit_photo: "ဓါတ်ပုံကို တည်းဖြတ်ပြင်ဆင်ရန်"
     manage_photos: "ဓါတ်ပုံများကို စီမံပါ"
@@ -477,15 +475,15 @@ my:
     violations_tab: "ချိုးဖောက်မှုများ"
     individual_victims_tab: "ကျူးလွန်ခံရသူ ပုဂ္ဂိုလ်များ"
     filter_by:
-      flag: "အလံအညွှန်းတပ်ခဲ့သည်"
-      flag_label: "အလံအညွှန်းတပ်ခဲ့သလား?"
+      flag: "အမှတ်အသားပြုခဲ့သည်။"
+      flag_label: "အမှတ်အသားပြုခဲ့သလား။?"
       mobile: "လက်ကိုင်တယ်လီဖုန်း"
       mobile_label: "လက်ကိုင်ဖုန်းအတွက် မှတ်သားခြင်း"
       violation: "ချိုးဖောက်မှုများ -"
       deprived_liberty: "လွတ်လပ်ခွင့်ကိုငြင်းပယ်ခြင်းခံရပါသလား။"
       violence_type: "အကြမ်းဖက်မှုအမျိုးအစား"
       social_worker: "ဖြစ်ရပ်လုပ်သား"
-      status: "အခြေအနေ-"
+      status: "ဖြစ်ရပ်အခြေအနေ"
       age_range: "အသက်အပိုင်းအခြား:"
       individual_violation: "တစ်ဦးချင်းစီအတွက် ချိုးဖောက်မှုများ -"
       individual_age: "တစ်ဦးချင်းစီ၏ အသက် -"
@@ -552,27 +550,27 @@ my:
       denial_types_of_aid_disrupted_denial: "ငြင်းပယ် / အနှောင့်အယှက်ပေးခံခဲ့ရသည့် အကူအညီ / ဝန်ဆောင်မှုအမျိုးအစား"
   incident:
     label: "ဖြစ်စဉ် ID"
-    flagged_by: "မှ အလံအညွှန်းတပ်ခဲ့သည်"
+    flagged_by: "အမှတ်အသား ပြုလုပ်ခဲ့သူ"
     last_updated: "နောက်ဆုံး အခြေအနေနှင့်အညီ ပြင်ဆင်ခဲ့သည့် အချိန်"
     registered_by: "မှ မှတ်ပုံတင်ခဲ့သည်"
     mark_as_duplicate: "မိတ္တူအဖြစ်မှတ်သားခြင်း"
-    flag_record: "အလံအညွှန်းများ"
-    flag_label: "အလံအညွှန်း"
-    flag_reason: "အလံအညွှန်းတပ်ရသည့် အကြောင်းရင်း"
-    flag_reason_date: "ရက်စွဲ (မဖြစ်မနေ မဟုတ်ပါ)"
-    unflag_record: "မှတ်တမ်းမှ အလံအညွှန်းကိုဖျက်သိမ်းခြင်း "
-    unflag_reason: "အလံအညွှန်းကိုဖျက်သိမ်းခဲ့သည့်အကြောင်းရင်း"
+    flag_record: "အမှတ်အသားများ"
+    flag_label: "အမှတ်အသား"
+    flag_reason: "အမှတ်အသားပြုရသည့် အကြောင်အရင်း"
+    flag_reason_date: "ရက်စွဲ (လိုအပ်ပါက)"
+    unflag_record: "အမှတ်အသား မှတ်တမ်းကိုဖျက်သိမ်းခြင်း "
+    unflag_reason: "အမှတ်အသား မှတ်တမ်းကိုဖျက်သိမ်းရသည့် အကြောင်းရင်း"
     unflagged_label: "အကြောင်းရင်း"
     unflag_date: "ရက်စွဲ"
-    unflag_by: "အလံအညွှန်းကိုဖျက်သိမ်းခဲ့သည်"
-    unflag_label: "အလံအညွှန်းကိုဖျက်သိမ်းသည်"
-    unflag_error_message: "ကျေးဇူးပြု၍ ဤမှတ်တမ်း၏  အလံအညွှန်းကို အဘယ်ကြောင့်ဖျက်သိမ်းခဲ့ကြောင်းရှင်းပြပါ။"
-    flagged_as_suspected: "မှ အလံအညွှန်းတပ်ခဲ့သည်"
+    unflag_by: "အမှတ်အသားကိုဖျက်သိမ်းခဲ့ခြင်း "
+    unflag_label: "အမှတ်အသားကိုဖျက်သိမ်းခြင်း "
+    unflag_error_message: "အမှတ်အသား မှတ်တမ်းဖျက်သိမ်းရခြင်းကို ရှင်းပြပါ။"
+    flagged_as_suspected: "အမှတ်အသား ပြုလုပ်ခဲ့သူ"
     id_of_record_this_duplicate_of: "ဤမိတ္တူမှတ်တမ်း  __  ၏ ID ကိုထည့်ပါ။"
     duplicate_header: "%{child_name}ကို မိတ္တူအဖြစ် မှတ်သားခြင်း"
-    flag_error_message: "ကျေးဇူးပြု၍ ဤမှတ်တမ်း၏  အလံအညွှန်းကို အဘယ်ကြောင့်တပ်ကြောင်းရှင်းပြပါ။"
+    flag_error_message: "မှတ်တမ်းကို အမှတ်အသား ပြုရခြင်းအကြောင်း ရှင်းပြပါ။"
     flag_records_error_message: "အလံအညွှန်းတပ်ရသည့်အကြောင်းရင်းကို ထည့်သွင်းပါ။ ရက်စွဲတစ်ခုထည့်လျှင် မှန်ကန်သောနေ့စွဲပုံစံကိုသုံးပါ။"
-    selected_records_error_message: "ကျေးဇူးပြု၍ အလံအညွှန်းတပ်ရန် တစ်ခု သို့မဟုတ် တစ်ခုထက်ပိုသောမှတ်တမ်းများကိုရွေးချယ်ပါ။ "
+    selected_records_error_message: "မှတ်တမ်းတစ်ခု သို့မဟုတ် တစ်ခုထက်ပိို ရွေးချယ်ရန် အမှတ်အသားပြုလုပ်ပါ။  "
     investigation_details: "စုံစမ်းစစ်ဆေးခြင်း အသေးစိတ်အချက်အလက်များ -"
     reunite_details: "ပြန်လည်ပေါင်းစည်းခြင်း အသေးစိတ်အချက်အလက်များ -"
     another_duplicate_before_link: "အခြားမှတ်တမ်းတစ်ခုကို ဤမှတ်တမ်း၏ မိတ္တူအဖြစ် မှတ်သားထားသည်။ နှိပ်ပါ။ "
@@ -591,7 +589,7 @@ my:
     id: "ID နံပါတ်"
     survivor_code: "ရှင်သန်ကျန်ရစ်သူ၏ ကုဒ်နံပါတ်"
     case_worker_code: "ဖြစ်ရပ်လုပ်သား၏ ကုဒ်နံပါတ်"
-    date_of_interview: "လူတွေ့မေးမြန်းမှုပြုလုပ်သည့် ရက်စွဲ"
+    date_of_interview: "တွေ့ဆုံမေးမြန်းမှု ပြုလုပ်သည့် ရက်စွဲ"
     date_of_incident: "ဖြစ်စဉ်ဖြစ်ပွားခဲ့သည့် ရက်စွဲ"
     violence_type: "အကြမ်းဖက်မှုအမျိုးအစား"
     incident_location: "ဖြစ်စဉ်ဖြစ်ပွားခဲ့သည့် နေရာ"
@@ -625,11 +623,11 @@ my:
     last_updated: "နောက်ဆုံး အခြေအနေနှင့်အညီ ပြင်ဆင်ခဲ့သည့် အချိန်"
     registered_by: "မှ မှတ်ပုံတင်ခဲ့သည်"
     edit_photo: "ဓါတ်ပုံကို တည်းဖြတ်ပြင်ဆင်ရန်"
-    flag_record: "အလံအညွှန်းများ"
+    flag_record: "အမှတ်အသားများ"
     flag_label: "အမှတ်အသားပြုခြင်း"
-    flag_reason: "အလံအညွှန်းတပ်ရသည့် အကြောင်းရင်း"
-    flag_reason_date: "ရက်စွဲ (မဖြစ်မနေ မဟုတ်ပါ)"
-    flag_records_error_message: "အလံအညွှန်းတပ်ရသည့်အကြောင်းရင်းကို ထည့်သွင်းပါ။ ရက်စွဲတစ်ခုထည့်လျှင် မှန်ကန်သောနေ့စွဲပုံစံကိုသုံးပါ။"
+    flag_reason: "အမှတ်အသားပြုရသည့် အကြောင်အရင်း"
+    flag_reason_date: "ရက်စွဲ (လိုအပ်ပါက)"
+    flag_records_error_message: "အအမှတ်အသားပြုလုပ်ရသည့်အကြောင်းရင်းကို ထည့်သွင်းပါ။ ရက်စွဲတစ်ခုထည့်လျှင် မှန်ကန်သောနေ့စွဲပုံစံကိုသုံးပါ။"
     selected_records_error_message: "ကျေးဇူးပြု၍ အလံအညွှန်းတပ်ရန်တစ်ခု သို့မဟုတ် တစ်ခုထက်ပိုသောမှတ်တမ်းများကိုရွေးချယ်ပါ"
     unflag_record: "မှတ်တမ်းမှ အလံအညွှန်းကိုဖျက်သိမ်းခြင်း "
     unflag_reason: "အလံအညွှန်းကိုဖျက်သိမ်းခဲ့သည့်အကြောင်းရင်း"
@@ -661,8 +659,8 @@ my:
     selectable_date_options:
       inquiry_date: "စုံစမ်းမေးမြန်းမှုပြုလုပ်သည့် ရက်စွဲ"
     filter_by:
-      flag: "အလံအညွှန်းတပ်ခဲ့သည်"
-      flag_label: "အလံအညွှန်းတပ်ခဲ့သလား?"
+      flag: "အမှတ်အသားပြုခဲ့သည်။"
+      flag_label: "အမှတ်အသားပြုခဲ့သလား။?"
       social_worker: "ကွင်းဆင်း / ဖြစ်ရပ် / လူမှုရေးလုပ်သား:"
       inquiry_date: "စုံစမ်းမေးမြန်းမှုပြုလုပ်သည့် ရက်စွဲ -"
       inquiry_status: "စုံစမ်းမေးမြန်းမှုအခြေအနေ-"
@@ -707,7 +705,7 @@ my:
       possible: 'ဖြစ်နိုင်သည်'
   duplicates:
     search_for_duplicates: 'ပုံတူပွားများကိုရှာဖွေပါ'
-    clear_filter: 'ရှင်းလင်းသော'
+    clear_filter: 'ရှင်းလင်းသည်၊'
     filter_by:
       name: "အမည်"
       name_nickname: "အမည်ပြောင်"
@@ -742,7 +740,7 @@ my:
   audit_logs:
     action_options:
       login: "စနစ်အတွင်းဝင်ရောက်ခြင်း"
-      logout: "စနစ်အတွင်းမှ ထွက်ခြင်း"
+      logout: "စနစ်အတွင်းမှ ထွက်သည်"
       create: "စတင်ပြုလုပ်နေသည်"
       copy: "ကူးယူနေသည်"
       destroy: "ဖျက်နေသည်"
@@ -784,7 +782,7 @@ my:
       full_name: "နာမည်အပြည့်အစုံ"
       agency: "အဖွဲ့အစည်း"
     filter_by:
-      status: "အခြေအနေ"
+      status: "ဖြစ်ရပ်အခြေအနေ"
       enabled: "လုပ်ဆောင်နိုင်စေသည်"
       disabled: "လုပ်ဆောင်နိုင်မှုကို ပိတ်ထားသည်"
       agency: "အဖွဲ့အစည်း"
@@ -837,7 +835,7 @@ my:
       create: "စတင်ပြုလုပ်သည်"
       delete: "ဖျက်သိမ်းသည်"
     filter_by:
-      status: "အခြေအနေ"
+      status: "ဖြစ်ရပ်အခြေအနေ"
       enabled: "လုပ်ဆောင်နိုင်စေသည်"
       disabled: "ပိတ်ထားသည်"
     messages:
@@ -985,7 +983,7 @@ my:
   form: "မှ"
   details: "အသေးစိတ်အချက်အလက်များ"
   enabled: "လုပ်ဆောင်နိုင်စေသည်"
-  status: "အခြေအနေ"
+  status: "ဖြစ်ရပ်အခြေအနေ"
   devices: "စက်ကိရိယာများ"
   replications: "ပုံတူကူးထားခြင်းများ"
   provide_translation: "__ အတွက် ဘာသာပြန်ပေးခြင်း"
@@ -1106,7 +1104,7 @@ my:
   forms:
     label: "ပုံစံများ"
     save: "ပုံစံကိုသိမ်းဆည်းသည်"
-    save_details: "သိမ်းဆည်းသည်"
+    save_details: "သိမ်းဆည်းသည်၊"
     messages:
       use_existing: "အဖွဲ့အစည်းများအကြား အချက်အလက်မျှဝေခြင်းနှင့် အချက်အလက်များပေါင်းစည်းခြင်း ပိုမိုလွယ်ကူစေရန် ရှိနှင့်ပြီးသော ပုံစံများကိုအသုံးပြုရန် သင့်အား တိုက်တွန်းလိုပါသည်။"
     initial_language: "ကနဦးဘာသာစကား"
@@ -1310,7 +1308,7 @@ my:
     edit: စီစဉ်ဖွဲ့စည်းမှုကိုပြင်ဆင်ခြင်း
     remote_app_uri: Primero URL
     actions: ဆောင်ရွက်ချက်
-    status: အခြေအနေ
+    status: ဖြစ်ရပ်အခြေအနေ
     description: ရှင်းလင်းဖော်ပြချက်
     timestamp: အချိန်စံနစ်တစ်ခု စတင်ချိန်မှ ယခုအချိန်အထိရောက်ရှိချိန်
     delete: ဖျက်သိမ်းသည်
@@ -1443,9 +1441,9 @@ my:
     edit: "တည်းဖြတ်ခြင်း"
     exclude_empty_rows: "ဗလာဖြစ်နေသောအတန်းများကို မပြပါနှင့်"
     report_filters:
-      filters: "စစ်ထုတ်သည့်အရာများ -"
+      filters: "စစ်ထုတ်ကြည့်ရှုရန်"
       filter: "စစ်ထုတ်သည့်အရာ"
-      clear: "ရှင်းလင်းသော"
+      clear: "ရှင်းလင်းသည်၊"
       prompt: "တစ်ခုကိုရွေးချယ်ပါ"
       year_prompt: "နှစ်ကိုရွေးချယ်ပါ"
       date_prompt: "ရက်စွဲကိုရွေးချယ်ပါ"
@@ -1540,14 +1538,14 @@ my:
     new: 'အသစ် နှင့် ပြန်လည်ပြင်ဆင်ခြင်း'
     pending_transfers: 'လွှဲပြောင်းခြင်းကိုဆိုင်းငံ့ထားသည်'
     rejected_transfers: 'လွှဲပြောင်းခြင်းကို ငြင်းပယ်ခဲ့သည်'
-    transers_awaiting_acceptance: 'လွှဲပြောင်းခြင်းကိုလက်ခံမှုကို စောင့်ဆိုင်းနေသည်'
+    transers_awaiting_acceptance: 'လွှဲပြောင်းခြင်းအား လက်ခံမှုကို စောင့်ဆိုင်းနေသည်'
     total_referred: "လွှဲပြောင်းညွှန်းပို့မှု စုစုပေါင်း"
     new_referred: "လွှဲပြောင်းညွှန်းပို့မှုအသစ်များ"
-    high_risk: 'ဦးစားပေး မြင့်မားမှု'
-    low_risk: 'ဦးစားပေး နည်းပါးမှု'
+    high_risk: 'အမြင့်ဆုံး ဦးစားပေးမှု'
+    low_risk: 'အနိမ့်ဆုံး ဦးစားပေးမှု'
     none_risk: 'ဦးစားပေးကိစ္စမရှိပါ'
     no_action_risk: 'အရေးယူဆောင်ရွက်မှုမရှိပါ'
-    medium_risk: 'အလယ်အလတ် ဦးစားပေးမှု'
+    medium_risk: 'အလယ်အလတ် ဦးစားပေးမှု'
     pending: 'ဆိုင်းငံ့ထားသည်'
     rejected: 'ငြင်းဆိုသည်'
     near_deadline: 'သတ်မှတ်အချိန် နီးကပ်နေသည်'
@@ -1562,7 +1560,7 @@ my:
     new_service_provision: 'ဝန်ဆောင်မှုအသစ်များ'
     all_services_implemented: 'ဝန်ဆောင်မှုအားလုံး အကောင်အထည်ဖော်ပြီးဖြစ်သည်'
     services_implemented: 'ဝန်ဆောင်မှုများအကောင်အထည်ဖေါ်ပြီးဖြစ်သည်'
-    approved: 'အတည်ပြုသည်'
+    approved: 'အတည်ပြုပြီးစီးခြင်း'
     cases_by_workflow: 'လုပ်ငန်းစီးဆင်းမှုအလိုက် ဖြစ်ရပ်များ'
     cases_by_task_overdue: 'ရက်ကျော်နေပြီဖြစ်သည့် လုပ်ငန်းတာဝန်များ'
     assessment: 'အကဲဖြတ်လေ့လာဆန်းစစ်ခြင်း'
@@ -1578,7 +1576,7 @@ my:
     no_overdue_activities: "ရက်ကျော်လွန်နေသည့်ဆောင်ရွက်မှုများမရှိပါ"
     no_caseworker_data: "ဖြစ်ရပ်လုပ်သား၏ အချက်အလက်များမရှိပါ"
     no_flagged_child: "အလံအညွှန်းတပ်ထားသည့် ဖြစ်ရပ်များမရှိပါ"
-    no_flagged_incident: "အလံအညွှန်းတပ်ထားသည့် ဖြစ်စဉ်များမရှိပါ"
+    no_flagged_incident: "အမှတ်အသားပြုခဲ့သည့် ဖြစ်စဥ်များ မရှိပါ"
     no_open_incidents: "ဆောင်ရွက်ဆဲ ဖြစ်စဉ်များမရှိပါ"
     no_case_stats: "ဖြစ်ရပ်နှင့်ပတ်သက်သည့်စာရင်းဇယားများမရှိပါ"
     scheduled_activities: "စီစဉ်ထားသောဆောင်ရွက်မှုများ"
@@ -1593,15 +1591,15 @@ my:
     new_child_assigned_to_you: "သင့်အားတာဝန်ပေးအပ်သည့်ဖြစ်ရပ်အသစ်များ"
     new_incident_assigned_to_you: "တာဝန်ပေးအပ်သည့်ဖြစ်စဉ်အသစ်များ"
     recently_flagged_child: "အလံအညွှန်းတပ်ထားသည့် လတ်တလောဖြစ်ရပ်များ"
-    flagged_by_me: "မိမိက အလံအညွှန်းတပ်ခဲ့သည်"
-    flagged_by_other: "အခြားတစ်ဦးက အလံအညွှန်းတပ်ခဲ့သည်"
+    flagged_by_me: "မိမိကိုယ်တိုင် အမှတ်အသားပြုခဲ့သည်"
+    flagged_by_other: "တစ်စုံတစ်ယောက်က အမှတ်အသားပြုခဲ့သည်"
     recently_flagged_incident: "အလံအညွှန်းတပ်ထားသည့် လတ်တလောဖြစ်စဉ်များ"
     incident_status_open: "ဖွင့်သည်"
     number_of_victims: "ကျူးလွန်ခံရသူအရေအတွက်"
     number_of_violations: "ချိုးဖောက်မှုအရေအတွက်"
     number_of_violations_verified: "စစ်ဆေးအတည်ပြုပြီးသည့် ချိုးဖောက်မှုများ"
     link_see_all: "အားလုံးကိုကြည့်ရန်"
-    open_incidents: "ဖြစ်စဉ်များကို ဖွင့်လှစ်သည်"
+    open_incidents: "၀န်ဆောင်မှုရယူနေဆဲဖြစ်သော ဖြစ်စဉ်များ"
     status_of_cases: "ဖြစ်ရပ်များ၏ အခြေအနေ"
     case_worker: "ဖြစ်ရပ်လုပ်သား"
     total_cases: "ဖြစ်ရပ် စုစုပေါင်း"
@@ -1609,13 +1607,13 @@ my:
     missed_cases: "လွတ်သွားသည့် ဖြစ်ရပ်စုစုပေါင်း"
     date_of_incident: "ဖြစ်စဉ်ဖြစ်ပွားခဲ့သည့် ရက်စွဲ"
     violence_type: "အကြမ်းဖက်မှုအမျိုးအစား"
-    date_of_interview: "လူတွေ့မေးမြန်းမှုပြုလုပ်သည့် ရက်စွဲ"
+    date_of_interview: "တွေ့ဆုံမေးမြန်းမှု ပြုလုပ်သည့် ရက်စွဲ"
     system_user: "စနစ်"
     name_or_survivor_code: "အမည် သို့မဟုတ် ရှင်သန်ကျန်ရစ်သူ၏ ကုဒ်နံပါတ်"
     current_owner: "လက်ရှိပိုင်ရှင်"
     last_updated: "နောက်ဆုံးအခြေအနေနှင့်အညီပြုပြင်ခဲ့သည့် အချိန်"
-    case_stats: "ဖြစ်ရပ်"
-    national_admin_stats: "ဖြစ်ရပ်"
+    case_stats: "ဖြစ်ရပ်များ"
+    national_admin_stats: "ဖြစ်ရပ်များ"
     tr_stats: "ခြေရာခံရန် တောင်းဆိုမှုများ"
     cases_by_social_worker: "လူမှုရေးလုပ်သားအလိုက် ဖြစ်ရပ်များ"
     approvals: "အတည်ပြုချက်များ"
@@ -1636,58 +1634,40 @@ my:
     match_result: "ကိုက်ညီသောရလဒ်များ"
     score_range: "ရမှတ်အဆင့်အပိုင်းအခြား:"
     count_risk_level_total:
-      one: "You have %{stat} <span>%{stat_type} risk</span> case "
       other: "သင့်ထံတွင် %{stat}<span> %{stat_type}အန္တရာယ်ရှိသည့် ဖြစ်ရပ်</span>ခု ရှိသည်"
     count_risk_level_new:
-      one: "and %{stat} <span>new</span> <span>%{stat_type} risk</span> case"
       other: "နှင့် %{stat}<span>အသစ်</span><span>%{stat_type} အန္တရာယ် </span>ဖြစ်ရပ်"
     count_records_total:
-      one: "You have %{stat} <span>total</span> case "
       other: "သင့်တွင်  %{stat}ဖြစ်ရပ်များ <span>စုစုပေါင်း</span>ရှိသည်"
     count_records_new:
-      one: "and %{stat} <span>new</span> case"
       other: "နှင့် %{stat} ဖြစ်ရပ်များ  <span>အသစ်</span>"
     count_referrals_total:
-      one: "You have %{stat} <span>total</span> referral "
       other: "သင့်တွင်  %{stat}လွှဲပြောင်းညွှန်းပို့မှု <span>စုစုပေါင်း</span>ရှိသည်"
     worker_count_referrals_total:
-      one: "<span>%{case_worker}</span> has %{stat} <span>total</span> referral "
       other: "<span>%{case_worker}</span>တွင် %{stat}လွှဲပြောင်းညွှန်းပို့ခြင်း<span>စုစုပေါင်း</span>"
     count_referrals_new:
-      one: "and %{stat} <span>new</span> referrals"
       other: "နှင့် %{stat} လွှဲပြောင်းညွှန်းပို့မှုများ  <span>အသစ်</span>"
     worker_count_total:
-      one: "<span>%{case_worker}</span> has %{stat} <span>total</span> case "
       other: "<span>%{case_worker}</span>ရှိသည် %{stat}ဖြစ်ရပ် <span>စုစုပေါင်း</span>"
     manager_count_open_total:
-      one: "You have %{stat} <span>open</span> case "
       other: "သင့်ထံတွင် %{stat}ဖြစ်ရပ်များ <span>ဖွင့်လှစ်</span>"
     manager_count_closed_total:
-      one: "and %{stat} <span>closed</span> case "
       other: "နှင့် %{stat}ဖြစ်ရပ် <span>ပိတ်သိမ်းပြီး</span>"
     manager_transfers_totals:
-      one: "You have %{stat} <span>%{stat_type}</span> Transfer "
       other: "သင့်ထံတွင် %{stat}လွဲပြောင်းပေးမှု‌‌ပေါင်း <span>%{stat_type}</span>"
     count_pending_approval_total:
-      one: "You have %{stat} <span>pending %{stat_type}</span> Approval "
       other: "သင့်ထံတွင် %{stat}<span>ဆိုင်းငံ့ထားသည့် %{stat_type}</span> အတည်ပြုမှုများ"
     count_rejected_approval_total:
-      one: "and %{stat} <span>rejected %{stat_type}</span> Approval "
       other: "နှင့် %{stat}<span>ငြင်းဆိုခဲ့သည့် %{stat_type}</span>အတည်ပြုမှုများ"
     count_new_bia_approvals:
-      one: "%{stat} <span>new %{stat_type}</span> Approval"
       other: "%{stat}<span>အသစ် %{stat_type}</span>အတည်ပြုမှုများ"
     count_new_case_plan_approvals:
-      one: "%{stat} <span>new %{stat_type}</span> Approval"
       other: "%{stat}<span>အသစ် %{stat_type}</span>အတည်ပြုမှုများ"
     count_new_closure_approvals:
-      one: "%{stat} <span>new %{stat_type}</span> Approval"
       other: "%{stat}<span>အသစ် %{stat_type}</span>အတည်ပြုမှုများ"
     count_pending_transfers:
-      one: "You have %{stat} <span>pending</span> Transfer "
       other: "သင့်ထံတွင် %{stat}<span>ဆိုင်းငံ့ထားသည့် </span> လွှဲပြောင်းပေးမှုများ"
     count_rejected_transfers:
-      one: "and %{stat} <span>rejected</span> Transfer "
       other: "နှင့် %{stat}<span>ငြင်းဆိုခဲ့သည့် </span> လွှဲပြောင်းပေးမှုများ"
     count_waiting_for_acceptance_transfers: "သင့်ထံတွင် %{stat}လွှဲပြောင်းပေးမှုများ </span>စောင့်ဆိုင်းနေသည့် </span> သင့်၏လက်ခံမှုကို"
     open_cases: "လက်ရှိဖွင့်ထားသော အမှုဖြစ််််််််ရပ်များ"
@@ -1906,7 +1886,7 @@ my:
     file_name: "ဖိုင်"
     record_type: "အမျိုးအစား"
     started_on: "စတင်ခဲ့သည်"
-    status: "အခြေအနေ"
+    status: "ဖြစ်ရပ်အခြေအနေ"
     retry: "ဤ export မမှန်ကန်ပါ ကျေးဇူးပြု၍ သင်၏ export ကိုပြန်လည်ပြုလုပ်ပါ"
   exports:
     no_records: "မှတ်တမ်းများ မရှိပါ"
@@ -2048,7 +2028,7 @@ my:
     success: "%{record_type}%{id} အား အောင်မြင်စွာ လွှဲပြောင်းရည်ညွှန်းမှု ပြုလုပ်ပြီးဖြစ်ပါသည်"
     failure_batch: "လွှဲပြောင်းညွှန်းပို့မှု(များ) %{failed_count}ခု မအောင်မြင်ပါ (သဘောတူညီမှု field ကိုရွေးချယ်ထားခြင်းရှိမရှိစစ်ဆေးပါ)"
     success_batch: "လွှဲပြောင်းညွှန်းပို့မှု(များ) %{success_count} ခုအား အောင်မြင်စွာဆောင်ရွက်နိုင်ခဲ့သည်"
-    to_user_local_status_label: "အခြေအနေ"
+    to_user_local_status_label: "ဖြစ်ရပ်အခြေအနေ"
     user_local_status_pending: "ဆိုင်းငံ့ထားသည်"
     user_local_status_accepted: "လက်ခံခဲ့သည်"
     user_local_status_rejected: "ငြင်းဆိုသည်"
@@ -2081,7 +2061,7 @@ my:
     rejected: "%{record_type}%{id}  လွှဲပြောင်းပေးပို့မှုအား ငြင်းဆိုထားသည်"
     failure_batch: "လွှဲပြောင်းမှု(များ) %{failed_count}ခု မအောင်မြင်ပါ (သဘောတူညီမှု field ကိုရွေးချယ်ထားခြင်းရှိမရှိစစ်ဆေးပါ)"
     success_batch: "လွှဲပြောင်းမှု(များ) %{success_count} ခုအား အောင်မြင်စွာဆောင်ရွက်နိုင်ခဲ့သည်"
-    to_user_local_status_label: "အခြေအနေ"
+    to_user_local_status_label: "ဖြစ်ရပ်အခြေအနေ"
     user_local_status_pending: "ဆိုင်းငံ့ထားသည်"
     user_local_status_accepted: "လက်ခံခဲ့သည်"
     user_local_status_rejected: "ငြင်းဆိုသည်"
@@ -2138,14 +2118,14 @@ my:
     case_plan_type_label: "ဖြစ်ရပ်အစီအစဉ်အမျိုးအစား"
     status:
       pending: "ဆိုင်းငံ့ထားသည်"
-      approved: "အတည်ပြုသည်"
+      approved: "အတည်ပြုပြီးစီးခြင်း"
       rejected: "ငြင်းဆိုသည်"
   notes:
     notes_label: "မှတ်စုများ"
     subject_label: "ခေါင်းစဉ်"
     no_records_selected: "မည်သည့်မှတ်တမ်းမျှရွေးချယ်ထားခြင်းမရှိပါ"
     error_adding_note: "မှတ်စုထည့်ခြင်းအမှား"
-  per_page_translation: "စာမျက်နှာတစ်ခုချင်းစီအလိုက်_မီနူး_"
+  per_page_translation: "စာမျက်နှာ တစ်ခုခြင်းစီအလိုက်_မီနူး_"
   total: စုစုပေါင်း
   caregiver: "(အုပ်ထိန်းသူ)"
   disabled:
@@ -2154,7 +2134,7 @@ my:
       enabled: "လုပ်ဆောင်နိုင်စေသည်"
       disabled: "ပိတ်ထားသည်"
       all: "အားလုံး"
-      label: "အခြေအနေ"
+      label: "ဖြစ်ရပ်အခြေအနေ"
   sort_by:
     label: "အလိုက်စဉ်ထားသည်"
   logger:
@@ -2162,7 +2142,7 @@ my:
     to_user: "အသုံးပြုသူသို့"
     by_user: "အသုံးပြုသူက"
     login: "စနစ်အတွင်းဝင်ရောက်ခြင်း"
-    logout: "စနစ်အတွင်းမှ ထွက်ခြင်း"
+    logout: "စနစ်အတွင်းမှ ထွက်သည်"
     create: "စတင်ပြုလုပ်နေသည်"
     copy: "ကူးယူနေသည်"
     destroy: "ဖျက်နေသည်"
@@ -2266,7 +2246,7 @@ my:
     page_entries_info:
       single_page_html:
         zero: "%{model} မတွေ့ပါ"
-        one: "ပြသနေသည် <b>1</b>%{model}"
+        one: "ပြသနေသည် <b>တစ်</b>%{model}"
         other: "ပြသနေသည် <b>အားလုံး%{count}</b>%{model}"
       multi_page_html: "ပြသနေသည် %{model}<b>%{from}-%{to}</b>၏ <b>%{count}</b>စုစုပေါင်း"
     models:
