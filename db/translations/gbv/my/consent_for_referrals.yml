@@ -8,7 +8,7 @@ my:
       consent_release_separator:
         display_name: ညွှန်းပို့ပေးခြင်းအမျိုးအစားအလိုက် သတင်းအချက်အလက်များပေးအပ်ရန် အသိပေးသဘောတူညီမှု
       consent_to_share_info_by_security:
-        display_name: ဘေးကင်းလုံခြုံရေးဝန်ဆောင်မှုသို့ သတင်းအချက်အလက်များပေးအပ်ရန် ညွှန်းပို့ပေးခြင်းသဘောတူညီမှု
+        display_name: ဘေးကင်းလုံခြုံရေးဝန်ဆောင်မှုသို့ သတင်းအချက်အလက်များပေးအပ်ရန် အသိပေးသဘောတူညီမှု
       consent_to_share_security_organization:
         display_name: လုံခြုံရေးအမည်၊ ဌာန (သို့မဟုတ်) အေဂျင်စီ / အဖွဲ့အစည်းကို သင့်တော်သလိုဖေါ်ပြပါ။
       consent_to_share_info_by_psychosocial:

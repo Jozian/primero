@@ -6,9 +6,9 @@ my:
     form_group_name: ဖြစ်ရပ်
     fields:
       incident_id:
-        display_name: အိုင်ဒီ အရှည်
+        display_name: အိုင်ဒီ နံပါတ် အရှည်
       short_id:
-        display_name: ဖြစ်ရပ် အမှတ်
+        display_name: ဖြစ်စဉ် အိုင်ဒီ နံပါတ်
       marked_for_mobile:
         display_name: မိုဖိုင်းဖုန်းတွင် အမှတ်အသားပြုခြင်း
         tick_box_label: 'ဟုတ်ပါသည်။'
@@ -20,7 +20,7 @@ my:
       status:
         display_name: ဖြစ်ရပ် အခြေအနေ
       consent_reporting:
-        display_name: သတင်းပို့ခြင်းအတွက် မည်သူမည်ဝါဖြစ်ကြောင်း မသိရှိနိုင်သည့် အချက်အလက်များကိုမျှဝေရန် သဘောတူခွင့်ပြုသည်။
+        display_name: အစီရင်ခံတင်ပြခြင်းအတွက် မည်သူမည်ဝါဖြစ်ကြောင်း မသိရှိနိုင်သည့် အချက်အလက်များကိုမျှဝေရန် သဘောတူခွင့်ပြုသည်
       date_of_first_report:
         display_name: တွေ့ဆုံမေးမြန်းသည့် ရက်စွဲ
       incident_date:
