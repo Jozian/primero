@@ -647,8 +647,8 @@ my:
     name: အဖေါ်မပါခြင်း၊ အုပ်ထိန်းသူနှင့်ကွဲကွာနေသည့် အခြေအနေ
     lookup_values:
       'no': 'မဟုတ်ပါ'
-      unaccompanied_minor: အဖေါ်မပါသည့် အရွယ်မရောက်သေးသူများ
-      separated_child: အုပ်ထိန်းသူနှင့်ကွဲကွာနေသည့်ကလေး
+      unaccompanied_minor: ပြုစုစောင့်ရှောက်သူ မရှိသည့် အရွယ်မရောက်သေးသူ
+      separated_child: အုပ်ထိန်းသူနှင့် ကွဲကွာနေသော ကလေးငယ်
       other_vulnerable_child: မိဘမဲ့ သို့မဟုတ် ထိခိုက်လွယ်သောကလေး
   lookup-unhcr-needs-codes:
     name: Unhcr ၏ လိုအပ်ချက်များအတွက် ကုဒ်များ
