@@ -14,11 +14,11 @@ my:
       reassigned_tranferred_on:
         display_name: ပြန်လည်တာဝန်ပေးခြင်း / လွှဲပြောင်းခြင်း
       owned_by_agency:
-        display_name: အေဂျင်စီ
+        display_name: အဖွဲ့အစည်း
       telephone_agency:
         display_name: အေဂျင်စီ၏ ဖုံးနံပါတ်
       assigned_user_names:
-        display_name: အခြားသတ်မှတ်ထားသောအသုံးပြုသူများ
+        display_name: အခြားတာ၀န်ပေးအပ်ထားသော အသုံးပြုသူများ
       database_operator_user_name:
         display_name: ကွန်ပျူတာအတွင်းထည့်သွင်းထားသည့်အချက်အလက်များနှင့်ပတ်သက်၍ ကိုင်တွယ်ဆောင်ရွက်သူ၊အော်ပရေတာ
       address_registration:
