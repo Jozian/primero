@@ -10,7 +10,7 @@ my:
       short_id:
         display_name: ဖြစ်စဉ် အိုင်ဒီ နံပါတ်
       marked_for_mobile:
-        display_name: မိုဖိုင်းဖုန်းတွင် အမှတ်အသားပြုခြင်း
+        display_name: မိုဘိုင်းဖုန်းတွင် အမှတ်အသားပြုခြင်
         tick_box_label: 'ဟုတ်ပါသည်။'
       incident_code:
         display_name: ဖြစ်စဉ်ကုဒ်

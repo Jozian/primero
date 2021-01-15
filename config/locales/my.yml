@@ -64,7 +64,7 @@ my:
         ပြန်သွားရန် Cancel ကိုနှိပ်ပါ။ Field ကိုဖျက်ရန် OK ကိုနှိပ်ပါ။
     enter_each_in_one_line: "ရွေးချယ်စရာတစ်ခုချင်းကို လိုင်းအသစ်တစ်လိုင်းစီတွင်ထည့်ပါ"
     record_count: "%{total}ခုရှိသည့်အနက် %{start} မှ %{end} အတွင်း ပြနေသည်။"
-    form_sections_help_text_for_edit: "  %{form_section_name}ကိုအသေးစိတ်ထည့်ရန် ပြင်ဆင်််််ခြင်း EDIT ခလုတ်ကိုနှိပ်ပါ "
+    form_sections_help_text_for_edit: "  %{form_section_name}ထပ်ပေါင်းထည့်ရန် ပြင်ဆင်ခြင်း EDIT ခလုတ်ကိုနှိပ်ပါ"
     form_sections_case_update_alert: "%{form_section_name}အသစ်တစ်ခုကို ဖြစ်ရပ်သို့ %{alert_time}တွင်ထည့်သွင်းခဲ့သည်"
     service_provision: "ဝန်ဆောင်မှု ပေးခြင်း"
     enable_disable_record: "OK ကိုနှိပ်လျှင် ဤမှတ်တမ်း၏အခြေအနေကို '%{action} သို့ပြောင်းမည်။"
@@ -180,7 +180,7 @@ my:
     done: "ပြုလုပ်ပြီး"
     remove_referrals: "လွှဲပြောင်းညွှန်ပို့မှုကို ဖယ်ရှားသည်"
     view: "ကြည့်ရန်"
-    request_transfer: "လွှဲပြောင်းရန် တောင်းဆို"
+    request_transfer: "လွှဲပြောင်းရန် လွှဲပြောင်းခြင်း"
     add_note: "မှတ်စုများထည့်ပါ"
   placeholders:
     subforms: "%{form} တွင် အသေးစိတ်ထည့်ရန် တည်းဖြတ်ခလုတ်ကိုနှိပ်ပါ"
@@ -1069,7 +1069,7 @@ my:
       dash_referrals_by_socal_worker: "လူမှုရေးလုပ်သားက လွှဲပြောင်းညွှန်းပို့မှုကိုကြည့်ပါ"
       dash_transfers_by_socal_worker: "လူမှုရေးလုပ်သားက လွှဲပြောင်းမှုကိုကြည့်ပါ"
       dash_cases_by_social_worker: "လူမှုရေးလုပ်သား၏ ဖြစ်ရပ်များကိုကြည့်ပါ"
-      dash_manager_transfers: "မန်နေဂျာ၏လွှဲပြောင်းမှုများကို ကြည့်ပါ"
+      dash_manager_transfers: "မန်နေဂျာ၏လွှဲပြောင်းမှုများကို လွှဲပြောင်းခြင်း"
       dash_cases_by_workflow: "လုပ်ငန်းစီးဆင်းမှုအလိုက် ဖြစ်ရပ်များကို ကြည့်ပါ"
       dash_cases_by_task_overdue: "ရက်ကျော်နေသည့်အလုပ်များအလိုက် ဖြစ်ရပ်များကိုကြည့်ပါ"
       dash_cases_to_assign: "တာဝန်ပေးအပ်ရန်ရှိသည့်ဖြစ်ရပ်များကိုကြည့်ပါ"
@@ -2246,9 +2246,9 @@ my:
     page_entries_info:
       single_page_html:
         zero: "%{model} မတွေ့ပါ"
-        one: "ပြသနေသည် <b>တစ်</b>%{model}"
-        other: "ပြသနေသည် <b>အားလုံး%{count}</b>%{model}"
-      multi_page_html: "ပြသနေသည် %{model}<b>%{from}-%{to}</b>၏ <b>%{count}</b>စုစုပေါင်း"
+        one: "ပြသနေသည် <b>1</b>%{model}"
+        other: "ပြသထားသည် <b>အားလုံး%{count}</b>%{model}"
+      multi_page_html: "ပြသထားသည် %{model}<b>%{from}-%{to}</b>၏ <b>%{count}</b>စုစုပေါင်း"
     models:
       agency:
         one: "အဖွဲ့အစည်းများ"
