@@ -1538,7 +1538,7 @@ my:
     new: 'အသစ် နှင့် ပြန်လည်ပြင်ဆင်ခြင်း'
     pending_transfers: 'လွှဲပြောင်းခြင်းကိုဆိုင်းငံ့ထားသည်'
     rejected_transfers: 'လွှဲပြောင်းခြင်းကို ငြင်းပယ်ခဲ့သည်'
-    transers_awaiting_acceptance: 'လွှဲပြောင်းခြင်းအား လက်ခံမှုကို စောင့်ဆိုင်းနေသည်'
+    transers_awaiting_acceptance: 'လွှဲပြောင်းမှုကိုစောင့်ဆိုင်းနေသည်'
     total_referred: "လွှဲပြောင်းညွှန်းပို့မှု စုစုပေါင်း"
     new_referred: "လွှဲပြောင်းညွှန်းပို့မှုအသစ်များ"
     high_risk: 'အမြင့်ဆုံး ဦးစားပေးမှု'
@@ -1982,7 +1982,7 @@ my:
       label: Custom Exports
       format_label: Format ကိုရွေးချယ်ပါ
       field_label: Field
-      form_label: မှ
+      form_label:  ဖောင်ပုံစံ
       forms: ရွေးချယ်ထားသည့် ပုံစံများကို export လုပ်ပါ
       fields: export လုပ်ရန် Field များကို ရွေးချယ်ပါ
       submit: သဘောတူသည်
