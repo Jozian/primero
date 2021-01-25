@@ -81,8 +81,16 @@ module Exporters
         }
       }
 
+      # Cambodia - Khmer
+      @pdf.font_families["Padauk"] = {
+        normal: {
+          :file => Rails.root.join('public/i18n_fonts/Padauk.ttf'),
+          :font => "Padauk"
+        }
+      }
+
       # Add fallback fonts to array
-      @pdf.fallback_fonts = ["Riwaj", "Kalimati_Regular", "Arial_Unicode_MS", "Khmer"]
+      @pdf.fallback_fonts = ["Riwaj", "Kalimati_Regular", "Arial_Unicode_MS", "Khmer", "Padauk"]
 
       @pdf.text_direction self.class.reverse_page_direction ? :rtl : :ltr
 
