@@ -1,9 +1,9 @@
 ---
 my:
   gbv_case_closure_form:
-    name: အမှုဖြစ်ရပ် ပိတ်သိမ်းခြင်း
-    description: အမှုဖြစ်ရပ် ပိတ်သိမ်းခြင်း
-    form_group_name: အမှုဖြစ်ရပ် ပိတ်သိမ်းခြင်း
+    name: ဖြစ်ရပ်ပိတ်သိမ်းခြင်း
+    description: ဖြစ်ရပ်ပိတ်သိမ်းခြင်း
+    form_group_name: ဖြစ်ရပ်ပိတ်သိမ်းခြင်း
     fields:
       created_at:
         display_name: အမှုဖြစ်ရပ် ဖွင့်သည့်ရက်စွဲ
