@@ -1,0 +1,57 @@
+my:
+  date:
+    today: 'ဒီနေ့'
+    clear: 'ရှင်းလင်းသေ'
+    abbr_day_names_short:
+    - Su
+    - Mo
+    - Tu
+    - We
+    - Th
+    - Fr
+    - Sa
+    abbr_month_names:
+    -
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+    day_names:
+    - တနင်္ဂနွ
+    - တနင်္လာ
+    - အင်္ဂါ
+    - ဗုဒ္ဓဟူး
+    - ကြာသာပတေး
+    - သောကြာ
+    - စနေ
+    month_names:
+    -
+    - ဇန်နဝါရီ
+    - ဖေဖော်ဝါရီ
+    - မတ်
+    - ဧပြီ
+    - မေ
+    - ဇွန်
+    - ဇူလိုင်
+    - ဩဂုတ်
+    - စက်တင်ဘာ
+    - အောက်တိုဘာ
+    - နိုင်ဝင်ဘာ
+    - ဒီဇင်ဘာ
+    formats:
+      default: "%d-%b-%Y"
+      with_time: "%d-%b-%Y %H:%M"
+  time:
+    formats:
+      default: "%d-%b-%Y"
+      with_time: "%d-%b-%Y %H:%M"
+  "true": "မှန်ပါသည်"
+  "false": "မှားပါသည်"
