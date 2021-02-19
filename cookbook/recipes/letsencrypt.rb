@@ -7,18 +7,12 @@ directory letsencrypt_dir do
   action :create
 end
 
-apt_repository "certbot" do
-  uri "http://ppa.launchpad.net/certbot/certbot/ubuntu"
-  distribution node['lsb']['codename']
-  components ["main"]
-  action :add
-  keyserver "keyserver.ubuntu.com"
-  key "75BCA694"
-  notifies :run, 'execute[apt-get update]', :immediately
-end
-
-%w(certbot python3-certbot-nginx).each do |pkg|
-  package pkg
+execute 'Download Certbot' do
+  command 'wget https://dl.eff.org/certbot-auto && chmod a+x certbot-auto'
+  cwd letsencrypt_dir
+  not_if do
+    File.exist?(::File.join(letsencrypt_dir, 'certbot-auto'))
+  end
 end
 
 unless node[:primero][:letsencrypt][:email]
@@ -33,7 +27,7 @@ service 'nginx' do
 end
 
 execute "Register Let's Encrypt Certificate" do
-  command "certbot certonly --standalone -d #{node[:primero][:server_hostname]} --non-interactive --agree-tos --email #{node[:primero][:letsencrypt][:email]}"
+  command "./certbot-auto certonly --standalone -d #{node[:primero][:server_hostname]} --non-interactive --agree-tos --email #{node[:primero][:letsencrypt][:email]}"
   cwd letsencrypt_dir
   not_if do
     File.exist?(fullchain) &&
@@ -42,7 +36,7 @@ execute "Register Let's Encrypt Certificate" do
 end
 
 execute 'Trigger Certbot update and a cert renewal' do
-  command 'certbot renew -n'
+  command './certbot-auto renew -n'
   cwd letsencrypt_dir
 end
 
@@ -83,7 +77,7 @@ file "/etc/cron.daily/letsencrypt_renew" do
 #!/bin/bash
 
 cd #{letsencrypt_dir}
-certbot renew --quiet -n --no-self-upgrade --pre-hook "service nginx stop" --post-hook "service nginx start"
+./certbot-auto renew --quiet -n --no-self-upgrade --pre-hook "service nginx stop" --post-hook "service nginx start"
 EOH
 end
 
