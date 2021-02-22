@@ -82,8 +82,8 @@ module Primero
       ['ဗမာစာ', LOCALE_BURMESE],
       ['ไทย', LOCALE_THAI],
       ['العربية (الأردنية)', LOCALE_JORDAN],
-      ['کوردی', LOCALE_KURDISH],
-      ['کوردی(Iraq)', LOCALE_KURDISH_IRAQ],
+      ['وردی سۆرانی', LOCALE_KURDISH],
+      ['کوردی بەهدینی', LOCALE_KURDISH_IRAQ],
       ['ភាសាខ្មែរ', LOCALE_KHMER]
     ]
     RTL_LOCALES = [
