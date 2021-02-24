@@ -90,7 +90,7 @@ module Exporters
       }
 
       # Add fallback fonts to array
-      @pdf.fallback_fonts = ["Riwaj", "Kalimati_Regular", "Arial_Unicode_MS", "Khmer", "Unikuweb"]
+      @pdf.fallback_fonts = ["Riwaj", "Kalimati_Regular", "Unikuweb", "Arial_Unicode_MS", "Khmer"]
 
       @pdf.text_direction self.class.reverse_page_direction ? :rtl : :ltr
 
