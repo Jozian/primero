@@ -16,7 +16,7 @@ module Exporters
     def export(models, properties, *args)
       self.class.load_fields(models.first) if models.present?
       props = CSVExporter.properties_to_export(properties)
-      csv_export = CSV.generate do |rows|
+      csv_export = CSV.generate("\uFEFF") do |rows|
         CSVExporter.to_2D_array(models, props) do |row|
           rows << row
         end
