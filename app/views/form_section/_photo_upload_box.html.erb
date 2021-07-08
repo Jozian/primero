@@ -28,7 +28,7 @@
         </div>
       </div>
     </div>
-    <% formObject.photos.each do |photo| %>
+    <% formObject.photos.compact.each do |photo| %>
         <div class="row">
           <div class="delete_check_box medium-4 columns">
             <%= label_tag "delete_#{formObject.class.name.underscore.downcase}_photo[#{photo.name}]", t("#{formObject.class.name.underscore.downcase}.actions.delete_photo") %>
