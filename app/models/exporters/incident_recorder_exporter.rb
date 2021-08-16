@@ -75,6 +75,7 @@ class Exporters::IncidentRecorderExporter < Exporters::BaseExporter
       # TODO: discuss with Pavel to see if this needs to change per SL-542
       self.exporter = exporter
       @districts = {}
+      @realdistricts = {}
       @counties = {}
       @camps = {}
       @locations = {}
@@ -285,6 +286,12 @@ class Exporters::IncidentRecorderExporter < Exporters::BaseExporter
           @districts[district_name] = district_name if district_name.present?
           district_name
         end,
+        'realdistrict' => lambda do |model|
+          district_name = exporter.location_service.ancestor(model.data['incident_location'], 2)&.placename || ''
+          # Collect information to the "2. Menu Data sheet."
+          @realdistricts[district_name] = district_name if district_name.present?
+          district_name
+        end,
         'camp_town' => 'incident_camp_town',
         'gbv_type' => 'gbv_sexual_violence_type',
         'harmful_traditional_practice' => 'harmful_traditional_practice',
@@ -429,7 +436,8 @@ class Exporters::IncidentRecorderExporter < Exporters::BaseExporter
         { cell_index: 1, values: @locations.values[0..49] },
         { cell_index: 2, values: @counties.values[0..49] },
         { cell_index: 3, values: @districts.values[0..49] },
-        { cell_index: 4, values: @camps.values[0..49] }
+        { cell_index: 4, values: @realdistricts.values[0..49] },
+        { cell_index: 5, values: @camps.values[0..49] }
       ]
 
       menus.each do |menu|
